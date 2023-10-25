@@ -14,13 +14,16 @@
 </head>
 <body>    
     <!-- Intro -->
-    <div id="intro" class="parallax-window" data-parallax="scroll" data-image-src="{{ url_for('static', filename='img/antique-cafe-bg-01.jpg') }}">
+    <div id="intro" class="parallax-window" data-parallax="scroll" data-image-src="{{ url_for('static', filename='img/notre_dame.jpeg') }}">
         <nav id="tm-nav" class="fixed w-full">
             <div class="tm-container mx-auto px-2 md:py-6 text-right">
                 <button class="md:hidden py-2 px-2" id="menu-toggle"><i class="fas fa-2x fa-bars tm-text-gold"></i></button>
                 <ul class="mb-3 md:mb-0 text-2xl font-normal flex justify-end flex-col md:flex-row">
                     <li class="inline-block mb-4 mx-4"><a href="#north_dh_menu" class="tm-text-gold py-1 md:py-3 px-4">Dining Halls</a></li>
                     <li class="inline-block mb-4 mx-4"><a href="#abp_menu" class="tm-text-gold py-1 md:py-3 px-4">GrubHub</a></li>
+                    <!-- here is my problem!! -->
+                    <li class="inline-block mb-4 mx-4 no-scroll"><a href="http://db8.cse.nd.edu:5070/login" class="tm-text-gold py-1 md:py-3 px-4 no-scroll">Login</a></li>
+                    <!-- problem -->
                 </ul>
             </div>            
         </nav>
@@ -323,7 +326,7 @@
                 }
             });
             
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            document.querySelectorAll('a[href^="#"]:not(.no-scroll)').forEach(anchor => {
                 anchor.addEventListener('click', function (e) {
                     e.preventDefault();
 
