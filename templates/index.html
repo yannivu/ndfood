@@ -11,6 +11,43 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/all.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/tailwind.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/tooplate-antique-cafe.css') }}">
+    <style>
+        /* Your CSS styles go here */
+        .login-container {
+            position: fixed;
+            top: 35px; /* Adjust this value to vertically center the button */
+            left: 20px; /* Position the container on the left side of the page */
+            transform: translateY(-50%); /* Vertically center the button container */
+        }
+
+        .login-container button {
+            background-color: #ff9900; /* Background color */
+            color: #fff; /* Text color */
+            padding: 10px 20px; /* Padding around the button content */
+            border: none; /* Remove button border */
+            border-radius: 5px; /* Add rounded corners */
+            font-size: 16px; /* Font size */
+            cursor: pointer; /* Change cursor on hover */
+            /* Add more styles as needed */
+        }
+
+        .login-container button:hover {
+            background-color: #ffcc00; /* Change button background color on hover */
+        }
+    </style>
+    <style>
+        .tm-container {
+            width: 100%;
+            max-width: none;
+            padding: 0;
+        }
+    </style>
+    <style>
+        /* For the entire list of buttons in the navigation */
+        #tm-nav ul {
+            margin-left: auto; /* This will push the list of buttons to the right */
+        }
+    </style>
 </head>
 <body>    
     <!-- Intro -->
@@ -21,11 +58,20 @@
                 <ul class="mb-3 md:mb-0 text-2xl font-normal flex justify-end flex-col md:flex-row">
                     <li class="inline-block mb-4 mx-4"><a href="#north_dh_menu" class="tm-text-gold py-1 md:py-3 px-4">Dining Halls</a></li>
                     <li class="inline-block mb-4 mx-4"><a href="#abp_menu" class="tm-text-gold py-1 md:py-3 px-4">GrubHub</a></li>
-                    <!-- here is my problem!! -->
-                    <li class="inline-block mb-4 mx-4 no-scroll"><a href="http://db8.cse.nd.edu:5070/login" class="tm-text-gold py-1 md:py-3 px-4 no-scroll">Login</a></li>
-                    <!-- problem -->
                 </ul>
-            </div>            
+            </div>     
+
+            <div class="login-container">
+                <button class="tm-text-gold py-1 md:py-3 px-4" onclick="redirectToLogin()">Login</button>
+            </div>    
+
+            <script>
+                function redirectToLogin() {
+                    // Redirect to the login page
+                    window.location.href = "http://db8.cse.nd.edu:5070/login";
+                }
+            </script>             
+
         </nav>
         <div class="container mx-auto px-2 tm-intro-width">
             <div class="sm:pb-60 sm:pt-48 py-20">
