@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ND Food</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/all.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/tailwind.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/tooplate-antique-cafe.css') }}">
+</head>
+<body>    
+    <!-- Intro -->
+    <div id="intro" class="parallax-window" data-parallax="scroll" data-image-src="{{ url_for('static', filename='img/antique-cafe-bg-01.jpg') }}">
+        <nav id="tm-nav" class="fixed w-full">
+            <div class="tm-container mx-auto px-2 md:py-6 text-right">
+                <button class="md:hidden py-2 px-2" id="menu-toggle"><i class="fas fa-2x fa-bars tm-text-gold"></i></button>
+                <ul class="mb-3 md:mb-0 text-2xl font-normal flex justify-end flex-col md:flex-row">
+                    <li class="inline-block mb-4 mx-4"><a href="#north_dh_menu" class="tm-text-gold py-1 md:py-3 px-4">Dining Halls</a></li>
+                    <li class="inline-block mb-4 mx-4"><a href="#abp_menu" class="tm-text-gold py-1 md:py-3 px-4">GrubHub</a></li>
+                </ul>
+            </div>            
+        </nav>
+        <div class="container mx-auto px-2 tm-intro-width">
+            <div class="sm:pb-60 sm:pt-48 py-20">
+                <div class="bg-black bg-opacity-70 p-12 mb-5 text-center">
+                    <h1 class="text-white text-5xl tm-logo-font mb-5">ND Food</h1>
+                    <p class="tm-text-gold tm-text-2xl">notre dame campus food options</p>
+                </div>    
+                <div class="bg-black bg-opacity-70 p-10 mb-5">
+                    <p class="text-white leading-8 text-sm font-light">
+                        This website compiles all the food options available at the University of Notre Dame and allows you to see what is available.</p>
+                </div>
+                <div class="text-center">
+                    <div class="inline-block">
+                        <a href="#north_dh_menu" class="flex justify-center items-center bg-black bg-opacity-70 py-6 px-8 rounded-lg font-semibold tm-text-2xl tm-text-gold hover:text-gray-200 transition">
+                            <i class="fas fa-coffee mr-3"></i>
+                            <span>Let's explore...</span>                        
+                        </a>
+                    </div>                    
+                </div>                
+            </div>
+        </div>        
+    </div>
+
+    <!-- North Dining Hall Menu -->
+    <div id="north_dh_menu" class="parallax-window" data-parallax="scroll" data-image-src="{{ url_for('static', filename='img/north_dining_hall.jpg') }}">
+        <div class="container mx-auto tm-container py-24 sm:py-48">
+            <div class="text-center mb-16">
+                <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">North Dining Hall</h2>
+            </div>            
+            <div class="flex flex-col lg:flex-row justify-around items-center">
+                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="{{ url_for('static', filename='img/menu-item-1.jpg') }}" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Cappuccino</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">S $8.50</div>
+                            <div class="text-white text-md sm:text-lg font-light">L $10.50</div>
+                        </div>                    
+                    </div>
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="{{ url_for('static', filename='img/menu-item-2.jpg') }}" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Americano</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">S $9.50 . BG #544639</div>
+                            <div class="text-white text-md sm:text-lg font-light">L $12.50</div>
+                        </div>                    
+                    </div>
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="{{ url_for('static', filename='img/menu-item-3.jpg') }}" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Latte #FC6</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">M $11.75</div>
+                            <div class="text-white text-md sm:text-lg font-light">L $14.75</div>
+                        </div>                    
+                    </div>
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="{{ url_for('static', filename='img/menu-item-4.jpg') }}" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl tm-text-yellow mb-1">Hot Espresso</h3>
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Chocolate</h3>
+                            <div class="text-white text-md sm:text-lg font-light">Size M $11.75 . L $14.75</div>
+                        </div>                    
+                    </div>
+                </div>
+                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Cappuccino</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Small $10</div>
+                            <div class="text-white text-md sm:text-lg font-light">Large $15</div>
+                        </div>
+                        <img src="{{ url_for('static', filename='img/menu-item-5.jpg') }}" alt="Image" class="rounded-md">              
+                    </div>
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Americano</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Small $12.50</div>
+                            <div class="text-white text-md sm:text-lg font-light">Large $16.50</div>
+                        </div>   
+                        <img src="{{ url_for('static', filename='img/menu-item-6.jpg') }}" alt="Image" class="rounded-md">                
+                    </div>
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Milky Latte</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Small $14</div>
+                            <div class="text-white text-md sm:text-lg font-light">Large $18</div>
+                        </div>   
+                        <img src="{{ url_for('static', filename='img/menu-item-7.jpg') }}" alt="Image" class="rounded-md">               
+                    </div>
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">                    
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl tm-text-yellow mb-1">Iced Espresso</h3>
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Mocha</h3>
+                            <div class="text-white text-md sm:text-lg font-light">Small $10 . Large $15</div>
+                        </div>     
+                        <img src="{{ url_for('static', filename='img/menu-item-8.jpg') }}" alt="Image" class="rounded-md">              
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <!-- South Dining Hall Menu -->
+    <div id="south_dh_menu" class="parallax-window" data-parallax="scroll" data-image-src="{{ url_for('static', filename='img/south_dining_hall.jpg') }}">
+        <div class="container mx-auto tm-container py-24 sm:py-48">
+            <div class="text-center mb-16">
+                <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">South Dining Hall</h2>
+            </div>            
+            <div class="flex flex-col lg:flex-row justify-around items-center">
+                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="{{ url_for('static', filename='img/menu-item-1.jpg') }}" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Cappuccino</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">S $8.50</div>
+                            <div class="text-white text-md sm:text-lg font-light">L $10.50</div>
+                        </div>                    
+                    </div>
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="{{ url_for('static', filename='img/menu-item-2.jpg') }}" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Americano</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">S $9.50 . BG #544639</div>
+                            <div class="text-white text-md sm:text-lg font-light">L $12.50</div>
+                        </div>                    
+                    </div>
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="{{ url_for('static', filename='img/menu-item-3.jpg') }}" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Latte #FC6</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">M $11.75</div>
+                            <div class="text-white text-md sm:text-lg font-light">L $14.75</div>
+                        </div>                    
+                    </div>
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="{{ url_for('static', filename='img/menu-item-4.jpg') }}" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl tm-text-yellow mb-1">Hot Espresso</h3>
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Chocolate</h3>
+                            <div class="text-white text-md sm:text-lg font-light">Size M $11.75 . L $14.75</div>
+                        </div>                    
+                    </div>
+                </div>
+                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Cappuccino</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Small $10</div>
+                            <div class="text-white text-md sm:text-lg font-light">Large $15</div>
+                        </div>
+                        <img src="{{ url_for('static', filename='img/menu-item-5.jpg') }}" alt="Image" class="rounded-md">              
+                    </div>
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Americano</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Small $12.50</div>
+                            <div class="text-white text-md sm:text-lg font-light">Large $16.50</div>
+                        </div>   
+                        <img src="{{ url_for('static', filename='img/menu-item-6.jpg') }}" alt="Image" class="rounded-md">                
+                    </div>
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Milky Latte</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Small $14</div>
+                            <div class="text-white text-md sm:text-lg font-light">Large $18</div>
+                        </div>   
+                        <img src="{{ url_for('static', filename='img/menu-item-7.jpg') }}" alt="Image" class="rounded-md">               
+                    </div>
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">                    
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl tm-text-yellow mb-1">Iced Espresso</h3>
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Mocha</h3>
+                            <div class="text-white text-md sm:text-lg font-light">Small $10 . Large $15</div>
+                        </div>     
+                        <img src="{{ url_for('static', filename='img/menu-item-8.jpg') }}" alt="Image" class="rounded-md">              
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <!-- Grubhub Menus -->
+    <div id="abp_menu" class="parallax-window" data-parallax="scroll" data-image-src="{{ url_for('static', filename='img/abp_background.jpeg') }}">
+        <div class="container mx-auto tm-container py-24 sm:py-48">
+            <div class="text-center mb-16">
+                <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">Au Bon Pain</h2>
+            </div>            
+            <div class="flex flex-col lg:flex-row justify-around items-center">
+                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="{{ url_for('static', filename='img/menu-item-1.jpg') }}" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Cappuccino</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">S $8.50</div>
+                            <div class="text-white text-md sm:text-lg font-light">L $10.50</div>
+                        </div>                    
+                    </div>
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="{{ url_for('static', filename='img/menu-item-2.jpg') }}" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Americano</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">S $9.50 . BG #544639</div>
+                            <div class="text-white text-md sm:text-lg font-light">L $12.50</div>
+                        </div>                    
+                    </div>
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="{{ url_for('static', filename='img/menu-item-3.jpg') }}" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Latte #FC6</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">M $11.75</div>
+                            <div class="text-white text-md sm:text-lg font-light">L $14.75</div>
+                        </div>                    
+                    </div>
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="{{ url_for('static', filename='img/menu-item-4.jpg') }}" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl tm-text-yellow mb-1">Hot Espresso</h3>
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Chocolate</h3>
+                            <div class="text-white text-md sm:text-lg font-light">Size M $11.75 . L $14.75</div>
+                        </div>                    
+                    </div>
+                </div>
+                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Cappuccino</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Small $10</div>
+                            <div class="text-white text-md sm:text-lg font-light">Large $15</div>
+                        </div>
+                        <img src="{{ url_for('static', filename='img/menu-item-5.jpg') }}" alt="Image" class="rounded-md">              
+                    </div>
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Americano</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Small $12.50</div>
+                            <div class="text-white text-md sm:text-lg font-light">Large $16.50</div>
+                        </div>   
+                        <img src="{{ url_for('static', filename='img/menu-item-6.jpg') }}" alt="Image" class="rounded-md">                
+                    </div>
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Milky Latte</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Small $14</div>
+                            <div class="text-white text-md sm:text-lg font-light">Large $18</div>
+                        </div>   
+                        <img src="{{ url_for('static', filename='img/menu-item-7.jpg') }}" alt="Image" class="rounded-md">               
+                    </div>
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">                    
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl tm-text-yellow mb-1">Iced Espresso</h3>
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Mocha</h3>
+                            <div class="text-white text-md sm:text-lg font-light">Small $10 . Large $15</div>
+                        </div>     
+                        <img src="{{ url_for('static', filename='img/menu-item-8.jpg') }}" alt="Image" class="rounded-md">              
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <script src="{{ url_for('static', filename='js/jquery-3.6.0.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/parallax.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.singlePageNav.min.js') }}"></script>
+    <script>
+
+        function checkAndShowHideMenu() {
+            if(window.innerWidth < 768) {
+                $('#tm-nav ul').addClass('hidden');                
+            } else {
+                $('#tm-nav ul').removeClass('hidden');
+            }
+        }
+
+        $(function(){
+            var tmNav = $('#tm-nav');
+            tmNav.singlePageNav();
+
+            checkAndShowHideMenu();
+            window.addEventListener('resize', checkAndShowHideMenu);
+
+            $('#menu-toggle').click(function(){
+                $('#tm-nav ul').toggleClass('hidden');
+            });
+
+            $('#tm-nav ul li').click(function(){
+                if(window.innerWidth < 768) {
+                    $('#tm-nav ul').addClass('hidden');
+                }                
+            });
+
+            $(document).scroll(function() {
+                var distanceFromTop = $(document).scrollTop();
+
+                if(distanceFromTop > 100) {
+                    tmNav.addClass('scroll');
+                } else {
+                    tmNav.removeClass('scroll');
+                }
+            });
+            
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
