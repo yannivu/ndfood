@@ -44,9 +44,24 @@ def login():
             flash('Login failed. Please check your username and password.', 'danger')
     return render_template('login.html', form=form)
 
-@app.route('/admin_page', methods=['GET'])
+@app.route('/admin_page', methods=['GET', 'POST'])
 def admin_page():
-    return render_template('admin_page.html')
+    # Retrieve the list of users from the database
+    cursor = mysql.connection.cursor()
+    cursor.execute("SELECT username FROM users")
+    user_list = cursor.fetchall()
+    cursor.close()
+
+    if request.method == 'POST':
+        # Handle user deletion
+        user_to_delete = request.form['user_to_delete']
+        if user_to_delete:
+            cursor = mysql.connection.cursor()
+            cursor.execute("DELETE FROM users WHERE username = %s", (user_to_delete,))
+            mysql.connection.commit()
+            cursor.close()
+
+    return render_template('admin_page.html', user_list=user_list)
 
 @app.route('/add_user', methods=['POST'])
 def add_user():

@@ -69,7 +69,24 @@
     
         <input type="submit" value="Search">
     </form>
+    <br>
 
+    <h1>Delete a User</h1>
+    <form action="/admin_page" method="post">
+        <select name="user_to_delete">
+            <option value="" disabled selected>Select a user</option>
+            {% for user in user_list %}
+            <option value="{{ user[0] }}">{{ user[0] }}</option>
+            {% endfor %}
+        </select>
+        <input type="submit" value="Delete User" onclick="refreshPage();">
+    </form>
+
+    <script>
+        function refreshPage() {
+            location.reload(); // This will refresh the current page
+        }
+    </script>
 
 </body>
 </html>
