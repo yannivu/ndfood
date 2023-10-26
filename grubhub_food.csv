@@ -1,0 +1,212 @@
+food_id,name,calories,total_fat,saturated_fat,trans_fat,cholesterol,sodium,total_carbs,fiber,sugar,protein,price,type
+1,Chipoitle Chicken Club Flatbread,670,35,10,0,85,1470,58,3,6,34,7.59,Grilled Flatbread
+2,BBQ Bacon Chicken Flatbread,660,22,9,0,85,1760,81,3,29,36,7.59,Grilled Flatbread
+3,Pesto Chicken Flatbread,600,29,9,0,55,1220,58,3,6,30,7.59,Grilled Flatbread
+4,Santa Fe Flatbread,720,36,10,0,70,1680,64,2,7,31,7.59,Grilled Flatbread
+5,Nashville Hot Flatbread,580,23,6,0,65,1860,66,3,15,31,7.59,Grilled Flatbread
+6,Mom's Grilled Cheese Artisan Melt,1160,58,24,0,105,2350,118,3,8,37,7.89,Artisan Melt
+7,Grilled Cheese & Bacon Artisan Melt,1220,62,25,0,125,2630,118,3,8,43,7.89,Artisan Melt
+8,Chicken Bacon Ranch Artisan Melt,1070,52,18,0,130,2390,105,3,1,44,8.19,Artisan Melt
+9,Chicken Caprese Artisan Melt,940,35,17,0,105,2110,110,4,4,37,8.19,Artisan Melt
+10,Buffalo Chicken Artisan Melt,1020,47,18,0,125,3770,106,3,1,44,8.19,Artisan Melt
+11,Chicken Bacon Ranch Crunchadilla,690,41,11,0,90,1569,53,1,3,29,7.58,Crunchadilla
+12,The Cowboy Crunchadilla,640,22,9,0,80,1990,78,1,26,34,7.58,Crunchadilla
+13,Supreme Crunchadilla,710,41,13,0,85,1410,58,2,4,27,7.58,Crunchadilla
+14,Chicken Avacado Crunchadilla,650,36,10,0,75,1660,54,2,3,29,7.58,Crunchadilla
+15,On the Border Crunchadilla,670,37,10,0,65,1490,60,3,4,25,7.58,Crunchadilla
+16,Berry Burn Smoothie,300,0,0,0,0,25,73,1,60,0,4.99,Purpose Blend Smoothie
+17,Super Fuel Smoothie,270,2.5,1.5,0,10,45,56,0,54,3,4.99,Purpose Blend Smoothie
+18,Goin' Green Smoothie,280,0.5,0,0,0,35,70,1,57,1,4.99,Purpose Blend Smoothie
+19,Acai Energy Smoothie,410,5,1,0,0,30,77,0,73,3,4.99,Purpose Blend Smoothie
+20,PB Protein Smoothie,480,12,2.5,0,5,410,69,2,63,24,4.99,Purpose Blend Smoothie
+21,Super C Immune Support,340,2.5,1.5,0,10,50,75,0,68,3,4.99,Purpose Blend Smoothie
+22,Orange Sunrise Smoothie,330,2.5,1.5,0,10,50,73,0,68,3,4.89,Classic Blend Smoothie
+23,Banana Berry Smoothie,330,0,0,0,5,200,70,1,65,12,4.89,Classic Blend Smoothie
+24,Peach on the Beach Smoothie,330,2.5,1.5,0,10,35,75,0,69,3,4.89,Classic Blend Smoothie
+25,Bangin' Berry Smoothie,330,0,0,0,0,25,80,1,77,0,4.89,Classic Blend Smoothie
+26,Wild Strawberry Smoothie,300,0,0,0,0,15,76,1,73,0,4.89,Classic Blend Smoothie
+27,Carribean Craze Smoothie,300,0,0,0,0,25,73,1,69,0,4.89,Classic Blend Smoothie
+28,Maui Mango Smoothie,390,0,0,0,0,25,97,1,84,1,4.89,Classic Blend Smoothie
+29,Tropical Therapy Smoothie,430,11,11,0,0,35,79,1,75,0,4.89,Classic Blend Smoothie
+30,Mango Me Crazy Smoothie,320,0,0,0,0,15,80,1,74,0,4.89,Classic Blend Smoothie
+31,Mexican Rice Bowl,710,29,6,0,65,1380,83,2,6,25,7.89,Rice Bowl
+32,Baja Queso Rice Bowl,680,33,6,0,65,1100,74,2,5,21,7.89,Rice Bowl
+33,Thai Rice Bowl,560,10,1,0,30,1740,96,4,25,23,7.89,Rice Bowl
+34,Frito Grande Rice Bowl,630,21,5,0,45,810,87,3,2,23,7.89,Rice Bowl
+35,Meatless Mexican Rice Bowl,730,29,7,0,35,1170,91,2,8,24,7.89,Rice Bowl
+36,Avocado Power Rice Bowl,810,30,8,0,170,2020,94,3,4,39,7.89,Rice Bowl
+37,Acai Banana Berry,580,8,0.5,0,0,25,126,4,88,7,7.99,Acai Bowl
+38,Acai Peanut Butter,600,23,7,0,75,1810,70,2,3,27,7.99,Acai Bowl
+39,Basil Chic ken,750,41,6,0,140,800,47,3,4,46,10.99,Toasted Sandwich
+40,1/2 Basil Chicken,375,20.5,3,0,70,400,23.5,1.5,2,23,7.99,Toasted Sandwich
+41,Blueberry Pesto,640,39,13,0,50,800,49,3,6,24,9.99,Toasted Sandwich
+42,1/2 Blueberry Pesto,320,19.5,6.5,0,25,400,24.5,1.5,3,12,6.99,Toasted Sandwich
+43,Chile Steak,820,50,10,0,125,1310,51,4,5,41,12.49,Toasted Sandwich
+44,1/2 Chile Steak,410,25,5,0,62.5,655,25.5,2,2.5,20.5,8.49,Toasted Sandwich
+45,Chicken Banh Mi,750,47,5,0,160,1400,48,4,4,35,12.49,Toasted Sandwich
+46,1/2 Chicken Banh Mi,375,23.5,2.5,0,80,700,24,2,2,17.5,6.99,Toasted Sandwich
+47,Chicken Bacon Club,890,32,9,0,155,1650,90,6,4,59,11.49,Toasted Sandwich
+48,1/2 Chicken Bacon Club,445,16,4.5,0,77.5,825,45,3,2,29.5,6.99,Toasted Sandwich
+49,Whole Farmer,810,54,10,0,140,840,36,9,14,52,12.99,Salad
+50,1/2 Farmer,405,27,5,0,70,420,18,4.5,7,26,8.99,Salad
+51,Whole Thai Cocounut,740,42,10,0,100,900,52,10,17,44,12.99,Salad
+52,1/2 Thai Coconut,370,21,5,0,50,450,26,5,8.5,22,8.99,Salad
+53,Buddha Bowl,600,28,4,0,0,1220,69,7,9,23,11.49,Bowl
+54,Smokey Chicken Bowl,790,28,6,0,120,1410,91,10,9,43,12.99,Bowl
+55,Whole Margarita,690,21,10,0,40,1200,95,8,7,30,11.49,Pizza
+56,1/2 Margarita,345,10.5,5,0,20,600,47.5,4,3.5,15,7.49,Pizza
+57,Whole Cheese,740,17,10,0,45,1800,109,8,8,36,10.49,Pizza
+58,1/2 Cheese,370,8.5,5,0,22.5,900,54.5,4,4,18,6.49,Pizza
+59,Whole Pepe,930,37,14,0,75,3630,107,10,7,43,12.99,Pizza
+60,1/2 Pepe,465,18.5,7,0,37.5,1815,53.5,5,3.5,21.5,7.99,Pizza
+61,Whole Street Corn,1010,40,19,0,90,2980,123,13,12,44,12.99,Pizza
+62,1/2 Street Corn,505,20,9.5,0,45,1490,61.5,6.5,6,22,7.99,Pizza
+63,Whole BBQ,980,27,10,0,110,2980,128,10,26,55,13.59,Pizza
+64,1/2 BBQ,490,13.5,5,0,55,1490,64,5,13,27.5,8.59,Pizza
+65,Greens + Grana Salad,30,1.5,1,0,5,75,1,0,0,2,2.49,Side
+66,Kale Caesar Salad,70,7,1,0,10,105,1,1,0,2,2.49,Side
+67,Fire Roasted Veggies,80,4.5,0.5,0,0,390,11,3,5,2,3.49,Side
+68,Great Lakes Original,150,9,1,0,0,95,17,1,1,2,1.49,Chip
+69,Great Lakes Barbeque,150,9,1,0,0,95,17,1,1,2,1.49,Chip
+70,Great Lakes Salt & Vinegar,150,9,1,0,0,95,17,1,1,2,1.49,Chip
+71,Chick-fil-A Chicken Sandwich,440,17,4,0,70,1400,41,1,6,29,5.39,Entree
+72,Chick-fil-A Deluxe Sandwich,500,22,7,0,85,1640,44,2,7,32,6.09,Entree
+73,Spicy Chicken Sandwich,460,19,4,0,65,1670,45,2,6,28,5.69,Entree
+74,Spicy Deluxe Sandwich,550,25,8,0,85,1810,47,3,7,33,6.39,Entree
+75,Grilled Chicken Sandwich,380,11,2,0,75,755,44,2,11,28,6.95,Entree
+76,Chick-fil-A Grilled Chicken Club Sandwich,520,22,8,0,105,1115,44,2,11,37,8.85,Entree
+77,Chick-fil-A Cool Wrap,660,45,9,0,110,1420,32,14,4,43,8.55,Entree
+78,8 ct Chick-fil-A Nuggets,250,11,2.5,0,85,1210,11,0,1,27,5.45,Entree
+79,12 ct Chick-fil-A Nuggets,380,17,3.5,0,125,1820,16,0,1,40,7.39,Entree
+80,30 ct Chick-fil-A Nuggets,950,43,9,0,315,4550,41,0,4,100,18.45,Entree
+81,8 ct Grilled Nuggets,130,3,0.5,0,85,440,1,0,1,25,6.25,Entree
+82,12 ct Grilled Nuggets,200,4.5,1,0,130,660,2,0,1,38,8.89,Entree
+83,Cobb Salad,850,61,13,0,235,2220,34,5,9,42,7.75,Salad
+84,Spicy Southwest Salad,690,49,10,0,100,1570,29,8,8,33,7.75,Salad
+85,Market Salad,540,31,6,0,80,1020,41,5,26,28,7.75,Salad
+86,Side Salad,470,42,8,0,35,690,16,4,5,7,4.39,Side
+87,Mac & Cheese,450,29,16,0,70,1190,28,3,3,20,4.35,Side
+88,Chips,220,13,3.5,0,0,250,25,2,0,3,2.19,Side
+89,Medium Chick-fil-A Waffle Potato Fries,420,24,4,0,0,240,45,5,1,5,2.69,Side
+90,Large Chick-fil-A Waffle Potato Fries,600,35,5,0,0,340,65,7,1,7,3.09,Side
+91,Frosted Lemonade,330,6,4,0,25,120,65,0,63,6,4.79,Treat
+92,Frosted Coffee,250,6,4,0,25,120,43,1,39,6,4.79,Treat
+93,Cookies & Cream Milkshake,630,25,15,1,85,410,90,1,84,13,4.89,Treat
+94,Chocolate Milkshake,590,22,14,1,85,350,90,1,87,12,4.89,Treat
+95,Strawberry Milkshake,570,19,12,0.5,75,380,93,1,87,11,4.89,Treat
+96,Vanilla Milkshake,580,23,15,1,90,380,82,0,80,13,4.89,Treat
+97,Icedream Cup,140,3.5,2.5,0,15,70,24,0,24,4,1.69,Treat
+98,Diet Frosted Lemonade,250,6,4,0,25,120,46,0,43,6,4.79,Treat
+99,Freshly-Brewed Iced Tea Sweetened,120,0,0,0,0,10,31,0,31,0,2.45,Beverage
+100,Freshly-Brewed Iced Tea Unsweetened,0,0,0,0,0,10,0,0,0,0,2.45,Beverage
+101,Chick-fil-A Lemonade,220,0,0,0,0,10,58,0,55,0,2.85,Beverage
+102,Chick-fil-A  Diet Lemonade,50,0,0,0,0,10,14,0,10,0,2.85,Beverage
+103,"Sunjoy (1/2 Sweet Tea, 1/2 Lemonade)",160,0,0,0,0,5,44,0,42,0,2.85,Beverage
+104,"Sunjoy (1/2 Sweet Tea, 1/2 Diet Lemonade)",90,0,0,0,0,10,25,0,23,0,2.85,Beverage
+105,"Sunjoy (1/2 Unsweet Tea, 1/2 Lemonade)",90,0,0,0,0,0,25,0,23,0,2.85,Beverage
+106,"Sunjoy (1/2 Unsweet Tea, 1/2 Diet Lemonade)",20,0,0,0,0,0,6,0,4,0,2.85,Beverage
+107,Iced Coffee,150,2.5,1.5,0,0,75,30,0,24,5,3.45,Beverage
+108,Coca-Cola,140,0,0,0,0,45,39,0,39,0,2.45,Beverage
+109,Dr Pepper,180,0,0,0,0,75,48,0,47,0,2.45,Beverage
+110,DASANI Bottled Water,0,0,0,0,0,0,0,0,0,0,2.39,Beverage
+111,Barbeque Sauce,45,0,0,0,0,200,11,0,9,0,0,Sauce
+112,Chick-fil-A Sauce,140,13,2,0,10,170,7,0,6,0,0,Sauce
+113,Garden Herb Ranch Sauce,140,15,2.5,0,15,210,1,0,1,1,0,Sauce
+114,Honey Mustard Sauce,50,0,0,0,0,160,12,0,10,0,0,Sauce
+115,Polynesian Sauce,110,6,1,0,0,220,14,0,12,0,0,Sauce
+116,Sweet and Spicy Sriracha Sauce,45,0,0,0,0,380,11,0,10,0,0,Sauce
+117,Zesty Buffalo Sauce,25,2.5,0,0,5,570,1,0,0,0,0,Sauce
+118,Honey Roasted BBQ Sauce,60,5,1,0,5,75,3,0,2,0,0,Sauce
+119,Avocado Lime Ranch Dressing,310,32,5,0,25,520,3,1,2,1,0,Sauce
+120,Creamy Salsa Dressing,290,31,5,0,25,630,2,0,1,1,0,Sauce
+121,Fat Free Honey Mustard Dressing,90,0,0,0,0,330,23,1,19,0,0,Sauce
+122,Garden Herb Ranch Dressing,280,29,5,0,25,450,2,0,1,1,0,Sauce
+123,Light Balsamic Vinaigrette Dressing,80,4,0.5,0,0,360,10,0,9,0,0,Sauce
+124,Light Italian Dressing,25,1,0,0,0,470,3,0,2,0,0,Sauce
+125,Zesty Apple Cider Vinaigrette Dressing,230,19,3,0,0,460,16,0,14,0,0,Sauce
+126,Cheesy Bean & Rice Burrito ,420,16,4,0,5,920,55,7,3,9,2.59,Cravings Menu
+127,Cheesy Roll Up,180,9,6,0,20,430,17,1,1,8,1.79,Cravings Menu
+128,Cinnamon Twists,170,6,0.5,0,0,115,27,0,10,1,1.59,Cravings Menu
+129,Chicken Chipotle Melt,190,9,3,0,35,530,16,1,0,12,1.99,Cravings Menu
+130,Black Beans & Rice,60,4.5,0,0,0,370,25,5,0,4,2.79,Cravings Menu
+131,Strawberry Twists,160,6,0,0,0,280,26,1,11,1,2.09,Cravings Menu
+132,Pintos & Cheese ,170,6,3,0,10,640,20,9,1,9,2.59,Cravings Menu
+133,Nacho Cheese Doritos Locos Taco,170,10,4,0,25,360,12,3,0,8,2.79,Taco
+134,Nacho Cheese Doritos Locos Taco Supreme,190,11,5,0,30,380,14,3,2,8,3.59,Taco
+135,Crunchy Taco,170,10,3.5,0,25,300,13,3,0,8,2.29,Taco
+136,Crunchy Taco Supreme,190,11,4.5,0,25,320,15,3,2,8,3.29,Taco
+137,Soft Taco - Beef,180,8,4,0,25,500,18,3,1,9,2.29,Taco
+138,Soft Taco - Chicken,160,5,2.5,0,30,510,16,1,1,12,3.18,Taco
+139,Soft Taco Supreme - Beef,210,10,5,0,25,510,20,3,2,10,3.29,Taco
+140,Soft Taco Supreme - Chicken,190,7,3.5,0,35,520,18,2,2,13,4.18,Taco
+141,Burrito Supreme - Beef,390,14,6,0,25,"1,140",51,8,4,16,4.89,Burrito
+142,Burrito Supreme - Chicken,370,11,5,0,35,"1,150",49,7,4,19,5.78,Burrito
+143,Burrito Supreme - Steak,380,12,6,0,30,"1,160",50,7,5,19,5.98,Burrito
+144,Beefy 5-Layer Burrito,490,18,7,0,30,"1,260",65,8,5,18,3.79,Burrito
+145,Bean Burrito,350,9,4,0,5,"1,040",55,10,3,13,2.59,Burrito
+146,Beefy Melt Burrito,620,29,11,0,45,"1,190",70,6,4,20,3.79,Burrito
+147,Chipotle Ranch Grilled Chicken Burrito,510,29,7,0,45,950,47,4,3,17,3.59,Burrito
+148,Fiesta Veggie Burrito,570,28,8,0,25,"1,020",65,9,4,14,3.39,Burrito
+149,Crunchwrap Supreme,540,21,7,0,20,"1,210",73,6,6,16,5.69,Specialties
+150,Cheesy Gordita Crunch,490,28,10,0,50,840,41,5,5,20,4.99,Specialties
+151,Nachos BellGrande - Beef,730,38,6,0,25,"1,130",81,15,4,17,6.29,Specialties
+152,Nachos BellGrande - Chicken,710,35,5,0,30,"1,140",79,14,4,20,7.18,Specialties
+153,Nachos BellGrande - Steak,720,36,5,0,25,"1,150",80,14,5,20,7.38,Specialties
+154,Quesadilla - Beef,470,24,13,0,50,"1,000",41,3,3,18,4.79,Specialties
+155,Quesadilla - Chicken,520,26,13,0,75,"1,260",41,3,3,26,5.68,Specialties
+156,Quesadilla - Steak,520,27,14,0,70,"1,270",42,3,4,26,5.88,Specialties
+157,Black Bean Crunchwrap Supreme,520,18,5,0,5,"1,100",77,8,6,13,5.29,Vegetarian Favorites
+158,Power Menu Bowl,460,21,6,0,70,"1,250",41,8,3,26,7.79,Power Menu
+159,Power Menu Bowl - Veggie,420,20,5,0,20,870,47,11,3,12,7.29,Power Menu
+160,Chips and Nacho Cheese Sauce ,220,13,1.5,0,0,280,24,2,1,3,2.29,Sides
+161,Black Beans ,50,1.5,0,0,0,140,7,4,0,3,2.09,Sides
+162,Berry Pomegranate Smoothie,300,0,0,0,5,30,62,3,52,6,4.89,Smoothie
+163,Mango Smoothie,290,0,0,0,5,30,72,3,55,6,4.89,Smoothie
+164,Strawberry Smoothie,300,0,0,0,5,30,68,3,54,6,4.89,Smoothie
+165,Caffe Americano,180,9,5,0,0,25,2,0,2,0,3.69,Specialty Drink
+166,Caffe Latte,160,8,4.5,0,20,105,12,0,12,7,3.69,Specialty Drink
+167,Cappuccino,330,10,6,0,20,90,10,0,10,6,3.69,Specialty Drink
+168,Caramel Macchiato,270,9,5,0,25,135,41,0,40,8,3.69,Specialty Drink
+169,Chai Latte,10,0,0,0,20,90,30,0,30,7,3.69,Specialty Drink
+170,Iced Mocha Latte,300,9,5,0,25,160,64,0,61,11,3.69,Specialty Drink
+171,Iced Vanilla Latte,230,7,4,0,25,140,45,0,42,9,3.69,Specialty Drink
+172,Mocha Latte,300,9,5,0,25,160,64,0,61,11,3.69,Specialty Drink
+173,Vanilla Latte,230,7,4,0,25,135,45,0,42,9,3.69,Specialty Drink
+174,2 Eggs & Bacon on Skinny Wheat Bagel,310,16,6,0,350,640,22,6,2,21,5.29,Breakfast Sandwich
+175,2 Eggs & Turkey Sausage on Skinny Wheat Bagel,400,11,4.5,0,360,660,22,7,1,23,5.29,Breakfast Sandwich
+176,2 Eggs on a Bagel,480,17,6,0,330,650,54,4,6,21,5.29,Breakfast Sandwich
+177,2 Eggs on a Bagel with Bacon,530,22,10,0,350,930,55,4,6,26,5.29,Breakfast Sandwich
+178,2 Eggs on a Bagel with Bacon and Cheese,460,16,7,0,365,1020,55,4,6,29,5.29,Breakfast Sandwich
+179,2 Eggs on a Bagel with Cheese,470,14,5,0,345,740,54,4,6,24,5.29,Breakfast Sandwich
+180,2 Eggs on a Bagel with Ham,540,22,10,0,360,1080,56,4,8,28,5.29,Breakfast Sandwich
+181,"2 Eggs, Bacon and Cheddar on Ciabatta",360,22,9,0,365,1090,54,2,3,30,5.99,Breakfast Sandwich
+182,"2 Eggs, Cheddar & Bacon on Skinny Wheat Bagel",350,19,8,0,365,730,22,6,2,24,5.29,Breakfast Sandwich
+183,"2 Eggs, Cheddar & Ham on Skinny Wheat Bagel",300,14,5,0,360,790,24,7,3,26,5.29,Breakfast Sandwich
+184,"2 Eggs, Cheddar & Sausage on Skinny Wheat Bagel",670,34,15,0,390,790,23,6,2,28,5.29,Breakfast Sandwich
+185,"2 Eggs, Sausage & Cheddar on Asiago Bagel",620,30,12,0,405,1160,56,4,6,36,5.29,Breakfast Sandwich
+186,"2 Eggs, Sausage & Cheddar on Ciabatta",370,21,9,0,390,1140,55,2,2,33,5.29,Breakfast Sandwich
+187,"2 Eggs, Turkey Sausage & Cheddar on Skinny Wheat Bagel",210,7,4.5,0,375,750,22,7,1,26,5.29,Breakfast Sandwich
+188,Egg Whites and Cheddar on Skinny Wheat Bagel,360,23,12,0.5,20,490,22,6,1,19,5.29,Breakfast Sandwich
+189,"Egg Whites, Cheddar & Avocado on Skinny Wheat",820,51,14,0,50,590,25,9,1,19,5.99,Breakfast Sandwich
+190,Power Protein Wrap,470,16,2.5,0,395,1020,60,5,4,32,6.89,Breakfast Sandwich
+191,The Good Egg,480,26,9,0,350,740,42,4,2,22,6.29,Breakfast Sandwich
+192,Turkey Club,600,31,9,0,110,1720,48,2,3,40,9.29,Sandwich
+193,Classic Tuna Salad on Croissant,240,11,5,0,125,700,34,4,6,34,7.99,Sandwich
+194,Original Chicken Salad on Croissant,250,14,5,0,125,730,38,3,10,25,8.29,Sandwich
+195,Toasted Chicken & Avocado,770,43,11,0,85,1480,67,6,4,37,9.99,Sandwich
+196,Chipotle Turkey & Avocado,390,22,5,0,95,1700,59,5,5,38,9.79,Sandwich
+197,Caprese,310,16,8,0,60,1120,56,3,4,30,8.49,Sandwich
+198,Chipotle Black Bean Burger,630,32,12,0,30,1450,79,10,8,29,9.39,Sandwich
+199,Newport Turkey,730,32,12,0,100,1870,64,4,16,40,9.39,Sandwich
+200,Classic Grilled Cheese,570,30,16,0,70,870,46,1,1,24,7.09,Sandwich
+201,Country Grilled Chesse,620,23,8,0,85,1140,46,2,2,29,7.99,Sandwich
+202,Chicken Caesar Wrap,680,36,11,0,85,930,56,3,4,34,8.39,Wrap
+203,Mediterranean Wrap,580,24,4,0,25,1090,69,15,8,20,8.69,Wrap
+204,Napa Chicken Avocado Wrap,590,24,4,0,65,810,63,6,6,30,8.69,Wrap
+205,Cheese & Fruit,500,35,10,0,70,590,31,2,16,14,6.29,Bon To-Go
+206,Hummus,590,23,10,0,0,670,37,4,5,8,5.49,Bon To-Go
+207,Turkey & Cheddar Picnic,450,30,17,0,80,1510,66,3,12,31,8.49,Bon To-Go
+208,Caesar Asiago,260,8,3.5,0,15,290,19,4,2,8,10.79,Salad
+209,Chicken Cobb with Avocado,280,13,6,0,250,1080,16,5,7,39,11.19,Salad
+210,Southwest Chicken,310,9,1.5,0,65,500,31,10,10,28,11.19,Salad
+211,Mediterranean Salad,350,24,7,0,25,740,24,8,7,12,10.59,Salad
