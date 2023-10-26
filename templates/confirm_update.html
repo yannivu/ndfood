@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Confirm Update</title>
+</head>
+<body>
+    <h1>Confirm Update</h1>
+    <p>Are you sure you want to update the following user?</p>
+    <p>Username: {{ user }}</p>
+    <p>Password: {{ pw }}</p>
+
+    <form method="POST" action="/add_user">
+        <input type="hidden" name="username" value="{{ user }}">
+        <input type="hidden" name="password" value="{{ pw }}">
+        <input type="submit" value="Confirm">
+    </form>
+
+    <form method="GET" action="/admin_page">
+        <input type="submit" value="Cancel">
+    </form>
+</body>
+</html>
