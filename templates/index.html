@@ -250,126 +250,71 @@
                     </div>
                 </div>
             </div>
-        </div>        
+        </div>       
     </div>
-
     <!-- Grubhub Menus -->
 
-    <!-- ABP Menu
-    <div id="abp_menu" class="parallax-window" data-parallax="scroll" data-image-src="{{ url_for('static', filename='img/abp_background.jpeg') }}">
-        <div class="container mx-auto tm-container py-24 sm:py-48">
-            <div class="text-center mb-16">
-                <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">Au Bon Pain</h2>
-            </div>
-            <div class="flex flex-wrap">
-                <div class="w-1/2 p-4 ml-4 mr-4">
-                    <div class="flex flex-wrap">
-                        {% for type, items in abp_top_row %}
-                            <div class="w-1/4 ml-4 mr-4">
-                                <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2">
-                                    <h3 class="text-lg sm:text-xl tm-text-white">{{ type }}</h3>
-                                </div>
-                                <div class="flex-1 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
-                                    <ul>
-                                        {% for item in items %}
-                                            <li>
-                                                <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">{{ item[0] }}</h3>
-                                                <p>{{ item[1] }} calories, {{ item[2] }}g protein, {{ item[3] }}g carbs, {{ item[4] }}g fat, ${{ item[6] }}</p>
-                                            </li>
-                                        {% endfor %}
-                                    </ul>
-                                </div>
-                            </div>
-                        {% endfor %}
-                    </div>
+    <!-- Loop through restaurants -->
+        {% for restaurant, data in all_data.items() %}
+        <div id="{{ restaurant|replace(' ', '_')|replace('-', '_') }}_menu" class="parallax-window" data-parallax="scroll" data-image-src="{{ url_for('static', filename='img/' ~ restaurant|replace(' ', '_')|replace('-', '_') ~ '.jpg') }}">
+            <div class="container mx-auto w-full py-12 sm:py-16">
+                <div class="text-center mb-16">
+                    <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">{{ restaurant }}</h2>
                 </div>
-            </div>
-            <br>
-            <div class="flex flex-wrap">
-                <div class="w-1/2 p-4 ml-4 mr-4">
                     <div class="flex flex-wrap">
-                        {% for type, items in abp_bottom_row %}
-                            <div class="w-1/3 ml-4 mr-4">
-                                <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2">
-                                    <h3 class="text-lg sm:text-xl tm-text-white">{{ type }}</h3>
-                                </div>
-                                <div class="flex-1 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
-                                    <ul>
-                                        {% for item in items %}
-                                            <li>
-                                                <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">{{ item[0] }}</h3>
-                                                <p>{{ item[1] }} calories, {{ item[2] }}g protein, {{ item[3] }}g carbs, {{ item[4] }}g fat, ${{ item[6] }}</p>
-                                            </li>
-                                        {% endfor %}
-                                    </ul>
-                                </div>
+                        <div class="w-full p-4 ml-4 mr-4">
+                            <div class="flex flex-wrap">
+                                {% for type, items in data.top_row %}
+                                    <div class="w-1/4 ml-4 mr-4">
+                                        <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2">
+                                            <h3 class="text-lg sm:text-xl tm-text-white">{{ type }}</h3>
+                                        </div>
+                                        <div class="flex-1 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                                            <ul>
+                                                {% for item in items %}
+                                                    <li>
+                                                        <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">{{ item[0] }}</h3>
+                                                        <p class="tm-text-white">{{ item[1] }} calories, {{ item[2] }}g protein, {{ item[3] }}g carbs, {{ item[4] }}g fat, ${{ item[6] }}</p>
+                                                        <br>
+                                                    </li>
+                                                {% endfor %}
+                                            </ul>
+                                        </div>
+                                    </div>
+                                {% endfor %}
                             </div>
-                        {% endfor %}
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-     -->
-
-<!-- Loop through restaurants -->
-{% for restaurant, data in all_data.items() %}
-    <div id="{{ restaurant|replace(' ', '_') }}_menu" class="parallax-window" data-parallax="scroll" data-image-src="{{ url_for('static', filename='img/' ~ restaurant.image) }}">
-        <div class="container mx-auto tm-container py-24 sm:py-48">
-            <div class="text-center mb-16">
-                <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">{{ restaurant }}</h2>
-            </div>
-            <div class="flex flex-wrap">
-                <div class="w-1/2 p-4 ml-4 mr-4">
+                    <br>
                     <div class="flex flex-wrap">
-                        {% for type, items in data.top_row %}
-                            <div class="w-1/4 ml-4 mr-4">
-                                <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2">
-                                    <h3 class="text-lg sm:text-xl tm-text-white">{{ type }}</h3>
-                                </div>
-                                <div class="flex-1 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
-                                    <ul>
-                                        {% for item in items %}
-                                            <li>
-                                                <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">{{ item[0] }}</h3>
-                                                <p>{{ item[1] }} calories, {{ item[2] }}g protein, {{ item[3] }}g carbs, {{ item[4] }}g fat, ${{ item[6] }}</p>
-                                            </li>
-                                        {% endfor %}
-                                    </ul>
-                                </div>
+                        <div class="w-full p-4 ml-4 mr-4">
+                            <div class="flex flex-wrap">
+                                {% for type, items in data.bottom_row %}
+                                    <div class="w-1/3 ml-4 mr-4">
+                                        <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2">
+                                            <h3 class="text-lg sm:text-xl tm-text-white">{{ type }}</h3>
+                                        </div>
+                                        <div class="flex-1 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                                            <ul>
+                                                {% for item in items %}
+                                                    <li>
+                                                        <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">{{ item[0] }}</h3>
+                                                        <p class="tm-text-white">{{ item[1] }} calories, {{ item[2] }}g protein, {{ item[3] }}g carbs, {{ item[4] }}g fat, ${{ item[6] }}</p>
+                                                        <br>
+                                                    </li>
+                                                {% endfor %}
+                                            </ul>
+                                        </div>
+                                    </div>
+                                {% endfor %}
                             </div>
-                        {% endfor %}
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="flex flex-wrap">
-                <div class="w-1/2 p-4 ml-4 mr-4">
-                    <div class="flex flex-wrap">
-                        {% for type, items in data.bottom_row %}
-                            <div class="w-1/3 ml-4 mr-4">
-                                <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2">
-                                    <h3 class="text-lg sm:text-xl tm-text-white">{{ type }}</h3>
-                                </div>
-                                <div class="flex-1 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
-                                    <ul>
-                                        {% for item in items %}
-                                            <li>
-                                                <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">{{ item[0] }}</h3>
-                                                <p>{{ item[1] }} calories, {{ item[2] }}g protein, {{ item[3] }}g carbs, {{ item[4] }}g fat, ${{ item[6] }}</p>
-                                            </li>
-                                        {% endfor %}
-                                    </ul>
-                                </div>
-                            </div>
-                        {% endfor %}
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-{% endfor %}
-
+    {% endfor %}
+    
 
     <script src="{{ url_for('static', filename='js/jquery-3.6.0.min.js') }}"></script>
     <script src="{{ url_for('static', filename='js/parallax.min.js') }}"></script>

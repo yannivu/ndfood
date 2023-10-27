@@ -164,3 +164,18 @@ textarea::-ms-input-placeholder { /* Microsoft Edge */
         margin-bottom: 10px;
     }
 }
+
+
+.restaurant-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px; /* Add some padding to create space between boxes */
+}
+
+.restaurant-box {
+    flex: 0 0 calc(33.333% - 40px); /* Adjust the percentage based on your design and add margin for spacing */
+    margin: 20px; /* Adjust the margin as needed */
+
+    /* Other styling for your restaurant box */
+}

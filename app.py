@@ -30,15 +30,24 @@ def group_by_type(items):
         types[item_type].append(item)
     return types
 
-def split_type(types, type_to_split, new_type_name):
-    if type_to_split in types:
-        items = types.pop(type_to_split)
-        half_len = len(items) // 2
-        types[type_to_split] = items[:half_len]
-        types[new_type_name] = items[half_len:]
+def split_odd_type(types):
+    # Check if the total number of types is odd
+    num_types = len(types)
+    if num_types % 2 == 1:
+        # Find the largest type
+        largest_type = max(types, key=lambda type: len(types[type]))
+        largest_items = types[largest_type]
+
+        # Remove the largest type from the dictionary
+        del types[largest_type]
+
+        # Split the largest type into two equal parts
+        half_len = len(largest_items) // 2
+        types[largest_type] = largest_items[:half_len]  # Update the current type
+        new_type = f"{largest_type} (cont.)"
+        types[new_type] = largest_items[half_len:]
+
     return types
-
-
 
 
 @app.route('/')
@@ -61,13 +70,13 @@ def index():
         restaurant_items = cursor.fetchall()
         
         types = group_by_type(restaurant_items)
-        types = split_type(types, "Breakfast Sandwich", "Breakfast Sandwich (cont.)")
+        types = split_odd_type(types)
 
         # Split the types into two separate lists
         top_row = []
         bottom_row = []
         for t, items in types.items():
-            if len(top_row) < 4:
+            if len(top_row) < len(types)/2:
                 top_row.append((t, items))
             else:
                 bottom_row.append((t, items))
