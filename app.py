@@ -23,7 +23,12 @@ mysql = MySQL(app)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    cursor = mysql.connection.cursor()
+    cursor.execute("SELECT gf.name, gf.calories, gf.protein FROM grubhub_available ga JOIN grubhub_food gf ON ga.food_id = gf.food_id JOIN grubhub_restaurant gr ON ga.restaurant_id = gr.restaurant_id WHERE gr.name = 'Au Bon Pain';")
+    abp_items = cursor.fetchall()
+    cursor.close()
+    
+    return render_template('index.html', abp_items=abp_items)
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
