@@ -21,14 +21,66 @@ app.config['MYSQL_DB'] = 'yvu'
 # Initialize MySQL
 mysql = MySQL(app)
 
+def group_by_type(items):
+    types = {}
+    for item in items:
+        item_type = item[5]
+        if item_type not in types:
+            types[item_type] = []
+        types[item_type].append(item)
+    return types
+
+def split_type(types, type_to_split, new_type_name):
+    if type_to_split in types:
+        items = types.pop(type_to_split)
+        half_len = len(items) // 2
+        types[type_to_split] = items[:half_len]
+        types[new_type_name] = items[half_len:]
+    return types
+
+
+
+
 @app.route('/')
 def index():
     cursor = mysql.connection.cursor()
-    cursor.execute("SELECT gf.name, gf.calories, gf.protein FROM grubhub_available ga JOIN grubhub_food gf ON ga.food_id = gf.food_id JOIN grubhub_restaurant gr ON ga.restaurant_id = gr.restaurant_id WHERE gr.name = 'Au Bon Pain';")
-    abp_items = cursor.fetchall()
+
+    # Fetch a list of all restaurant names
+    cursor.execute("SELECT DISTINCT name FROM grubhub_restaurant")
+    restaurant_names = [row[0] for row in cursor.fetchall()]
+
+    all_data = {}  # Store data for all restaurants
+
+    for restaurant_name in restaurant_names:
+        cursor.execute("""SELECT gf.name, gf.calories, gf.protein, gf.total_carbs as carbs, gf.total_fat as fat, 
+                        gf.type, gf.price
+                        FROM grubhub_available ga
+                        JOIN grubhub_food gf ON ga.food_id = gf.food_id
+                        JOIN grubhub_restaurant gr ON ga.restaurant_id = gr.restaurant_id
+                        WHERE gr.name = %s;""", (restaurant_name,))
+        restaurant_items = cursor.fetchall()
+        
+        types = group_by_type(restaurant_items)
+        types = split_type(types, "Breakfast Sandwich", "Breakfast Sandwich (cont.)")
+
+        # Split the types into two separate lists
+        top_row = []
+        bottom_row = []
+        for t, items in types.items():
+            if len(top_row) < 4:
+                top_row.append((t, items))
+            else:
+                bottom_row.append((t, items))
+
+        # Store data for this restaurant
+        all_data[restaurant_name] = {
+            "top_row": top_row,
+            "bottom_row": bottom_row
+        }
+
     cursor.close()
     
-    return render_template('index.html', abp_items=abp_items)
+    return render_template('index.html', all_data=all_data)
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
