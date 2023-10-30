@@ -255,10 +255,10 @@
     <!-- Grubhub Menus -->
 
     <!-- Loop through restaurants -->
-        {% for restaurant, data in all_data.items() %}
+    {% for restaurant, data in all_data.items() %}
         <div id="{{ restaurant|replace(' ', '_')|replace('-', '_') }}_menu" class="parallax-window" data-parallax="scroll" data-image-src="{{ url_for('static', filename='img/' ~ restaurant|replace(' ', '_')|replace('-', '_') ~ '.jpg') }}">
             <div class="container mx-auto w-full py-12 sm:py-16">
-                <div class="text-center mb-16">
+                    <div class="text-center mb-16">
                     <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">{{ restaurant }}</h2>
                 </div>
                     <div class="flex flex-wrap">
