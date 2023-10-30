@@ -1,0 +1,2993 @@
+day,meal_type,name,serving_size,calories,total_fat
+Monday,Breakfast,Bar Kind Caramel Sea Salt Almond 1.4z,1.4z bar,200, 16
+Monday,Breakfast,Bar Kind Crnbry Almond 12ct,1.4z bar,190, 13
+Monday,Breakfast,Bar Kind Dk Choc Cherry Cashew 12ct,1.4z bar,170, 10
+Monday,Breakfast,Bar Pure Protein Chewy Choc Chip 50g,Bar,null,null
+Monday,Breakfast,Bar Pure Protein Choc Delux 50g,Bar,null,null
+Monday,Breakfast,Bar Pure Protein Choc PB 50g,Bar,null,null
+Monday,Breakfast,Bar Quest Birthday Cake 2.12z,2.12z bar,null,null
+Monday,Breakfast,Bar Quest Cookies & Cream,2.12z bar,null,null
+Monday,Breakfast,Beef Cup of Noodles,Pkg,null,null
+Monday,Breakfast,Biscuit Belvita Blbry,Bar,230, 8
+Monday,Breakfast,Biscuit Belvita Cinn & Brn Sugar 1.76z,1.76z bar,null,null
+Monday,Breakfast,California Seedless Raisins,Ounce,80, 0
+Monday,Breakfast,Cheerios Bowl,1ct,130, 2.5
+Monday,Breakfast,Cheese Stick Colby Jack Sargento 1z,1z stick,60, 2.5
+Monday,Breakfast,Cheese Stick Mild Cheddar Sargento 1z,1z stick,60, 2.5
+Monday,Breakfast,Cheese Stick Pepper Jack,0.83z,50, 2
+Monday,Breakfast,Cheez It,Ounce,130, 4.5
+Monday,Breakfast,Chef's Salad,Salad,290, 19
+Monday,Breakfast,Chip Pringles Cheezums,1.41z,210, 14
+Monday,Breakfast,Chocolate Snack Pudding,3.5z Cup,110, 2.5
+Monday,Breakfast,Cinnamon Graham Cracker Tiger Bites,1z,120, 4
+Monday,Breakfast,Crunchmania Cinnamon Snack Bun,1.76z,210, 7
+Monday,Breakfast,Frosted Blueberry Pop Tarts,2 Pop Tarts,370, 9
+Monday,Breakfast,Frosted Brown Sugar Pop Tarts,2 Pop Tarts,0, 14
+Monday,Breakfast,Frosted Flakes,Cup,320, 0
+Monday,Breakfast,Frosted Strawberry Pop Tarts,8ct box,1480, 36
+Monday,Breakfast,Fruit Rollups,0.5z,50, 1
+Monday,Breakfast,Garden Salad,Salad,35, 0
+Monday,Breakfast,Gourmet Chocolate Chunk Cookie,2.5z cookie,320, 14
+Monday,Breakfast,Healthy Grain Dk Choc Chnk Kind Bar,1.4z Bar,170, 5
+Monday,Breakfast,Heart Healthy Mix Planters 9.75z,9.75z,null,null
+Monday,Breakfast,Ice Cream Mochi Cookie n Cream,1.5z,null,null
+Monday,Breakfast,Ice Cream Mochi Dbl Choc,1.5z,null,null
+Monday,Breakfast,Ice Cream Mochi Mango,1ct,null,null
+Monday,Breakfast,Ice Cream Mochi Strbry,1.5z,null,null
+Monday,Breakfast,Lucky Charms Bowl,Bowl,140, 1.5
+Monday,Breakfast,Mandarin Orange in Juice Cup,4.5z,50, 0
+Monday,Breakfast,Maruchan Cup of Noodles Chix 2.25z cup,2.25z,null,null
+Monday,Breakfast,Mayonnaise Packet,12gm packet,80, 9
+Monday,Breakfast,Milk Almond Silk Dk Choc,8z Cont.,null,null
+Monday,Breakfast,Mini Oreo Cookie,Bags,190, 10
+Monday,Breakfast,Mozzarella Cheese String,Each,80, 6
+Monday,Breakfast,Mustard Pc,.2z Pkt,0, 0
+Monday,Breakfast,Oat & Honey Nature Valley Granola Bar,1.5z bar,190, 7
+Monday,Breakfast,Parm Garlic Hrb Pita Chips,1.5z bag,200, 7
+Monday,Breakfast,Peanut Butter & Grape Jelly Uncrustable,2.6z sandw,290, 15
+Monday,Breakfast,Peanut Butter & Strawberry Uncrustable,2.6z,290, 15
+Monday,Breakfast,Plant Based Nut Free Queso Style Dip,1.75z,null,null
+Monday,Breakfast,Popcorn Micro Butter-Flavor,3.3z,380, 17
+Monday,Breakfast,Powerade Fruit Punch,20z Bottle,null,null
+Monday,Breakfast,Powerade Mountain Berry Blast,20z Bottle,170,null
+Monday,Breakfast,Powerade Orange,20z Bottle,null,null
+Monday,Breakfast,Powerade Zero Grape,20z Bottle,null,null
+Monday,Breakfast,Powerade Zero Mixed Berry,20z,null,null
+Monday,Breakfast,Pringles Original Potato Chip,1.3z Pkg,200, 12
+Monday,Breakfast,Pringles Sour Cream & Onion Chip,1.41z,210, 14
+Monday,Breakfast,Raisin Bran,Cup,240, 1.5
+Monday,Breakfast,Regular Lays Chips,1z Bag,160, 10
+Monday,Breakfast,Regular Ruffles Chips,1z bag,160, 10
+Monday,Breakfast,Shrimp Cup of Noodles,2.25z,null,null
+Monday,Breakfast,Sliced Apple Pc,2.4z,35, 0
+Monday,Breakfast,Smoothie Bolthouse Farm Berry Boost,Bottle,null,null
+Monday,Breakfast,Smoothie Bolthouse Farm C-Boost,Bottle,null,null
+Monday,Breakfast,Smoothie Bolthouse Farm Green Goodness,Bottle,null,null
+Monday,Breakfast,Smoothie Bolthouse Farm Strb Banana,Bottle,null,null
+Monday,Breakfast,S'more Frosted Pop Tart,6ct,1110, 27
+Monday,Breakfast,Special K Chocolate PB Protein Bar,1.59z bar,90, 4
+Monday,Breakfast,Sugar Pearl Belgian Waffle,1ct,290, 14
+Monday,Breakfast,Sunflower Seed Snack,5.25z,null,null
+Monday,Breakfast,Triple Zero Vanilla Yogurt,5.3z Container,150, 0
+Monday,Breakfast,Tuna Kit Lunch 4.1z Starkist,4.1z,null,null
+Monday,Breakfast,Vanilla Snack Pudding,3.5z Cup,110, 2.5
+Monday,Breakfast,2% Chocolate Milk BIB,1 Cup,170, 5
+Monday,Breakfast,2% Milk BIB,8 flz,120, 5
+Monday,Breakfast,Apple Juice 6:1 Concentrate,1/2 hall glass,10, 0
+Monday,Breakfast,Cherry Coke,1 dining hall glass,null,null
+Monday,Breakfast,Coke Classic,1 dining hall glass,null,null
+Monday,Breakfast,Coke Zero,8flz,null,null
+Monday,Breakfast,Cranberry Juice 4.7:1 Concentrate,1/2 hall glass,70, 0
+Monday,Breakfast,Diet Coke,1 dining hall glass,null,null
+Monday,Breakfast,Diet Sprite,Fluid Oz,0, 0
+Monday,Breakfast,Milk Soy Vanilla Aseptic Silk,8z,null,null
+Monday,Breakfast,Orange Juice 5:1 Concentrate,1/2 hall glass,15, 0
+Monday,Breakfast,Original Style Lemonade,1 dining hall glass,null,null
+Monday,Breakfast,Original Unsweetened Almond Milk,6z Portion,60, 2
+Monday,Breakfast,Pibb Xtra,1 dining hall glass,null,null
+Monday,Breakfast,Powerade Mountain Blast,1 dining hall glass,null,null
+Monday,Breakfast,Root Beer,1 dining hall glass,null,null
+Monday,Breakfast,Skim Milk BIB,8 flz,80, 0
+Monday,Breakfast,Sprite,1 dining hall glass,null,null
+Monday,Breakfast,Unsweetened Vanilla Almond Milk,6z Portion,20, 1.5
+Monday,Breakfast,Brewed coffee,6z Portion,0,null
+Monday,Breakfast,Coffeemate Original,Fluid Oz,30, 3
+Monday,Breakfast,Creamer French Vanilla Coffeemate 1.5L,Fluid Oz,60, 3.5
+Monday,Breakfast,ecoStick Organic White Sugar Stick,"Stick
+Stick",10, 0
+Monday,Breakfast,ecoStick Sugar Substitute Blue Pc,Stick,0, 0
+Monday,Breakfast,ecoStick Sugar Substitute Pink Pc,Stick,0, 0
+Monday,Breakfast,ecoStick Sugar Substitute Yellow Pc,Stick,0, 0
+Monday,Breakfast,Extra Lite Amber Honey,Ounce,80, 0
+Monday,Breakfast,Green Tea Bag,Tea Bag,0, 0
+Monday,Breakfast,Hazelnut Coffee Creamer,Fluid Oz,10, 0
+Monday,Breakfast,Lipton Black Tea Bag,Tea Bag,0, 0
+Monday,Breakfast,Lipton Tea Decaf,Tea Bag,null,null
+Monday,Breakfast,Eli's Breakfast Sandwich,1 Sandwich,360, 18
+Monday,Breakfast,Hard Boiled Eggs,1 Egg,90, 7
+Monday,Breakfast,Maple Sausage Links,2 Links,200, 19
+Monday,Breakfast,Oatmeal Station with Nuts,Nutrition Varies,100, 5
+Monday,Breakfast,Scrambled Eggs,4z Portion,180, 13
+Monday,Breakfast,Southwest Tofu Scramble,3z Portion,100,null
+Monday,Breakfast,Tater Tots,4z Portion,170, 9
+Monday,Breakfast,Captain Crunch Wildberries,Cup,180, 2.5
+Monday,Breakfast,Cheerios,Cup,110, 2
+Monday,Breakfast,Cinnamon Toast Crunch,Cup,210, 5
+Monday,Breakfast,Frosted Flakes,Cup,320, 0
+Monday,Breakfast,Rice Chex Cereal,Cup,180, 1
+Monday,Breakfast,Special K with Red Berries,Cup,360, 1
+Monday,Breakfast,Apple Gala,Apples,90, 0
+Monday,Breakfast,Bananas,Banana,190, 0
+Monday,Breakfast,Fresh Kiwi,Kiwi,60, 0
+Monday,Breakfast,Oranges,Orange,100, 0
+Monday,Breakfast,Pears,Each,null,null
+Monday,Breakfast,American,Slice,70, 6
+Monday,Breakfast,Hamburger Sliced Dill Pickle Chip,Slice,0, 0
+Monday,Breakfast,Heavy Duty Mayonnaise,Tablespoon,100, 11
+Monday,Breakfast,Natural Low Sodium Ketchup,Ounce,5, 0
+Monday,Breakfast,Sliced Red Onion,Ounce,10, 0
+Monday,Breakfast,Spicy Brown Mustard,Ounce,30, 0
+Monday,Breakfast,Tomatoes,Ounce,5, 0
+Monday,Breakfast,Yellow Mustard,1 tsp,0, 0
+Monday,Breakfast,"10"" Flour Tortilla",Tortilla,170, 4.5
+Monday,Breakfast,Egg White Liquid,Ounce,15, 0
+Monday,Breakfast,Large Fresh Eggs,Eggs,100, 7
+Monday,Breakfast,Zero Egg Plant Based Egg Liquid,Ounce,25, 1.5
+Monday,Breakfast,Daiya Vegan Shredded Mozzarella Cheese,Ounce,80, 5
+Monday,Breakfast,Shredded Mild Cheddar Cheese,Ounce,110, 9
+Monday,Breakfast,Shredded Part-Skim Mozzarella Cheese,1z Portion,80, 6
+Monday,Breakfast,Cooked Sausage Crumble,1z Portion,120, 12
+Monday,Breakfast,"Diced 3/8"" Bacon",1 Tbsp,60, 4.5
+Monday,Breakfast,Diced Green Peppers,Ounce,5, 0
+Monday,Breakfast,Diced Onions,Ounce,10, 0
+Monday,Breakfast,Diced Tomatoes,Ounce,0, 0
+Monday,Breakfast,Plant Based Chorizo Sausage Crumble,2z Portion,140, 5
+Monday,Breakfast,Sliced Mushrooms,Tablespoon,0, 0
+Monday,Breakfast,Spinach,Ounce,5, 0
+Monday,Breakfast,"Water-Added Ham Diced 1/4""",Ounce,35, 1.5
+Monday,Breakfast,"100% Whole Wheat Bread 1/2"" Slice",Slice,70, 0.5
+Monday,Breakfast,Avocado Pulp Fresh,Ounce,70, 6
+Monday,Breakfast,Cream Cheese,Ounce,90, 9
+Monday,Breakfast,Everything Bagel,"Bagel
+Bagel",340, 4.5
+Monday,Breakfast,Jif Peanut Butter PC,0.75z,120, 10
+Monday,Breakfast,Nutella Chocolate Hazelnut Spread,Ounce,150, 9
+Monday,Breakfast,Plain Bagel,Bagel,320, 1
+Monday,Breakfast,Sliced Tomatoes,Ounce,0, 0
+Monday,Breakfast,Unsalted European-Style Butter Prints,Ounce,220, 24
+Monday,Breakfast,"White Pullman Bread 0.5"" Slice",Slices,60, 0.5
+Monday,Breakfast,Whole Wheat Bagel,Bagel,320, 1.5
+Monday,Breakfast,Blueberry Yogurt,Ounce,20, 0
+Monday,Breakfast,Nature Valley Toasted Granola Oat,Ounce,130, 4.5
+Monday,Breakfast,Plain Greek Yogurt,Ounce,15, 0
+Monday,Breakfast,Small Curd Cottage Cheese,1/2 Cup,100, 5
+Monday,Breakfast,Strawberry Yogurt,Ounce,20, 0
+Monday,Breakfast,Vanilla Yogurt,Ounce,20, 0
+Monday,Lunch,2% Chocolate Milk BIB,1 Cup,170, 5
+Monday,Lunch,2% Milk BIB,8 flz,120, 5
+Monday,Lunch,Apple Juice 6:1 Concentrate,1/2 hall glass,10, 0
+Monday,Lunch,Cherry Coke,1 dining hall glass,null,null
+Monday,Lunch,Coke Classic,1 dining hall glass,null,null
+Monday,Lunch,Coke Zero,8flz,null,null
+Monday,Lunch,Cranberry Juice 4.7:1 Concentrate,1/2 hall glass,70, 0
+Monday,Lunch,Diet Coke,1 dining hall glass,null,null
+Monday,Lunch,Diet Sprite,Fluid Oz,0, 0
+Monday,Lunch,Milk Soy Vanilla Aseptic Silk,8z,null,null
+Monday,Lunch,Orange Juice 5:1 Concentrate,1/2 hall glass,15, 0
+Monday,Lunch,Original Style Lemonade,1 dining hall glass,null,null
+Monday,Lunch,Original Unsweetened Almond Milk,6z Portion,60, 2
+Monday,Lunch,Pibb Xtra,1 dining hall glass,null,null
+Monday,Lunch,Powerade Mountain Blast,1 dining hall glass,null,null
+Monday,Lunch,Root Beer,1 dining hall glass,null,null
+Monday,Lunch,Skim Milk BIB,8 flz,80, 0
+Monday,Lunch,Sprite,1 dining hall glass,null,null
+Monday,Lunch,Unsweetened Vanilla Almond Milk,6z Portion,20, 1.5
+Monday,Lunch,Brewed coffee,6z Portion,0,null
+Monday,Lunch,Coffeemate Original,Fluid Oz,30, 3
+Monday,Lunch,Creamer French Vanilla Coffeemate 1.5L,Fluid Oz,60, 3.5
+Monday,Lunch,ecoStick Organic White Sugar Stick,"Stick
+Stick",10, 0
+Monday,Lunch,ecoStick Sugar Substitute Blue Pc,Stick,0, 0
+Monday,Lunch,ecoStick Sugar Substitute Pink Pc,Stick,0, 0
+Monday,Lunch,ecoStick Sugar Substitute Yellow Pc,Stick,0, 0
+Monday,Lunch,Extra Lite Amber Honey,Ounce,80, 0
+Monday,Lunch,Green Tea Bag,Tea Bag,0, 0
+Monday,Lunch,Hazelnut Coffee Creamer,Fluid Oz,10, 0
+Monday,Lunch,Lipton Black Tea Bag,Tea Bag,0, 0
+Monday,Lunch,Lipton Tea Decaf,Tea Bag,null,null
+Monday,Lunch,Steamed Brown Rice,4z Portion,140, 1
+Monday,Lunch,Steamed Long Grain Rice,4z Portion,530, 0
+Monday,Lunch,Vegetable Egg Rolls,2 Egg Rolls,230, 0
+Monday,Lunch,Chicken for Stirfry,1z Portion,50, 3.5
+Monday,Lunch,Firm Tofu,1/4 cup,60, 3
+Monday,Lunch,Homestyle Breaded Chicken Breast Chunk,4 pcs,260, 15
+Monday,Lunch,Plant Based Chick'n Poppers,1ct,null,null
+Monday,Lunch,Shrimp,1 Shrimp,5, 0
+Monday,Lunch,Steamed Brown Rice,4z Portion,140, 1
+Monday,Lunch,Steamed Long Grain Rice,4z Portion,530, 0
+Monday,Lunch,Szechuan Sauce,Ounce,120, 12
+Monday,Lunch,Thai Rice Noodle,Ounce,100, 0
+Monday,Lunch,Velveted Beef,1z Portion,40, 1.5
+Monday,Lunch,Yaki Soba Noodles,3z Portion,230, 2.5
+Monday,Lunch,Orange Ginger Sauce,2 tbs,60, 0
+Monday,Lunch,Sauce General Tso Premium,1Tbsp,30, 0
+Monday,Lunch,Soy Sauce,Ounce,20, 0
+Monday,Lunch,Sriracha Sauce,Teaspoon,0, 0
+Monday,Lunch,Sweet & Sour Sauce,Fluid Oz,30, 0
+Monday,Lunch,Teriyaki Glaze,2 tbs,50, 0
+Monday,Lunch,Bamboo Shoots,Ounce,0, 0
+Monday,Lunch,Bean Sprouts,Ounce,10, 0
+Monday,Lunch,Broccoli Florets,Ounce,10, 0
+Monday,Lunch,Cabbage Napa Shredded Thin,Ounce,0, 0
+Monday,Lunch,Carrots,Tablespoon,0, 0
+Monday,Lunch,Celery,Tablespoon,0, 0
+Monday,Lunch,Ginger Garlic,1z Portion,30, 0
+Monday,Lunch,Onion Sliced,Ounce,15, 0.5
+Monday,Lunch,Sliced Mushrooms,Tablespoon,0, 0
+Monday,Lunch,Snow Pea Pods,Ounce,10, 0
+Monday,Lunch,Tri Color Peppers,Portion,25, 1.5
+Monday,Lunch,Water Chestnut Sliced,Ounce,15, 0
+Monday,Lunch,Captain Crunch Wildberries,Cup,180, 2.5
+Monday,Lunch,Cheerios,Cup,110, 2
+Monday,Lunch,Cinnamon Toast Crunch,Cup,210, 5
+Monday,Lunch,Frosted Flakes,Cup,320, 0
+Monday,Lunch,Rice Chex Cereal,Cup,180, 1
+Monday,Lunch,Special K with Red Berries,Cup,360, 1
+Monday,Lunch,French Rolls,"6"" Portion",null,null
+Monday,Lunch,"Honey Wheat Tortilla 12""",Tortilla,300, 8
+Monday,Lunch,Kettle Chips,Ounce,160, 9
+Monday,Lunch,"Multigrain Bread 5/8"" Slice",Slice,null,null
+Monday,Lunch,Sourdough Bread Slice,Slices,100, 1
+Monday,Lunch,"Spinach Tortilla 12""",Tortilla,300, 8
+Monday,Lunch,"Sundried Tomato Basil Tortilla 12""",Tortillas,310, 8
+Monday,Lunch,Telera Roll,3.5z,300, 4
+Monday,Lunch,Caramel Topping,Ounce,80, 0
+Monday,Lunch,Chocolate Soft Serve Ice Cream Mix,Cup,340, 12
+Monday,Lunch,Cone Cake Jacketed,Cone,null,null
+Monday,Lunch,Dole Whip Pineapple,1 Serving,110, 0.5
+Monday,Lunch,Dole Whip Strawberry,1 Serving,110, 0
+Monday,Lunch,Dutch Chocolate Syrup,Ounce,70, 0
+Monday,Lunch,Mini Semi-Sweet Choc Chips,Ounce,130, 8
+Monday,Lunch,Oreo Cookie Topping,Ounce,140, 5
+Monday,Lunch,Rainbow Sprinkles,Ounce,140, 7
+Monday,Lunch,Vanilla Soft Serve Ice Cream Mix,Cup,360, 13
+Monday,Lunch,Jalapeno Monterey Jack Cheese Slice,Slice,60, 5
+Monday,Lunch,Provolone Cheese Slice,Slice,70, 6
+Monday,Lunch,Sliced 0.75z Mild Cheddar Cheese,Slice,80, 7
+Monday,Lunch,Cooked & Crumbled Bacon,Ounce,160, 13
+Monday,Lunch,"Diced 3/8"" Bacon",1 Tbsp,60, 4.5
+Monday,Lunch,Grilled Chicken Breast Strip Fajita,Ounce,35, 1.5
+Monday,Lunch,Low Sodium Smoked Ham Slices,Ounce,30, 1
+Monday,Lunch,Oven Roasted Sliced Chicken,Ounce,null,null
+Monday,Lunch,Smoked Sliced Genoa Salami,Ounce,110, 9
+Monday,Lunch,Smoked Tempeh,Ounce,null,null
+Monday,Lunch,Tuna Salad,1z Portion,80, 7
+Monday,Lunch,Chicago-Style Hot Giardiniera,Fluid Oz,120, 12
+Monday,Lunch,Cucumber Slices,.25 cup,0, 0
+Monday,Lunch,Flat Leaf Spinach,Ounce,5, 0
+Monday,Lunch,Hamburger Sliced Dill Pickle Chip,Slice,0, 0
+Monday,Lunch,Mild Banana Pepper Ring,Ounce,5, 0
+Monday,Lunch,Shredded Iceberg Lettuce,Ounce,0, 0
+Monday,Lunch,Sliced Jalapeno Peppers,Tablespoon,0, 0
+Monday,Lunch,Sliced Red Onion,Ounce,10, 0
+Monday,Lunch,Tomatoes Sliced 1/4-inch,Pound,80, 1
+Monday,Lunch,Aged Balsamic Vinegar,Fluid Oz,40, 0
+Monday,Lunch,Black Pepper Grinder,Teaspoon,5, 0
+Monday,Lunch,Buttermilk Ranch Dressing,Ounce,130, 14
+Monday,Lunch,Chipotle Ranch Dressing,Fluid Oz,150, 16
+Monday,Lunch,Garlic Mayonnaise,1/2 oz,100, 10
+Monday,Lunch,Grinder Sea Salt,Gram,0, 0
+Monday,Lunch,Heavy Duty Mayonnaise,Tablespoon,100, 11
+Monday,Lunch,Mediterranean Extra Virgin Olive Oil,1 tbsp,120, 14
+Monday,Lunch,Plant Based Chipotle Ranch Dressing,2z Portion,180, 20
+Monday,Lunch,RedHot Buffalo Wing Sauce,Fluid Oz,0, 0
+Monday,Lunch,Vegan Mayonnaise,1 tbs,60, 7
+Monday,Lunch,Vinegar Red Wine,Fluid Oz,0, 0
+Monday,Lunch,Yellow Mustard,1 tsp,0, 0
+Monday,Lunch,Apple Gala,Apples,90, 0
+Monday,Lunch,Bananas,Banana,190, 0
+Monday,Lunch,Fresh Kiwi,Kiwi,60, 0
+Monday,Lunch,Oranges,Orange,100, 0
+Monday,Lunch,Pears,Each,null,null
+Monday,Lunch,American,Slice,70, 6
+Monday,Lunch,Angus Beef Frank,Frank,170, 16
+Monday,Lunch,Black Bean Burger,Patty,170, 5
+Monday,Lunch,Breaded Onion Tangler,3z portion,270, 17
+Monday,Lunch,Buns Hot Dog Bulk,Each,120, 1.5
+Monday,Lunch,Fried Eggs,Eggs,90, 7
+Monday,Lunch,Hamburger Bun,Buns,null,null
+Monday,Lunch,Hamburger Sliced Dill Pickle Chip,Slice,0, 0
+Monday,Lunch,Heavy Duty Mayonnaise,Tablespoon,100, 11
+Monday,Lunch,Homestyle Breaded Chicken Breast Fritter,Patty,230, 14
+Monday,Lunch,Natural Low Sodium Ketchup,Ounce,5, 0
+Monday,Lunch,Regular Cut Potato Fries,3z,110, 3.5
+Monday,Lunch,Sliced Red Onion,Ounce,10, 0
+Monday,Lunch,Smash Burger,Burgers,290, 23
+Monday,Lunch,Spicy Brown Mustard,Ounce,30, 0
+Monday,Lunch,Tomatoes,Ounce,5, 0
+Monday,Lunch,Yellow Mustard,1 tsp,0, 0
+Monday,Lunch,American Cheese Slice,Slice,50, 4.5
+Monday,Lunch,Jalapeno Monterey Jack Cheese Slice,Slice,60, 5
+Monday,Lunch,"Multigrain Bread 5/8"" Slice",Slice,null,null
+Monday,Lunch,Sliced 0.75z Mild Cheddar Cheese,Slice,80, 7
+Monday,Lunch,Sourdough Bread Slice,Slices,100, 1
+Monday,Lunch,"White Pullman Bread 0.5"" Slice",Slices,60, 0.5
+Monday,Lunch,Baked Sweet Potato,Potatoes,120, 1.5
+Monday,Lunch,Garden Herb Chicken Breast,3.25z Tender,80, 0
+Monday,Lunch,Meatball Grinder,Sub,680,null
+Monday,Lunch,Mixed Vegetables,4z Portion,80, 0
+Monday,Lunch,Pasta Caprese Plntbsd Vegan DH,6z Portion,210, 8
+Monday,Lunch,Quinoa Grain Blend,3z Portion,100,null
+Monday,Lunch,Red-Skin Dijon Potato Salad,3z Portion,190, 16
+Monday,Lunch,Sauteed Fresh Zucchini Batonnets,Pound,150, 11
+Monday,Lunch,"10"" Flour Tortilla",Tortilla,170, 4.5
+Monday,Lunch,Egg White Liquid,Ounce,15, 0
+Monday,Lunch,Large Fresh Eggs,Eggs,100, 7
+Monday,Lunch,Zero Egg Plant Based Egg Liquid,Ounce,25, 1.5
+Monday,Lunch,Daiya Vegan Shredded Mozzarella Cheese,Ounce,80, 5
+Monday,Lunch,Shredded Mild Cheddar Cheese,Ounce,110, 9
+Monday,Lunch,Shredded Part-Skim Mozzarella Cheese,1z Portion,80, 6
+Monday,Lunch,Cooked Sausage Crumble,1z Portion,120, 12
+Monday,Lunch,"Diced 3/8"" Bacon",1 Tbsp,60, 4.5
+Monday,Lunch,Diced Green Peppers,Ounce,5, 0
+Monday,Lunch,Diced Onions,Ounce,10, 0
+Monday,Lunch,Diced Tomatoes,Ounce,0, 0
+Monday,Lunch,Plant Based Chorizo Sausage Crumble,2z Portion,140, 5
+Monday,Lunch,Sliced Mushrooms,Tablespoon,0, 0
+Monday,Lunch,Spinach,Ounce,5, 0
+Monday,Lunch,"Water-Added Ham Diced 1/4""",Ounce,35, 1.5
+Monday,Lunch,Broccoli Florets,Ounce,10, 0
+Monday,Lunch,Sauteed Sliced Mushrooms,1z Portion,15, 1
+Monday,Lunch,Tomato Cherry Red Halves,2 Halves,0, 0
+Monday,Lunch,Chunk Italian Sausage,Ounce,90, 8
+Monday,Lunch,Grilled Chicken Breast Strip Fajita,Ounce,35, 1.5
+Monday,Lunch,Shrimp,1 Shrimp,5, 0
+Monday,Lunch,Elbow Macaroni Pasta,4z Portion,220, 5
+Monday,Lunch,Penne Pasta,3z Portion,170, 4.5
+Monday,Lunch,Tri-Color Tortellini,4z Portion,280, 8
+Monday,Lunch,Alfredo Sauce,Ounce,70, 6
+Monday,Lunch,Basil Pesto Sauce,1/4 Cup,320, 34
+Monday,Lunch,Diavolo Sauce,2 Flz Portion,90, 8
+Monday,Lunch,Marinara Sauce,Ounce,15, 0.5
+Monday,Lunch,Balsamic Vinegar,Teaspoon,0, 0
+Monday,Lunch,Basil,Ounce,0, 0
+Monday,Lunch,Garlic Minced Prep,Ounce,35, 0
+Monday,Lunch,Grated Parmesan Cheese,Tablespoon,30, 2.5
+Monday,Lunch,Mediterranean Extra Virgin Olive Oil,1 tbsp,120, 14
+Monday,Lunch,Parsley Ital Fresh Clnd,Tablespoon,0, 0
+Monday,Lunch,Pepper Red Crushed,Teaspoon,0, 0
+Monday,Lunch,Shallots Minced Prep,Ounce,15, 0
+Monday,Lunch,Cheese Pizza,Piece -U,140, 5
+Monday,Lunch,Sausage Pizza,Piece -U,180, 9
+Monday,Lunch,Tomato Basil Pizza,1/12 Pizza,200, 9
+Monday,Lunch,Baked Sweet Potato,Potatoes,120, 1.5
+Monday,Lunch,Classic Vegan Kimchi,Ounce,10, 0
+Monday,Lunch,Firm Tofu,1/4 cup,60, 3
+Monday,Lunch,Flax Seed,Ounce,150, 12
+Monday,Lunch,High Protein Grain BleND,3z portion,190,null
+Monday,Lunch,Marinated Quarter Artichoke Heart,Ounce,15, 1
+Monday,Lunch,Marinated Tofu,4z Portion,110, 5
+Monday,Lunch,Nutritional Yeast,Gram,null,null
+Monday,Lunch,Organic Black Chia Seed,Ounce,140, 9
+Monday,Lunch,Roasted & Salted Sunflower Seeds,1 Tablespoon,90, 7
+Monday,Lunch,Salt & Peppercorn Roasted Cauliflower,Ounce,0, 0
+Monday,Lunch,Shredded Kale,Ounce,15, 0
+Monday,Lunch,Sliced Almonds,Tablespoon,90, 8
+Monday,Lunch,Walnuts Halves & Pieces,Tablespoon,50, 5
+Monday,Lunch,"10"" Flour Tortilla",Tortilla,170, 4.5
+Monday,Lunch,Chicken Taco Meat,2z Portion,140, 2
+Monday,Lunch,Chipotle Ranch Dressing,Fluid Oz,150, 16
+Monday,Lunch,Flame-Roasted Corn & Peppers,4z Portion,160, 5
+Monday,Lunch,Grilled Steak Strips,2z Portion,120, 6
+Monday,Lunch,House-made Guacamole,3z Portion,100, 9
+Monday,Lunch,Mexican Rice,Ounce,80, 0
+Monday,Lunch,Pico de Gallo,2z Portion,10, 0
+Monday,Lunch,Queso Rico Chihuahua Cheese,Ounce,100, 8
+Monday,Lunch,Sliced Jalapeno Peppers,Tablespoon,0, 0
+Monday,Lunch,Sour Cream 5lb,2 Tbsp,60, 5
+Monday,Lunch,Vegan Refried Beans,1.6z Portion,150, 1.5
+Monday,Lunch,Black Beans,Ounce,25, 0
+Monday,Lunch,Carrots,Tablespoon,0, 0
+Monday,Lunch,Chopped Eggs,.5z Portion,25, 1.5
+Monday,Lunch,Classic Edamame,Tablespoon,15, 0.5
+Monday,Lunch,Crispy Fried French Onion,Ounce,160, 12
+Monday,Lunch,Cucumber Slices,Slices,0, 0
+Monday,Lunch,Diced Tomatoes,Ounce,0, 0
+Monday,Lunch,Feta Cheese Crumbles,Ounce,5, 0.5
+Monday,Lunch,Iceberg Salad Mix,1 cup portion,5, 0
+Monday,Lunch,Large Seasoned Crouton,Ounce,120, 4
+Monday,Lunch,Locally Grown Salad Greens,Ounce,0, 0
+Monday,Lunch,Low Sodium Garbanzo Beans,Ounce,30, 0
+Monday,Lunch,Mini Marshmallows,Ounce,90, 0
+Monday,Lunch,Shredded Mild Cheddar Cheese,Ounce,110, 9
+Monday,Lunch,Sliced Mushrooms,Tablespoon,0, 0
+Monday,Lunch,Sliced Red Onion,Ounce,10, 0
+Monday,Lunch,Spiced Pumpkin Seeds,Tablespoon,45, 3
+Monday,Lunch,Spinach,Ounce,5, 0
+Monday,Lunch,Tri Color Peppers,Portion,25, 1.5
+Monday,Lunch,Tuna,1/4 Cup,35, 0
+Monday,Lunch,Balsamic Vinaigrette Dressing in Bottle,Ounce,60, 4.5
+Monday,Lunch,Buttermilk Ranch Dressing,Ounce,130, 14
+Monday,Lunch,Country French Dressing,Ounce,120, 11
+Monday,Lunch,Creamy Caesar Dressing,Fluid Oz,140, 15
+Monday,Lunch,Fat Free Raspberry Vinaigrette Dressing,Fluid Oz,35, 0
+Monday,Lunch,Lite Ranch Dressing,Ounce,70, 7
+Monday,Lunch,Plant Based Ranch Dressing,2z Portion,210, 22
+Monday,Lunch,Cut Sweet Corn,4z Portion,90, 1
+Monday,Lunch,Grilled Chicken Breast Strip Fajita,Ounce,35, 1.5
+Monday,Lunch,Homestyle Ranch Dressing,Ounce,90, 10
+Monday,Lunch,Ken's Cannonball BBQ Sauce,2 tbsp,60, 0
+Monday,Lunch,Locally Grown Salad Greens,Ounce,0, 0
+Monday,Lunch,Low Sodium Navy Beans,Ounce,30, 0
+Monday,Lunch,Mild Chili Powder,Ounce,0, 0
+Monday,Lunch,Salt Hickory Smk RLS,Teaspoon,null,null
+Monday,Lunch,Seasoning All Purpose BBQ,Ounce,0, 0
+Monday,Lunch,Shredded Mild Cheddar Cheese,Ounce,110, 9
+Monday,Lunch,Tomato Cherry Red Halves,2 Halves,0, 0
+Monday,Lunch,Creamy Tomato Soup,6 Flz,90, 1.5
+Monday,Lunch,"100% Whole Wheat Bread 1/2"" Slice",Slice,70, 0.5
+Monday,Lunch,Avocado Pulp Fresh,Ounce,70, 6
+Monday,Lunch,Cream Cheese,Ounce,90, 9
+Monday,Lunch,Everything Bagel,"Bagel
+Bagel",340, 4.5
+Monday,Lunch,Jif Peanut Butter PC,0.75z,120, 10
+Monday,Lunch,Nutella Chocolate Hazelnut Spread,Ounce,150, 9
+Monday,Lunch,Plain Bagel,Bagel,320, 1
+Monday,Lunch,Sliced Tomatoes,Ounce,0, 0
+Monday,Lunch,Unsalted European-Style Butter Prints,Ounce,220, 24
+Monday,Lunch,"White Pullman Bread 0.5"" Slice",Slices,60, 0.5
+Monday,Lunch,Whole Wheat Bagel,Bagel,320, 1.5
+Monday,Lunch,Baby Carrots,3 Carrots,10, 0
+Monday,Lunch,Celery Sticks,Ounce,0, 0
+Monday,Lunch,Classic Quinoa & Lentil Salad,3z Portion,200, 9
+Monday,Lunch,Daiya Vegan Shredded Mozzarella Cheese,Ounce,80, 5
+Monday,Lunch,Fresh Avocado,Ounce,45, 4.5
+Monday,Lunch,Hummus with Tahini,1z Portion,70, 5
+Monday,Lunch,Kalamata Olive Hummus,1z Portion,70, 6
+Monday,Lunch,Raw Mediterranean Pita Chips,1 oz portion,70, 0.5
+Monday,Lunch,Roasted Garlic Hummus,1z Portion,70, 5
+Monday,Lunch,Roasted Red Pepper Hummus,1z Portion,60, 4
+Monday,Lunch,Blueberry Yogurt,Ounce,20, 0
+Monday,Lunch,Nature Valley Toasted Granola Oat,Ounce,130, 4.5
+Monday,Lunch,Plain Greek Yogurt,Ounce,15, 0
+Monday,Lunch,Small Curd Cottage Cheese,1/2 Cup,100, 5
+Monday,Lunch,Strawberry Yogurt,Ounce,20, 0
+Monday,Lunch,Vanilla Yogurt,Ounce,20, 0
+Tuesday,Breakfast,2% Chocolate Milk BIB,1 Cup,170, 5
+Tuesday,Breakfast,2% Milk BIB,8 flz,120, 5
+Tuesday,Breakfast,Apple Juice 6:1 Concentrate,1/2 hall glass,10, 0
+Tuesday,Breakfast,Cherry Coke,1 dining hall glass,null,null
+Tuesday,Breakfast,Coke Classic,1 dining hall glass,null,null
+Tuesday,Breakfast,Coke Zero,8flz,null,null
+Tuesday,Breakfast,Cranberry Juice 4.7:1 Concentrate,1/2 hall glass,70, 0
+Tuesday,Breakfast,Diet Coke,1 dining hall glass,null,null
+Tuesday,Breakfast,Diet Sprite,Fluid Oz,0, 0
+Tuesday,Breakfast,Milk Soy Vanilla Aseptic Silk,8z,null,null
+Tuesday,Breakfast,Orange Juice 5:1 Concentrate,1/2 hall glass,15, 0
+Tuesday,Breakfast,Original Style Lemonade,1 dining hall glass,null,null
+Tuesday,Breakfast,Original Unsweetened Almond Milk,6z Portion,60, 2
+Tuesday,Breakfast,Pibb Xtra,1 dining hall glass,null,null
+Tuesday,Breakfast,Powerade Mountain Blast,1 dining hall glass,null,null
+Tuesday,Breakfast,Root Beer,1 dining hall glass,null,null
+Tuesday,Breakfast,Skim Milk BIB,8 flz,80, 0
+Tuesday,Breakfast,Sprite,1 dining hall glass,null,null
+Tuesday,Breakfast,Unsweetened Vanilla Almond Milk,6z Portion,20, 1.5
+Tuesday,Breakfast,Brewed coffee,6z Portion,0,null
+Tuesday,Breakfast,Coffeemate Original,Fluid Oz,30, 3
+Tuesday,Breakfast,Creamer French Vanilla Coffeemate 1.5L,Fluid Oz,60, 3.5
+Tuesday,Breakfast,ecoStick Organic White Sugar Stick,"Stick
+Stick",10, 0
+Tuesday,Breakfast,ecoStick Sugar Substitute Blue Pc,Stick,0, 0
+Tuesday,Breakfast,ecoStick Sugar Substitute Pink Pc,Stick,0, 0
+Tuesday,Breakfast,ecoStick Sugar Substitute Yellow Pc,Stick,0, 0
+Tuesday,Breakfast,Extra Lite Amber Honey,Ounce,80, 0
+Tuesday,Breakfast,Green Tea Bag,Tea Bag,0, 0
+Tuesday,Breakfast,Hazelnut Coffee Creamer,Fluid Oz,10, 0
+Tuesday,Breakfast,Lipton Black Tea Bag,Tea Bag,0, 0
+Tuesday,Breakfast,Lipton Tea Decaf,Tea Bag,null,null
+Tuesday,Breakfast,Vegetable Egg Rolls,2 Egg Rolls,230, 0
+Tuesday,Breakfast,Chicken for Stirfry,1z Portion,50, 3.5
+Tuesday,Breakfast,Firm Tofu,1/4 cup,60, 3
+Tuesday,Breakfast,Homestyle Breaded Chicken Breast Chunk,4 pcs,260, 15
+Tuesday,Breakfast,Plant Based Chick'n Poppers,1ct,null,null
+Tuesday,Breakfast,Shrimp,1 Shrimp,5, 0
+Tuesday,Breakfast,Steamed Brown Rice,4z Portion,140, 1
+Tuesday,Breakfast,Steamed Long Grain Rice,4z Portion,530, 0
+Tuesday,Breakfast,Szechuan Sauce,Ounce,120, 12
+Tuesday,Breakfast,Thai Rice Noodle,Ounce,100, 0
+Tuesday,Breakfast,Velveted Beef,1z Portion,40, 1.5
+Tuesday,Breakfast,Yaki Soba Noodles,3z Portion,230, 2.5
+Tuesday,Breakfast,Orange Ginger Sauce,2 tbs,60, 0
+Tuesday,Breakfast,Sauce General Tso Premium,1Tbsp,30, 0
+Tuesday,Breakfast,Soy Sauce,Ounce,20, 0
+Tuesday,Breakfast,Sriracha Sauce,Teaspoon,0, 0
+Tuesday,Breakfast,Sweet & Sour Sauce,Fluid Oz,30, 0
+Tuesday,Breakfast,Teriyaki Glaze,2 tbs,50, 0
+Tuesday,Breakfast,Bamboo Shoots,Ounce,0, 0
+Tuesday,Breakfast,Bean Sprouts,Ounce,10, 0
+Tuesday,Breakfast,Broccoli Florets,Ounce,10, 0
+Tuesday,Breakfast,Cabbage Napa Shredded Thin,Ounce,0, 0
+Tuesday,Breakfast,Carrots,Tablespoon,0, 0
+Tuesday,Breakfast,Celery,Tablespoon,0, 0
+Tuesday,Breakfast,Ginger Garlic,1z Portion,30, 0
+Tuesday,Breakfast,Onion Sliced,Ounce,15, 0.5
+Tuesday,Breakfast,Sliced Mushrooms,Tablespoon,0, 0
+Tuesday,Breakfast,Snow Pea Pods,Ounce,10, 0
+Tuesday,Breakfast,Tri Color Peppers,Portion,25, 1.5
+Tuesday,Breakfast,Water Chestnut Sliced,Ounce,15, 0
+Tuesday,Breakfast,Captain Crunch Wildberries,Cup,180, 2.5
+Tuesday,Breakfast,Cheerios,Cup,110, 2
+Tuesday,Breakfast,Cinnamon Toast Crunch,Cup,210, 5
+Tuesday,Breakfast,Frosted Flakes,Cup,320, 0
+Tuesday,Breakfast,Rice Chex Cereal,Cup,180, 1
+Tuesday,Breakfast,Special K with Red Berries,Cup,360, 1
+Tuesday,Breakfast,French Rolls,"6"" Portion",null,null
+Tuesday,Breakfast,"Honey Wheat Tortilla 12""",Tortilla,300, 8
+Tuesday,Breakfast,Kettle Chips,Ounce,160, 9
+Tuesday,Breakfast,"Multigrain Bread 5/8"" Slice",Slice,null,null
+Tuesday,Breakfast,Sourdough Bread Slice,Slices,100, 1
+Tuesday,Breakfast,"Spinach Tortilla 12""",Tortilla,300, 8
+Tuesday,Breakfast,"Sundried Tomato Basil Tortilla 12""",Tortillas,310, 8
+Tuesday,Breakfast,Telera Roll,3.5z,300, 4
+Tuesday,Breakfast,Caramel Topping,Ounce,80, 0
+Tuesday,Breakfast,Chocolate Soft Serve Ice Cream Mix,Cup,340, 12
+Tuesday,Breakfast,Cone Cake Jacketed,Cone,null,null
+Tuesday,Breakfast,Dole Whip Pineapple,1 Serving,110, 0.5
+Tuesday,Breakfast,Dole Whip Strawberry,1 Serving,110, 0
+Tuesday,Breakfast,Dutch Chocolate Syrup,Ounce,70, 0
+Tuesday,Breakfast,Mini Semi-Sweet Choc Chips,Ounce,130, 8
+Tuesday,Breakfast,Oreo Cookie Topping,Ounce,140, 5
+Tuesday,Breakfast,Rainbow Sprinkles,Ounce,140, 7
+Tuesday,Breakfast,Vanilla Soft Serve Ice Cream Mix,Cup,360, 13
+Tuesday,Breakfast,Jalapeno Monterey Jack Cheese Slice,Slice,60, 5
+Tuesday,Breakfast,Provolone Cheese Slice,Slice,70, 6
+Tuesday,Breakfast,Sliced 0.75z Mild Cheddar Cheese,Slice,80, 7
+Tuesday,Breakfast,Cooked & Crumbled Bacon,Ounce,160, 13
+Tuesday,Breakfast,"Diced 3/8"" Bacon",1 Tbsp,60, 4.5
+Tuesday,Breakfast,Grilled Chicken Breast Strip Fajita,Ounce,35, 1.5
+Tuesday,Breakfast,Low Sodium Smoked Ham Slices,Ounce,30, 1
+Tuesday,Breakfast,Oven Roasted Sliced Chicken,Ounce,null,null
+Tuesday,Breakfast,Smoked Sliced Genoa Salami,Ounce,110, 9
+Tuesday,Breakfast,Smoked Tempeh,Ounce,null,null
+Tuesday,Breakfast,Tuna Salad,1z Portion,80, 7
+Tuesday,Breakfast,Chicago-Style Hot Giardiniera,Fluid Oz,120, 12
+Tuesday,Breakfast,Cucumber Slices,.25 cup,0, 0
+Tuesday,Breakfast,Flat Leaf Spinach,Ounce,5, 0
+Tuesday,Breakfast,Hamburger Sliced Dill Pickle Chip,Slice,0, 0
+Tuesday,Breakfast,Mild Banana Pepper Ring,Ounce,5, 0
+Tuesday,Breakfast,Shredded Iceberg Lettuce,Ounce,0, 0
+Tuesday,Breakfast,Sliced Jalapeno Peppers,Tablespoon,0, 0
+Tuesday,Breakfast,Sliced Red Onion,Ounce,10, 0
+Tuesday,Breakfast,Tomatoes Sliced 1/4-inch,Pound,80, 1
+Tuesday,Breakfast,Aged Balsamic Vinegar,Fluid Oz,40, 0
+Tuesday,Breakfast,Black Pepper Grinder,Teaspoon,5, 0
+Tuesday,Breakfast,Buttermilk Ranch Dressing,Ounce,130, 14
+Tuesday,Breakfast,Chipotle Ranch Dressing,Fluid Oz,150, 16
+Tuesday,Breakfast,Garlic Mayonnaise,1/2 oz,100, 10
+Tuesday,Breakfast,Grinder Sea Salt,Gram,0, 0
+Tuesday,Breakfast,Heavy Duty Mayonnaise,Tablespoon,100, 11
+Tuesday,Breakfast,Mediterranean Extra Virgin Olive Oil,1 tbsp,120, 14
+Tuesday,Breakfast,Plant Based Chipotle Ranch Dressing,2z Portion,180, 20
+Tuesday,Breakfast,RedHot Buffalo Wing Sauce,Fluid Oz,0, 0
+Tuesday,Breakfast,Vegan Mayonnaise,1 tbs,60, 7
+Tuesday,Breakfast,Vinegar Red Wine,Fluid Oz,0, 0
+Tuesday,Breakfast,Yellow Mustard,1 tsp,0, 0
+Tuesday,Breakfast,Apple Gala,Apples,90, 0
+Tuesday,Breakfast,Bananas,Banana,190, 0
+Tuesday,Breakfast,Fresh Kiwi,Kiwi,60, 0
+Tuesday,Breakfast,Oranges,Orange,100, 0
+Tuesday,Breakfast,Pears,Each,null,null
+Tuesday,Breakfast,American,Slice,70, 6
+Tuesday,Breakfast,Angus Beef Frank,Frank,170, 16
+Tuesday,Breakfast,Black Bean Burger,Patty,170, 5
+Tuesday,Breakfast,Breaded Onion Tangler,3z portion,270, 17
+Tuesday,Breakfast,Buns Hot Dog Bulk,Each,120, 1.5
+Tuesday,Breakfast,Fried Eggs,Eggs,90, 7
+Tuesday,Breakfast,Hamburger Bun,Buns,null,null
+Tuesday,Breakfast,Hamburger Sliced Dill Pickle Chip,Slice,0, 0
+Tuesday,Breakfast,Heavy Duty Mayonnaise,Tablespoon,100, 11
+Tuesday,Breakfast,Homestyle Breaded Chicken Breast Fritter,Patty,230, 14
+Tuesday,Breakfast,Natural Low Sodium Ketchup,Ounce,5, 0
+Tuesday,Breakfast,Regular Cut Potato Fries,3z,110, 3.5
+Tuesday,Breakfast,Sliced Red Onion,Ounce,10, 0
+Tuesday,Breakfast,Smash Burger,Burgers,290, 23
+Tuesday,Breakfast,Spicy Brown Mustard,Ounce,30, 0
+Tuesday,Breakfast,Tomatoes,Ounce,5, 0
+Tuesday,Breakfast,Yellow Mustard,1 tsp,0, 0
+Tuesday,Breakfast,American Cheese Slice,Slice,50, 4.5
+Tuesday,Breakfast,Jalapeno Monterey Jack Cheese Slice,Slice,60, 5
+Tuesday,Breakfast,"Multigrain Bread 5/8"" Slice",Slice,null,null
+Tuesday,Breakfast,Sliced 0.75z Mild Cheddar Cheese,Slice,80, 7
+Tuesday,Breakfast,Sourdough Bread Slice,Slices,100, 1
+Tuesday,Breakfast,"White Pullman Bread 0.5"" Slice",Slices,60, 0.5
+Tuesday,Breakfast,Baked Sweet Potato,Potatoes,120, 1.5
+Tuesday,Breakfast,Carrots Honey Dill Glazed DH,2z Portion,110,null
+Tuesday,Breakfast,Garden Herb Chicken Breast,3.25z Tender,80, 0
+Tuesday,Breakfast,Grilled Lemon Asparagus,3z Portion,90, 7
+Tuesday,Breakfast,High Protein Grain BleND,3z portion,190,null
+Tuesday,Breakfast,Lemon Pepper Turkey,6z Portion,190, 4
+Tuesday,Breakfast,Long Grain & Wild Rice Pilaf,3z Portion,70,null
+Tuesday,Breakfast,Polenta with Root Vegetables,3z Portion,100, 5
+Tuesday,Breakfast,Sweet Orange Salmon Fillet,Filet,320, 18
+Tuesday,Breakfast,8z Pizza Dough,8z,480, 4
+Tuesday,Breakfast,Alfredo Sauce,Ounce,70, 6
+Tuesday,Breakfast,Basil Pesto without Nuts,1 Flz Portion,140, 15
+Tuesday,Breakfast,Grated Parmesan Cheese,Tablespoon,30, 2.5
+Tuesday,Breakfast,Pepper Red Crushed,Teaspoon,0, 0
+Tuesday,Breakfast,Seasoned Pizza Sauce with Oil,Ounce,15, 0
+Tuesday,Breakfast,Shredded Mild Cheddar Cheese,Ounce,110, 9
+Tuesday,Breakfast,Shredded Part-Skim Mozzarella Cheese,1z Portion,80, 6
+Tuesday,Breakfast,Beef Meatball 0.5z,.5z meatball,45, 3.5
+Tuesday,Breakfast,Chunk Italian Sausage,Ounce,90, 8
+Tuesday,Breakfast,Grilled Chicken Breast Strip Fajita,Ounce,35, 1.5
+Tuesday,Breakfast,Onion Sliced,Ounce,15, 0.5
+Tuesday,Breakfast,Pepperoni Sliced,Slices,10, 1
+Tuesday,Breakfast,Pineapple Tidbit in Unsweetened Juice,2 Ounce,30, 0
+Tuesday,Breakfast,Plant based Sliced Italian Sausage,3 oz portion,170, 9
+Tuesday,Breakfast,Sliced Jalapeno Peppers,Tablespoon,0, 0
+Tuesday,Breakfast,Sliced Mushrooms,Tablespoon,0, 0
+Tuesday,Breakfast,Sliced Spanish Black Ripe Olive,Tablespoon,25, 2
+Tuesday,Breakfast,Tri Color Peppers,Portion,25, 1.5
+Tuesday,Breakfast,"Water-Added Ham Diced 1/4""",Ounce,35, 1.5
+Tuesday,Breakfast,Beef Taco Meat,2z Portion,130, 11
+Tuesday,Breakfast,Black Olive Slices,1z Portion,50, 3.5
+Tuesday,Breakfast,Chicken Tinga,3.25z Portion,80, 1.5
+Tuesday,Breakfast,Diced Onions,Ounce,10, 0
+Tuesday,Breakfast,"Flour Tortilla 6""",6in tortilla,100, 3
+Tuesday,Breakfast,House-made Guacamole,3z Portion,100, 9
+Tuesday,Breakfast,Pico de Gallo,2z Portion,10, 0
+Tuesday,Breakfast,Shredded Iceberg Lettuce,Ounce,0, 0
+Tuesday,Breakfast,Sliced Jalapeno Peppers,Tablespoon,0, 0
+Tuesday,Breakfast,Sour Cream 5lb,Tablespoon,30, 2.5
+Tuesday,Breakfast,Spanish Rice,4z Portion,230, 1
+Tuesday,Breakfast,Thick & Chuncky Mild Salsa,Ounce,10, 0
+Tuesday,Breakfast,Vegetarian Black Beans,2z Portion,70, 1.5
+Tuesday,Breakfast,"White Corn Tortilla 6""",6in Tortilla,60, 0.5
+Tuesday,Breakfast,Broccoli Florets,Ounce,10, 0
+Tuesday,Breakfast,Sauteed Sliced Mushrooms,1z Portion,15, 1
+Tuesday,Breakfast,Tomato Cherry Red Halves,2 Halves,0, 0
+Tuesday,Breakfast,Chunk Italian Sausage,Ounce,90, 8
+Tuesday,Breakfast,Grilled Chicken Breast Strip Fajita,Ounce,35, 1.5
+Tuesday,Breakfast,Shrimp,1 Shrimp,5, 0
+Tuesday,Breakfast,Elbow Macaroni Pasta,4z Portion,220, 5
+Tuesday,Breakfast,Penne Pasta,3z Portion,170, 4.5
+Tuesday,Breakfast,Tri-Color Tortellini,4z Portion,280, 8
+Tuesday,Breakfast,Alfredo Sauce,Ounce,70, 6
+Tuesday,Breakfast,Basil Pesto Sauce,1/4 Cup,320, 34
+Tuesday,Breakfast,Diavolo Sauce,2 Flz Portion,90, 8
+Tuesday,Breakfast,Marinara Sauce,Ounce,15, 0.5
+Tuesday,Breakfast,Balsamic Vinegar,Teaspoon,0, 0
+Tuesday,Breakfast,Basil,Ounce,0, 0
+Tuesday,Breakfast,Garlic Minced Prep,Ounce,35, 0
+Tuesday,Breakfast,Grated Parmesan Cheese,Tablespoon,30, 2.5
+Tuesday,Breakfast,Mediterranean Extra Virgin Olive Oil,1 tbsp,120, 14
+Tuesday,Breakfast,Parsley Ital Fresh Clnd,Tablespoon,0, 0
+Tuesday,Breakfast,Pepper Red Crushed,Teaspoon,0, 0
+Tuesday,Breakfast,Shallots Minced Prep,Ounce,15, 0
+Tuesday,Breakfast,Alfredo Sauce,Ounce,70, 6
+Tuesday,Breakfast,Basil Pesto without Nuts,1 Flz Portion,140, 15
+Tuesday,Breakfast,Cavatappi Pasta,1/2 Cup,220, 5
+Tuesday,Breakfast,Garlic Bread Stick,Breadstick,150, 6
+Tuesday,Breakfast,Italian Beef & Pork Cheese Meatball,Meatball,40, 3
+Tuesday,Breakfast,Marinara Sauce,Ounce,15, 0.5
+Tuesday,Breakfast,Plant based Sliced Italian Sausage,3 oz portion,170, 9
+Tuesday,Breakfast,Rigate Penne Pasta,4z Portion,170, 1.5
+Tuesday,Breakfast,Baked Sweet Potato,Potatoes,120, 1.5
+Tuesday,Breakfast,Classic Vegan Kimchi,Ounce,10, 0
+Tuesday,Breakfast,Firm Tofu,1/4 cup,60, 3
+Tuesday,Breakfast,Flax Seed,Ounce,150, 12
+Tuesday,Breakfast,High Protein Grain BleND,3z portion,190,null
+Tuesday,Breakfast,Marinated Quarter Artichoke Heart,Ounce,15, 1
+Tuesday,Breakfast,Marinated Tofu,4z Portion,110, 5
+Tuesday,Breakfast,Nutritional Yeast,Gram,null,null
+Tuesday,Breakfast,Organic Black Chia Seed,Ounce,140, 9
+Tuesday,Breakfast,Roasted & Salted Sunflower Seeds,1 Tablespoon,90, 7
+Tuesday,Breakfast,Salt & Peppercorn Roasted Cauliflower,Ounce,0, 0
+Tuesday,Breakfast,Shredded Kale,Ounce,15, 0
+Tuesday,Breakfast,Sliced Almonds,Tablespoon,90, 8
+Tuesday,Breakfast,Walnuts Halves & Pieces,Tablespoon,50, 5
+Tuesday,Breakfast,Black Beans,Ounce,25, 0
+Tuesday,Breakfast,Carrots,Tablespoon,0, 0
+Tuesday,Breakfast,Chopped Eggs,.5z Portion,25, 1.5
+Tuesday,Breakfast,Classic Edamame,Tablespoon,15, 0.5
+Tuesday,Breakfast,Crispy Fried French Onion,Ounce,160, 12
+Tuesday,Breakfast,Cucumber Slices,Slices,0, 0
+Tuesday,Breakfast,Diced Tomatoes,Ounce,0, 0
+Tuesday,Breakfast,Feta Cheese Crumbles,Ounce,5, 0.5
+Tuesday,Breakfast,Iceberg Salad Mix,1 cup portion,5, 0
+Tuesday,Breakfast,Large Seasoned Crouton,Ounce,120, 4
+Tuesday,Breakfast,Locally Grown Salad Greens,Ounce,0, 0
+Tuesday,Breakfast,Low Sodium Garbanzo Beans,Ounce,30, 0
+Tuesday,Breakfast,Mini Marshmallows,Ounce,90, 0
+Tuesday,Breakfast,Shredded Mild Cheddar Cheese,Ounce,110, 9
+Tuesday,Breakfast,Sliced Mushrooms,Tablespoon,0, 0
+Tuesday,Breakfast,Sliced Red Onion,Ounce,10, 0
+Tuesday,Breakfast,Spiced Pumpkin Seeds,Tablespoon,45, 3
+Tuesday,Breakfast,Spinach,Ounce,5, 0
+Tuesday,Breakfast,Tri Color Peppers,Portion,25, 1.5
+Tuesday,Breakfast,Tuna,1/4 Cup,35, 0
+Tuesday,Breakfast,Balsamic Vinaigrette Dressing in Bottle,Ounce,60, 4.5
+Tuesday,Breakfast,Buttermilk Ranch Dressing,Ounce,130, 14
+Tuesday,Breakfast,Country French Dressing,Ounce,120, 11
+Tuesday,Breakfast,Creamy Caesar Dressing,Fluid Oz,140, 15
+Tuesday,Breakfast,Fat Free Raspberry Vinaigrette Dressing,Fluid Oz,35, 0
+Tuesday,Breakfast,Lite Ranch Dressing,Ounce,70, 7
+Tuesday,Breakfast,Plant Based Ranch Dressing,2z Portion,210, 22
+Tuesday,Breakfast,Creamy Tomato Soup,6 Flz,90, 1.5
+Tuesday,Breakfast,Baby Carrots,3 Carrots,10, 0
+Tuesday,Breakfast,Celery Sticks,Ounce,0, 0
+Tuesday,Breakfast,Classic Quinoa & Lentil Salad,3z Portion,200, 9
+Tuesday,Breakfast,Daiya Vegan Shredded Mozzarella Cheese,Ounce,80, 5
+Tuesday,Breakfast,Fresh Avocado,Ounce,45, 4.5
+Tuesday,Breakfast,Goblin's Ears,5z Portion,140, 10
+Tuesday,Breakfast,Hummus with Tahini,1z Portion,70, 5
+Tuesday,Breakfast,Italian Garlic & Herb Breadstick,1ct,130, 2
+Tuesday,Breakfast,Kalamata Olive Hummus,1z Portion,70, 6
+Tuesday,Breakfast,Raw Mediterranean Pita Chips,1 oz portion,70, 0.5
+Tuesday,Breakfast,Roasted Garlic Hummus,1z Portion,70, 5
+Tuesday,Breakfast,Roasted Red Pepper Hummus,1z Portion,60, 4
+Tuesday,Breakfast,Broccoli Florets,4z Portion,35, 0
+Tuesday,Breakfast,Blueberry Yogurt,Ounce,20, 0
+Tuesday,Breakfast,Nature Valley Toasted Granola Oat,Ounce,130, 4.5
+Tuesday,Breakfast,Plain Greek Yogurt,Ounce,15, 0
+Tuesday,Breakfast,Small Curd Cottage Cheese,1/2 Cup,100, 5
+Tuesday,Breakfast,Strawberry Yogurt,Ounce,20, 0
+Tuesday,Breakfast,Vanilla Yogurt,Ounce,20, 0
+Tuesday,Lunch,2% Chocolate Milk BIB,1 Cup,170, 5
+Tuesday,Lunch,2% Milk BIB,8 flz,120, 5
+Tuesday,Lunch,Apple Juice 6:1 Concentrate,1/2 hall glass,10, 0
+Tuesday,Lunch,Cherry Coke,1 dining hall glass,null,null
+Tuesday,Lunch,Coke Classic,1 dining hall glass,null,null
+Tuesday,Lunch,Coke Zero,8flz,null,null
+Tuesday,Lunch,Cranberry Juice 4.7:1 Concentrate,1/2 hall glass,70, 0
+Tuesday,Lunch,Diet Coke,1 dining hall glass,null,null
+Tuesday,Lunch,Diet Sprite,Fluid Oz,0, 0
+Tuesday,Lunch,Milk Soy Vanilla Aseptic Silk,8z,null,null
+Tuesday,Lunch,Orange Juice 5:1 Concentrate,1/2 hall glass,15, 0
+Tuesday,Lunch,Original Style Lemonade,1 dining hall glass,null,null
+Tuesday,Lunch,Original Unsweetened Almond Milk,6z Portion,60, 2
+Tuesday,Lunch,Pibb Xtra,1 dining hall glass,null,null
+Tuesday,Lunch,Powerade Mountain Blast,1 dining hall glass,null,null
+Tuesday,Lunch,Root Beer,1 dining hall glass,null,null
+Tuesday,Lunch,Skim Milk BIB,8 flz,80, 0
+Tuesday,Lunch,Sprite,1 dining hall glass,null,null
+Tuesday,Lunch,Unsweetened Vanilla Almond Milk,6z Portion,20, 1.5
+Tuesday,Lunch,Brewed coffee,6z Portion,0,null
+Tuesday,Lunch,Coffeemate Original,Fluid Oz,30, 3
+Tuesday,Lunch,Creamer French Vanilla Coffeemate 1.5L,Fluid Oz,60, 3.5
+Tuesday,Lunch,ecoStick Organic White Sugar Stick,"Stick
+Stick",10, 0
+Tuesday,Lunch,ecoStick Sugar Substitute Blue Pc,Stick,0, 0
+Tuesday,Lunch,ecoStick Sugar Substitute Pink Pc,Stick,0, 0
+Tuesday,Lunch,ecoStick Sugar Substitute Yellow Pc,Stick,0, 0
+Tuesday,Lunch,Extra Lite Amber Honey,Ounce,80, 0
+Tuesday,Lunch,Green Tea Bag,Tea Bag,0, 0
+Tuesday,Lunch,Hazelnut Coffee Creamer,Fluid Oz,10, 0
+Tuesday,Lunch,Lipton Black Tea Bag,Tea Bag,0, 0
+Tuesday,Lunch,Lipton Tea Decaf,Tea Bag,null,null
+Tuesday,Lunch,Chicken Broccoli Cashew,6 oz Portion,180, 6
+Tuesday,Lunch,Fried Pork Pot Sticker,Pot Sticker,50, 3
+Tuesday,Lunch,Steamed Brown Rice,4z Portion,140, 1
+Tuesday,Lunch,Steamed Long Grain Rice,4z Portion,530, 0
+Tuesday,Lunch,Szechuan Stir-fried Rice,4z Portion,360,null
+Tuesday,Lunch,Boom Boom Chicken,3z Portion,250, 18
+Tuesday,Lunch,Boom Boom Sauce,Fluid Oz,160, 17
+Tuesday,Lunch,Carrots,Tablespoon,0, 0
+Tuesday,Lunch,Diced Tomatoes,Ounce,0, 0
+Tuesday,Lunch,Feather Shredded Pepper Jack Cheese,Ounce,110, 9
+Tuesday,Lunch,Homestyle Ranch Dressing,Ounce,90, 10
+Tuesday,Lunch,Locally Grown Salad Greens,Ounce,0, 0
+Tuesday,Lunch,Peppadew Pepper,Tablespoon,35, 0
+Tuesday,Lunch,Plant Based Chick'n Poppers,1ct,null,null
+Tuesday,Lunch,Plant Based Chipotle Ranch Dressing,2z Portion,180, 20
+Tuesday,Lunch,Sliced Red Onion,Ounce,10, 0
+Tuesday,Lunch,Tri-Color Tortilla Strips,Ounce,140, 8
+Tuesday,Lunch,Captain Crunch Wildberries,Cup,180, 2.5
+Tuesday,Lunch,Cheerios,Cup,110, 2
+Tuesday,Lunch,Cinnamon Toast Crunch,Cup,210, 5
+Tuesday,Lunch,Frosted Flakes,Cup,320, 0
+Tuesday,Lunch,Rice Chex Cereal,Cup,180, 1
+Tuesday,Lunch,Special K with Red Berries,Cup,360, 1
+Tuesday,Lunch,French Rolls,"6"" Portion",null,null
+Tuesday,Lunch,"Honey Wheat Tortilla 12""",Tortilla,300, 8
+Tuesday,Lunch,Kettle Chips,Ounce,160, 9
+Tuesday,Lunch,"Multigrain Bread 5/8"" Slice",Slice,null,null
+Tuesday,Lunch,Sourdough Bread Slice,Slices,100, 1
+Tuesday,Lunch,"Spinach Tortilla 12""",Tortilla,300, 8
+Tuesday,Lunch,"Sundried Tomato Basil Tortilla 12""",Tortillas,310, 8
+Tuesday,Lunch,Telera Roll,3.5z,300, 4
+Tuesday,Lunch,Caramel Topping,Ounce,80, 0
+Tuesday,Lunch,Chocolate Soft Serve Ice Cream Mix,Cup,340, 12
+Tuesday,Lunch,Cone Cake Jacketed,Cone,null,null
+Tuesday,Lunch,Dole Whip Pineapple,1 Serving,110, 0.5
+Tuesday,Lunch,Dole Whip Strawberry,1 Serving,110, 0
+Tuesday,Lunch,Dutch Chocolate Syrup,Ounce,70, 0
+Tuesday,Lunch,Mini Semi-Sweet Choc Chips,Ounce,130, 8
+Tuesday,Lunch,Oreo Cookie Topping,Ounce,140, 5
+Tuesday,Lunch,Rainbow Sprinkles,Ounce,140, 7
+Tuesday,Lunch,Vanilla Soft Serve Ice Cream Mix,Cup,360, 13
+Tuesday,Lunch,Jalapeno Monterey Jack Cheese Slice,Slice,60, 5
+Tuesday,Lunch,Provolone Cheese Slice,Slice,70, 6
+Tuesday,Lunch,Sliced 0.75z Mild Cheddar Cheese,Slice,80, 7
+Tuesday,Lunch,Cooked & Crumbled Bacon,Ounce,160, 13
+Tuesday,Lunch,"Diced 3/8"" Bacon",1 Tbsp,60, 4.5
+Tuesday,Lunch,Grilled Chicken Breast Strip Fajita,Ounce,35, 1.5
+Tuesday,Lunch,Low Sodium Smoked Ham Slices,Ounce,30, 1
+Tuesday,Lunch,Oven Roasted Sliced Chicken,Ounce,null,null
+Tuesday,Lunch,Smoked Sliced Genoa Salami,Ounce,110, 9
+Tuesday,Lunch,Smoked Tempeh,Ounce,null,null
+Tuesday,Lunch,Tuna Salad,1z Portion,80, 7
+Tuesday,Lunch,Chicago-Style Hot Giardiniera,Fluid Oz,120, 12
+Tuesday,Lunch,Cucumber Slices,.25 cup,0, 0
+Tuesday,Lunch,Flat Leaf Spinach,Ounce,5, 0
+Tuesday,Lunch,Hamburger Sliced Dill Pickle Chip,Slice,0, 0
+Tuesday,Lunch,Mild Banana Pepper Ring,Ounce,5, 0
+Tuesday,Lunch,Shredded Iceberg Lettuce,Ounce,0, 0
+Tuesday,Lunch,Sliced Jalapeno Peppers,Tablespoon,0, 0
+Tuesday,Lunch,Sliced Red Onion,Ounce,10, 0
+Tuesday,Lunch,Tomatoes Sliced 1/4-inch,Pound,80, 1
+Tuesday,Lunch,Aged Balsamic Vinegar,Fluid Oz,40, 0
+Tuesday,Lunch,Black Pepper Grinder,Teaspoon,5, 0
+Tuesday,Lunch,Buttermilk Ranch Dressing,Ounce,130, 14
+Tuesday,Lunch,Chipotle Ranch Dressing,Fluid Oz,150, 16
+Tuesday,Lunch,Garlic Mayonnaise,1/2 oz,100, 10
+Tuesday,Lunch,Grinder Sea Salt,Gram,0, 0
+Tuesday,Lunch,Heavy Duty Mayonnaise,Tablespoon,100, 11
+Tuesday,Lunch,Mediterranean Extra Virgin Olive Oil,1 tbsp,120, 14
+Tuesday,Lunch,Plant Based Chipotle Ranch Dressing,2z Portion,180, 20
+Tuesday,Lunch,RedHot Buffalo Wing Sauce,Fluid Oz,0, 0
+Tuesday,Lunch,Vegan Mayonnaise,1 tbs,60, 7
+Tuesday,Lunch,Vinegar Red Wine,Fluid Oz,0, 0
+Tuesday,Lunch,Yellow Mustard,1 tsp,0, 0
+Tuesday,Lunch,Apple Gala,Apples,90, 0
+Tuesday,Lunch,Bananas,Banana,190, 0
+Tuesday,Lunch,Fresh Kiwi,Kiwi,60, 0
+Tuesday,Lunch,Oranges,Orange,100, 0
+Tuesday,Lunch,Pears,Each,null,null
+Tuesday,Lunch,American,Slice,70, 6
+Tuesday,Lunch,Angus Beef Frank,Frank,170, 16
+Tuesday,Lunch,Black Bean Burger,Patty,170, 5
+Tuesday,Lunch,Breaded Onion Tangler,3z portion,270, 17
+Tuesday,Lunch,Buns Hot Dog Bulk,Each,120, 1.5
+Tuesday,Lunch,Fried Eggs,Eggs,90, 7
+Tuesday,Lunch,Hamburger Bun,Buns,null,null
+Tuesday,Lunch,Hamburger Sliced Dill Pickle Chip,Slice,0, 0
+Tuesday,Lunch,Heavy Duty Mayonnaise,Tablespoon,100, 11
+Tuesday,Lunch,Homestyle Breaded Chicken Breast Fritter,Patty,230, 14
+Tuesday,Lunch,Natural Low Sodium Ketchup,Ounce,5, 0
+Tuesday,Lunch,Regular Cut Potato Fries,3z,110, 3.5
+Tuesday,Lunch,Sliced Red Onion,Ounce,10, 0
+Tuesday,Lunch,Smash Burger,Burgers,290, 23
+Tuesday,Lunch,Spicy Brown Mustard,Ounce,30, 0
+Tuesday,Lunch,Tomatoes,Ounce,5, 0
+Tuesday,Lunch,Yellow Mustard,1 tsp,0, 0
+Tuesday,Lunch,American Cheese Slice,Slice,50, 4.5
+Tuesday,Lunch,Jalapeno Monterey Jack Cheese Slice,Slice,60, 5
+Tuesday,Lunch,"Multigrain Bread 5/8"" Slice",Slice,null,null
+Tuesday,Lunch,Sliced 0.75z Mild Cheddar Cheese,Slice,80, 7
+Tuesday,Lunch,Sourdough Bread Slice,Slices,100, 1
+Tuesday,Lunch,"White Pullman Bread 0.5"" Slice",Slices,60, 0.5
+Tuesday,Lunch,Baked Sweet Potato,Potatoes,120, 1.5
+Tuesday,Lunch,Cajun Buttered French Baguette,8 piece cut,130, 6
+Tuesday,Lunch,Casablanca Stew,5z Portion,70,null
+Tuesday,Lunch,Corn,4z Portion,90, 1
+Tuesday,Lunch,Garden Herb Chicken Breast,3.25z Tender,80, 0
+Tuesday,Lunch,Sauteed Spinach with Garlic,3z Portion,130, 13
+Tuesday,Lunch,Steamed Brown Rice,4z Portion,140, 1
+Tuesday,Lunch,"10"" Flour Tortilla",Tortilla,170, 4.5
+Tuesday,Lunch,Egg White Liquid,Ounce,15, 0
+Tuesday,Lunch,Large Fresh Eggs,Eggs,100, 7
+Tuesday,Lunch,Zero Egg Plant Based Egg Liquid,Ounce,25, 1.5
+Tuesday,Lunch,Daiya Vegan Shredded Mozzarella Cheese,Ounce,80, 5
+Tuesday,Lunch,Shredded Mild Cheddar Cheese,Ounce,110, 9
+Tuesday,Lunch,Shredded Part-Skim Mozzarella Cheese,1z Portion,80, 6
+Tuesday,Lunch,Cooked Sausage Crumble,1z Portion,120, 12
+Tuesday,Lunch,"Diced 3/8"" Bacon",1 Tbsp,60, 4.5
+Tuesday,Lunch,Diced Green Peppers,Ounce,5, 0
+Tuesday,Lunch,Diced Onions,Ounce,10, 0
+Tuesday,Lunch,Diced Tomatoes,Ounce,0, 0
+Tuesday,Lunch,Plant Based Chorizo Sausage Crumble,2z Portion,140, 5
+Tuesday,Lunch,Sliced Mushrooms,Tablespoon,0, 0
+Tuesday,Lunch,Spinach,Ounce,5, 0
+Tuesday,Lunch,"Water-Added Ham Diced 1/4""",Ounce,35, 1.5
+Tuesday,Lunch,Broccoli Florets,Ounce,10, 0
+Tuesday,Lunch,Sauteed Sliced Mushrooms,1z Portion,15, 1
+Tuesday,Lunch,Tomato Cherry Red Halves,2 Halves,0, 0
+Tuesday,Lunch,Chunk Italian Sausage,Ounce,90, 8
+Tuesday,Lunch,Grilled Chicken Breast Strip Fajita,Ounce,35, 1.5
+Tuesday,Lunch,Shrimp,1 Shrimp,5, 0
+Tuesday,Lunch,Elbow Macaroni Pasta,4z Portion,220, 5
+Tuesday,Lunch,Penne Pasta,3z Portion,170, 4.5
+Tuesday,Lunch,Tri-Color Tortellini,4z Portion,280, 8
+Tuesday,Lunch,Alfredo Sauce,Ounce,70, 6
+Tuesday,Lunch,Basil Pesto Sauce,1/4 Cup,320, 34
+Tuesday,Lunch,Diavolo Sauce,2 Flz Portion,90, 8
+Tuesday,Lunch,Marinara Sauce,Ounce,15, 0.5
+Tuesday,Lunch,Balsamic Vinegar,Teaspoon,0, 0
+Tuesday,Lunch,Basil,Ounce,0, 0
+Tuesday,Lunch,Garlic Minced Prep,Ounce,35, 0
+Tuesday,Lunch,Grated Parmesan Cheese,Tablespoon,30, 2.5
+Tuesday,Lunch,Mediterranean Extra Virgin Olive Oil,1 tbsp,120, 14
+Tuesday,Lunch,Parsley Ital Fresh Clnd,Tablespoon,0, 0
+Tuesday,Lunch,Pepper Red Crushed,Teaspoon,0, 0
+Tuesday,Lunch,Shallots Minced Prep,Ounce,15, 0
+Tuesday,Lunch,Cheese Pizza,Piece -U,140, 5
+Tuesday,Lunch,Pepperoni Pizza,Piece -U,160, 8
+Tuesday,Lunch,Supreme Pizza,16-Cut Slice,170, 8
+Tuesday,Lunch,Baked Sweet Potato,Potatoes,120, 1.5
+Tuesday,Lunch,Classic Vegan Kimchi,Ounce,10, 0
+Tuesday,Lunch,Firm Tofu,1/4 cup,60, 3
+Tuesday,Lunch,Flax Seed,Ounce,150, 12
+Tuesday,Lunch,High Protein Grain BleND,3z portion,190,null
+Tuesday,Lunch,Marinated Quarter Artichoke Heart,Ounce,15, 1
+Tuesday,Lunch,Marinated Tofu,4z Portion,110, 5
+Tuesday,Lunch,Nutritional Yeast,Gram,null,null
+Tuesday,Lunch,Organic Black Chia Seed,Ounce,140, 9
+Tuesday,Lunch,Roasted & Salted Sunflower Seeds,1 Tablespoon,90, 7
+Tuesday,Lunch,Salt & Peppercorn Roasted Cauliflower,Ounce,0, 0
+Tuesday,Lunch,Shredded Kale,Ounce,15, 0
+Tuesday,Lunch,Sliced Almonds,Tablespoon,90, 8
+Tuesday,Lunch,Walnuts Halves & Pieces,Tablespoon,50, 5
+Tuesday,Lunch,"10"" Flour Tortilla",Tortilla,170, 4.5
+Tuesday,Lunch,Chicken Taco Meat,2z Portion,140, 2
+Tuesday,Lunch,Chipotle Ranch Dressing,Fluid Oz,150, 16
+Tuesday,Lunch,Flame-Roasted Corn & Peppers,4z Portion,160, 5
+Tuesday,Lunch,Grilled Steak Strips,2z Portion,120, 6
+Tuesday,Lunch,House-made Guacamole,3z Portion,100, 9
+Tuesday,Lunch,Mexican Rice,Ounce,80, 0
+Tuesday,Lunch,Pico de Gallo,2z Portion,10, 0
+Tuesday,Lunch,Queso Rico Chihuahua Cheese,Ounce,100, 8
+Tuesday,Lunch,Sliced Jalapeno Peppers,Tablespoon,0, 0
+Tuesday,Lunch,Sour Cream 5lb,2 Tbsp,60, 5
+Tuesday,Lunch,Vegan Refried Beans,1.6z Portion,150, 1.5
+Tuesday,Lunch,Black Beans,Ounce,25, 0
+Tuesday,Lunch,Carrots,Tablespoon,0, 0
+Tuesday,Lunch,Chopped Eggs,.5z Portion,25, 1.5
+Tuesday,Lunch,Classic Edamame,Tablespoon,15, 0.5
+Tuesday,Lunch,Crispy Fried French Onion,Ounce,160, 12
+Tuesday,Lunch,Cucumber Slices,Slices,0, 0
+Tuesday,Lunch,Diced Tomatoes,Ounce,0, 0
+Tuesday,Lunch,Feta Cheese Crumbles,Ounce,5, 0.5
+Tuesday,Lunch,Iceberg Salad Mix,1 cup portion,5, 0
+Tuesday,Lunch,Large Seasoned Crouton,Ounce,120, 4
+Tuesday,Lunch,Locally Grown Salad Greens,Ounce,0, 0
+Tuesday,Lunch,Low Sodium Garbanzo Beans,Ounce,30, 0
+Tuesday,Lunch,Mini Marshmallows,Ounce,90, 0
+Tuesday,Lunch,Shredded Mild Cheddar Cheese,Ounce,110, 9
+Tuesday,Lunch,Sliced Mushrooms,Tablespoon,0, 0
+Tuesday,Lunch,Sliced Red Onion,Ounce,10, 0
+Tuesday,Lunch,Spiced Pumpkin Seeds,Tablespoon,45, 3
+Tuesday,Lunch,Spinach,Ounce,5, 0
+Tuesday,Lunch,Tri Color Peppers,Portion,25, 1.5
+Tuesday,Lunch,Tuna,1/4 Cup,35, 0
+Tuesday,Lunch,Balsamic Vinaigrette Dressing in Bottle,Ounce,60, 4.5
+Tuesday,Lunch,Buttermilk Ranch Dressing,Ounce,130, 14
+Tuesday,Lunch,Country French Dressing,Ounce,120, 11
+Tuesday,Lunch,Creamy Caesar Dressing,Fluid Oz,140, 15
+Tuesday,Lunch,Fat Free Raspberry Vinaigrette Dressing,Fluid Oz,35, 0
+Tuesday,Lunch,Lite Ranch Dressing,Ounce,70, 7
+Tuesday,Lunch,Plant Based Ranch Dressing,2z Portion,210, 22
+Tuesday,Lunch,Creamy Tomato Soup,6 Flz,90, 1.5
+Tuesday,Lunch,"100% Whole Wheat Bread 1/2"" Slice",Slice,70, 0.5
+Tuesday,Lunch,Avocado Pulp Fresh,Ounce,70, 6
+Tuesday,Lunch,Cream Cheese,Ounce,90, 9
+Tuesday,Lunch,Everything Bagel,"Bagel
+Bagel",340, 4.5
+Tuesday,Lunch,Jif Peanut Butter PC,0.75z,120, 10
+Tuesday,Lunch,Nutella Chocolate Hazelnut Spread,Ounce,150, 9
+Tuesday,Lunch,Plain Bagel,Bagel,320, 1
+Tuesday,Lunch,Sliced Tomatoes,Ounce,0, 0
+Tuesday,Lunch,Unsalted European-Style Butter Prints,Ounce,220, 24
+Tuesday,Lunch,"White Pullman Bread 0.5"" Slice",Slices,60, 0.5
+Tuesday,Lunch,Whole Wheat Bagel,Bagel,320, 1.5
+Tuesday,Lunch,Baby Carrots,3 Carrots,10, 0
+Tuesday,Lunch,Celery Sticks,Ounce,0, 0
+Tuesday,Lunch,Classic Quinoa & Lentil Salad,3z Portion,200, 9
+Tuesday,Lunch,Daiya Vegan Shredded Mozzarella Cheese,Ounce,80, 5
+Tuesday,Lunch,Fresh Avocado,Ounce,45, 4.5
+Tuesday,Lunch,Hummus with Tahini,1z Portion,70, 5
+Tuesday,Lunch,Kalamata Olive Hummus,1z Portion,70, 6
+Tuesday,Lunch,Raw Mediterranean Pita Chips,1 oz portion,70, 0.5
+Tuesday,Lunch,Roasted Garlic Hummus,1z Portion,70, 5
+Tuesday,Lunch,Roasted Red Pepper Hummus,1z Portion,60, 4
+Tuesday,Lunch,Blueberry Yogurt,Ounce,20, 0
+Tuesday,Lunch,Nature Valley Toasted Granola Oat,Ounce,130, 4.5
+Tuesday,Lunch,Plain Greek Yogurt,Ounce,15, 0
+Tuesday,Lunch,Small Curd Cottage Cheese,1/2 Cup,100, 5
+Tuesday,Lunch,Strawberry Yogurt,Ounce,20, 0
+Tuesday,Lunch,Vanilla Yogurt,Ounce,20, 0
+Tuesday,Dinner,2% Chocolate Milk BIB,1 Cup,170, 5
+Tuesday,Dinner,2% Milk BIB,8 flz,120, 5
+Tuesday,Dinner,Apple Juice 6:1 Concentrate,1/2 hall glass,10, 0
+Tuesday,Dinner,Cherry Coke,1 dining hall glass,null,null
+Tuesday,Dinner,Coke Classic,1 dining hall glass,null,null
+Tuesday,Dinner,Coke Zero,8flz,null,null
+Tuesday,Dinner,Cranberry Juice 4.7:1 Concentrate,1/2 hall glass,70, 0
+Tuesday,Dinner,Diet Coke,1 dining hall glass,null,null
+Tuesday,Dinner,Diet Sprite,Fluid Oz,0, 0
+Tuesday,Dinner,Milk Soy Vanilla Aseptic Silk,8z,null,null
+Tuesday,Dinner,Orange Juice 5:1 Concentrate,1/2 hall glass,15, 0
+Tuesday,Dinner,Original Style Lemonade,1 dining hall glass,null,null
+Tuesday,Dinner,Original Unsweetened Almond Milk,6z Portion,60, 2
+Tuesday,Dinner,Pibb Xtra,1 dining hall glass,null,null
+Tuesday,Dinner,Powerade Mountain Blast,1 dining hall glass,null,null
+Tuesday,Dinner,Root Beer,1 dining hall glass,null,null
+Tuesday,Dinner,Skim Milk BIB,8 flz,80, 0
+Tuesday,Dinner,Sprite,1 dining hall glass,null,null
+Tuesday,Dinner,Unsweetened Vanilla Almond Milk,6z Portion,20, 1.5
+Tuesday,Dinner,Brewed coffee,6z Portion,0,null
+Tuesday,Dinner,Coffeemate Original,Fluid Oz,30, 3
+Tuesday,Dinner,Creamer French Vanilla Coffeemate 1.5L,Fluid Oz,60, 3.5
+Tuesday,Dinner,ecoStick Organic White Sugar Stick,"Stick
+Stick",10, 0
+Tuesday,Dinner,ecoStick Sugar Substitute Blue Pc,Stick,0, 0
+Tuesday,Dinner,ecoStick Sugar Substitute Pink Pc,Stick,0, 0
+Tuesday,Dinner,ecoStick Sugar Substitute Yellow Pc,Stick,0, 0
+Tuesday,Dinner,Extra Lite Amber Honey,Ounce,80, 0
+Tuesday,Dinner,Green Tea Bag,Tea Bag,0, 0
+Tuesday,Dinner,Hazelnut Coffee Creamer,Fluid Oz,10, 0
+Tuesday,Dinner,Lipton Black Tea Bag,Tea Bag,0, 0
+Tuesday,Dinner,Lipton Tea Decaf,Tea Bag,null,null
+Tuesday,Dinner,Chicken Fried Rice,4z Portion,250,null
+Tuesday,Dinner,Fortune Cookie,Cookie,10, 0
+Tuesday,Dinner,Soy Sauce,Ounce,20, 0
+Tuesday,Dinner,Sriracha Sauce,Teaspoon,0, 0
+Tuesday,Dinner,Steamed BBQ Pork Buns,2z,null,null
+Tuesday,Dinner,Steamed Brown Rice,4z Portion,140, 1
+Tuesday,Dinner,Steamed Long Grain Rice,4z Portion,530, 0
+Tuesday,Dinner,Steamed Plant Based Pot Sticker,Pot Sticker,0,null
+Tuesday,Dinner,Sweet & Sour Sauce,Fluid Oz,30, 0
+Tuesday,Dinner,Szechuan Beef Stir-Fry,6z portion,240, 11
+Tuesday,Dinner,Captain Crunch Wildberries,Cup,180, 2.5
+Tuesday,Dinner,Cheerios,Cup,110, 2
+Tuesday,Dinner,Cinnamon Toast Crunch,Cup,210, 5
+Tuesday,Dinner,Frosted Flakes,Cup,320, 0
+Tuesday,Dinner,Rice Chex Cereal,Cup,180, 1
+Tuesday,Dinner,Special K with Red Berries,Cup,360, 1
+Tuesday,Dinner,French Rolls,"6"" Portion",null,null
+Tuesday,Dinner,"Honey Wheat Tortilla 12""",Tortilla,300, 8
+Tuesday,Dinner,Kettle Chips,Ounce,160, 9
+Tuesday,Dinner,"Multigrain Bread 5/8"" Slice",Slice,null,null
+Tuesday,Dinner,Sourdough Bread Slice,Slices,100, 1
+Tuesday,Dinner,"Spinach Tortilla 12""",Tortilla,300, 8
+Tuesday,Dinner,"Sundried Tomato Basil Tortilla 12""",Tortillas,310, 8
+Tuesday,Dinner,Telera Roll,3.5z,300, 4
+Tuesday,Dinner,Caramel Topping,Ounce,80, 0
+Tuesday,Dinner,Chocolate Soft Serve Ice Cream Mix,Cup,340, 12
+Tuesday,Dinner,Cone Cake Jacketed,Cone,null,null
+Tuesday,Dinner,Dole Whip Pineapple,1 Serving,110, 0.5
+Tuesday,Dinner,Dole Whip Strawberry,1 Serving,110, 0
+Tuesday,Dinner,Dutch Chocolate Syrup,Ounce,70, 0
+Tuesday,Dinner,Mini Semi-Sweet Choc Chips,Ounce,130, 8
+Tuesday,Dinner,Oreo Cookie Topping,Ounce,140, 5
+Tuesday,Dinner,Rainbow Sprinkles,Ounce,140, 7
+Tuesday,Dinner,Vanilla Soft Serve Ice Cream Mix,Cup,360, 13
+Tuesday,Dinner,Jalapeno Monterey Jack Cheese Slice,Slice,60, 5
+Tuesday,Dinner,Provolone Cheese Slice,Slice,70, 6
+Tuesday,Dinner,Sliced 0.75z Mild Cheddar Cheese,Slice,80, 7
+Tuesday,Dinner,Cooked & Crumbled Bacon,Ounce,160, 13
+Tuesday,Dinner,"Diced 3/8"" Bacon",1 Tbsp,60, 4.5
+Tuesday,Dinner,Grilled Chicken Breast Strip Fajita,Ounce,35, 1.5
+Tuesday,Dinner,Low Sodium Smoked Ham Slices,Ounce,30, 1
+Tuesday,Dinner,Oven Roasted Sliced Chicken,Ounce,null,null
+Tuesday,Dinner,Smoked Sliced Genoa Salami,Ounce,110, 9
+Tuesday,Dinner,Smoked Tempeh,Ounce,null,null
+Tuesday,Dinner,Tuna Salad,1z Portion,80, 7
+Tuesday,Dinner,Chicago-Style Hot Giardiniera,Fluid Oz,120, 12
+Tuesday,Dinner,Cucumber Slices,.25 cup,0, 0
+Tuesday,Dinner,Flat Leaf Spinach,Ounce,5, 0
+Tuesday,Dinner,Hamburger Sliced Dill Pickle Chip,Slice,0, 0
+Tuesday,Dinner,Mild Banana Pepper Ring,Ounce,5, 0
+Tuesday,Dinner,Shredded Iceberg Lettuce,Ounce,0, 0
+Tuesday,Dinner,Sliced Jalapeno Peppers,Tablespoon,0, 0
+Tuesday,Dinner,Sliced Red Onion,Ounce,10, 0
+Tuesday,Dinner,Tomatoes Sliced 1/4-inch,Pound,80, 1
+Tuesday,Dinner,Aged Balsamic Vinegar,Fluid Oz,40, 0
+Tuesday,Dinner,Black Pepper Grinder,Teaspoon,5, 0
+Tuesday,Dinner,Buttermilk Ranch Dressing,Ounce,130, 14
+Tuesday,Dinner,Chipotle Ranch Dressing,Fluid Oz,150, 16
+Tuesday,Dinner,Garlic Mayonnaise,1/2 oz,100, 10
+Tuesday,Dinner,Grinder Sea Salt,Gram,0, 0
+Tuesday,Dinner,Heavy Duty Mayonnaise,Tablespoon,100, 11
+Tuesday,Dinner,Mediterranean Extra Virgin Olive Oil,1 tbsp,120, 14
+Tuesday,Dinner,Plant Based Chipotle Ranch Dressing,2z Portion,180, 20
+Tuesday,Dinner,RedHot Buffalo Wing Sauce,Fluid Oz,0, 0
+Tuesday,Dinner,Vegan Mayonnaise,1 tbs,60, 7
+Tuesday,Dinner,Vinegar Red Wine,Fluid Oz,0, 0
+Tuesday,Dinner,Yellow Mustard,1 tsp,0, 0
+Tuesday,Dinner,Apple Gala,Apples,90, 0
+Tuesday,Dinner,Bananas,Banana,190, 0
+Tuesday,Dinner,Fresh Kiwi,Kiwi,60, 0
+Tuesday,Dinner,Oranges,Orange,100, 0
+Tuesday,Dinner,Pears,Each,null,null
+Tuesday,Dinner,American,Slice,70, 6
+Tuesday,Dinner,Angus Beef Frank,Frank,170, 16
+Tuesday,Dinner,Black Bean Burger,Patty,170, 5
+Tuesday,Dinner,Breaded Onion Tangler,3z portion,270, 17
+Tuesday,Dinner,Buns Hot Dog Bulk,Each,120, 1.5
+Tuesday,Dinner,Fried Eggs,Eggs,90, 7
+Tuesday,Dinner,Hamburger Bun,Buns,null,null
+Tuesday,Dinner,Hamburger Sliced Dill Pickle Chip,Slice,0, 0
+Tuesday,Dinner,Heavy Duty Mayonnaise,Tablespoon,100, 11
+Tuesday,Dinner,Homestyle Breaded Chicken Breast Fritter,Patty,230, 14
+Tuesday,Dinner,Natural Low Sodium Ketchup,Ounce,5, 0
+Tuesday,Dinner,Regular Cut Potato Fries,3z,110, 3.5
+Tuesday,Dinner,Sliced Red Onion,Ounce,10, 0
+Tuesday,Dinner,Smash Burger,Burgers,290, 23
+Tuesday,Dinner,Spicy Brown Mustard,Ounce,30, 0
+Tuesday,Dinner,Tomatoes,Ounce,5, 0
+Tuesday,Dinner,Yellow Mustard,1 tsp,0, 0
+Tuesday,Dinner,American Cheese Slice,Slice,50, 4.5
+Tuesday,Dinner,Jalapeno Monterey Jack Cheese Slice,Slice,60, 5
+Tuesday,Dinner,"Multigrain Bread 5/8"" Slice",Slice,null,null
+Tuesday,Dinner,Sliced 0.75z Mild Cheddar Cheese,Slice,80, 7
+Tuesday,Dinner,Sourdough Bread Slice,Slices,100, 1
+Tuesday,Dinner,"White Pullman Bread 0.5"" Slice",Slices,60, 0.5
+Tuesday,Dinner,Baked Sweet Potato,Potatoes,120, 1.5
+Tuesday,Dinner,Char-Grilled Plum Tomato Halves,1 Half,80, 9
+Tuesday,Dinner,Fingerling Potatoes,6z Portion,210, 6
+Tuesday,Dinner,Garden Herb Chicken Breast,3.25z Tender,80, 0
+Tuesday,Dinner,Grain Medley with Goat Cheese,3z Portion,230, 6
+Tuesday,Dinner,High Protein Grain BleND,3z portion,190,null
+Tuesday,Dinner,Lemon Parmesan Tilapia,4.5z Portion,270, 16
+Tuesday,Dinner,Old Bay BBQ Rotisserie Chicken,Quarter,450, 32
+Tuesday,Dinner,Quinoa Grain Blend,3z Portion,100,null
+Tuesday,Dinner,Salt & Peppercorn Roasted Cauliflower,Ounce,0, 0
+Tuesday,Dinner,8z Pizza Dough,8z,480, 4
+Tuesday,Dinner,Alfredo Sauce,Ounce,70, 6
+Tuesday,Dinner,Basil Pesto without Nuts,1 Flz Portion,140, 15
+Tuesday,Dinner,Grated Parmesan Cheese,Tablespoon,30, 2.5
+Tuesday,Dinner,Pepper Red Crushed,Teaspoon,0, 0
+Tuesday,Dinner,Seasoned Pizza Sauce with Oil,Ounce,15, 0
+Tuesday,Dinner,Shredded Mild Cheddar Cheese,Ounce,110, 9
+Tuesday,Dinner,Shredded Part-Skim Mozzarella Cheese,1z Portion,80, 6
+Tuesday,Dinner,Beef Meatball 0.5z,.5z meatball,45, 3.5
+Tuesday,Dinner,Chunk Italian Sausage,Ounce,90, 8
+Tuesday,Dinner,Grilled Chicken Breast Strip Fajita,Ounce,35, 1.5
+Tuesday,Dinner,Onion Sliced,Ounce,15, 0.5
+Tuesday,Dinner,Pepperoni Sliced,Slices,10, 1
+Tuesday,Dinner,Pineapple Tidbit in Unsweetened Juice,2 Ounce,30, 0
+Tuesday,Dinner,Plant based Sliced Italian Sausage,3 oz portion,170, 9
+Tuesday,Dinner,Sliced Jalapeno Peppers,Tablespoon,0, 0
+Tuesday,Dinner,Sliced Mushrooms,Tablespoon,0, 0
+Tuesday,Dinner,Sliced Spanish Black Ripe Olive,Tablespoon,25, 2
+Tuesday,Dinner,Tri Color Peppers,Portion,25, 1.5
+Tuesday,Dinner,"Water-Added Ham Diced 1/4""",Ounce,35, 1.5
+Tuesday,Dinner,Black Olive Slices,1z Portion,50, 3.5
+Tuesday,Dinner,Chicken Taco Meat,2z,90, 4.5
+Tuesday,Dinner,Chicken Taco Meat,2z Portion,140, 2
+Tuesday,Dinner,Diced Onions,Ounce,10, 0
+Tuesday,Dinner,"Flour Tortilla 6""",6in tortilla,100, 3
+Tuesday,Dinner,Gonzalo's Rice,3z portion,370, 3.5
+Tuesday,Dinner,House-made Guacamole,3z Portion,100, 9
+Tuesday,Dinner,Pico de Gallo,2z Portion,10, 0
+Tuesday,Dinner,Pork Carnitas,Pound,590, 37
+Tuesday,Dinner,Shredded Iceberg Lettuce,Ounce,0, 0
+Tuesday,Dinner,Sliced Jalapeno Peppers,Tablespoon,0, 0
+Tuesday,Dinner,Sour Cream 5lb,Tablespoon,30, 2.5
+Tuesday,Dinner,Thick & Chuncky Mild Salsa,Ounce,10, 0
+Tuesday,Dinner,Vegetarian Refried Bean,Ounce,100, 1
+Tuesday,Dinner,"White Corn Tortilla 6""",6in Tortilla,60, 0.5
+Tuesday,Dinner,Broccoli Florets,Ounce,10, 0
+Tuesday,Dinner,Sauteed Sliced Mushrooms,1z Portion,15, 1
+Tuesday,Dinner,Tomato Cherry Red Halves,2 Halves,0, 0
+Tuesday,Dinner,Chunk Italian Sausage,Ounce,90, 8
+Tuesday,Dinner,Grilled Chicken Breast Strip Fajita,Ounce,35, 1.5
+Tuesday,Dinner,Shrimp,1 Shrimp,5, 0
+Tuesday,Dinner,Elbow Macaroni Pasta,4z Portion,220, 5
+Tuesday,Dinner,Penne Pasta,3z Portion,170, 4.5
+Tuesday,Dinner,Tri-Color Tortellini,4z Portion,280, 8
+Tuesday,Dinner,Alfredo Sauce,Ounce,70, 6
+Tuesday,Dinner,Basil Pesto Sauce,1/4 Cup,320, 34
+Tuesday,Dinner,Diavolo Sauce,2 Flz Portion,90, 8
+Tuesday,Dinner,Marinara Sauce,Ounce,15, 0.5
+Tuesday,Dinner,Balsamic Vinegar,Teaspoon,0, 0
+Tuesday,Dinner,Basil,Ounce,0, 0
+Tuesday,Dinner,Garlic Minced Prep,Ounce,35, 0
+Tuesday,Dinner,Grated Parmesan Cheese,Tablespoon,30, 2.5
+Tuesday,Dinner,Mediterranean Extra Virgin Olive Oil,1 tbsp,120, 14
+Tuesday,Dinner,Parsley Ital Fresh Clnd,Tablespoon,0, 0
+Tuesday,Dinner,Pepper Red Crushed,Teaspoon,0, 0
+Tuesday,Dinner,Shallots Minced Prep,Ounce,15, 0
+Tuesday,Dinner,Alfredo Sauce,Ounce,70, 6
+Tuesday,Dinner,Basil Pesto without Nuts,1 Flz Portion,140, 15
+Tuesday,Dinner,Cavatappi Pasta,1/2 Cup,220, 5
+Tuesday,Dinner,Garlic Bread Stick,Breadstick,150, 6
+Tuesday,Dinner,Italian Beef & Pork Cheese Meatball,Meatball,40, 3
+Tuesday,Dinner,Marinara Sauce,Ounce,15, 0.5
+Tuesday,Dinner,Plant based Sliced Italian Sausage,3 oz portion,170, 9
+Tuesday,Dinner,Rigate Penne Pasta,4z Portion,170, 1.5
+Tuesday,Dinner,Baked Sweet Potato,Potatoes,120, 1.5
+Tuesday,Dinner,Classic Vegan Kimchi,Ounce,10, 0
+Tuesday,Dinner,Firm Tofu,1/4 cup,60, 3
+Tuesday,Dinner,Flax Seed,Ounce,150, 12
+Tuesday,Dinner,High Protein Grain BleND,3z portion,190,null
+Tuesday,Dinner,Marinated Quarter Artichoke Heart,Ounce,15, 1
+Tuesday,Dinner,Marinated Tofu,4z Portion,110, 5
+Tuesday,Dinner,Nutritional Yeast,Gram,null,null
+Tuesday,Dinner,Organic Black Chia Seed,Ounce,140, 9
+Tuesday,Dinner,Roasted & Salted Sunflower Seeds,1 Tablespoon,90, 7
+Tuesday,Dinner,Salt & Peppercorn Roasted Cauliflower,Ounce,0, 0
+Tuesday,Dinner,Shredded Kale,Ounce,15, 0
+Tuesday,Dinner,Sliced Almonds,Tablespoon,90, 8
+Tuesday,Dinner,Walnuts Halves & Pieces,Tablespoon,50, 5
+Tuesday,Dinner,Black Beans,Ounce,25, 0
+Tuesday,Dinner,Carrots,Tablespoon,0, 0
+Tuesday,Dinner,Chopped Eggs,.5z Portion,25, 1.5
+Tuesday,Dinner,Classic Edamame,Tablespoon,15, 0.5
+Tuesday,Dinner,Crispy Fried French Onion,Ounce,160, 12
+Tuesday,Dinner,Cucumber Slices,Slices,0, 0
+Tuesday,Dinner,Diced Tomatoes,Ounce,0, 0
+Tuesday,Dinner,Feta Cheese Crumbles,Ounce,5, 0.5
+Tuesday,Dinner,Iceberg Salad Mix,1 cup portion,5, 0
+Tuesday,Dinner,Large Seasoned Crouton,Ounce,120, 4
+Tuesday,Dinner,Locally Grown Salad Greens,Ounce,0, 0
+Tuesday,Dinner,Low Sodium Garbanzo Beans,Ounce,30, 0
+Tuesday,Dinner,Mini Marshmallows,Ounce,90, 0
+Tuesday,Dinner,Shredded Mild Cheddar Cheese,Ounce,110, 9
+Tuesday,Dinner,Sliced Mushrooms,Tablespoon,0, 0
+Tuesday,Dinner,Sliced Red Onion,Ounce,10, 0
+Tuesday,Dinner,Spiced Pumpkin Seeds,Tablespoon,45, 3
+Tuesday,Dinner,Spinach,Ounce,5, 0
+Tuesday,Dinner,Tri Color Peppers,Portion,25, 1.5
+Tuesday,Dinner,Tuna,1/4 Cup,35, 0
+Tuesday,Dinner,Balsamic Vinaigrette Dressing in Bottle,Ounce,60, 4.5
+Tuesday,Dinner,Buttermilk Ranch Dressing,Ounce,130, 14
+Tuesday,Dinner,Country French Dressing,Ounce,120, 11
+Tuesday,Dinner,Creamy Caesar Dressing,Fluid Oz,140, 15
+Tuesday,Dinner,Fat Free Raspberry Vinaigrette Dressing,Fluid Oz,35, 0
+Tuesday,Dinner,Lite Ranch Dressing,Ounce,70, 7
+Tuesday,Dinner,Plant Based Ranch Dressing,2z Portion,210, 22
+Tuesday,Dinner,Creamy Tomato Soup,6 Flz,90, 1.5
+Tuesday,Dinner,Baby Carrots,3 Carrots,10, 0
+Tuesday,Dinner,Celery Sticks,Ounce,0, 0
+Tuesday,Dinner,Classic Quinoa & Lentil Salad,3z Portion,200, 9
+Tuesday,Dinner,Daiya Vegan Shredded Mozzarella Cheese,Ounce,80, 5
+Tuesday,Dinner,Fresh Avocado,Ounce,45, 4.5
+Tuesday,Dinner,Hummus with Tahini,1z Portion,70, 5
+Tuesday,Dinner,Kalamata Olive Hummus,1z Portion,70, 6
+Tuesday,Dinner,Raw Mediterranean Pita Chips,1 oz portion,70, 0.5
+Tuesday,Dinner,Roasted Garlic Hummus,1z Portion,70, 5
+Tuesday,Dinner,Roasted Red Pepper Hummus,1z Portion,60, 4
+Tuesday,Dinner,Broccoli Florets,4z Portion,35, 0
+Tuesday,Dinner,Blueberry Yogurt,Ounce,20, 0
+Tuesday,Dinner,Nature Valley Toasted Granola Oat,Ounce,130, 4.5
+Tuesday,Dinner,Plain Greek Yogurt,Ounce,15, 0
+Tuesday,Dinner,Small Curd Cottage Cheese,1/2 Cup,100, 5
+Tuesday,Dinner,Strawberry Yogurt,Ounce,20, 0
+Tuesday,Dinner,Vanilla Yogurt,Ounce,20, 0
+Wednesday,Breakfast,Bar Kind Caramel Sea Salt Almond 1.4z,1.4z bar,200, 16
+Wednesday,Breakfast,Bar Kind Crnbry Almond 12ct,1.4z bar,190, 13
+Wednesday,Breakfast,Bar Kind Dk Choc Cherry Cashew 12ct,1.4z bar,170, 10
+Wednesday,Breakfast,Bar Pure Protein Chewy Choc Chip 50g,Bar,null,null
+Wednesday,Breakfast,Bar Pure Protein Choc Delux 50g,Bar,null,null
+Wednesday,Breakfast,Bar Pure Protein Choc PB 50g,Bar,null,null
+Wednesday,Breakfast,Bar Quest Birthday Cake 2.12z,2.12z bar,null,null
+Wednesday,Breakfast,Bar Quest Cookies & Cream,2.12z bar,null,null
+Wednesday,Breakfast,Beef Cup of Noodles,Pkg,null,null
+Wednesday,Breakfast,Biscuit Belvita Blbry,Bar,230, 8
+Wednesday,Breakfast,Biscuit Belvita Cinn & Brn Sugar 1.76z,1.76z bar,null,null
+Wednesday,Breakfast,California Seedless Raisins,Ounce,80, 0
+Wednesday,Breakfast,Cheerios Bowl,1ct,130, 2.5
+Wednesday,Breakfast,Cheese Stick Colby Jack Sargento 1z,1z stick,60, 2.5
+Wednesday,Breakfast,Cheese Stick Mild Cheddar Sargento 1z,1z stick,60, 2.5
+Wednesday,Breakfast,Cheese Stick Pepper Jack,0.83z,50, 2
+Wednesday,Breakfast,Cheez It,Ounce,130, 4.5
+Wednesday,Breakfast,Chef's Salad,Salad,290, 19
+Wednesday,Breakfast,Chip Pringles Cheezums,1.41z,210, 14
+Wednesday,Breakfast,Chocolate Snack Pudding,3.5z Cup,110, 2.5
+Wednesday,Breakfast,Cinnamon Graham Cracker Tiger Bites,1z,120, 4
+Wednesday,Breakfast,Crunchmania Cinnamon Snack Bun,1.76z,210, 7
+Wednesday,Breakfast,Frosted Blueberry Pop Tarts,2 Pop Tarts,370, 9
+Wednesday,Breakfast,Frosted Brown Sugar Pop Tarts,2 Pop Tarts,0, 14
+Wednesday,Breakfast,Frosted Flakes,Cup,320, 0
+Wednesday,Breakfast,Frosted Strawberry Pop Tarts,8ct box,1480, 36
+Wednesday,Breakfast,Fruit Rollups,0.5z,50, 1
+Wednesday,Breakfast,Garden Salad,Salad,35, 0
+Wednesday,Breakfast,Gourmet Chocolate Chunk Cookie,2.5z cookie,320, 14
+Wednesday,Breakfast,Healthy Grain Dk Choc Chnk Kind Bar,1.4z Bar,170, 5
+Wednesday,Breakfast,Heart Healthy Mix Planters 9.75z,9.75z,null,null
+Wednesday,Breakfast,Ice Cream Mochi Cookie n Cream,1.5z,null,null
+Wednesday,Breakfast,Ice Cream Mochi Dbl Choc,1.5z,null,null
+Wednesday,Breakfast,Ice Cream Mochi Mango,1ct,null,null
+Wednesday,Breakfast,Ice Cream Mochi Strbry,1.5z,null,null
+Wednesday,Breakfast,Lucky Charms Bowl,Bowl,140, 1.5
+Wednesday,Breakfast,Mandarin Orange in Juice Cup,4.5z,50, 0
+Wednesday,Breakfast,Maruchan Cup of Noodles Chix 2.25z cup,2.25z,null,null
+Wednesday,Breakfast,Mayonnaise Packet,12gm packet,80, 9
+Wednesday,Breakfast,Milk Almond Silk Dk Choc,8z Cont.,null,null
+Wednesday,Breakfast,Mini Oreo Cookie,Bags,190, 10
+Wednesday,Breakfast,Mozzarella Cheese String,Each,80, 6
+Wednesday,Breakfast,Mustard Pc,.2z Pkt,0, 0
+Wednesday,Breakfast,Oat & Honey Nature Valley Granola Bar,1.5z bar,190, 7
+Wednesday,Breakfast,Parm Garlic Hrb Pita Chips,1.5z bag,200, 7
+Wednesday,Breakfast,Peanut Butter & Grape Jelly Uncrustable,2.6z sandw,290, 15
+Wednesday,Breakfast,Peanut Butter & Strawberry Uncrustable,2.6z,290, 15
+Wednesday,Breakfast,Plant Based Nut Free Queso Style Dip,1.75z,null,null
+Wednesday,Breakfast,Popcorn Micro Butter-Flavor,3.3z,380, 17
+Wednesday,Breakfast,Powerade Fruit Punch,20z Bottle,null,null
+Wednesday,Breakfast,Powerade Mountain Berry Blast,20z Bottle,170,null
+Wednesday,Breakfast,Powerade Orange,20z Bottle,null,null
+Wednesday,Breakfast,Powerade Zero Grape,20z Bottle,null,null
+Wednesday,Breakfast,Powerade Zero Mixed Berry,20z,null,null
+Wednesday,Breakfast,Pringles Original Potato Chip,1.3z Pkg,200, 12
+Wednesday,Breakfast,Pringles Sour Cream & Onion Chip,1.41z,210, 14
+Wednesday,Breakfast,Raisin Bran,Cup,240, 1.5
+Wednesday,Breakfast,Regular Lays Chips,1z Bag,160, 10
+Wednesday,Breakfast,Regular Ruffles Chips,1z bag,160, 10
+Wednesday,Breakfast,Shrimp Cup of Noodles,2.25z,null,null
+Wednesday,Breakfast,Sliced Apple Pc,2.4z,35, 0
+Wednesday,Breakfast,Smoothie Bolthouse Farm Berry Boost,Bottle,null,null
+Wednesday,Breakfast,Smoothie Bolthouse Farm C-Boost,Bottle,null,null
+Wednesday,Breakfast,Smoothie Bolthouse Farm Green Goodness,Bottle,null,null
+Wednesday,Breakfast,Smoothie Bolthouse Farm Strb Banana,Bottle,null,null
+Wednesday,Breakfast,S'more Frosted Pop Tart,6ct,1110, 27
+Wednesday,Breakfast,Special K Chocolate PB Protein Bar,1.59z bar,90, 4
+Wednesday,Breakfast,Sugar Pearl Belgian Waffle,1ct,290, 14
+Wednesday,Breakfast,Sunflower Seed Snack,5.25z,null,null
+Wednesday,Breakfast,Triple Zero Vanilla Yogurt,5.3z Container,150, 0
+Wednesday,Breakfast,Tuna Kit Lunch 4.1z Starkist,4.1z,null,null
+Wednesday,Breakfast,Vanilla Snack Pudding,3.5z Cup,110, 2.5
+Wednesday,Breakfast,2% Chocolate Milk BIB,1 Cup,170, 5
+Wednesday,Breakfast,2% Milk BIB,8 flz,120, 5
+Wednesday,Breakfast,Apple Juice 6:1 Concentrate,1/2 hall glass,10, 0
+Wednesday,Breakfast,Cherry Coke,1 dining hall glass,null,null
+Wednesday,Breakfast,Coke Classic,1 dining hall glass,null,null
+Wednesday,Breakfast,Coke Zero,8flz,null,null
+Wednesday,Breakfast,Cranberry Juice 4.7:1 Concentrate,1/2 hall glass,70, 0
+Wednesday,Breakfast,Diet Coke,1 dining hall glass,null,null
+Wednesday,Breakfast,Diet Sprite,Fluid Oz,0, 0
+Wednesday,Breakfast,Milk Soy Vanilla Aseptic Silk,8z,null,null
+Wednesday,Breakfast,Orange Juice 5:1 Concentrate,1/2 hall glass,15, 0
+Wednesday,Breakfast,Original Style Lemonade,1 dining hall glass,null,null
+Wednesday,Breakfast,Original Unsweetened Almond Milk,6z Portion,60, 2
+Wednesday,Breakfast,Pibb Xtra,1 dining hall glass,null,null
+Wednesday,Breakfast,Powerade Mountain Blast,1 dining hall glass,null,null
+Wednesday,Breakfast,Root Beer,1 dining hall glass,null,null
+Wednesday,Breakfast,Skim Milk BIB,8 flz,80, 0
+Wednesday,Breakfast,Sprite,1 dining hall glass,null,null
+Wednesday,Breakfast,Unsweetened Vanilla Almond Milk,6z Portion,20, 1.5
+Wednesday,Breakfast,Brewed coffee,6z Portion,0,null
+Wednesday,Breakfast,Coffeemate Original,Fluid Oz,30, 3
+Wednesday,Breakfast,Creamer French Vanilla Coffeemate 1.5L,Fluid Oz,60, 3.5
+Wednesday,Breakfast,ecoStick Organic White Sugar Stick,"Stick
+Stick",10, 0
+Wednesday,Breakfast,ecoStick Sugar Substitute Blue Pc,Stick,0, 0
+Wednesday,Breakfast,ecoStick Sugar Substitute Pink Pc,Stick,0, 0
+Wednesday,Breakfast,ecoStick Sugar Substitute Yellow Pc,Stick,0, 0
+Wednesday,Breakfast,Extra Lite Amber Honey,Ounce,80, 0
+Wednesday,Breakfast,Green Tea Bag,Tea Bag,0, 0
+Wednesday,Breakfast,Hazelnut Coffee Creamer,Fluid Oz,10, 0
+Wednesday,Breakfast,Lipton Black Tea Bag,Tea Bag,0, 0
+Wednesday,Breakfast,Lipton Tea Decaf,Tea Bag,null,null
+Wednesday,Breakfast,Fried Seasoned Potato Cubes,4z Portion,120, 4.5
+Wednesday,Breakfast,Hard Boiled Eggs,1 Egg,90, 7
+Wednesday,Breakfast,Oatmeal Station with Nuts,Nutrition Varies,100, 5
+Wednesday,Breakfast,Scrambled Eggs,4z Portion,180, 13
+Wednesday,Breakfast,Smoked Sausage,2z Portion,170, 15
+Wednesday,Breakfast,Southwest Tofu Scramble,3z Portion,100,null
+Wednesday,Breakfast,Captain Crunch Wildberries,Cup,180, 2.5
+Wednesday,Breakfast,Cheerios,Cup,110, 2
+Wednesday,Breakfast,Cinnamon Toast Crunch,Cup,210, 5
+Wednesday,Breakfast,Frosted Flakes,Cup,320, 0
+Wednesday,Breakfast,Rice Chex Cereal,Cup,180, 1
+Wednesday,Breakfast,Special K with Red Berries,Cup,360, 1
+Wednesday,Breakfast,Apple Gala,Apples,90, 0
+Wednesday,Breakfast,Bananas,Banana,190, 0
+Wednesday,Breakfast,Fresh Kiwi,Kiwi,60, 0
+Wednesday,Breakfast,Oranges,Orange,100, 0
+Wednesday,Breakfast,Pears,Each,null,null
+Wednesday,Breakfast,American,Slice,70, 6
+Wednesday,Breakfast,Hamburger Sliced Dill Pickle Chip,Slice,0, 0
+Wednesday,Breakfast,Heavy Duty Mayonnaise,Tablespoon,100, 11
+Wednesday,Breakfast,Natural Low Sodium Ketchup,Ounce,5, 0
+Wednesday,Breakfast,Sliced Red Onion,Ounce,10, 0
+Wednesday,Breakfast,Spicy Brown Mustard,Ounce,30, 0
+Wednesday,Breakfast,Tomatoes,Ounce,5, 0
+Wednesday,Breakfast,Yellow Mustard,1 tsp,0, 0
+Wednesday,Breakfast,"10"" Flour Tortilla",Tortilla,170, 4.5
+Wednesday,Breakfast,Egg White Liquid,Ounce,15, 0
+Wednesday,Breakfast,Large Fresh Eggs,Eggs,100, 7
+Wednesday,Breakfast,Zero Egg Plant Based Egg Liquid,Ounce,25, 1.5
+Wednesday,Breakfast,Daiya Vegan Shredded Mozzarella Cheese,Ounce,80, 5
+Wednesday,Breakfast,Shredded Mild Cheddar Cheese,Ounce,110, 9
+Wednesday,Breakfast,Shredded Part-Skim Mozzarella Cheese,1z Portion,80, 6
+Wednesday,Breakfast,Cooked Sausage Crumble,1z Portion,120, 12
+Wednesday,Breakfast,"Diced 3/8"" Bacon",1 Tbsp,60, 4.5
+Wednesday,Breakfast,Diced Green Peppers,Ounce,5, 0
+Wednesday,Breakfast,Diced Onions,Ounce,10, 0
+Wednesday,Breakfast,Diced Tomatoes,Ounce,0, 0
+Wednesday,Breakfast,Plant Based Chorizo Sausage Crumble,2z Portion,140, 5
+Wednesday,Breakfast,Sliced Mushrooms,Tablespoon,0, 0
+Wednesday,Breakfast,Spinach,Ounce,5, 0
+Wednesday,Breakfast,"Water-Added Ham Diced 1/4""",Ounce,35, 1.5
+Wednesday,Breakfast,"100% Whole Wheat Bread 1/2"" Slice",Slice,70, 0.5
+Wednesday,Breakfast,Avocado Pulp Fresh,Ounce,70, 6
+Wednesday,Breakfast,Cream Cheese,Ounce,90, 9
+Wednesday,Breakfast,Everything Bagel,"Bagel
+Bagel",340, 4.5
+Wednesday,Breakfast,Jif Peanut Butter PC,0.75z,120, 10
+Wednesday,Breakfast,Nutella Chocolate Hazelnut Spread,Ounce,150, 9
+Wednesday,Breakfast,Plain Bagel,Bagel,320, 1
+Wednesday,Breakfast,Sliced Tomatoes,Ounce,0, 0
+Wednesday,Breakfast,Unsalted European-Style Butter Prints,Ounce,220, 24
+Wednesday,Breakfast,"White Pullman Bread 0.5"" Slice",Slices,60, 0.5
+Wednesday,Breakfast,Whole Wheat Bagel,Bagel,320, 1.5
+Wednesday,Breakfast,Blueberry Yogurt,Ounce,20, 0
+Wednesday,Breakfast,Nature Valley Toasted Granola Oat,Ounce,130, 4.5
+Wednesday,Breakfast,Plain Greek Yogurt,Ounce,15, 0
+Wednesday,Breakfast,Small Curd Cottage Cheese,1/2 Cup,100, 5
+Wednesday,Breakfast,Strawberry Yogurt,Ounce,20, 0
+Wednesday,Breakfast,Vanilla Yogurt,Ounce,20, 0
+Thursday,Lunch,Diced Red Onion,Ounce,10, 0
+Thursday,Lunch,Diced Tomatoes,Ounce,0, 0
+Thursday,Lunch,Hickory Smoked Diced Bacon,Ounce,140, 12
+Thursday,Lunch,Iceberg Salad Mix,1 cup portion,5, 0
+Thursday,Lunch,Large Seasoned Crouton,Ounce,120, 4
+Thursday,Lunch,2% Chocolate Milk BIB,1 Cup,170, 5
+Thursday,Lunch,2% Milk BIB,8 flz,120, 5
+Thursday,Lunch,Apple Juice 6:1 Concentrate,1/2 hall glass,10, 0
+Thursday,Lunch,Cherry Coke,1 dining hall glass,null,null
+Thursday,Lunch,Coke Classic,1 dining hall glass,null,null
+Thursday,Lunch,Coke Zero,8flz,null,null
+Thursday,Lunch,Cranberry Juice 4.7:1 Concentrate,1/2 hall glass,70, 0
+Thursday,Lunch,Diet Coke,1 dining hall glass,null,null
+Thursday,Lunch,Diet Sprite,Fluid Oz,0, 0
+Thursday,Lunch,Milk Soy Vanilla Aseptic Silk,8z,null,null
+Thursday,Lunch,Orange Juice 5:1 Concentrate,1/2 hall glass,15, 0
+Thursday,Lunch,Original Style Lemonade,1 dining hall glass,null,null
+Thursday,Lunch,Original Unsweetened Almond Milk,6z Portion,60, 2
+Thursday,Lunch,Pibb Xtra,1 dining hall glass,null,null
+Thursday,Lunch,Powerade Mountain Blast,1 dining hall glass,null,null
+Thursday,Lunch,Root Beer,1 dining hall glass,null,null
+Thursday,Lunch,Skim Milk BIB,8 flz,80, 0
+Thursday,Lunch,Sprite,1 dining hall glass,null,null
+Thursday,Lunch,Unsweetened Vanilla Almond Milk,6z Portion,20, 1.5
+Thursday,Lunch,Brewed coffee,6z Portion,0,null
+Thursday,Lunch,Coffeemate Original,Fluid Oz,30, 3
+Thursday,Lunch,Creamer French Vanilla Coffeemate 1.5L,Fluid Oz,60, 3.5
+Thursday,Lunch,ecoStick Organic White Sugar Stick,"Stick
+Stick",10, 0
+Thursday,Lunch,ecoStick Sugar Substitute Blue Pc,Stick,0, 0
+Thursday,Lunch,ecoStick Sugar Substitute Pink Pc,Stick,0, 0
+Thursday,Lunch,ecoStick Sugar Substitute Yellow Pc,Stick,0, 0
+Thursday,Lunch,Extra Lite Amber Honey,Ounce,80, 0
+Thursday,Lunch,Green Tea Bag,Tea Bag,0, 0
+Thursday,Lunch,Hazelnut Coffee Creamer,Fluid Oz,10, 0
+Thursday,Lunch,Lipton Black Tea Bag,Tea Bag,0, 0
+Thursday,Lunch,Lipton Tea Decaf,Tea Bag,null,null
+Thursday,Lunch,Steamed Brown Rice,4z Portion,140, 1
+Thursday,Lunch,Steamed Long Grain Rice,4z Portion,530, 0
+Thursday,Lunch,Steamed Vegetable Pot Sticker,Pot Sticker,30, 0
+Thursday,Lunch,Vegetable Egg Rolls,2 Egg Rolls,230, 0
+Thursday,Lunch,Chicken for Stirfry,1z Portion,50, 3.5
+Thursday,Lunch,Firm Tofu,1/4 cup,60, 3
+Thursday,Lunch,Homestyle Breaded Chicken Breast Chunk,4 pcs,260, 15
+Thursday,Lunch,Plant Based Chick'n Poppers,1ct,null,null
+Thursday,Lunch,Shrimp,1 Shrimp,5, 0
+Thursday,Lunch,Steamed Brown Rice,4z Portion,140, 1
+Thursday,Lunch,Steamed Long Grain Rice,4z Portion,530, 0
+Thursday,Lunch,Szechuan Sauce,Ounce,120, 12
+Thursday,Lunch,Thai Rice Noodle,Ounce,100, 0
+Thursday,Lunch,Velveted Beef,1z Portion,40, 1.5
+Thursday,Lunch,Yaki Soba Noodles,3z Portion,230, 2.5
+Thursday,Lunch,Orange Ginger Sauce,2 tbs,60, 0
+Thursday,Lunch,Sauce General Tso Premium,1Tbsp,30, 0
+Thursday,Lunch,Soy Sauce,Ounce,20, 0
+Thursday,Lunch,Sriracha Sauce,Teaspoon,0, 0
+Thursday,Lunch,Sweet & Sour Sauce,Fluid Oz,30, 0
+Thursday,Lunch,Teriyaki Glaze,2 tbs,50, 0
+Thursday,Lunch,Bamboo Shoots,Ounce,0, 0
+Thursday,Lunch,Bean Sprouts,Ounce,10, 0
+Thursday,Lunch,Broccoli Florets,Ounce,10, 0
+Thursday,Lunch,Cabbage Napa Shredded Thin,Ounce,0, 0
+Thursday,Lunch,Carrots,Tablespoon,0, 0
+Thursday,Lunch,Celery,Tablespoon,0, 0
+Thursday,Lunch,Ginger Garlic,1z Portion,30, 0
+Thursday,Lunch,Onion Sliced,Ounce,15, 0.5
+Thursday,Lunch,Sliced Mushrooms,Tablespoon,0, 0
+Thursday,Lunch,Snow Pea Pods,Ounce,10, 0
+Thursday,Lunch,Tri Color Peppers,Portion,25, 1.5
+Thursday,Lunch,Water Chestnut Sliced,Ounce,15, 0
+Thursday,Lunch,Captain Crunch Wildberries,Cup,180, 2.5
+Thursday,Lunch,Cheerios,Cup,110, 2
+Thursday,Lunch,Cinnamon Toast Crunch,Cup,210, 5
+Thursday,Lunch,Frosted Flakes,Cup,320, 0
+Thursday,Lunch,Rice Chex Cereal,Cup,180, 1
+Thursday,Lunch,Special K with Red Berries,Cup,360, 1
+Thursday,Lunch,French Rolls,"6"" Portion",null,null
+Thursday,Lunch,"Honey Wheat Tortilla 12""",Tortilla,300, 8
+Thursday,Lunch,Kettle Chips,Ounce,160, 9
+Thursday,Lunch,"Multigrain Bread 5/8"" Slice",Slice,null,null
+Thursday,Lunch,Sourdough Bread Slice,Slices,100, 1
+Thursday,Lunch,"Spinach Tortilla 12""",Tortilla,300, 8
+Thursday,Lunch,"Sundried Tomato Basil Tortilla 12""",Tortillas,310, 8
+Thursday,Lunch,Telera Roll,3.5z,300, 4
+Thursday,Lunch,Caramel Topping,Ounce,80, 0
+Thursday,Lunch,Chocolate Soft Serve Ice Cream Mix,Cup,340, 12
+Thursday,Lunch,Cone Cake Jacketed,Cone,null,null
+Thursday,Lunch,Dole Whip Pineapple,1 Serving,110, 0.5
+Thursday,Lunch,Dole Whip Strawberry,1 Serving,110, 0
+Thursday,Lunch,Dutch Chocolate Syrup,Ounce,70, 0
+Thursday,Lunch,Mini Semi-Sweet Choc Chips,Ounce,130, 8
+Thursday,Lunch,Oreo Cookie Topping,Ounce,140, 5
+Thursday,Lunch,Rainbow Sprinkles,Ounce,140, 7
+Thursday,Lunch,Vanilla Soft Serve Ice Cream Mix,Cup,360, 13
+Thursday,Lunch,Jalapeno Monterey Jack Cheese Slice,Slice,60, 5
+Thursday,Lunch,Provolone Cheese Slice,Slice,70, 6
+Thursday,Lunch,Sliced 0.75z Mild Cheddar Cheese,Slice,80, 7
+Thursday,Lunch,Cooked & Crumbled Bacon,Ounce,160, 13
+Thursday,Lunch,"Diced 3/8"" Bacon",1 Tbsp,60, 4.5
+Thursday,Lunch,Grilled Chicken Breast Strip Fajita,Ounce,35, 1.5
+Thursday,Lunch,Low Sodium Smoked Ham Slices,Ounce,30, 1
+Thursday,Lunch,Oven Roasted Sliced Chicken,Ounce,null,null
+Thursday,Lunch,Smoked Sliced Genoa Salami,Ounce,110, 9
+Thursday,Lunch,Smoked Tempeh,Ounce,null,null
+Thursday,Lunch,Tuna Salad,1z Portion,80, 7
+Thursday,Lunch,Chicago-Style Hot Giardiniera,Fluid Oz,120, 12
+Thursday,Lunch,Cucumber Slices,.25 cup,0, 0
+Thursday,Lunch,Flat Leaf Spinach,Ounce,5, 0
+Thursday,Lunch,Hamburger Sliced Dill Pickle Chip,Slice,0, 0
+Thursday,Lunch,Mild Banana Pepper Ring,Ounce,5, 0
+Thursday,Lunch,Shredded Iceberg Lettuce,Ounce,0, 0
+Thursday,Lunch,Sliced Jalapeno Peppers,Tablespoon,0, 0
+Thursday,Lunch,Sliced Red Onion,Ounce,10, 0
+Thursday,Lunch,Tomatoes Sliced 1/4-inch,Pound,80, 1
+Thursday,Lunch,Aged Balsamic Vinegar,Fluid Oz,40, 0
+Thursday,Lunch,Black Pepper Grinder,Teaspoon,5, 0
+Thursday,Lunch,Buttermilk Ranch Dressing,Ounce,130, 14
+Thursday,Lunch,Chipotle Ranch Dressing,Fluid Oz,150, 16
+Thursday,Lunch,Garlic Mayonnaise,1/2 oz,100, 10
+Thursday,Lunch,Grinder Sea Salt,Gram,0, 0
+Thursday,Lunch,Heavy Duty Mayonnaise,Tablespoon,100, 11
+Thursday,Lunch,Mediterranean Extra Virgin Olive Oil,1 tbsp,120, 14
+Thursday,Lunch,Plant Based Chipotle Ranch Dressing,2z Portion,180, 20
+Thursday,Lunch,RedHot Buffalo Wing Sauce,Fluid Oz,0, 0
+Thursday,Lunch,Vegan Mayonnaise,1 tbs,60, 7
+Thursday,Lunch,Vinegar Red Wine,Fluid Oz,0, 0
+Thursday,Lunch,Yellow Mustard,1 tsp,0, 0
+Thursday,Lunch,Apple Gala,Apples,90, 0
+Thursday,Lunch,Bananas,Banana,190, 0
+Thursday,Lunch,Fresh Kiwi,Kiwi,60, 0
+Thursday,Lunch,Oranges,Orange,100, 0
+Thursday,Lunch,Pears,Each,null,null
+Thursday,Lunch,American,Slice,70, 6
+Thursday,Lunch,Angus Beef Frank,Frank,170, 16
+Thursday,Lunch,Black Bean Burger,Patty,170, 5
+Thursday,Lunch,Breaded Onion Tangler,3z portion,270, 17
+Thursday,Lunch,Buns Hot Dog Bulk,Each,120, 1.5
+Thursday,Lunch,Fried Eggs,Eggs,90, 7
+Thursday,Lunch,Hamburger Bun,Buns,null,null
+Thursday,Lunch,Hamburger Sliced Dill Pickle Chip,Slice,0, 0
+Thursday,Lunch,Heavy Duty Mayonnaise,Tablespoon,100, 11
+Thursday,Lunch,Homestyle Breaded Chicken Breast Fritter,Patty,230, 14
+Thursday,Lunch,Natural Low Sodium Ketchup,Ounce,5, 0
+Thursday,Lunch,Regular Cut Potato Fries,3z,110, 3.5
+Thursday,Lunch,Sliced Red Onion,Ounce,10, 0
+Thursday,Lunch,Smash Burger,Burgers,290, 23
+Thursday,Lunch,Spicy Brown Mustard,Ounce,30, 0
+Thursday,Lunch,Tomatoes,Ounce,5, 0
+Thursday,Lunch,Yellow Mustard,1 tsp,0, 0
+Thursday,Lunch,American Cheese Slice,Slice,50, 4.5
+Thursday,Lunch,Jalapeno Monterey Jack Cheese Slice,Slice,60, 5
+Thursday,Lunch,"Multigrain Bread 5/8"" Slice",Slice,null,null
+Thursday,Lunch,Sliced 0.75z Mild Cheddar Cheese,Slice,80, 7
+Thursday,Lunch,Sourdough Bread Slice,Slices,100, 1
+Thursday,Lunch,"White Pullman Bread 0.5"" Slice",Slices,60, 0.5
+Thursday,Lunch,Baked Sweet Potato,Potatoes,120, 1.5
+Thursday,Lunch,Black Bean Sweet Potato Burrito,1 Burrito,450,null
+Thursday,Lunch,California Blend Vegetables,4z Portion,30, 0
+Thursday,Lunch,Chicken Sandwich with Voodoo Spread,Sandwiches,470, 18
+Thursday,Lunch,Fries Waffle DH,3z Portion,140, 6
+Thursday,Lunch,Garden Herb Chicken Breast,3.25z Tender,80, 0
+Thursday,Lunch,Garlic & Herb Roasted Turkey Breast,4z Portion,180, 7
+Thursday,Lunch,Roasted Togarashi Vegetables,3z Portion,80, 4
+Thursday,Lunch,"10"" Flour Tortilla",Tortilla,170, 4.5
+Thursday,Lunch,Egg White Liquid,Ounce,15, 0
+Thursday,Lunch,Large Fresh Eggs,Eggs,100, 7
+Thursday,Lunch,Zero Egg Plant Based Egg Liquid,Ounce,25, 1.5
+Thursday,Lunch,Daiya Vegan Shredded Mozzarella Cheese,Ounce,80, 5
+Thursday,Lunch,Shredded Mild Cheddar Cheese,Ounce,110, 9
+Thursday,Lunch,Shredded Part-Skim Mozzarella Cheese,1z Portion,80, 6
+Thursday,Lunch,Cooked Sausage Crumble,1z Portion,120, 12
+Thursday,Lunch,"Diced 3/8"" Bacon",1 Tbsp,60, 4.5
+Thursday,Lunch,Diced Green Peppers,Ounce,5, 0
+Thursday,Lunch,Diced Onions,Ounce,10, 0
+Thursday,Lunch,Diced Tomatoes,Ounce,0, 0
+Thursday,Lunch,Plant Based Chorizo Sausage Crumble,2z Portion,140, 5
+Thursday,Lunch,Sliced Mushrooms,Tablespoon,0, 0
+Thursday,Lunch,Spinach,Ounce,5, 0
+Thursday,Lunch,"Water-Added Ham Diced 1/4""",Ounce,35, 1.5
+Thursday,Lunch,Broccoli Florets,Ounce,10, 0
+Thursday,Lunch,Sauteed Sliced Mushrooms,1z Portion,15, 1
+Thursday,Lunch,Tomato Cherry Red Halves,2 Halves,0, 0
+Thursday,Lunch,Chunk Italian Sausage,Ounce,90, 8
+Thursday,Lunch,Grilled Chicken Breast Strip Fajita,Ounce,35, 1.5
+Thursday,Lunch,Shrimp,1 Shrimp,5, 0
+Thursday,Lunch,Elbow Macaroni Pasta,4z Portion,220, 5
+Thursday,Lunch,Penne Pasta,3z Portion,170, 4.5
+Thursday,Lunch,Tri-Color Tortellini,4z Portion,280, 8
+Thursday,Lunch,Alfredo Sauce,Ounce,70, 6
+Thursday,Lunch,Basil Pesto Sauce,1/4 Cup,320, 34
+Thursday,Lunch,Diavolo Sauce,2 Flz Portion,90, 8
+Thursday,Lunch,Marinara Sauce,Ounce,15, 0.5
+Thursday,Lunch,Balsamic Vinegar,Teaspoon,0, 0
+Thursday,Lunch,Basil,Ounce,0, 0
+Thursday,Lunch,Garlic Minced Prep,Ounce,35, 0
+Thursday,Lunch,Grated Parmesan Cheese,Tablespoon,30, 2.5
+Thursday,Lunch,Mediterranean Extra Virgin Olive Oil,1 tbsp,120, 14
+Thursday,Lunch,Parsley Ital Fresh Clnd,Tablespoon,0, 0
+Thursday,Lunch,Pepper Red Crushed,Teaspoon,0, 0
+Thursday,Lunch,Shallots Minced Prep,Ounce,15, 0
+Thursday,Lunch,Cheese Pizza,Piece -U,140, 5
+Thursday,Lunch,Hawaiian Pizza,Slice,280, 9
+Thursday,Lunch,Sausage Pizza,Piece -U,180, 9
+Thursday,Lunch,Baked Sweet Potato,Potatoes,120, 1.5
+Thursday,Lunch,Classic Vegan Kimchi,Ounce,10, 0
+Thursday,Lunch,Firm Tofu,1/4 cup,60, 3
+Thursday,Lunch,Flax Seed,Ounce,150, 12
+Thursday,Lunch,High Protein Grain BleND,3z portion,190,null
+Thursday,Lunch,Marinated Quarter Artichoke Heart,Ounce,15, 1
+Thursday,Lunch,Marinated Tofu,4z Portion,110, 5
+Thursday,Lunch,Nutritional Yeast,Gram,null,null
+Thursday,Lunch,Organic Black Chia Seed,Ounce,140, 9
+Thursday,Lunch,Roasted & Salted Sunflower Seeds,1 Tablespoon,90, 7
+Thursday,Lunch,Salt & Peppercorn Roasted Cauliflower,Ounce,0, 0
+Thursday,Lunch,Shredded Kale,Ounce,15, 0
+Thursday,Lunch,Sliced Almonds,Tablespoon,90, 8
+Thursday,Lunch,Walnuts Halves & Pieces,Tablespoon,50, 5
+Thursday,Lunch,"10"" Flour Tortilla",Tortilla,170, 4.5
+Thursday,Lunch,Chicken Taco Meat,2z Portion,140, 2
+Thursday,Lunch,Chipotle Ranch Dressing,Fluid Oz,150, 16
+Thursday,Lunch,Flame-Roasted Corn & Peppers,4z Portion,160, 5
+Thursday,Lunch,Grilled Steak Strips,2z Portion,120, 6
+Thursday,Lunch,House-made Guacamole,3z Portion,100, 9
+Thursday,Lunch,Mexican Rice,Ounce,80, 0
+Thursday,Lunch,Pico de Gallo,2z Portion,10, 0
+Thursday,Lunch,Queso Rico Chihuahua Cheese,Ounce,100, 8
+Thursday,Lunch,Sliced Jalapeno Peppers,Tablespoon,0, 0
+Thursday,Lunch,Sour Cream 5lb,2 Tbsp,60, 5
+Thursday,Lunch,Vegan Refried Beans,1.6z Portion,150, 1.5
+Thursday,Lunch,Black Beans,Ounce,25, 0
+Thursday,Lunch,Carrots,Tablespoon,0, 0
+Thursday,Lunch,Chopped Eggs,.5z Portion,25, 1.5
+Thursday,Lunch,Classic Edamame,Tablespoon,15, 0.5
+Thursday,Lunch,Crispy Fried French Onion,Ounce,160, 12
+Thursday,Lunch,Cucumber Slices,Slices,0, 0
+Thursday,Lunch,Diced Tomatoes,Ounce,0, 0
+Thursday,Lunch,Feta Cheese Crumbles,Ounce,5, 0.5
+Thursday,Lunch,Iceberg Salad Mix,1 cup portion,5, 0
+Thursday,Lunch,Large Seasoned Crouton,Ounce,120, 4
+Thursday,Lunch,Locally Grown Salad Greens,Ounce,0, 0
+Thursday,Lunch,Low Sodium Garbanzo Beans,Ounce,30, 0
+Thursday,Lunch,Mini Marshmallows,Ounce,90, 0
+Thursday,Lunch,Shredded Mild Cheddar Cheese,Ounce,110, 9
+Thursday,Lunch,Sliced Mushrooms,Tablespoon,0, 0
+Thursday,Lunch,Sliced Red Onion,Ounce,10, 0
+Thursday,Lunch,Spiced Pumpkin Seeds,Tablespoon,45, 3
+Thursday,Lunch,Spinach,Ounce,5, 0
+Thursday,Lunch,Tri Color Peppers,Portion,25, 1.5
+Thursday,Lunch,Tuna,1/4 Cup,35, 0
+Thursday,Lunch,Balsamic Vinaigrette Dressing in Bottle,Ounce,60, 4.5
+Thursday,Lunch,Buttermilk Ranch Dressing,Ounce,130, 14
+Thursday,Lunch,Country French Dressing,Ounce,120, 11
+Thursday,Lunch,Creamy Caesar Dressing,Fluid Oz,140, 15
+Thursday,Lunch,Fat Free Raspberry Vinaigrette Dressing,Fluid Oz,35, 0
+Thursday,Lunch,Lite Ranch Dressing,Ounce,70, 7
+Thursday,Lunch,Plant Based Ranch Dressing,2z Portion,210, 22
+Thursday,Lunch,Avocado Ranch Dressing,1z Portion,80, 8
+Thursday,Lunch,Creamy Tomato Soup,6 Flz,90, 1.5
+Thursday,Lunch,"100% Whole Wheat Bread 1/2"" Slice",Slice,70, 0.5
+Thursday,Lunch,Avocado Pulp Fresh,Ounce,70, 6
+Thursday,Lunch,Cream Cheese,Ounce,90, 9
+Thursday,Lunch,Everything Bagel,"Bagel
+Bagel",340, 4.5
+Thursday,Lunch,Jif Peanut Butter PC,0.75z,120, 10
+Thursday,Lunch,Nutella Chocolate Hazelnut Spread,Ounce,150, 9
+Thursday,Lunch,Plain Bagel,Bagel,320, 1
+Thursday,Lunch,Sliced Tomatoes,Ounce,0, 0
+Thursday,Lunch,Unsalted European-Style Butter Prints,Ounce,220, 24
+Thursday,Lunch,"White Pullman Bread 0.5"" Slice",Slices,60, 0.5
+Thursday,Lunch,Whole Wheat Bagel,Bagel,320, 1.5
+Thursday,Lunch,Baby Carrots,3 Carrots,10, 0
+Thursday,Lunch,Celery Sticks,Ounce,0, 0
+Thursday,Lunch,Classic Quinoa & Lentil Salad,3z Portion,200, 9
+Thursday,Lunch,Daiya Vegan Shredded Mozzarella Cheese,Ounce,80, 5
+Thursday,Lunch,Fresh Avocado,Ounce,45, 4.5
+Thursday,Lunch,Hummus with Tahini,1z Portion,70, 5
+Thursday,Lunch,Kalamata Olive Hummus,1z Portion,70, 6
+Thursday,Lunch,Raw Mediterranean Pita Chips,1 oz portion,70, 0.5
+Thursday,Lunch,Roasted Garlic Hummus,1z Portion,70, 5
+Thursday,Lunch,Roasted Red Pepper Hummus,1z Portion,60, 4
+Thursday,Lunch,Blueberry Yogurt,Ounce,20, 0
+Thursday,Lunch,Nature Valley Toasted Granola Oat,Ounce,130, 4.5
+Thursday,Lunch,Plain Greek Yogurt,Ounce,15, 0
+Thursday,Lunch,Small Curd Cottage Cheese,1/2 Cup,100, 5
+Thursday,Lunch,Strawberry Yogurt,Ounce,20, 0
+Thursday,Lunch,Vanilla Yogurt,Ounce,20, 0
+Thursday,Dinner,2% Chocolate Milk BIB,1 Cup,170, 5
+Thursday,Dinner,2% Milk BIB,8 flz,120, 5
+Thursday,Dinner,Apple Juice 6:1 Concentrate,1/2 hall glass,10, 0
+Thursday,Dinner,Cherry Coke,1 dining hall glass,null,null
+Thursday,Dinner,Coke Classic,1 dining hall glass,null,null
+Thursday,Dinner,Coke Zero,8flz,null,null
+Thursday,Dinner,Cranberry Juice 4.7:1 Concentrate,1/2 hall glass,70, 0
+Thursday,Dinner,Diet Coke,1 dining hall glass,null,null
+Thursday,Dinner,Diet Sprite,Fluid Oz,0, 0
+Thursday,Dinner,Milk Soy Vanilla Aseptic Silk,8z,null,null
+Thursday,Dinner,Orange Juice 5:1 Concentrate,1/2 hall glass,15, 0
+Thursday,Dinner,Original Style Lemonade,1 dining hall glass,null,null
+Thursday,Dinner,Original Unsweetened Almond Milk,6z Portion,60, 2
+Thursday,Dinner,Pibb Xtra,1 dining hall glass,null,null
+Thursday,Dinner,Powerade Mountain Blast,1 dining hall glass,null,null
+Thursday,Dinner,Root Beer,1 dining hall glass,null,null
+Thursday,Dinner,Skim Milk BIB,8 flz,80, 0
+Thursday,Dinner,Sprite,1 dining hall glass,null,null
+Thursday,Dinner,Unsweetened Vanilla Almond Milk,6z Portion,20, 1.5
+Thursday,Dinner,Brewed coffee,6z Portion,0,null
+Thursday,Dinner,Coffeemate Original,Fluid Oz,30, 3
+Thursday,Dinner,Creamer French Vanilla Coffeemate 1.5L,Fluid Oz,60, 3.5
+Thursday,Dinner,ecoStick Organic White Sugar Stick,"Stick
+Stick",10, 0
+Thursday,Dinner,ecoStick Sugar Substitute Blue Pc,Stick,0, 0
+Thursday,Dinner,ecoStick Sugar Substitute Pink Pc,Stick,0, 0
+Thursday,Dinner,ecoStick Sugar Substitute Yellow Pc,Stick,0, 0
+Thursday,Dinner,Extra Lite Amber Honey,Ounce,80, 0
+Thursday,Dinner,Green Tea Bag,Tea Bag,0, 0
+Thursday,Dinner,Hazelnut Coffee Creamer,Fluid Oz,10, 0
+Thursday,Dinner,Lipton Black Tea Bag,Tea Bag,0, 0
+Thursday,Dinner,Lipton Tea Decaf,Tea Bag,null,null
+Thursday,Dinner,Chicken Tempura Sweet 'n Sour,4z portion,570,null
+Thursday,Dinner,Fortune Cookie,Cookie,10, 0
+Thursday,Dinner,Soy Sauce,Ounce,20, 0
+Thursday,Dinner,Sriracha Sauce,Teaspoon,0, 0
+Thursday,Dinner,Steamed BBQ Pork Buns,2z,null,null
+Thursday,Dinner,Steamed Brown Rice,4z Portion,140, 1
+Thursday,Dinner,Steamed Long Grain Rice,4z Portion,530, 0
+Thursday,Dinner,Steamed Plant Based Pot Sticker,Pot Sticker,0,null
+Thursday,Dinner,Sweet & Sour Sauce,Fluid Oz,30, 0
+Thursday,Dinner,Captain Crunch Wildberries,Cup,180, 2.5
+Thursday,Dinner,Cheerios,Cup,110, 2
+Thursday,Dinner,Cinnamon Toast Crunch,Cup,210, 5
+Thursday,Dinner,Frosted Flakes,Cup,320, 0
+Thursday,Dinner,Rice Chex Cereal,Cup,180, 1
+Thursday,Dinner,Special K with Red Berries,Cup,360, 1
+Thursday,Dinner,French Rolls,"6"" Portion",null,null
+Thursday,Dinner,"Honey Wheat Tortilla 12""",Tortilla,300, 8
+Thursday,Dinner,Kettle Chips,Ounce,160, 9
+Thursday,Dinner,"Multigrain Bread 5/8"" Slice",Slice,null,null
+Thursday,Dinner,Sourdough Bread Slice,Slices,100, 1
+Thursday,Dinner,"Spinach Tortilla 12""",Tortilla,300, 8
+Thursday,Dinner,"Sundried Tomato Basil Tortilla 12""",Tortillas,310, 8
+Thursday,Dinner,Telera Roll,3.5z,300, 4
+Thursday,Dinner,Caramel Topping,Ounce,80, 0
+Thursday,Dinner,Chocolate Soft Serve Ice Cream Mix,Cup,340, 12
+Thursday,Dinner,Cone Cake Jacketed,Cone,null,null
+Thursday,Dinner,Dole Whip Pineapple,1 Serving,110, 0.5
+Thursday,Dinner,Dole Whip Strawberry,1 Serving,110, 0
+Thursday,Dinner,Dutch Chocolate Syrup,Ounce,70, 0
+Thursday,Dinner,Mini Semi-Sweet Choc Chips,Ounce,130, 8
+Thursday,Dinner,Oreo Cookie Topping,Ounce,140, 5
+Thursday,Dinner,Rainbow Sprinkles,Ounce,140, 7
+Thursday,Dinner,Vanilla Soft Serve Ice Cream Mix,Cup,360, 13
+Thursday,Dinner,Jalapeno Monterey Jack Cheese Slice,Slice,60, 5
+Thursday,Dinner,Provolone Cheese Slice,Slice,70, 6
+Thursday,Dinner,Sliced 0.75z Mild Cheddar Cheese,Slice,80, 7
+Thursday,Dinner,Cooked & Crumbled Bacon,Ounce,160, 13
+Thursday,Dinner,"Diced 3/8"" Bacon",1 Tbsp,60, 4.5
+Thursday,Dinner,Grilled Chicken Breast Strip Fajita,Ounce,35, 1.5
+Thursday,Dinner,Low Sodium Smoked Ham Slices,Ounce,30, 1
+Thursday,Dinner,Oven Roasted Sliced Chicken,Ounce,null,null
+Thursday,Dinner,Smoked Sliced Genoa Salami,Ounce,110, 9
+Thursday,Dinner,Smoked Tempeh,Ounce,null,null
+Thursday,Dinner,Tuna Salad,1z Portion,80, 7
+Thursday,Dinner,Chicago-Style Hot Giardiniera,Fluid Oz,120, 12
+Thursday,Dinner,Cucumber Slices,.25 cup,0, 0
+Thursday,Dinner,Flat Leaf Spinach,Ounce,5, 0
+Thursday,Dinner,Hamburger Sliced Dill Pickle Chip,Slice,0, 0
+Thursday,Dinner,Mild Banana Pepper Ring,Ounce,5, 0
+Thursday,Dinner,Shredded Iceberg Lettuce,Ounce,0, 0
+Thursday,Dinner,Sliced Jalapeno Peppers,Tablespoon,0, 0
+Thursday,Dinner,Sliced Red Onion,Ounce,10, 0
+Thursday,Dinner,Tomatoes Sliced 1/4-inch,Pound,80, 1
+Thursday,Dinner,Aged Balsamic Vinegar,Fluid Oz,40, 0
+Thursday,Dinner,Black Pepper Grinder,Teaspoon,5, 0
+Thursday,Dinner,Buttermilk Ranch Dressing,Ounce,130, 14
+Thursday,Dinner,Chipotle Ranch Dressing,Fluid Oz,150, 16
+Thursday,Dinner,Garlic Mayonnaise,1/2 oz,100, 10
+Thursday,Dinner,Grinder Sea Salt,Gram,0, 0
+Thursday,Dinner,Heavy Duty Mayonnaise,Tablespoon,100, 11
+Thursday,Dinner,Mediterranean Extra Virgin Olive Oil,1 tbsp,120, 14
+Thursday,Dinner,Plant Based Chipotle Ranch Dressing,2z Portion,180, 20
+Thursday,Dinner,RedHot Buffalo Wing Sauce,Fluid Oz,0, 0
+Thursday,Dinner,Vegan Mayonnaise,1 tbs,60, 7
+Thursday,Dinner,Vinegar Red Wine,Fluid Oz,0, 0
+Thursday,Dinner,Yellow Mustard,1 tsp,0, 0
+Thursday,Dinner,Apple Gala,Apples,90, 0
+Thursday,Dinner,Bananas,Banana,190, 0
+Thursday,Dinner,Fresh Kiwi,Kiwi,60, 0
+Thursday,Dinner,Oranges,Orange,100, 0
+Thursday,Dinner,Pears,Each,null,null
+Thursday,Dinner,American,Slice,70, 6
+Thursday,Dinner,Angus Beef Frank,Frank,170, 16
+Thursday,Dinner,Black Bean Burger,Patty,170, 5
+Thursday,Dinner,Breaded Onion Tangler,3z portion,270, 17
+Thursday,Dinner,Buns Hot Dog Bulk,Each,120, 1.5
+Thursday,Dinner,Fried Eggs,Eggs,90, 7
+Thursday,Dinner,Hamburger Bun,Buns,null,null
+Thursday,Dinner,Hamburger Sliced Dill Pickle Chip,Slice,0, 0
+Thursday,Dinner,Heavy Duty Mayonnaise,Tablespoon,100, 11
+Thursday,Dinner,Homestyle Breaded Chicken Breast Fritter,Patty,230, 14
+Thursday,Dinner,Natural Low Sodium Ketchup,Ounce,5, 0
+Thursday,Dinner,Regular Cut Potato Fries,3z,110, 3.5
+Thursday,Dinner,Sliced Red Onion,Ounce,10, 0
+Thursday,Dinner,Smash Burger,Burgers,290, 23
+Thursday,Dinner,Spicy Brown Mustard,Ounce,30, 0
+Thursday,Dinner,Tomatoes,Ounce,5, 0
+Thursday,Dinner,Yellow Mustard,1 tsp,0, 0
+Thursday,Dinner,American Cheese Slice,Slice,50, 4.5
+Thursday,Dinner,Jalapeno Monterey Jack Cheese Slice,Slice,60, 5
+Thursday,Dinner,"Multigrain Bread 5/8"" Slice",Slice,null,null
+Thursday,Dinner,Sliced 0.75z Mild Cheddar Cheese,Slice,80, 7
+Thursday,Dinner,Sourdough Bread Slice,Slices,100, 1
+Thursday,Dinner,"White Pullman Bread 0.5"" Slice",Slices,60, 0.5
+Thursday,Dinner,Baked Sweet Potato,Potatoes,120, 1.5
+Thursday,Dinner,Char-grilled Zucchini,2z Portion,80, 7
+Thursday,Dinner,Garden Herb Chicken Breast,3.25z Tender,80, 0
+Thursday,Dinner,Grilled Chicken Parmigiana,6.5z Portion,170, 6
+Thursday,Dinner,Grilled Flank Steak Chimichurri,3z Portion,230, 17
+Thursday,Dinner,High Protein Grain BleND,3z portion,190,null
+Thursday,Dinner,Horseradish Roasted Vegetables,3z Portion,140, 9
+Thursday,Dinner,Loaded Red Skin Mashed Potatoes,4z Portion,190, 12
+Thursday,Dinner,Meatless Baked Ziti,6z portion,280, 16
+Thursday,Dinner,8z Pizza Dough,8z,480, 4
+Thursday,Dinner,Alfredo Sauce,Ounce,70, 6
+Thursday,Dinner,Basil Pesto without Nuts,1 Flz Portion,140, 15
+Thursday,Dinner,Grated Parmesan Cheese,Tablespoon,30, 2.5
+Thursday,Dinner,Pepper Red Crushed,Teaspoon,0, 0
+Thursday,Dinner,Seasoned Pizza Sauce with Oil,Ounce,15, 0
+Thursday,Dinner,Shredded Mild Cheddar Cheese,Ounce,110, 9
+Thursday,Dinner,Shredded Part-Skim Mozzarella Cheese,1z Portion,80, 6
+Thursday,Dinner,Beef Meatball 0.5z,.5z meatball,45, 3.5
+Thursday,Dinner,Chunk Italian Sausage,Ounce,90, 8
+Thursday,Dinner,Grilled Chicken Breast Strip Fajita,Ounce,35, 1.5
+Thursday,Dinner,Onion Sliced,Ounce,15, 0.5
+Thursday,Dinner,Pepperoni Sliced,Slices,10, 1
+Thursday,Dinner,Pineapple Tidbit in Unsweetened Juice,2 Ounce,30, 0
+Thursday,Dinner,Plant based Sliced Italian Sausage,3 oz portion,170, 9
+Thursday,Dinner,Sliced Jalapeno Peppers,Tablespoon,0, 0
+Thursday,Dinner,Sliced Mushrooms,Tablespoon,0, 0
+Thursday,Dinner,Sliced Spanish Black Ripe Olive,Tablespoon,25, 2
+Thursday,Dinner,Tri Color Peppers,Portion,25, 1.5
+Thursday,Dinner,"Water-Added Ham Diced 1/4""",Ounce,35, 1.5
+Thursday,Dinner,Ancho Pulled Pork,2z Portion,80,null
+Thursday,Dinner,Black Olive Slices,1z Portion,50, 3.5
+Thursday,Dinner,Diced Onions,Ounce,10, 0
+Thursday,Dinner,"Flour Tortilla 6""",6in tortilla,100, 3
+Thursday,Dinner,Grilled Steak Strips,2z Portion,120, 6
+Thursday,Dinner,House-made Guacamole,3z Portion,100, 9
+Thursday,Dinner,Pico de Gallo,2z Portion,10, 0
+Thursday,Dinner,Shredded Iceberg Lettuce,Ounce,0, 0
+Thursday,Dinner,Sliced Jalapeno Peppers,Tablespoon,0, 0
+Thursday,Dinner,Sour Cream 5lb,Tablespoon,30, 2.5
+Thursday,Dinner,Spanish Rice,4z Portion,230, 1
+Thursday,Dinner,Thick & Chuncky Mild Salsa,Ounce,10, 0
+Thursday,Dinner,Vegetarian Black Beans,2z Portion,70, 1.5
+Thursday,Dinner,"White Corn Tortilla 6""",6in Tortilla,60, 0.5
+Thursday,Dinner,Broccoli Florets,Ounce,10, 0
+Thursday,Dinner,Sauteed Sliced Mushrooms,1z Portion,15, 1
+Thursday,Dinner,Tomato Cherry Red Halves,2 Halves,0, 0
+Thursday,Dinner,Chunk Italian Sausage,Ounce,90, 8
+Thursday,Dinner,Grilled Chicken Breast Strip Fajita,Ounce,35, 1.5
+Thursday,Dinner,Shrimp,1 Shrimp,5, 0
+Thursday,Dinner,Elbow Macaroni Pasta,4z Portion,220, 5
+Thursday,Dinner,Penne Pasta,3z Portion,170, 4.5
+Thursday,Dinner,Tri-Color Tortellini,4z Portion,280, 8
+Thursday,Dinner,Alfredo Sauce,Ounce,70, 6
+Thursday,Dinner,Basil Pesto Sauce,1/4 Cup,320, 34
+Thursday,Dinner,Diavolo Sauce,2 Flz Portion,90, 8
+Thursday,Dinner,Marinara Sauce,Ounce,15, 0.5
+Thursday,Dinner,Balsamic Vinegar,Teaspoon,0, 0
+Thursday,Dinner,Basil,Ounce,0, 0
+Thursday,Dinner,Garlic Minced Prep,Ounce,35, 0
+Thursday,Dinner,Grated Parmesan Cheese,Tablespoon,30, 2.5
+Thursday,Dinner,Mediterranean Extra Virgin Olive Oil,1 tbsp,120, 14
+Thursday,Dinner,Parsley Ital Fresh Clnd,Tablespoon,0, 0
+Thursday,Dinner,Pepper Red Crushed,Teaspoon,0, 0
+Thursday,Dinner,Shallots Minced Prep,Ounce,15, 0
+Thursday,Dinner,Alfredo Sauce,Ounce,70, 6
+Thursday,Dinner,Basil Pesto without Nuts,1 Flz Portion,140, 15
+Thursday,Dinner,Cavatappi Pasta,1/2 Cup,220, 5
+Thursday,Dinner,Garlic Bread Stick,Breadstick,150, 6
+Thursday,Dinner,Italian Beef & Pork Cheese Meatball,Meatball,40, 3
+Thursday,Dinner,Marinara Sauce,Ounce,15, 0.5
+Thursday,Dinner,Plant based Sliced Italian Sausage,3 oz portion,170, 9
+Thursday,Dinner,Rigate Penne Pasta,4z Portion,170, 1.5
+Thursday,Dinner,Baked Sweet Potato,Potatoes,120, 1.5
+Thursday,Dinner,Classic Vegan Kimchi,Ounce,10, 0
+Thursday,Dinner,Firm Tofu,1/4 cup,60, 3
+Thursday,Dinner,Flax Seed,Ounce,150, 12
+Thursday,Dinner,High Protein Grain BleND,3z portion,190,null
+Thursday,Dinner,Marinated Quarter Artichoke Heart,Ounce,15, 1
+Thursday,Dinner,Marinated Tofu,4z Portion,110, 5
+Thursday,Dinner,Nutritional Yeast,Gram,null,null
+Thursday,Dinner,Organic Black Chia Seed,Ounce,140, 9
+Thursday,Dinner,Roasted & Salted Sunflower Seeds,1 Tablespoon,90, 7
+Thursday,Dinner,Salt & Peppercorn Roasted Cauliflower,Ounce,0, 0
+Thursday,Dinner,Shredded Kale,Ounce,15, 0
+Thursday,Dinner,Sliced Almonds,Tablespoon,90, 8
+Thursday,Dinner,Walnuts Halves & Pieces,Tablespoon,50, 5
+Thursday,Dinner,Black Beans,Ounce,25, 0
+Thursday,Dinner,Carrots,Tablespoon,0, 0
+Thursday,Dinner,Chopped Eggs,.5z Portion,25, 1.5
+Thursday,Dinner,Classic Edamame,Tablespoon,15, 0.5
+Thursday,Dinner,Crispy Fried French Onion,Ounce,160, 12
+Thursday,Dinner,Cucumber Slices,Slices,0, 0
+Thursday,Dinner,Diced Tomatoes,Ounce,0, 0
+Thursday,Dinner,Feta Cheese Crumbles,Ounce,5, 0.5
+Thursday,Dinner,Iceberg Salad Mix,1 cup portion,5, 0
+Thursday,Dinner,Large Seasoned Crouton,Ounce,120, 4
+Thursday,Dinner,Locally Grown Salad Greens,Ounce,0, 0
+Thursday,Dinner,Low Sodium Garbanzo Beans,Ounce,30, 0
+Thursday,Dinner,Mini Marshmallows,Ounce,90, 0
+Thursday,Dinner,Shredded Mild Cheddar Cheese,Ounce,110, 9
+Thursday,Dinner,Sliced Mushrooms,Tablespoon,0, 0
+Thursday,Dinner,Sliced Red Onion,Ounce,10, 0
+Thursday,Dinner,Spiced Pumpkin Seeds,Tablespoon,45, 3
+Thursday,Dinner,Spinach,Ounce,5, 0
+Thursday,Dinner,Tri Color Peppers,Portion,25, 1.5
+Thursday,Dinner,Tuna,1/4 Cup,35, 0
+Thursday,Dinner,Balsamic Vinaigrette Dressing in Bottle,Ounce,60, 4.5
+Thursday,Dinner,Buttermilk Ranch Dressing,Ounce,130, 14
+Thursday,Dinner,Country French Dressing,Ounce,120, 11
+Thursday,Dinner,Creamy Caesar Dressing,Fluid Oz,140, 15
+Thursday,Dinner,Fat Free Raspberry Vinaigrette Dressing,Fluid Oz,35, 0
+Thursday,Dinner,Lite Ranch Dressing,Ounce,70, 7
+Thursday,Dinner,Plant Based Ranch Dressing,2z Portion,210, 22
+Thursday,Dinner,Creamy Tomato Soup,6 Flz,90, 1.5
+Thursday,Dinner,Baby Carrots,3 Carrots,10, 0
+Thursday,Dinner,Celery Sticks,Ounce,0, 0
+Thursday,Dinner,Classic Quinoa & Lentil Salad,3z Portion,200, 9
+Thursday,Dinner,Daiya Vegan Shredded Mozzarella Cheese,Ounce,80, 5
+Thursday,Dinner,Fresh Avocado,Ounce,45, 4.5
+Thursday,Dinner,Hummus with Tahini,1z Portion,70, 5
+Thursday,Dinner,Kalamata Olive Hummus,1z Portion,70, 6
+Thursday,Dinner,Raw Mediterranean Pita Chips,1 oz portion,70, 0.5
+Thursday,Dinner,Roasted Garlic Hummus,1z Portion,70, 5
+Thursday,Dinner,Roasted Red Pepper Hummus,1z Portion,60, 4
+Thursday,Dinner,Steamed Long Grain Rice,4z Portion,530, 0
+Thursday,Dinner,Sweet & Sour Tofu,6z Portion,150, 2
+Thursday,Dinner,Broccoli Florets,4z Portion,35, 0
+Thursday,Dinner,Blueberry Yogurt,Ounce,20, 0
+Thursday,Dinner,Nature Valley Toasted Granola Oat,Ounce,130, 4.5
+Thursday,Dinner,Plain Greek Yogurt,Ounce,15, 0
+Thursday,Dinner,Small Curd Cottage Cheese,1/2 Cup,100, 5
+Thursday,Dinner,Strawberry Yogurt,Ounce,20, 0
+Thursday,Dinner,Vanilla Yogurt,Ounce,20, 0
+Friday,Breakfast,Bar Kind Caramel Sea Salt Almond 1.4z,1.4z bar,200, 16
+Friday,Breakfast,Bar Kind Crnbry Almond 12ct,1.4z bar,190, 13
+Friday,Breakfast,Bar Kind Dk Choc Cherry Cashew 12ct,1.4z bar,170, 10
+Friday,Breakfast,Bar Pure Protein Chewy Choc Chip 50g,Bar,null,null
+Friday,Breakfast,Bar Pure Protein Choc Delux 50g,Bar,null,null
+Friday,Breakfast,Bar Pure Protein Choc PB 50g,Bar,null,null
+Friday,Breakfast,Bar Quest Birthday Cake 2.12z,2.12z bar,null,null
+Friday,Breakfast,Bar Quest Cookies & Cream,2.12z bar,null,null
+Friday,Breakfast,Beef Cup of Noodles,Pkg,null,null
+Friday,Breakfast,Biscuit Belvita Blbry,Bar,230, 8
+Friday,Breakfast,Biscuit Belvita Cinn & Brn Sugar 1.76z,1.76z bar,null,null
+Friday,Breakfast,California Seedless Raisins,Ounce,80, 0
+Friday,Breakfast,Cheerios Bowl,1ct,130, 2.5
+Friday,Breakfast,Cheese Stick Colby Jack Sargento 1z,1z stick,60, 2.5
+Friday,Breakfast,Cheese Stick Mild Cheddar Sargento 1z,1z stick,60, 2.5
+Friday,Breakfast,Cheese Stick Pepper Jack,0.83z,50, 2
+Friday,Breakfast,Cheez It,Ounce,130, 4.5
+Friday,Breakfast,Chef's Salad,Salad,290, 19
+Friday,Breakfast,Chip Pringles Cheezums,1.41z,210, 14
+Friday,Breakfast,Chocolate Snack Pudding,3.5z Cup,110, 2.5
+Friday,Breakfast,Cinnamon Graham Cracker Tiger Bites,1z,120, 4
+Friday,Breakfast,Crunchmania Cinnamon Snack Bun,1.76z,210, 7
+Friday,Breakfast,Frosted Blueberry Pop Tarts,2 Pop Tarts,370, 9
+Friday,Breakfast,Frosted Brown Sugar Pop Tarts,2 Pop Tarts,0, 14
+Friday,Breakfast,Frosted Flakes,Cup,320, 0
+Friday,Breakfast,Frosted Strawberry Pop Tarts,8ct box,1480, 36
+Friday,Breakfast,Fruit Rollups,0.5z,50, 1
+Friday,Breakfast,Garden Salad,Salad,35, 0
+Friday,Breakfast,Gourmet Chocolate Chunk Cookie,2.5z cookie,320, 14
+Friday,Breakfast,Healthy Grain Dk Choc Chnk Kind Bar,1.4z Bar,170, 5
+Friday,Breakfast,Heart Healthy Mix Planters 9.75z,9.75z,null,null
+Friday,Breakfast,Ice Cream Mochi Cookie n Cream,1.5z,null,null
+Friday,Breakfast,Ice Cream Mochi Dbl Choc,1.5z,null,null
+Friday,Breakfast,Ice Cream Mochi Mango,1ct,null,null
+Friday,Breakfast,Ice Cream Mochi Strbry,1.5z,null,null
+Friday,Breakfast,Lucky Charms Bowl,Bowl,140, 1.5
+Friday,Breakfast,Mandarin Orange in Juice Cup,4.5z,50, 0
+Friday,Breakfast,Maruchan Cup of Noodles Chix 2.25z cup,2.25z,null,null
+Friday,Breakfast,Mayonnaise Packet,12gm packet,80, 9
+Friday,Breakfast,Milk Almond Silk Dk Choc,8z Cont.,null,null
+Friday,Breakfast,Mini Oreo Cookie,Bags,190, 10
+Friday,Breakfast,Mozzarella Cheese String,Each,80, 6
+Friday,Breakfast,Mustard Pc,.2z Pkt,0, 0
+Friday,Breakfast,Oat & Honey Nature Valley Granola Bar,1.5z bar,190, 7
+Friday,Breakfast,Parm Garlic Hrb Pita Chips,1.5z bag,200, 7
+Friday,Breakfast,Peanut Butter & Grape Jelly Uncrustable,2.6z sandw,290, 15
+Friday,Breakfast,Peanut Butter & Strawberry Uncrustable,2.6z,290, 15
+Friday,Breakfast,Plant Based Nut Free Queso Style Dip,1.75z,null,null
+Friday,Breakfast,Popcorn Micro Butter-Flavor,3.3z,380, 17
+Friday,Breakfast,Powerade Fruit Punch,20z Bottle,null,null
+Friday,Breakfast,Powerade Mountain Berry Blast,20z Bottle,170,null
+Friday,Breakfast,Powerade Orange,20z Bottle,null,null
+Friday,Breakfast,Powerade Zero Grape,20z Bottle,null,null
+Friday,Breakfast,Powerade Zero Mixed Berry,20z,null,null
+Friday,Breakfast,Pringles Original Potato Chip,1.3z Pkg,200, 12
+Friday,Breakfast,Pringles Sour Cream & Onion Chip,1.41z,210, 14
+Friday,Breakfast,Raisin Bran,Cup,240, 1.5
+Friday,Breakfast,Regular Lays Chips,1z Bag,160, 10
+Friday,Breakfast,Regular Ruffles Chips,1z bag,160, 10
+Friday,Breakfast,Shrimp Cup of Noodles,2.25z,null,null
+Friday,Breakfast,Sliced Apple Pc,2.4z,35, 0
+Friday,Breakfast,Smoothie Bolthouse Farm Berry Boost,Bottle,null,null
+Friday,Breakfast,Smoothie Bolthouse Farm C-Boost,Bottle,null,null
+Friday,Breakfast,Smoothie Bolthouse Farm Green Goodness,Bottle,null,null
+Friday,Breakfast,Smoothie Bolthouse Farm Strb Banana,Bottle,null,null
+Friday,Breakfast,S'more Frosted Pop Tart,6ct,1110, 27
+Friday,Breakfast,Special K Chocolate PB Protein Bar,1.59z bar,90, 4
+Friday,Breakfast,Sugar Pearl Belgian Waffle,1ct,290, 14
+Friday,Breakfast,Sunflower Seed Snack,5.25z,null,null
+Friday,Breakfast,Triple Zero Vanilla Yogurt,5.3z Container,150, 0
+Friday,Breakfast,Tuna Kit Lunch 4.1z Starkist,4.1z,null,null
+Friday,Breakfast,Vanilla Snack Pudding,3.5z Cup,110, 2.5
+Friday,Breakfast,2% Chocolate Milk BIB,1 Cup,170, 5
+Friday,Breakfast,2% Milk BIB,8 flz,120, 5
+Friday,Breakfast,Apple Juice 6:1 Concentrate,1/2 hall glass,10, 0
+Friday,Breakfast,Cherry Coke,1 dining hall glass,null,null
+Friday,Breakfast,Coke Classic,1 dining hall glass,null,null
+Friday,Breakfast,Coke Zero,8flz,null,null
+Friday,Breakfast,Cranberry Juice 4.7:1 Concentrate,1/2 hall glass,70, 0
+Friday,Breakfast,Diet Coke,1 dining hall glass,null,null
+Friday,Breakfast,Diet Sprite,Fluid Oz,0, 0
+Friday,Breakfast,Milk Soy Vanilla Aseptic Silk,8z,null,null
+Friday,Breakfast,Orange Juice 5:1 Concentrate,1/2 hall glass,15, 0
+Friday,Breakfast,Original Style Lemonade,1 dining hall glass,null,null
+Friday,Breakfast,Original Unsweetened Almond Milk,6z Portion,60, 2
+Friday,Breakfast,Pibb Xtra,1 dining hall glass,null,null
+Friday,Breakfast,Powerade Mountain Blast,1 dining hall glass,null,null
+Friday,Breakfast,Root Beer,1 dining hall glass,null,null
+Friday,Breakfast,Skim Milk BIB,8 flz,80, 0
+Friday,Breakfast,Sprite,1 dining hall glass,null,null
+Friday,Breakfast,Unsweetened Vanilla Almond Milk,6z Portion,20, 1.5
+Friday,Breakfast,Brewed coffee,6z Portion,0,null
+Friday,Breakfast,Coffeemate Original,Fluid Oz,30, 3
+Friday,Breakfast,Creamer French Vanilla Coffeemate 1.5L,Fluid Oz,60, 3.5
+Friday,Breakfast,ecoStick Organic White Sugar Stick,"Stick
+Stick",10, 0
+Friday,Breakfast,ecoStick Sugar Substitute Blue Pc,Stick,0, 0
+Friday,Breakfast,ecoStick Sugar Substitute Pink Pc,Stick,0, 0
+Friday,Breakfast,ecoStick Sugar Substitute Yellow Pc,Stick,0, 0
+Friday,Breakfast,Extra Lite Amber Honey,Ounce,80, 0
+Friday,Breakfast,Green Tea Bag,Tea Bag,0, 0
+Friday,Breakfast,Hazelnut Coffee Creamer,Fluid Oz,10, 0
+Friday,Breakfast,Lipton Black Tea Bag,Tea Bag,0, 0
+Friday,Breakfast,Lipton Tea Decaf,Tea Bag,null,null
+Friday,Breakfast,Hard Boiled Eggs,1 Egg,90, 7
+Friday,Breakfast,Oatmeal Station with Nuts,Nutrition Varies,100, 5
+Friday,Breakfast,Potatoes O'Brien,4z portion,110, 0.5
+Friday,Breakfast,Scrambled Eggs,4z Portion,180, 13
+Friday,Breakfast,Southwest Tofu Scramble,3z Portion,100,null
+Friday,Breakfast,Sunshine French Toast,Slices,290, 10
+Friday,Breakfast,Turkey Sausage Patties,2 Patties,120, 6
+Friday,Breakfast,Captain Crunch Wildberries,Cup,180, 2.5
+Friday,Breakfast,Cheerios,Cup,110, 2
+Friday,Breakfast,Cinnamon Toast Crunch,Cup,210, 5
+Friday,Breakfast,Frosted Flakes,Cup,320, 0
+Friday,Breakfast,Rice Chex Cereal,Cup,180, 1
+Friday,Breakfast,Special K with Red Berries,Cup,360, 1
+Friday,Breakfast,Apple Gala,Apples,90, 0
+Friday,Breakfast,Bananas,Banana,190, 0
+Friday,Breakfast,Fresh Kiwi,Kiwi,60, 0
+Friday,Breakfast,Oranges,Orange,100, 0
+Friday,Breakfast,Pears,Each,null,null
+Friday,Breakfast,American,Slice,70, 6
+Friday,Breakfast,Hamburger Sliced Dill Pickle Chip,Slice,0, 0
+Friday,Breakfast,Heavy Duty Mayonnaise,Tablespoon,100, 11
+Friday,Breakfast,Natural Low Sodium Ketchup,Ounce,5, 0
+Friday,Breakfast,Sliced Red Onion,Ounce,10, 0
+Friday,Breakfast,Spicy Brown Mustard,Ounce,30, 0
+Friday,Breakfast,Tomatoes,Ounce,5, 0
+Friday,Breakfast,Yellow Mustard,1 tsp,0, 0
+Friday,Breakfast,"10"" Flour Tortilla",Tortilla,170, 4.5
+Friday,Breakfast,Egg White Liquid,Ounce,15, 0
+Friday,Breakfast,Large Fresh Eggs,Eggs,100, 7
+Friday,Breakfast,Zero Egg Plant Based Egg Liquid,Ounce,25, 1.5
+Friday,Breakfast,Daiya Vegan Shredded Mozzarella Cheese,Ounce,80, 5
+Friday,Breakfast,Shredded Mild Cheddar Cheese,Ounce,110, 9
+Friday,Breakfast,Shredded Part-Skim Mozzarella Cheese,1z Portion,80, 6
+Friday,Breakfast,Cooked Sausage Crumble,1z Portion,120, 12
+Friday,Breakfast,"Diced 3/8"" Bacon",1 Tbsp,60, 4.5
+Friday,Breakfast,Diced Green Peppers,Ounce,5, 0
+Friday,Breakfast,Diced Onions,Ounce,10, 0
+Friday,Breakfast,Diced Tomatoes,Ounce,0, 0
+Friday,Breakfast,Plant Based Chorizo Sausage Crumble,2z Portion,140, 5
+Friday,Breakfast,Sliced Mushrooms,Tablespoon,0, 0
+Friday,Breakfast,Spinach,Ounce,5, 0
+Friday,Breakfast,"Water-Added Ham Diced 1/4""",Ounce,35, 1.5
+Friday,Breakfast,"100% Whole Wheat Bread 1/2"" Slice",Slice,70, 0.5
+Friday,Breakfast,Avocado Pulp Fresh,Ounce,70, 6
+Friday,Breakfast,Cream Cheese,Ounce,90, 9
+Friday,Breakfast,Everything Bagel,"Bagel
+Bagel",340, 4.5
+Friday,Breakfast,Jif Peanut Butter PC,0.75z,120, 10
+Friday,Breakfast,Nutella Chocolate Hazelnut Spread,Ounce,150, 9
+Friday,Breakfast,Plain Bagel,Bagel,320, 1
+Friday,Breakfast,Sliced Tomatoes,Ounce,0, 0
+Friday,Breakfast,Unsalted European-Style Butter Prints,Ounce,220, 24
+Friday,Breakfast,"White Pullman Bread 0.5"" Slice",Slices,60, 0.5
+Friday,Breakfast,Whole Wheat Bagel,Bagel,320, 1.5
+Friday,Breakfast,Blueberry Yogurt,Ounce,20, 0
+Friday,Breakfast,Nature Valley Toasted Granola Oat,Ounce,130, 4.5
+Friday,Breakfast,Plain Greek Yogurt,Ounce,15, 0
+Friday,Breakfast,Small Curd Cottage Cheese,1/2 Cup,100, 5
+Friday,Breakfast,Strawberry Yogurt,Ounce,20, 0
+Friday,Breakfast,Vanilla Yogurt,Ounce,20, 0
+Friday,Lunch,2% Chocolate Milk BIB,1 Cup,170, 5
+Friday,Lunch,2% Milk BIB,8 flz,120, 5
+Friday,Lunch,Apple Juice 6:1 Concentrate,1/2 hall glass,10, 0
+Friday,Lunch,Cherry Coke,1 dining hall glass,null,null
+Friday,Lunch,Coke Classic,1 dining hall glass,null,null
+Friday,Lunch,Coke Zero,8flz,null,null
+Friday,Lunch,Cranberry Juice 4.7:1 Concentrate,1/2 hall glass,70, 0
+Friday,Lunch,Diet Coke,1 dining hall glass,null,null
+Friday,Lunch,Diet Sprite,Fluid Oz,0, 0
+Friday,Lunch,Milk Soy Vanilla Aseptic Silk,8z,null,null
+Friday,Lunch,Orange Juice 5:1 Concentrate,1/2 hall glass,15, 0
+Friday,Lunch,Original Style Lemonade,1 dining hall glass,null,null
+Friday,Lunch,Original Unsweetened Almond Milk,6z Portion,60, 2
+Friday,Lunch,Pibb Xtra,1 dining hall glass,null,null
+Friday,Lunch,Powerade Mountain Blast,1 dining hall glass,null,null
+Friday,Lunch,Root Beer,1 dining hall glass,null,null
+Friday,Lunch,Skim Milk BIB,8 flz,80, 0
+Friday,Lunch,Sprite,1 dining hall glass,null,null
+Friday,Lunch,Unsweetened Vanilla Almond Milk,6z Portion,20, 1.5
+Friday,Lunch,Brewed coffee,6z Portion,0,null
+Friday,Lunch,Coffeemate Original,Fluid Oz,30, 3
+Friday,Lunch,Creamer French Vanilla Coffeemate 1.5L,Fluid Oz,60, 3.5
+Friday,Lunch,ecoStick Organic White Sugar Stick,"Stick
+Stick",10, 0
+Friday,Lunch,ecoStick Sugar Substitute Blue Pc,Stick,0, 0
+Friday,Lunch,ecoStick Sugar Substitute Pink Pc,Stick,0, 0
+Friday,Lunch,ecoStick Sugar Substitute Yellow Pc,Stick,0, 0
+Friday,Lunch,Extra Lite Amber Honey,Ounce,80, 0
+Friday,Lunch,Green Tea Bag,Tea Bag,0, 0
+Friday,Lunch,Hazelnut Coffee Creamer,Fluid Oz,10, 0
+Friday,Lunch,Lipton Black Tea Bag,Tea Bag,0, 0
+Friday,Lunch,Lipton Tea Decaf,Tea Bag,null,null
+Friday,Lunch,Fried Wonton DH,Ounce,110, 0.5
+Friday,Lunch,Steamed Brown Rice,4z Portion,140, 1
+Friday,Lunch,Steamed Long Grain Rice,4z Portion,530, 0
+Friday,Lunch,Vegetable Egg Rolls,2 Egg Rolls,230, 0
+Friday,Lunch,Chicken for Stirfry,1z Portion,50, 3.5
+Friday,Lunch,Firm Tofu,1/4 cup,60, 3
+Friday,Lunch,Homestyle Breaded Chicken Breast Chunk,4 pcs,260, 15
+Friday,Lunch,Plant Based Chick'n Poppers,1ct,null,null
+Friday,Lunch,Shrimp,1 Shrimp,5, 0
+Friday,Lunch,Steamed Brown Rice,4z Portion,140, 1
+Friday,Lunch,Steamed Long Grain Rice,4z Portion,530, 0
+Friday,Lunch,Szechuan Sauce,Ounce,120, 12
+Friday,Lunch,Thai Rice Noodle,Ounce,100, 0
+Friday,Lunch,Velveted Beef,1z Portion,40, 1.5
+Friday,Lunch,Yaki Soba Noodles,3z Portion,230, 2.5
+Friday,Lunch,Orange Ginger Sauce,2 tbs,60, 0
+Friday,Lunch,Sauce General Tso Premium,1Tbsp,30, 0
+Friday,Lunch,Soy Sauce,Ounce,20, 0
+Friday,Lunch,Sriracha Sauce,Teaspoon,0, 0
+Friday,Lunch,Sweet & Sour Sauce,Fluid Oz,30, 0
+Friday,Lunch,Teriyaki Glaze,2 tbs,50, 0
+Friday,Lunch,Bamboo Shoots,Ounce,0, 0
+Friday,Lunch,Bean Sprouts,Ounce,10, 0
+Friday,Lunch,Broccoli Florets,Ounce,10, 0
+Friday,Lunch,Cabbage Napa Shredded Thin,Ounce,0, 0
+Friday,Lunch,Carrots,Tablespoon,0, 0
+Friday,Lunch,Celery,Tablespoon,0, 0
+Friday,Lunch,Ginger Garlic,1z Portion,30, 0
+Friday,Lunch,Onion Sliced,Ounce,15, 0.5
+Friday,Lunch,Sliced Mushrooms,Tablespoon,0, 0
+Friday,Lunch,Snow Pea Pods,Ounce,10, 0
+Friday,Lunch,Tri Color Peppers,Portion,25, 1.5
+Friday,Lunch,Water Chestnut Sliced,Ounce,15, 0
+Friday,Lunch,Captain Crunch Wildberries,Cup,180, 2.5
+Friday,Lunch,Cheerios,Cup,110, 2
+Friday,Lunch,Cinnamon Toast Crunch,Cup,210, 5
+Friday,Lunch,Frosted Flakes,Cup,320, 0
+Friday,Lunch,Rice Chex Cereal,Cup,180, 1
+Friday,Lunch,Special K with Red Berries,Cup,360, 1
+Friday,Lunch,French Rolls,"6"" Portion",null,null
+Friday,Lunch,"Honey Wheat Tortilla 12""",Tortilla,300, 8
+Friday,Lunch,Kettle Chips,Ounce,160, 9
+Friday,Lunch,"Multigrain Bread 5/8"" Slice",Slice,null,null
+Friday,Lunch,Sourdough Bread Slice,Slices,100, 1
+Friday,Lunch,"Spinach Tortilla 12""",Tortilla,300, 8
+Friday,Lunch,"Sundried Tomato Basil Tortilla 12""",Tortillas,310, 8
+Friday,Lunch,Telera Roll,3.5z,300, 4
+Friday,Lunch,Caramel Topping,Ounce,80, 0
+Friday,Lunch,Chocolate Soft Serve Ice Cream Mix,Cup,340, 12
+Friday,Lunch,Cone Cake Jacketed,Cone,null,null
+Friday,Lunch,Dole Whip Pineapple,1 Serving,110, 0.5
+Friday,Lunch,Dole Whip Strawberry,1 Serving,110, 0
+Friday,Lunch,Dutch Chocolate Syrup,Ounce,70, 0
+Friday,Lunch,Mini Semi-Sweet Choc Chips,Ounce,130, 8
+Friday,Lunch,Oreo Cookie Topping,Ounce,140, 5
+Friday,Lunch,Rainbow Sprinkles,Ounce,140, 7
+Friday,Lunch,Vanilla Soft Serve Ice Cream Mix,Cup,360, 13
+Friday,Lunch,Jalapeno Monterey Jack Cheese Slice,Slice,60, 5
+Friday,Lunch,Provolone Cheese Slice,Slice,70, 6
+Friday,Lunch,Sliced 0.75z Mild Cheddar Cheese,Slice,80, 7
+Friday,Lunch,Cooked & Crumbled Bacon,Ounce,160, 13
+Friday,Lunch,"Diced 3/8"" Bacon",1 Tbsp,60, 4.5
+Friday,Lunch,Grilled Chicken Breast Strip Fajita,Ounce,35, 1.5
+Friday,Lunch,Low Sodium Smoked Ham Slices,Ounce,30, 1
+Friday,Lunch,Oven Roasted Sliced Chicken,Ounce,null,null
+Friday,Lunch,Smoked Sliced Genoa Salami,Ounce,110, 9
+Friday,Lunch,Smoked Tempeh,Ounce,null,null
+Friday,Lunch,Tuna Salad,1z Portion,80, 7
+Friday,Lunch,Chicago-Style Hot Giardiniera,Fluid Oz,120, 12
+Friday,Lunch,Cucumber Slices,.25 cup,0, 0
+Friday,Lunch,Flat Leaf Spinach,Ounce,5, 0
+Friday,Lunch,Hamburger Sliced Dill Pickle Chip,Slice,0, 0
+Friday,Lunch,Mild Banana Pepper Ring,Ounce,5, 0
+Friday,Lunch,Shredded Iceberg Lettuce,Ounce,0, 0
+Friday,Lunch,Sliced Jalapeno Peppers,Tablespoon,0, 0
+Friday,Lunch,Sliced Red Onion,Ounce,10, 0
+Friday,Lunch,Tomatoes Sliced 1/4-inch,Pound,80, 1
+Friday,Lunch,Aged Balsamic Vinegar,Fluid Oz,40, 0
+Friday,Lunch,Black Pepper Grinder,Teaspoon,5, 0
+Friday,Lunch,Buttermilk Ranch Dressing,Ounce,130, 14
+Friday,Lunch,Chipotle Ranch Dressing,Fluid Oz,150, 16
+Friday,Lunch,Garlic Mayonnaise,1/2 oz,100, 10
+Friday,Lunch,Grinder Sea Salt,Gram,0, 0
+Friday,Lunch,Heavy Duty Mayonnaise,Tablespoon,100, 11
+Friday,Lunch,Mediterranean Extra Virgin Olive Oil,1 tbsp,120, 14
+Friday,Lunch,Plant Based Chipotle Ranch Dressing,2z Portion,180, 20
+Friday,Lunch,RedHot Buffalo Wing Sauce,Fluid Oz,0, 0
+Friday,Lunch,Vegan Mayonnaise,1 tbs,60, 7
+Friday,Lunch,Vinegar Red Wine,Fluid Oz,0, 0
+Friday,Lunch,Yellow Mustard,1 tsp,0, 0
+Friday,Lunch,Apple Gala,Apples,90, 0
+Friday,Lunch,Bananas,Banana,190, 0
+Friday,Lunch,Fresh Kiwi,Kiwi,60, 0
+Friday,Lunch,Oranges,Orange,100, 0
+Friday,Lunch,Pears,Each,null,null
+Friday,Lunch,American,Slice,70, 6
+Friday,Lunch,Angus Beef Frank,Frank,170, 16
+Friday,Lunch,Black Bean Burger,Patty,170, 5
+Friday,Lunch,Breaded Onion Tangler,3z portion,270, 17
+Friday,Lunch,Buns Hot Dog Bulk,Each,120, 1.5
+Friday,Lunch,Fried Eggs,Eggs,90, 7
+Friday,Lunch,Hamburger Bun,Buns,null,null
+Friday,Lunch,Hamburger Sliced Dill Pickle Chip,Slice,0, 0
+Friday,Lunch,Heavy Duty Mayonnaise,Tablespoon,100, 11
+Friday,Lunch,Homestyle Breaded Chicken Breast Fritter,Patty,230, 14
+Friday,Lunch,Natural Low Sodium Ketchup,Ounce,5, 0
+Friday,Lunch,Regular Cut Potato Fries,3z,110, 3.5
+Friday,Lunch,Sliced Red Onion,Ounce,10, 0
+Friday,Lunch,Smash Burger,Burgers,290, 23
+Friday,Lunch,Spicy Brown Mustard,Ounce,30, 0
+Friday,Lunch,Tomatoes,Ounce,5, 0
+Friday,Lunch,Yellow Mustard,1 tsp,0, 0
+Friday,Lunch,American Cheese Slice,Slice,50, 4.5
+Friday,Lunch,Jalapeno Monterey Jack Cheese Slice,Slice,60, 5
+Friday,Lunch,"Multigrain Bread 5/8"" Slice",Slice,null,null
+Friday,Lunch,Sliced 0.75z Mild Cheddar Cheese,Slice,80, 7
+Friday,Lunch,Sourdough Bread Slice,Slices,100, 1
+Friday,Lunch,"White Pullman Bread 0.5"" Slice",Slices,60, 0.5
+Friday,Lunch,Baked Sweet Potato,Potatoes,120, 1.5
+Friday,Lunch,Fish & Chips Basket,Basket,350,null
+Friday,Lunch,French Green Beans Haricot Vert,3z Portion,50, 2.5
+Friday,Lunch,Garden Herb Chicken Breast,3.25z Tender,80, 0
+Friday,Lunch,Malibu Blend Vegetables,4z Portion,35, 0
+Friday,Lunch,Baby Arugula,Ounce,5, 0
+Friday,Lunch,Feta Cheese Crumbles,Ounce,5, 0.5
+Friday,Lunch,Fresh Italian Parsley,Tablespoon,0, 0
+Friday,Lunch,Fresh Mint Leaf,Ounce,0, 0
+Friday,Lunch,Harissa Hot Sauce,Ounce,null,null
+Friday,Lunch,Jerusalem Salad,2z Portion,50, 3.5
+Friday,Lunch,Kalamata Olives,Olives,10, 1
+Friday,Lunch,Lemon Vinaigrette Dressing,2 tbsp,110, 11
+Friday,Lunch,Low Sodium Garbanzo Beans,Ounce,30, 0
+Friday,Lunch,Mediterranean Falafel Ball,3 oz portion,140, 5
+Friday,Lunch,Spiced Wheat Pita Bread,.229z Portion,40, 2.5
+Friday,Lunch,"10"" Flour Tortilla",Tortilla,170, 4.5
+Friday,Lunch,Egg White Liquid,Ounce,15, 0
+Friday,Lunch,Large Fresh Eggs,Eggs,100, 7
+Friday,Lunch,Zero Egg Plant Based Egg Liquid,Ounce,25, 1.5
+Friday,Lunch,Daiya Vegan Shredded Mozzarella Cheese,Ounce,80, 5
+Friday,Lunch,Shredded Mild Cheddar Cheese,Ounce,110, 9
+Friday,Lunch,Shredded Part-Skim Mozzarella Cheese,1z Portion,80, 6
+Friday,Lunch,Cooked Sausage Crumble,1z Portion,120, 12
+Friday,Lunch,"Diced 3/8"" Bacon",1 Tbsp,60, 4.5
+Friday,Lunch,Diced Green Peppers,Ounce,5, 0
+Friday,Lunch,Diced Onions,Ounce,10, 0
+Friday,Lunch,Diced Tomatoes,Ounce,0, 0
+Friday,Lunch,Plant Based Chorizo Sausage Crumble,2z Portion,140, 5
+Friday,Lunch,Sliced Mushrooms,Tablespoon,0, 0
+Friday,Lunch,Spinach,Ounce,5, 0
+Friday,Lunch,"Water-Added Ham Diced 1/4""",Ounce,35, 1.5
+Friday,Lunch,Broccoli Florets,Ounce,10, 0
+Friday,Lunch,Sauteed Sliced Mushrooms,1z Portion,15, 1
+Friday,Lunch,Tomato Cherry Red Halves,2 Halves,0, 0
+Friday,Lunch,Chunk Italian Sausage,Ounce,90, 8
+Friday,Lunch,Grilled Chicken Breast Strip Fajita,Ounce,35, 1.5
+Friday,Lunch,Shrimp,1 Shrimp,5, 0
+Friday,Lunch,Elbow Macaroni Pasta,4z Portion,220, 5
+Friday,Lunch,Penne Pasta,3z Portion,170, 4.5
+Friday,Lunch,Tri-Color Tortellini,4z Portion,280, 8
+Friday,Lunch,Alfredo Sauce,Ounce,70, 6
+Friday,Lunch,Basil Pesto Sauce,1/4 Cup,320, 34
+Friday,Lunch,Diavolo Sauce,2 Flz Portion,90, 8
+Friday,Lunch,Marinara Sauce,Ounce,15, 0.5
+Friday,Lunch,Balsamic Vinegar,Teaspoon,0, 0
+Friday,Lunch,Basil,Ounce,0, 0
+Friday,Lunch,Garlic Minced Prep,Ounce,35, 0
+Friday,Lunch,Grated Parmesan Cheese,Tablespoon,30, 2.5
+Friday,Lunch,Mediterranean Extra Virgin Olive Oil,1 tbsp,120, 14
+Friday,Lunch,Parsley Ital Fresh Clnd,Tablespoon,0, 0
+Friday,Lunch,Pepper Red Crushed,Teaspoon,0, 0
+Friday,Lunch,Shallots Minced Prep,Ounce,15, 0
+Friday,Lunch,Cheese Pizza,Piece -U,140, 5
+Friday,Lunch,Sausage Pizza,Piece -U,180, 9
+Friday,Lunch,Vegetable Pizza,Piece -U,150, 6
+Friday,Lunch,Baked Sweet Potato,Potatoes,120, 1.5
+Friday,Lunch,Classic Vegan Kimchi,Ounce,10, 0
+Friday,Lunch,Firm Tofu,1/4 cup,60, 3
+Friday,Lunch,Flax Seed,Ounce,150, 12
+Friday,Lunch,High Protein Grain BleND,3z portion,190,null
+Friday,Lunch,Marinated Quarter Artichoke Heart,Ounce,15, 1
+Friday,Lunch,Marinated Tofu,4z Portion,110, 5
+Friday,Lunch,Nutritional Yeast,Gram,null,null
+Friday,Lunch,Organic Black Chia Seed,Ounce,140, 9
+Friday,Lunch,Roasted & Salted Sunflower Seeds,1 Tablespoon,90, 7
+Friday,Lunch,Salt & Peppercorn Roasted Cauliflower,Ounce,0, 0
+Friday,Lunch,Shredded Kale,Ounce,15, 0
+Friday,Lunch,Sliced Almonds,Tablespoon,90, 8
+Friday,Lunch,Walnuts Halves & Pieces,Tablespoon,50, 5
+Friday,Lunch,"10"" Flour Tortilla",Tortilla,170, 4.5
+Friday,Lunch,Chicken Taco Meat,2z Portion,140, 2
+Friday,Lunch,Chipotle Ranch Dressing,Fluid Oz,150, 16
+Friday,Lunch,Flame-Roasted Corn & Peppers,4z Portion,160, 5
+Friday,Lunch,Grilled Steak Strips,2z Portion,120, 6
+Friday,Lunch,House-made Guacamole,3z Portion,100, 9
+Friday,Lunch,Mexican Rice,Ounce,80, 0
+Friday,Lunch,Pico de Gallo,2z Portion,10, 0
+Friday,Lunch,Queso Rico Chihuahua Cheese,Ounce,100, 8
+Friday,Lunch,Sliced Jalapeno Peppers,Tablespoon,0, 0
+Friday,Lunch,Sour Cream 5lb,2 Tbsp,60, 5
+Friday,Lunch,Vegan Refried Beans,1.6z Portion,150, 1.5
+Friday,Lunch,Black Beans,Ounce,25, 0
+Friday,Lunch,Carrots,Tablespoon,0, 0
+Friday,Lunch,Chopped Eggs,.5z Portion,25, 1.5
+Friday,Lunch,Classic Edamame,Tablespoon,15, 0.5
+Friday,Lunch,Crispy Fried French Onion,Ounce,160, 12
+Friday,Lunch,Cucumber Slices,Slices,0, 0
+Friday,Lunch,Diced Tomatoes,Ounce,0, 0
+Friday,Lunch,Feta Cheese Crumbles,Ounce,5, 0.5
+Friday,Lunch,Iceberg Salad Mix,1 cup portion,5, 0
+Friday,Lunch,Large Seasoned Crouton,Ounce,120, 4
+Friday,Lunch,Locally Grown Salad Greens,Ounce,0, 0
+Friday,Lunch,Low Sodium Garbanzo Beans,Ounce,30, 0
+Friday,Lunch,Mini Marshmallows,Ounce,90, 0
+Friday,Lunch,Shredded Mild Cheddar Cheese,Ounce,110, 9
+Friday,Lunch,Sliced Mushrooms,Tablespoon,0, 0
+Friday,Lunch,Sliced Red Onion,Ounce,10, 0
+Friday,Lunch,Spiced Pumpkin Seeds,Tablespoon,45, 3
+Friday,Lunch,Spinach,Ounce,5, 0
+Friday,Lunch,Tri Color Peppers,Portion,25, 1.5
+Friday,Lunch,Tuna,1/4 Cup,35, 0
+Friday,Lunch,Balsamic Vinaigrette Dressing in Bottle,Ounce,60, 4.5
+Friday,Lunch,Buttermilk Ranch Dressing,Ounce,130, 14
+Friday,Lunch,Country French Dressing,Ounce,120, 11
+Friday,Lunch,Creamy Caesar Dressing,Fluid Oz,140, 15
+Friday,Lunch,Fat Free Raspberry Vinaigrette Dressing,Fluid Oz,35, 0
+Friday,Lunch,Lite Ranch Dressing,Ounce,70, 7
+Friday,Lunch,Plant Based Ranch Dressing,2z Portion,210, 22
+Friday,Lunch,Creamy Tomato Soup,6 Flz,90, 1.5
+Friday,Lunch,"100% Whole Wheat Bread 1/2"" Slice",Slice,70, 0.5
+Friday,Lunch,Avocado Pulp Fresh,Ounce,70, 6
+Friday,Lunch,Cream Cheese,Ounce,90, 9
+Friday,Lunch,Everything Bagel,"Bagel
+Bagel",340, 4.5
+Friday,Lunch,Jif Peanut Butter PC,0.75z,120, 10
+Friday,Lunch,Nutella Chocolate Hazelnut Spread,Ounce,150, 9
+Friday,Lunch,Plain Bagel,Bagel,320, 1
+Friday,Lunch,Sliced Tomatoes,Ounce,0, 0
+Friday,Lunch,Unsalted European-Style Butter Prints,Ounce,220, 24
+Friday,Lunch,"White Pullman Bread 0.5"" Slice",Slices,60, 0.5
+Friday,Lunch,Whole Wheat Bagel,Bagel,320, 1.5
+Friday,Lunch,Baby Carrots,3 Carrots,10, 0
+Friday,Lunch,Celery Sticks,Ounce,0, 0
+Friday,Lunch,Classic Quinoa & Lentil Salad,3z Portion,200, 9
+Friday,Lunch,Daiya Vegan Shredded Mozzarella Cheese,Ounce,80, 5
+Friday,Lunch,Fresh Avocado,Ounce,45, 4.5
+Friday,Lunch,Hummus with Tahini,1z Portion,70, 5
+Friday,Lunch,Kalamata Olive Hummus,1z Portion,70, 6
+Friday,Lunch,Raw Mediterranean Pita Chips,1 oz portion,70, 0.5
+Friday,Lunch,Roasted Garlic Hummus,1z Portion,70, 5
+Friday,Lunch,Roasted Red Pepper Hummus,1z Portion,60, 4
+Friday,Lunch,Vegan Fajitas,5z Portion,190, 7
+Friday,Lunch,Blueberry Yogurt,Ounce,20, 0
+Friday,Lunch,Nature Valley Toasted Granola Oat,Ounce,130, 4.5
+Friday,Lunch,Plain Greek Yogurt,Ounce,15, 0
+Friday,Lunch,Small Curd Cottage Cheese,1/2 Cup,100, 5
+Friday,Lunch,Strawberry Yogurt,Ounce,20, 0
+Friday,Lunch,Vanilla Yogurt,Ounce,20, 0
+Saturday,Lunch,Bar Kind Caramel Sea Salt Almond 1.4z,1.4z bar,200, 16
+Saturday,Lunch,Bar Kind Crnbry Almond 12ct,1.4z bar,190, 13
+Saturday,Lunch,Bar Kind Dk Choc Cherry Cashew 12ct,1.4z bar,170, 10
+Saturday,Lunch,Bar Pure Protein Chewy Choc Chip 50g,Bar,null,null
+Saturday,Lunch,Bar Pure Protein Choc Delux 50g,Bar,null,null
+Saturday,Lunch,Bar Pure Protein Choc PB 50g,Bar,null,null
+Saturday,Lunch,Bar Quest Birthday Cake 2.12z,2.12z bar,null,null
+Saturday,Lunch,Bar Quest Cookies & Cream,2.12z bar,null,null
+Saturday,Lunch,Beef Cup of Noodles,Pkg,null,null
+Saturday,Lunch,Biscuit Belvita Blbry,Bar,230, 8
+Saturday,Lunch,Biscuit Belvita Cinn & Brn Sugar 1.76z,1.76z bar,null,null
+Saturday,Lunch,California Seedless Raisins,Ounce,80, 0
+Saturday,Lunch,Cheerios Bowl,1ct,130, 2.5
+Saturday,Lunch,Cheese Stick Colby Jack Sargento 1z,1z stick,60, 2.5
+Saturday,Lunch,Cheese Stick Mild Cheddar Sargento 1z,1z stick,60, 2.5
+Saturday,Lunch,Cheese Stick Pepper Jack,0.83z,50, 2
+Saturday,Lunch,Cheez It,Ounce,130, 4.5
+Saturday,Lunch,Chef's Salad,Salad,290, 19
+Saturday,Lunch,Chip Pringles Cheezums,1.41z,210, 14
+Saturday,Lunch,Chocolate Snack Pudding,3.5z Cup,110, 2.5
+Saturday,Lunch,Cinnamon Graham Cracker Tiger Bites,1z,120, 4
+Saturday,Lunch,Crunchmania Cinnamon Snack Bun,1.76z,210, 7
+Saturday,Lunch,Frosted Blueberry Pop Tarts,2 Pop Tarts,370, 9
+Saturday,Lunch,Frosted Brown Sugar Pop Tarts,2 Pop Tarts,0, 14
+Saturday,Lunch,Frosted Flakes,Cup,320, 0
+Saturday,Lunch,Frosted Strawberry Pop Tarts,8ct box,1480, 36
+Saturday,Lunch,Fruit Rollups,0.5z,50, 1
+Saturday,Lunch,Garden Salad,Salad,35, 0
+Saturday,Lunch,Gourmet Chocolate Chunk Cookie,2.5z cookie,320, 14
+Saturday,Lunch,Healthy Grain Dk Choc Chnk Kind Bar,1.4z Bar,170, 5
+Saturday,Lunch,Heart Healthy Mix Planters 9.75z,9.75z,null,null
+Saturday,Lunch,Ice Cream Mochi Cookie n Cream,1.5z,null,null
+Saturday,Lunch,Ice Cream Mochi Dbl Choc,1.5z,null,null
+Saturday,Lunch,Ice Cream Mochi Mango,1ct,null,null
+Saturday,Lunch,Ice Cream Mochi Strbry,1.5z,null,null
+Saturday,Lunch,Lucky Charms Bowl,Bowl,140, 1.5
+Saturday,Lunch,Mandarin Orange in Juice Cup,4.5z,50, 0
+Saturday,Lunch,Maruchan Cup of Noodles Chix 2.25z cup,2.25z,null,null
+Saturday,Lunch,Mayonnaise Packet,12gm packet,80, 9
+Saturday,Lunch,Milk Almond Silk Dk Choc,8z Cont.,null,null
+Saturday,Lunch,Mini Oreo Cookie,Bags,190, 10
+Saturday,Lunch,Mozzarella Cheese String,Each,80, 6
+Saturday,Lunch,Mustard Pc,.2z Pkt,0, 0
+Saturday,Lunch,Oat & Honey Nature Valley Granola Bar,1.5z bar,190, 7
+Saturday,Lunch,Parm Garlic Hrb Pita Chips,1.5z bag,200, 7
+Saturday,Lunch,Peanut Butter & Grape Jelly Uncrustable,2.6z sandw,290, 15
+Saturday,Lunch,Peanut Butter & Strawberry Uncrustable,2.6z,290, 15
+Saturday,Lunch,Plant Based Nut Free Queso Style Dip,1.75z,null,null
+Saturday,Lunch,Popcorn Micro Butter-Flavor,3.3z,380, 17
+Saturday,Lunch,Powerade Fruit Punch,20z Bottle,null,null
+Saturday,Lunch,Powerade Mountain Berry Blast,20z Bottle,170,null
+Saturday,Lunch,Powerade Orange,20z Bottle,null,null
+Saturday,Lunch,Powerade Zero Grape,20z Bottle,null,null
+Saturday,Lunch,Powerade Zero Mixed Berry,20z,null,null
+Saturday,Lunch,Pringles Original Potato Chip,1.3z Pkg,200, 12
+Saturday,Lunch,Pringles Sour Cream & Onion Chip,1.41z,210, 14
+Saturday,Lunch,Raisin Bran,Cup,240, 1.5
+Saturday,Lunch,Regular Lays Chips,1z Bag,160, 10
+Saturday,Lunch,Regular Ruffles Chips,1z bag,160, 10
+Saturday,Lunch,Shrimp Cup of Noodles,2.25z,null,null
+Saturday,Lunch,Sliced Apple Pc,2.4z,35, 0
+Saturday,Lunch,Smoothie Bolthouse Farm Berry Boost,Bottle,null,null
+Saturday,Lunch,Smoothie Bolthouse Farm C-Boost,Bottle,null,null
+Saturday,Lunch,Smoothie Bolthouse Farm Green Goodness,Bottle,null,null
+Saturday,Lunch,Smoothie Bolthouse Farm Strb Banana,Bottle,null,null
+Saturday,Lunch,S'more Frosted Pop Tart,6ct,1110, 27
+Saturday,Lunch,Special K Chocolate PB Protein Bar,1.59z bar,90, 4
+Saturday,Lunch,Sugar Pearl Belgian Waffle,1ct,290, 14
+Saturday,Lunch,Sunflower Seed Snack,5.25z,null,null
+Saturday,Lunch,Triple Zero Vanilla Yogurt,5.3z Container,150, 0
+Saturday,Lunch,Tuna Kit Lunch 4.1z Starkist,4.1z,null,null
+Saturday,Lunch,Turkey Sausage Patty,1.5z,90, 7
+Saturday,Lunch,Vanilla Snack Pudding,3.5z Cup,110, 2.5
+Saturday,Lunch,2% Chocolate Milk BIB,1 Cup,170, 5
+Saturday,Lunch,2% Milk BIB,8 flz,120, 5
+Saturday,Lunch,Apple Juice 6:1 Concentrate,1/2 hall glass,10, 0
+Saturday,Lunch,Cherry Coke,1 dining hall glass,null,null
+Saturday,Lunch,Coke Classic,1 dining hall glass,null,null
+Saturday,Lunch,Coke Zero,8flz,null,null
+Saturday,Lunch,Cranberry Juice 4.7:1 Concentrate,1/2 hall glass,70, 0
+Saturday,Lunch,Diet Coke,1 dining hall glass,null,null
+Saturday,Lunch,Diet Sprite,Fluid Oz,0, 0
+Saturday,Lunch,Milk Soy Vanilla Aseptic Silk,8z,null,null
+Saturday,Lunch,Orange Juice 5:1 Concentrate,1/2 hall glass,15, 0
+Saturday,Lunch,Original Style Lemonade,1 dining hall glass,null,null
+Saturday,Lunch,Original Unsweetened Almond Milk,6z Portion,60, 2
+Saturday,Lunch,Pibb Xtra,1 dining hall glass,null,null
+Saturday,Lunch,Powerade Mountain Blast,1 dining hall glass,null,null
+Saturday,Lunch,Root Beer,1 dining hall glass,null,null
+Saturday,Lunch,Skim Milk BIB,8 flz,80, 0
+Saturday,Lunch,Sprite,1 dining hall glass,null,null
+Saturday,Lunch,Unsweetened Vanilla Almond Milk,6z Portion,20, 1.5
+Saturday,Lunch,Brewed coffee,6z Portion,0,null
+Saturday,Lunch,Coffeemate Original,Fluid Oz,30, 3
+Saturday,Lunch,Creamer French Vanilla Coffeemate 1.5L,Fluid Oz,60, 3.5
+Saturday,Lunch,ecoStick Organic White Sugar Stick,"Stick
+Stick",10, 0
+Saturday,Lunch,ecoStick Sugar Substitute Blue Pc,Stick,0, 0
+Saturday,Lunch,ecoStick Sugar Substitute Pink Pc,Stick,0, 0
+Saturday,Lunch,ecoStick Sugar Substitute Yellow Pc,Stick,0, 0
+Saturday,Lunch,Extra Lite Amber Honey,Ounce,80, 0
+Saturday,Lunch,Green Tea Bag,Tea Bag,0, 0
+Saturday,Lunch,Hazelnut Coffee Creamer,Fluid Oz,10, 0
+Saturday,Lunch,Lipton Black Tea Bag,Tea Bag,0, 0
+Saturday,Lunch,Lipton Tea Decaf,Tea Bag,null,null
+Saturday,Lunch,Bacon,2 Slices,80, 6
+Saturday,Lunch,Bacon Quesadilla,Quesadilla,400, 22
+Saturday,Lunch,Chocolate Chip Pancakes,Pancake,210, 6
+Saturday,Lunch,Company Potatoes,4z Portion,380, 10
+Saturday,Lunch,Hard Boiled Eggs,1 Egg,90, 7
+Saturday,Lunch,Oatmeal Station with Nuts,Nutrition Varies,100, 5
+Saturday,Lunch,Omelet Ham Rolled HCH,5.08z Portion,240, 16
+Saturday,Lunch,Scrambled Eggs,4z Portion,180, 13
+Saturday,Lunch,Spicy Sausage Patty,2z Patty,210, 20
+Saturday,Lunch,Captain Crunch Wildberries,Cup,180, 2.5
+Saturday,Lunch,Cheerios,Cup,110, 2
+Saturday,Lunch,Cinnamon Toast Crunch,Cup,210, 5
+Saturday,Lunch,Frosted Flakes,Cup,320, 0
+Saturday,Lunch,Rice Chex Cereal,Cup,180, 1
+Saturday,Lunch,Special K with Red Berries,Cup,360, 1
+Saturday,Lunch,Apple Gala,Apples,90, 0
+Saturday,Lunch,Bananas,Banana,190, 0
+Saturday,Lunch,Fresh Kiwi,Kiwi,60, 0
+Saturday,Lunch,Oranges,Orange,100, 0
+Saturday,Lunch,Pears,Each,null,null
+Saturday,Lunch,American,Slice,70, 6
+Saturday,Lunch,Hamburger Sliced Dill Pickle Chip,Slice,0, 0
+Saturday,Lunch,Heavy Duty Mayonnaise,Tablespoon,100, 11
+Saturday,Lunch,Natural Low Sodium Ketchup,Ounce,5, 0
+Saturday,Lunch,Sliced Red Onion,Ounce,10, 0
+Saturday,Lunch,Spicy Brown Mustard,Ounce,30, 0
+Saturday,Lunch,Tomatoes,Ounce,5, 0
+Saturday,Lunch,Yellow Mustard,1 tsp,0, 0
+Saturday,Lunch,"10"" Flour Tortilla",Tortilla,170, 4.5
+Saturday,Lunch,Egg White Liquid,Ounce,15, 0
+Saturday,Lunch,Large Fresh Eggs,Eggs,100, 7
+Saturday,Lunch,Zero Egg Plant Based Egg Liquid,Ounce,25, 1.5
+Saturday,Lunch,Daiya Vegan Shredded Mozzarella Cheese,Ounce,80, 5
+Saturday,Lunch,Shredded Mild Cheddar Cheese,Ounce,110, 9
+Saturday,Lunch,Shredded Part-Skim Mozzarella Cheese,1z Portion,80, 6
+Saturday,Lunch,Cooked Sausage Crumble,1z Portion,120, 12
+Saturday,Lunch,"Diced 3/8"" Bacon",1 Tbsp,60, 4.5
+Saturday,Lunch,Diced Green Peppers,Ounce,5, 0
+Saturday,Lunch,Diced Onions,Ounce,10, 0
+Saturday,Lunch,Diced Tomatoes,Ounce,0, 0
+Saturday,Lunch,Plant Based Chorizo Sausage Crumble,2z Portion,140, 5
+Saturday,Lunch,Sliced Mushrooms,Tablespoon,0, 0
+Saturday,Lunch,Spinach,Ounce,5, 0
+Saturday,Lunch,"Water-Added Ham Diced 1/4""",Ounce,35, 1.5
+Saturday,Lunch,"100% Whole Wheat Bread 1/2"" Slice",Slice,70, 0.5
+Saturday,Lunch,Avocado Pulp Fresh,Ounce,70, 6
+Saturday,Lunch,Cream Cheese,Ounce,90, 9
+Saturday,Lunch,Everything Bagel,"Bagel
+Bagel",340, 4.5
+Saturday,Lunch,Jif Peanut Butter PC,0.75z,120, 10
+Saturday,Lunch,Nutella Chocolate Hazelnut Spread,Ounce,150, 9
+Saturday,Lunch,Plain Bagel,Bagel,320, 1
+Saturday,Lunch,Sliced Tomatoes,Ounce,0, 0
+Saturday,Lunch,Unsalted European-Style Butter Prints,Ounce,220, 24
+Saturday,Lunch,"White Pullman Bread 0.5"" Slice",Slices,60, 0.5
+Saturday,Lunch,Whole Wheat Bagel,Bagel,320, 1.5
+Saturday,Lunch,Blueberry Yogurt,Ounce,20, 0
+Saturday,Lunch,Nature Valley Toasted Granola Oat,Ounce,130, 4.5
+Saturday,Lunch,Plain Greek Yogurt,Ounce,15, 0
+Saturday,Lunch,Small Curd Cottage Cheese,1/2 Cup,100, 5
+Saturday,Lunch,Strawberry Yogurt,Ounce,20, 0
+Saturday,Lunch,Vanilla Yogurt,Ounce,20, 0
+Saturday,Dinner,2% Chocolate Milk BIB,1 Cup,170, 5
+Saturday,Dinner,2% Milk BIB,8 flz,120, 5
+Saturday,Dinner,Apple Juice 6:1 Concentrate,1/2 hall glass,10, 0
+Saturday,Dinner,Cherry Coke,1 dining hall glass,null,null
+Saturday,Dinner,Coke Classic,1 dining hall glass,null,null
+Saturday,Dinner,Coke Zero,8flz,null,null
+Saturday,Dinner,Cranberry Juice 4.7:1 Concentrate,1/2 hall glass,70, 0
+Saturday,Dinner,Diet Coke,1 dining hall glass,null,null
+Saturday,Dinner,Diet Sprite,Fluid Oz,0, 0
+Saturday,Dinner,Milk Soy Vanilla Aseptic Silk,8z,null,null
+Saturday,Dinner,Orange Juice 5:1 Concentrate,1/2 hall glass,15, 0
+Saturday,Dinner,Original Style Lemonade,1 dining hall glass,null,null
+Saturday,Dinner,Original Unsweetened Almond Milk,6z Portion,60, 2
+Saturday,Dinner,Pibb Xtra,1 dining hall glass,null,null
+Saturday,Dinner,Powerade Mountain Blast,1 dining hall glass,null,null
+Saturday,Dinner,Root Beer,1 dining hall glass,null,null
+Saturday,Dinner,Skim Milk BIB,8 flz,80, 0
+Saturday,Dinner,Sprite,1 dining hall glass,null,null
+Saturday,Dinner,Unsweetened Vanilla Almond Milk,6z Portion,20, 1.5
+Saturday,Dinner,Brewed coffee,6z Portion,0,null
+Saturday,Dinner,Coffeemate Original,Fluid Oz,30, 3
+Saturday,Dinner,Creamer French Vanilla Coffeemate 1.5L,Fluid Oz,60, 3.5
+Saturday,Dinner,ecoStick Organic White Sugar Stick,"Stick
+Stick",10, 0
+Saturday,Dinner,ecoStick Sugar Substitute Blue Pc,Stick,0, 0
+Saturday,Dinner,ecoStick Sugar Substitute Pink Pc,Stick,0, 0
+Saturday,Dinner,ecoStick Sugar Substitute Yellow Pc,Stick,0, 0
+Saturday,Dinner,Extra Lite Amber Honey,Ounce,80, 0
+Saturday,Dinner,Green Tea Bag,Tea Bag,0, 0
+Saturday,Dinner,Hazelnut Coffee Creamer,Fluid Oz,10, 0
+Saturday,Dinner,Lipton Black Tea Bag,Tea Bag,0, 0
+Saturday,Dinner,Lipton Tea Decaf,Tea Bag,null,null
+Saturday,Dinner,Captain Crunch Wildberries,Cup,180, 2.5
+Saturday,Dinner,Cheerios,Cup,110, 2
+Saturday,Dinner,Cinnamon Toast Crunch,Cup,210, 5
+Saturday,Dinner,Frosted Flakes,Cup,320, 0
+Saturday,Dinner,Rice Chex Cereal,Cup,180, 1
+Saturday,Dinner,Special K with Red Berries,Cup,360, 1
+Saturday,Dinner,French Rolls,"6"" Portion",null,null
+Saturday,Dinner,"Honey Wheat Tortilla 12""",Tortilla,300, 8
+Saturday,Dinner,Kettle Chips,Ounce,160, 9
+Saturday,Dinner,"Multigrain Bread 5/8"" Slice",Slice,null,null
+Saturday,Dinner,Sourdough Bread Slice,Slices,100, 1
+Saturday,Dinner,"Spinach Tortilla 12""",Tortilla,300, 8
+Saturday,Dinner,"Sundried Tomato Basil Tortilla 12""",Tortillas,310, 8
+Saturday,Dinner,Telera Roll,3.5z,300, 4
+Saturday,Dinner,Caramel Topping,Ounce,80, 0
+Saturday,Dinner,Chocolate Soft Serve Ice Cream Mix,Cup,340, 12
+Saturday,Dinner,Cone Cake Jacketed,Cone,null,null
+Saturday,Dinner,Dole Whip Pineapple,1 Serving,110, 0.5
+Saturday,Dinner,Dole Whip Strawberry,1 Serving,110, 0
+Saturday,Dinner,Dutch Chocolate Syrup,Ounce,70, 0
+Saturday,Dinner,Mini Semi-Sweet Choc Chips,Ounce,130, 8
+Saturday,Dinner,Oreo Cookie Topping,Ounce,140, 5
+Saturday,Dinner,Rainbow Sprinkles,Ounce,140, 7
+Saturday,Dinner,Vanilla Soft Serve Ice Cream Mix,Cup,360, 13
+Saturday,Dinner,Jalapeno Monterey Jack Cheese Slice,Slice,60, 5
+Saturday,Dinner,Provolone Cheese Slice,Slice,70, 6
+Saturday,Dinner,Sliced 0.75z Mild Cheddar Cheese,Slice,80, 7
+Saturday,Dinner,Cooked & Crumbled Bacon,Ounce,160, 13
+Saturday,Dinner,"Diced 3/8"" Bacon",1 Tbsp,60, 4.5
+Saturday,Dinner,Grilled Chicken Breast Strip Fajita,Ounce,35, 1.5
+Saturday,Dinner,Low Sodium Smoked Ham Slices,Ounce,30, 1
+Saturday,Dinner,Oven Roasted Sliced Chicken,Ounce,null,null
+Saturday,Dinner,Smoked Sliced Genoa Salami,Ounce,110, 9
+Saturday,Dinner,Smoked Tempeh,Ounce,null,null
+Saturday,Dinner,Tuna Salad,1z Portion,80, 7
+Saturday,Dinner,Chicago-Style Hot Giardiniera,Fluid Oz,120, 12
+Saturday,Dinner,Cucumber Slices,.25 cup,0, 0
+Saturday,Dinner,Flat Leaf Spinach,Ounce,5, 0
+Saturday,Dinner,Hamburger Sliced Dill Pickle Chip,Slice,0, 0
+Saturday,Dinner,Mild Banana Pepper Ring,Ounce,5, 0
+Saturday,Dinner,Shredded Iceberg Lettuce,Ounce,0, 0
+Saturday,Dinner,Sliced Jalapeno Peppers,Tablespoon,0, 0
+Saturday,Dinner,Sliced Red Onion,Ounce,10, 0
+Saturday,Dinner,Tomatoes Sliced 1/4-inch,Pound,80, 1
+Saturday,Dinner,Aged Balsamic Vinegar,Fluid Oz,40, 0
+Saturday,Dinner,Black Pepper Grinder,Teaspoon,5, 0
+Saturday,Dinner,Buttermilk Ranch Dressing,Ounce,130, 14
+Saturday,Dinner,Chipotle Ranch Dressing,Fluid Oz,150, 16
+Saturday,Dinner,Garlic Mayonnaise,1/2 oz,100, 10
+Saturday,Dinner,Grinder Sea Salt,Gram,0, 0
+Saturday,Dinner,Heavy Duty Mayonnaise,Tablespoon,100, 11
+Saturday,Dinner,Mediterranean Extra Virgin Olive Oil,1 tbsp,120, 14
+Saturday,Dinner,Plant Based Chipotle Ranch Dressing,2z Portion,180, 20
+Saturday,Dinner,RedHot Buffalo Wing Sauce,Fluid Oz,0, 0
+Saturday,Dinner,Vegan Mayonnaise,1 tbs,60, 7
+Saturday,Dinner,Vinegar Red Wine,Fluid Oz,0, 0
+Saturday,Dinner,Yellow Mustard,1 tsp,0, 0
+Saturday,Dinner,Apple Gala,Apples,90, 0
+Saturday,Dinner,Bananas,Banana,190, 0
+Saturday,Dinner,Fresh Kiwi,Kiwi,60, 0
+Saturday,Dinner,Oranges,Orange,100, 0
+Saturday,Dinner,Pears,Each,null,null
+Saturday,Dinner,American,Slice,70, 6
+Saturday,Dinner,Angus Beef Frank,Frank,170, 16
+Saturday,Dinner,Black Bean Burger,Patty,170, 5
+Saturday,Dinner,Breaded Onion Tangler,3z portion,270, 17
+Saturday,Dinner,Buns Hot Dog Bulk,Each,120, 1.5
+Saturday,Dinner,Fried Eggs,Eggs,90, 7
+Saturday,Dinner,Hamburger Bun,Buns,null,null
+Saturday,Dinner,Hamburger Sliced Dill Pickle Chip,Slice,0, 0
+Saturday,Dinner,Heavy Duty Mayonnaise,Tablespoon,100, 11
+Saturday,Dinner,Homestyle Breaded Chicken Breast Fritter,Patty,230, 14
+Saturday,Dinner,Natural Low Sodium Ketchup,Ounce,5, 0
+Saturday,Dinner,Regular Cut Potato Fries,3z,110, 3.5
+Saturday,Dinner,Sliced Red Onion,Ounce,10, 0
+Saturday,Dinner,Smash Burger,Burgers,290, 23
+Saturday,Dinner,Spicy Brown Mustard,Ounce,30, 0
+Saturday,Dinner,Tomatoes,Ounce,5, 0
+Saturday,Dinner,Yellow Mustard,1 tsp,0, 0
+Saturday,Dinner,American Cheese Slice,Slice,50, 4.5
+Saturday,Dinner,Jalapeno Monterey Jack Cheese Slice,Slice,60, 5
+Saturday,Dinner,"Multigrain Bread 5/8"" Slice",Slice,null,null
+Saturday,Dinner,Sliced 0.75z Mild Cheddar Cheese,Slice,80, 7
+Saturday,Dinner,Sourdough Bread Slice,Slices,100, 1
+Saturday,Dinner,"White Pullman Bread 0.5"" Slice",Slices,60, 0.5
+Saturday,Dinner,Cucumber & Cream Salad,4z Portion,50, 2.5
+Saturday,Dinner,Hot Ham & Swiss on Hoagie,Hoagie,2340,null
+Saturday,Dinner,Pepperoni Roll,4 Cut Piece,340, 6
+Saturday,Dinner,Potato Cheese Pierogi,2 Pierogi,180, 9
+Saturday,Dinner,Potato Fries Stealth DH,4z Portion,330, 25
+Saturday,Dinner,Squash Butternut Roasted,4 oz portion,120, 8
+Saturday,Dinner,Alfredo Sauce,Ounce,70, 6
+Saturday,Dinner,Basil Pesto without Nuts,1 Flz Portion,140, 15
+Saturday,Dinner,Cavatappi Pasta,1/2 Cup,220, 5
+Saturday,Dinner,Garlic Bread Stick,Breadstick,150, 6
+Saturday,Dinner,Italian Beef & Pork Cheese Meatball,Meatball,40, 3
+Saturday,Dinner,Marinara Sauce,Ounce,15, 0.5
+Saturday,Dinner,Plant based Sliced Italian Sausage,3 oz portion,170, 9
+Saturday,Dinner,Rigate Penne Pasta,4z Portion,170, 1.5
+Saturday,Dinner,Chicken Alfredo Pizza,1/12,240, 11
+Saturday,Dinner,Four Cheese Pizza,5.5z Portion,350, 14
+Saturday,Dinner,Sausage Pizza,1/8,360, 17
+Saturday,Dinner,Baked Sweet Potato,Potatoes,120, 1.5
+Saturday,Dinner,Classic Vegan Kimchi,Ounce,10, 0
+Saturday,Dinner,Firm Tofu,1/4 cup,60, 3
+Saturday,Dinner,Flax Seed,Ounce,150, 12
+Saturday,Dinner,High Protein Grain BleND,3z portion,190,null
+Saturday,Dinner,Marinated Quarter Artichoke Heart,Ounce,15, 1
+Saturday,Dinner,Marinated Tofu,4z Portion,110, 5
+Saturday,Dinner,Nutritional Yeast,Gram,null,null
+Saturday,Dinner,Organic Black Chia Seed,Ounce,140, 9
+Saturday,Dinner,Roasted & Salted Sunflower Seeds,1 Tablespoon,90, 7
+Saturday,Dinner,Salt & Peppercorn Roasted Cauliflower,Ounce,0, 0
+Saturday,Dinner,Shredded Kale,Ounce,15, 0
+Saturday,Dinner,Sliced Almonds,Tablespoon,90, 8
+Saturday,Dinner,Walnuts Halves & Pieces,Tablespoon,50, 5
+Saturday,Dinner,Black Beans,Ounce,25, 0
+Saturday,Dinner,Carrots,Tablespoon,0, 0
+Saturday,Dinner,Chopped Eggs,.5z Portion,25, 1.5
+Saturday,Dinner,Classic Edamame,Tablespoon,15, 0.5
+Saturday,Dinner,Crispy Fried French Onion,Ounce,160, 12
+Saturday,Dinner,Cucumber Slices,Slices,0, 0
+Saturday,Dinner,Diced Tomatoes,Ounce,0, 0
+Saturday,Dinner,Feta Cheese Crumbles,Ounce,5, 0.5
+Saturday,Dinner,Iceberg Salad Mix,1 cup portion,5, 0
+Saturday,Dinner,Large Seasoned Crouton,Ounce,120, 4
+Saturday,Dinner,Locally Grown Salad Greens,Ounce,0, 0
+Saturday,Dinner,Low Sodium Garbanzo Beans,Ounce,30, 0
+Saturday,Dinner,Mini Marshmallows,Ounce,90, 0
+Saturday,Dinner,Shredded Mild Cheddar Cheese,Ounce,110, 9
+Saturday,Dinner,Sliced Mushrooms,Tablespoon,0, 0
+Saturday,Dinner,Sliced Red Onion,Ounce,10, 0
+Saturday,Dinner,Spiced Pumpkin Seeds,Tablespoon,45, 3
+Saturday,Dinner,Spinach,Ounce,5, 0
+Saturday,Dinner,Tri Color Peppers,Portion,25, 1.5
+Saturday,Dinner,Tuna,1/4 Cup,35, 0
+Saturday,Dinner,Balsamic Vinaigrette Dressing in Bottle,Ounce,60, 4.5
+Saturday,Dinner,Buttermilk Ranch Dressing,Ounce,130, 14
+Saturday,Dinner,Country French Dressing,Ounce,120, 11
+Saturday,Dinner,Creamy Caesar Dressing,Fluid Oz,140, 15
+Saturday,Dinner,Fat Free Raspberry Vinaigrette Dressing,Fluid Oz,35, 0
+Saturday,Dinner,Lite Ranch Dressing,Ounce,70, 7
+Saturday,Dinner,Plant Based Ranch Dressing,2z Portion,210, 22
+Saturday,Dinner,Creamy Tomato Soup,6 Flz,90, 1.5
+Saturday,Dinner,Baby Carrots,3 Carrots,10, 0
+Saturday,Dinner,Baked Sweet Potato,Potatoes,120, 1.5
+Saturday,Dinner,Celery Sticks,Ounce,0, 0
+Saturday,Dinner,Classic Quinoa & Lentil Salad,3z Portion,200, 9
+Saturday,Dinner,Daiya Vegan Shredded Mozzarella Cheese,Ounce,80, 5
+Saturday,Dinner,Fresh Avocado,Ounce,45, 4.5
+Saturday,Dinner,General Tso's Tofu,4z Portion,210, 5
+Saturday,Dinner,High Protein Grain BleND,3z portion,190,null
+Saturday,Dinner,Hummus with Tahini,1z Portion,70, 5
+Saturday,Dinner,Kalamata Olive Hummus,1z Portion,70, 6
+Saturday,Dinner,Raw Mediterranean Pita Chips,1 oz portion,70, 0.5
+Saturday,Dinner,Roasted Garlic Hummus,1z Portion,70, 5
+Saturday,Dinner,Roasted Red Pepper Hummus,1z Portion,60, 4
+Saturday,Dinner,Thai Spring Roll,1z Spring Roll,35, 0
+Saturday,Dinner,Broccoli Florets,4z Portion,35, 0
+Saturday,Dinner,Blueberry Yogurt,Ounce,20, 0
+Saturday,Dinner,Nature Valley Toasted Granola Oat,Ounce,130, 4.5
+Saturday,Dinner,Plain Greek Yogurt,Ounce,15, 0
+Saturday,Dinner,Small Curd Cottage Cheese,1/2 Cup,100, 5
+Saturday,Dinner,Strawberry Yogurt,Ounce,20, 0
+Saturday,Dinner,Vanilla Yogurt,Ounce,20, 0
+Sunday,Dinner,Garden Herb Chicken Breast,3.25z Tender,80, 0
+Sunday,Dinner,2% Chocolate Milk BIB,1 Cup,170, 5
+Sunday,Dinner,2% Milk BIB,8 flz,120, 5
+Sunday,Dinner,Apple Juice 6:1 Concentrate,1/2 hall glass,10, 0
+Sunday,Dinner,Cherry Coke,1 dining hall glass,null,null
+Sunday,Dinner,Coke Classic,1 dining hall glass,null,null
+Sunday,Dinner,Coke Zero,8flz,null,null
+Sunday,Dinner,Cranberry Juice 4.7:1 Concentrate,1/2 hall glass,70, 0
+Sunday,Dinner,Diet Coke,1 dining hall glass,null,null
+Sunday,Dinner,Diet Sprite,Fluid Oz,0, 0
+Sunday,Dinner,Milk Soy Vanilla Aseptic Silk,8z,null,null
+Sunday,Dinner,Orange Juice 5:1 Concentrate,1/2 hall glass,15, 0
+Sunday,Dinner,Original Style Lemonade,1 dining hall glass,null,null
+Sunday,Dinner,Original Unsweetened Almond Milk,6z Portion,60, 2
+Sunday,Dinner,Pibb Xtra,1 dining hall glass,null,null
+Sunday,Dinner,Powerade Mountain Blast,1 dining hall glass,null,null
+Sunday,Dinner,Root Beer,1 dining hall glass,null,null
+Sunday,Dinner,Skim Milk BIB,8 flz,80, 0
+Sunday,Dinner,Sprite,1 dining hall glass,null,null
+Sunday,Dinner,Unsweetened Vanilla Almond Milk,6z Portion,20, 1.5
+Sunday,Dinner,Brewed coffee,6z Portion,0,null
+Sunday,Dinner,Coffeemate Original,Fluid Oz,30, 3
+Sunday,Dinner,Creamer French Vanilla Coffeemate 1.5L,Fluid Oz,60, 3.5
+Sunday,Dinner,ecoStick Organic White Sugar Stick,"Stick
+Stick",10, 0
+Sunday,Dinner,ecoStick Sugar Substitute Blue Pc,Stick,0, 0
+Sunday,Dinner,ecoStick Sugar Substitute Pink Pc,Stick,0, 0
+Sunday,Dinner,ecoStick Sugar Substitute Yellow Pc,Stick,0, 0
+Sunday,Dinner,Extra Lite Amber Honey,Ounce,80, 0
+Sunday,Dinner,Green Tea Bag,Tea Bag,0, 0
+Sunday,Dinner,Hazelnut Coffee Creamer,Fluid Oz,10, 0
+Sunday,Dinner,Lipton Black Tea Bag,Tea Bag,0, 0
+Sunday,Dinner,Lipton Tea Decaf,Tea Bag,null,null
+Sunday,Dinner,Captain Crunch Wildberries,Cup,180, 2.5
+Sunday,Dinner,Cheerios,Cup,110, 2
+Sunday,Dinner,Cinnamon Toast Crunch,Cup,210, 5
+Sunday,Dinner,Frosted Flakes,Cup,320, 0
+Sunday,Dinner,Rice Chex Cereal,Cup,180, 1
+Sunday,Dinner,Special K with Red Berries,Cup,360, 1
+Sunday,Dinner,French Rolls,"6"" Portion",null,null
+Sunday,Dinner,"Honey Wheat Tortilla 12""",Tortilla,300, 8
+Sunday,Dinner,Kettle Chips,Ounce,160, 9
+Sunday,Dinner,"Multigrain Bread 5/8"" Slice",Slice,null,null
+Sunday,Dinner,Sourdough Bread Slice,Slices,100, 1
+Sunday,Dinner,"Spinach Tortilla 12""",Tortilla,300, 8
+Sunday,Dinner,"Sundried Tomato Basil Tortilla 12""",Tortillas,310, 8
+Sunday,Dinner,Telera Roll,3.5z,300, 4
+Sunday,Dinner,Caramel Topping,Ounce,80, 0
+Sunday,Dinner,Chocolate Soft Serve Ice Cream Mix,Cup,340, 12
+Sunday,Dinner,Cone Cake Jacketed,Cone,null,null
+Sunday,Dinner,Dole Whip Pineapple,1 Serving,110, 0.5
+Sunday,Dinner,Dole Whip Strawberry,1 Serving,110, 0
+Sunday,Dinner,Dutch Chocolate Syrup,Ounce,70, 0
+Sunday,Dinner,Mini Semi-Sweet Choc Chips,Ounce,130, 8
+Sunday,Dinner,Oreo Cookie Topping,Ounce,140, 5
+Sunday,Dinner,Rainbow Sprinkles,Ounce,140, 7
+Sunday,Dinner,Vanilla Soft Serve Ice Cream Mix,Cup,360, 13
+Sunday,Dinner,Jalapeno Monterey Jack Cheese Slice,Slice,60, 5
+Sunday,Dinner,Provolone Cheese Slice,Slice,70, 6
+Sunday,Dinner,Sliced 0.75z Mild Cheddar Cheese,Slice,80, 7
+Sunday,Dinner,Cooked & Crumbled Bacon,Ounce,160, 13
+Sunday,Dinner,"Diced 3/8"" Bacon",1 Tbsp,60, 4.5
+Sunday,Dinner,Grilled Chicken Breast Strip Fajita,Ounce,35, 1.5
+Sunday,Dinner,Low Sodium Smoked Ham Slices,Ounce,30, 1
+Sunday,Dinner,Oven Roasted Sliced Chicken,Ounce,null,null
+Sunday,Dinner,Smoked Sliced Genoa Salami,Ounce,110, 9
+Sunday,Dinner,Smoked Tempeh,Ounce,null,null
+Sunday,Dinner,Tuna Salad,1z Portion,80, 7
+Sunday,Dinner,Chicago-Style Hot Giardiniera,Fluid Oz,120, 12
+Sunday,Dinner,Cucumber Slices,.25 cup,0, 0
+Sunday,Dinner,Flat Leaf Spinach,Ounce,5, 0
+Sunday,Dinner,Hamburger Sliced Dill Pickle Chip,Slice,0, 0
+Sunday,Dinner,Mild Banana Pepper Ring,Ounce,5, 0
+Sunday,Dinner,Shredded Iceberg Lettuce,Ounce,0, 0
+Sunday,Dinner,Sliced Jalapeno Peppers,Tablespoon,0, 0
+Sunday,Dinner,Sliced Red Onion,Ounce,10, 0
+Sunday,Dinner,Tomatoes Sliced 1/4-inch,Pound,80, 1
+Sunday,Dinner,Aged Balsamic Vinegar,Fluid Oz,40, 0
+Sunday,Dinner,Black Pepper Grinder,Teaspoon,5, 0
+Sunday,Dinner,Buttermilk Ranch Dressing,Ounce,130, 14
+Sunday,Dinner,Chipotle Ranch Dressing,Fluid Oz,150, 16
+Sunday,Dinner,Garlic Mayonnaise,1/2 oz,100, 10
+Sunday,Dinner,Grinder Sea Salt,Gram,0, 0
+Sunday,Dinner,Heavy Duty Mayonnaise,Tablespoon,100, 11
+Sunday,Dinner,Mediterranean Extra Virgin Olive Oil,1 tbsp,120, 14
+Sunday,Dinner,Plant Based Chipotle Ranch Dressing,2z Portion,180, 20
+Sunday,Dinner,RedHot Buffalo Wing Sauce,Fluid Oz,0, 0
+Sunday,Dinner,Vegan Mayonnaise,1 tbs,60, 7
+Sunday,Dinner,Vinegar Red Wine,Fluid Oz,0, 0
+Sunday,Dinner,Yellow Mustard,1 tsp,0, 0
+Sunday,Dinner,Apple Gala,Apples,90, 0
+Sunday,Dinner,Bananas,Banana,190, 0
+Sunday,Dinner,Fresh Kiwi,Kiwi,60, 0
+Sunday,Dinner,Oranges,Orange,100, 0
+Sunday,Dinner,Pears,Each,null,null
+Sunday,Dinner,American,Slice,70, 6
+Sunday,Dinner,Angus Beef Frank,Frank,170, 16
+Sunday,Dinner,Black Bean Burger,Patty,170, 5
+Sunday,Dinner,Breaded Onion Tangler,3z portion,270, 17
+Sunday,Dinner,Buns Hot Dog Bulk,Each,120, 1.5
+Sunday,Dinner,Fried Eggs,Eggs,90, 7
+Sunday,Dinner,Hamburger Bun,Buns,null,null
+Sunday,Dinner,Hamburger Sliced Dill Pickle Chip,Slice,0, 0
+Sunday,Dinner,Heavy Duty Mayonnaise,Tablespoon,100, 11
+Sunday,Dinner,Homestyle Breaded Chicken Breast Fritter,Patty,230, 14
+Sunday,Dinner,Natural Low Sodium Ketchup,Ounce,5, 0
+Sunday,Dinner,Regular Cut Potato Fries,3z,110, 3.5
+Sunday,Dinner,Sliced Red Onion,Ounce,10, 0
+Sunday,Dinner,Smash Burger,Burgers,290, 23
+Sunday,Dinner,Spicy Brown Mustard,Ounce,30, 0
+Sunday,Dinner,Tomatoes,Ounce,5, 0
+Sunday,Dinner,Yellow Mustard,1 tsp,0, 0
+Sunday,Dinner,American Cheese Slice,Slice,50, 4.5
+Sunday,Dinner,Jalapeno Monterey Jack Cheese Slice,Slice,60, 5
+Sunday,Dinner,"Multigrain Bread 5/8"" Slice",Slice,null,null
+Sunday,Dinner,Sliced 0.75z Mild Cheddar Cheese,Slice,80, 7
+Sunday,Dinner,Sourdough Bread Slice,Slices,100, 1
+Sunday,Dinner,"White Pullman Bread 0.5"" Slice",Slices,60, 0.5
+Sunday,Dinner,Cheesey Garlic Bread,1 Slice,250, 16
+Sunday,Dinner,Meat Lasagna with Ricotta Entree,11.75 oz portion,470, 21
+Sunday,Dinner,"10"" Flour Tortilla",Tortilla,170, 4.5
+Sunday,Dinner,Egg White Liquid,Ounce,15, 0
+Sunday,Dinner,Large Fresh Eggs,Eggs,100, 7
+Sunday,Dinner,Zero Egg Plant Based Egg Liquid,Ounce,25, 1.5
+Sunday,Dinner,Daiya Vegan Shredded Mozzarella Cheese,Ounce,80, 5
+Sunday,Dinner,Shredded Mild Cheddar Cheese,Ounce,110, 9
+Sunday,Dinner,Shredded Part-Skim Mozzarella Cheese,1z Portion,80, 6
+Sunday,Dinner,Cooked Sausage Crumble,1z Portion,120, 12
+Sunday,Dinner,"Diced 3/8"" Bacon",1 Tbsp,60, 4.5
+Sunday,Dinner,Diced Green Peppers,Ounce,5, 0
+Sunday,Dinner,Diced Onions,Ounce,10, 0
+Sunday,Dinner,Diced Tomatoes,Ounce,0, 0
+Sunday,Dinner,Plant Based Chorizo Sausage Crumble,2z Portion,140, 5
+Sunday,Dinner,Sliced Mushrooms,Tablespoon,0, 0
+Sunday,Dinner,Spinach,Ounce,5, 0
+Sunday,Dinner,"Water-Added Ham Diced 1/4""",Ounce,35, 1.5
+Sunday,Dinner,Baked Sweet Potato,Potatoes,120, 1.5
+Sunday,Dinner,Classic Vegan Kimchi,Ounce,10, 0
+Sunday,Dinner,Firm Tofu,1/4 cup,60, 3
+Sunday,Dinner,Flax Seed,Ounce,150, 12
+Sunday,Dinner,High Protein Grain BleND,3z portion,190,null
+Sunday,Dinner,Marinated Quarter Artichoke Heart,Ounce,15, 1
+Sunday,Dinner,Marinated Tofu,4z Portion,110, 5
+Sunday,Dinner,Nutritional Yeast,Gram,null,null
+Sunday,Dinner,Organic Black Chia Seed,Ounce,140, 9
+Sunday,Dinner,Roasted & Salted Sunflower Seeds,1 Tablespoon,90, 7
+Sunday,Dinner,Salt & Peppercorn Roasted Cauliflower,Ounce,0, 0
+Sunday,Dinner,Shredded Kale,Ounce,15, 0
+Sunday,Dinner,Sliced Almonds,Tablespoon,90, 8
+Sunday,Dinner,Walnuts Halves & Pieces,Tablespoon,50, 5
+Sunday,Dinner,Black Beans,Ounce,25, 0
+Sunday,Dinner,Carrots,Tablespoon,0, 0
+Sunday,Dinner,Chopped Eggs,.5z Portion,25, 1.5
+Sunday,Dinner,Classic Edamame,Tablespoon,15, 0.5
+Sunday,Dinner,Crispy Fried French Onion,Ounce,160, 12
+Sunday,Dinner,Cucumber Slices,Slices,0, 0
+Sunday,Dinner,Diced Tomatoes,Ounce,0, 0
+Sunday,Dinner,Feta Cheese Crumbles,Ounce,5, 0.5
+Sunday,Dinner,Iceberg Salad Mix,1 cup portion,5, 0
+Sunday,Dinner,Large Seasoned Crouton,Ounce,120, 4
+Sunday,Dinner,Locally Grown Salad Greens,Ounce,0, 0
+Sunday,Dinner,Low Sodium Garbanzo Beans,Ounce,30, 0
+Sunday,Dinner,Mini Marshmallows,Ounce,90, 0
+Sunday,Dinner,Shredded Mild Cheddar Cheese,Ounce,110, 9
+Sunday,Dinner,Sliced Mushrooms,Tablespoon,0, 0
+Sunday,Dinner,Sliced Red Onion,Ounce,10, 0
+Sunday,Dinner,Spiced Pumpkin Seeds,Tablespoon,45, 3
+Sunday,Dinner,Spinach,Ounce,5, 0
+Sunday,Dinner,Tri Color Peppers,Portion,25, 1.5
+Sunday,Dinner,Tuna,1/4 Cup,35, 0
+Sunday,Dinner,Balsamic Vinaigrette Dressing in Bottle,Ounce,60, 4.5
+Sunday,Dinner,Buttermilk Ranch Dressing,Ounce,130, 14
+Sunday,Dinner,Country French Dressing,Ounce,120, 11
+Sunday,Dinner,Creamy Caesar Dressing,Fluid Oz,140, 15
+Sunday,Dinner,Fat Free Raspberry Vinaigrette Dressing,Fluid Oz,35, 0
+Sunday,Dinner,Lite Ranch Dressing,Ounce,70, 7
+Sunday,Dinner,Plant Based Ranch Dressing,2z Portion,210, 22
+Sunday,Dinner,Creamy Tomato Soup,6 Flz,90, 1.5
+Sunday,Dinner,"100% Whole Wheat Bread 1/2"" Slice",Slice,70, 0.5
+Sunday,Dinner,Avocado Pulp Fresh,Ounce,70, 6
+Sunday,Dinner,Cream Cheese,Ounce,90, 9
+Sunday,Dinner,Everything Bagel,"Bagel
+Bagel",340, 4.5
+Sunday,Dinner,Jif Peanut Butter PC,0.75z,120, 10
+Sunday,Dinner,Nutella Chocolate Hazelnut Spread,Ounce,150, 9
+Sunday,Dinner,Plain Bagel,Bagel,320, 1
+Sunday,Dinner,Sliced Tomatoes,Ounce,0, 0
+Sunday,Dinner,Unsalted European-Style Butter Prints,Ounce,220, 24
+Sunday,Dinner,"White Pullman Bread 0.5"" Slice",Slices,60, 0.5
+Sunday,Dinner,Whole Wheat Bagel,Bagel,320, 1.5
+Sunday,Dinner,Baby Carrots,3 Carrots,10, 0
+Sunday,Dinner,Celery Sticks,Ounce,0, 0
+Sunday,Dinner,Classic Quinoa & Lentil Salad,3z Portion,200, 9
+Sunday,Dinner,Daiya Vegan Shredded Mozzarella Cheese,Ounce,80, 5
+Sunday,Dinner,Fresh Avocado,Ounce,45, 4.5
+Sunday,Dinner,Hummus with Tahini,1z Portion,70, 5
+Sunday,Dinner,Kalamata Olive Hummus,1z Portion,70, 6
+Sunday,Dinner,Raw Mediterranean Pita Chips,1 oz portion,70, 0.5
+Sunday,Dinner,Roasted Garlic Hummus,1z Portion,70, 5
+Sunday,Dinner,Roasted Red Pepper Hummus,1z Portion,60, 4
+Sunday,Dinner,Baked Sweet Potato,Potatoes,120, 1.5
+Sunday,Dinner,Broccoli Florets,4z Portion,35, 0
+Sunday,Dinner,Vegan Papas Con Chorizo,4z Portion,160,null
+Sunday,Dinner,Char-grilled Zucchini,2z Portion,80, 7
+Sunday,Dinner,Blueberry Yogurt,Ounce,20, 0
+Sunday,Dinner,Nature Valley Toasted Granola Oat,Ounce,130, 4.5
+Sunday,Dinner,Plain Greek Yogurt,Ounce,15, 0
+Sunday,Dinner,Small Curd Cottage Cheese,1/2 Cup,100, 5
+Sunday,Dinner,Strawberry Yogurt,Ounce,20, 0
+Sunday,Dinner,Vanilla Yogurt,Ounce,20, 0
