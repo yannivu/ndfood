@@ -87,9 +87,14 @@ def index():
             "bottom_row": bottom_row
         }
 
+
+    # Fetch data from the ndh_data table
+    cursor.execute("SELECT day, meal_type, name, serving_size, calories, total_fat FROM ndh_data")
+    ndh_data = cursor.fetchall()
+
     cursor.close()
     
-    return render_template('index.html', all_data=all_data)
+    return render_template('index.html', all_data=all_data, ndh_data=ndh_data)
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
