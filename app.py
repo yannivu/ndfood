@@ -178,42 +178,50 @@ def confirm_update():
 
 @app.route('/add_item', methods=['POST'])
 def add_item():
-    # Retrieve the form data
-    name = request.form['food_name']
-    cals = int(request.form['calories'])  # Convert to integer
-    protein = float(request.form['protein'])  # Convert to float
-    fat = float(request.form['fat'])  # Convert to float
-    carbs = float(request.form['carbs'])  # Convert to float
-    item_type = request.form['type']
-    source = request.form['source']
-    price = float(request.form['price'])  # Convert to float
-    restaurant_name = request.form['restaurant']
+    try:
+        # Retrieve the form data
+        name = request.form['food_name']
+        cals = int(request.form['calories'])  # Convert to integer
+        protein = float(request.form['protein'])  # Convert to float
+        fat = float(request.form['fat'])  # Convert to float
+        carbs = float(request.form['carbs'])  # Convert to float
+        item_type = request.form['type']
+        source = request.form['source']
+        price = float(request.form['price'])  # Convert to float
+        restaurant_name = request.form['restaurant']
 
-    if source == "Dining Hall":
-        # Item is from Dining Hall
-        # Add your logic here for adding Dining Hall items
-        pass
-    elif source == "Grubhub":
-        # Item is from Grubhub
-        # Add your logic here for adding Grubhub items
-        cursor = mysql.connection.cursor()
-        cursor.execute("SELECT restaurant_id FROM grubhub_restaurant WHERE name = %s", (restaurant_name,))
-        restaurant_id = cursor.fetchone()[0]
-        cursor.close()
+        if source == "Dining Hall":
+            # Item is from Dining Hall
+            # Add your logic here for adding Dining Hall items
+            pass
+        elif source == "Grubhub":
+            # Item is from Grubhub
+            # Add your logic here for adding Grubhub items
+            cursor = mysql.connection.cursor()
+            cursor.execute("SELECT restaurant_id FROM grubhub_restaurant WHERE name = %s", (restaurant_name,))
+            restaurant_id = cursor.fetchone()[0]
+            cursor.close()
 
-        cursor = mysql.connection.cursor()
-        cursor.execute("INSERT INTO grubhub_food (name, calories, protein, total_fat, total_carbs, type, price) VALUES (%s, %s, %s, %s, %s, %s, %s)",
-                       (name, cals, protein, fat, carbs, item_type, price))
-        food_id = cursor.lastrowid  # Get the last inserted food_id
-        cursor.close()
+            cursor = mysql.connection.cursor()
+            cursor.execute("INSERT INTO grubhub_food (name, calories, protein, total_fat, total_carbs, type, price) VALUES (%s, %s, %s, %s, %s, %s, %s)",
+                           (name, cals, protein, fat, carbs, item_type, price))
+            food_id = cursor.lastrowid  # Get the last inserted food_id
+            cursor.close()
 
-        cursor = mysql.connection.cursor()
-        cursor.execute("INSERT INTO grubhub_available (restaurant_id, food_id) VALUES (%s, %s)", (restaurant_id, food_id))
-        mysql.connection.commit()
-        cursor.close()
+            cursor = mysql.connection.cursor()
+            cursor.execute("INSERT INTO grubhub_available (restaurant_id, food_id) VALUES (%s, %s)", (restaurant_id, food_id))
+            mysql.connection.commit()
+            cursor.close()
+
+        success_message = "Record updated successfully"
+    except Exception as e:
+        error_message = "An error occurred. Please check the data and try again."
 
     back_button = f'<a href="{url_for("admin_page")}">Back</a>'
-    return f"Record updated successfully<br>{back_button}"
+    if "error_message" in locals():
+        return f"{error_message}<br>{back_button}"
+    else:
+        return f"{success_message}<br>{back_button}"
 
 
 @app.route('/search_user', methods=['POST'])
