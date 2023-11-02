@@ -28,7 +28,6 @@
             border-radius: 5px; /* Add rounded corners */
             font-size: 16px; /* Font size */
             cursor: pointer; /* Change cursor on hover */
-            /* Add more styles as needed */
         }
 
         .login-container button:hover {
@@ -62,7 +61,7 @@
             </div>     
 
             <div class="login-container">
-                <button class="tm-text-gold py-1 md:py-3 px-4" onclick="redirectToLogin()">Login</button>
+                <button class="tm-text-gold py-1 md:py-3 px-4" onclick="redirectToLogin()">Admin Login</button>
             </div>    
 
             <script>
@@ -130,7 +129,7 @@
         </div>
     </div>
 
-    <!-- South Dining Hall Menu -->
+    <!-- South Dining Hall Menu
     <div id="south_dh_menu" class="parallax-window" data-parallax="scroll" data-image-src="{{ url_for('static', filename='img/south_dining_hall.jpg') }}">
         <div class="container mx-auto tm-container py-24 sm:py-48">
             <div class="text-center mb-16">
@@ -207,9 +206,10 @@
                 </div>
             </div>
         </div>       
-    </div>
-    <!-- Grubhub Menus -->
+    </div> -->
 
+
+    <!-- Grubhub Menus -->
     <!-- Loop through restaurants -->
     {% for restaurant, data in all_data.items() %}
         <div id="{{ restaurant|replace(' ', '_')|replace('-', '_') }}_menu" class="parallax-window" data-parallax="scroll" data-image-src="{{ url_for('static', filename='img/' ~ restaurant|replace(' ', '_')|replace('-', '_') ~ '.jpg') }}">

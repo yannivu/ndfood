@@ -89,7 +89,7 @@ def index():
 
 
     # Fetch data from the ndh_data table
-    cursor.execute("SELECT day, meal_type, name, serving_size, calories, total_fat FROM ndh_data")
+    cursor.execute("SELECT day, meal_type, name, serving_size, calories, total_fat FROM ndh_data where day='Thursday' and meal_type='Dinner'")
     ndh_data = cursor.fetchall()
 
     cursor.close()
@@ -121,37 +121,53 @@ def admin_page():
     cursor = mysql.connection.cursor()
     cursor.execute("SELECT username FROM users")
     user_list = cursor.fetchall()
+
+    # Retrieve the list of restaurant names
+    cursor.execute("SELECT DISTINCT name FROM grubhub_restaurant")
+    restaurant_names = [row[0] for row in cursor.fetchall()]
+
     cursor.close()
 
+    return render_template('admin_page.html', user_list=user_list, restaurant_names=restaurant_names)
+
+
+@app.route('/delete_user', methods=['POST'])
+def delete_user():
     if request.method == 'POST':
-        # Handle user deletion
         user_to_delete = request.form['user_to_delete']
         if user_to_delete:
             cursor = mysql.connection.cursor()
             cursor.execute("DELETE FROM users WHERE username = %s", (user_to_delete,))
             mysql.connection.commit()
             cursor.close()
+    
+    back_button = f'<a href="{url_for("admin_page")}">Back</a>'
+    return f"{user_to_delete} successfully deleted<br>{back_button}"
 
-    return render_template('admin_page.html', user_list=user_list)
 
 @app.route('/add_user', methods=['POST'])
 def add_user():
     cur = mysql.connection.cursor()
     user = request.form['username']
     pw = request.form['password']
-    # Check if the username already exists in the table
+    
     cur.execute("SELECT * FROM users WHERE username = %s", (user,))
     existing_user = cur.fetchone()
 
+    confirmation_message = f"{user} added with password: {pw}"
+    back_button = f'<a href="{url_for("admin_page")}">Back</a>'
+
     if existing_user:
-        # If the user already exists, redirect to the confirmation page
-        return redirect(url_for('confirm_update', user=user, pw=pw))
+        # If the user already exists, return confirmation with a back button
+        confirmation_with_back = f"{confirmation_message}<br>{back_button}"
     else:
-        # If the user doesn't exist, insert a new user
         cur.execute("INSERT INTO users (username, password) VALUES (%s, %s)", (user, pw))
         mysql.connection.commit()
         cur.close()
-        return f"{user} added with password: {pw}"
+        # In the 'else' branch, return confirmation with the back button as well
+        confirmation_with_back = f"{confirmation_message}<br>{back_button}"
+
+    return confirmation_with_back
 
 
 @app.route('/confirm_update', methods=['GET'])
@@ -162,26 +178,43 @@ def confirm_update():
 
 @app.route('/add_item', methods=['POST'])
 def add_item():
+    # Retrieve the form data
     name = request.form['food_name']
-    cals = request.form['calories']
-    protein = request.form['protein']
-    fat = request.form['fat']
-    carbs = request.form['carbs']
-    
-    # Retrieve the selected source
+    cals = int(request.form['calories'])  # Convert to integer
+    protein = float(request.form['protein'])  # Convert to float
+    fat = float(request.form['fat'])  # Convert to float
+    carbs = float(request.form['carbs'])  # Convert to float
+    item_type = request.form['type']
     source = request.form['source']
+    price = float(request.form['price'])  # Convert to float
+    restaurant_name = request.form['restaurant']
 
     if source == "Dining Hall":
         # Item is from Dining Hall
-        # Add your logic here
+        # Add your logic here for adding Dining Hall items
         pass
     elif source == "Grubhub":
         # Item is from Grubhub
-        # Add your logic here
-        pass
+        # Add your logic here for adding Grubhub items
+        cursor = mysql.connection.cursor()
+        cursor.execute("SELECT restaurant_id FROM grubhub_restaurant WHERE name = %s", (restaurant_name,))
+        restaurant_id = cursor.fetchone()[0]
+        cursor.close()
 
-    # Rest of your code
-    return "Record updated successfully"
+        cursor = mysql.connection.cursor()
+        cursor.execute("INSERT INTO grubhub_food (name, calories, protein, total_fat, total_carbs, type, price) VALUES (%s, %s, %s, %s, %s, %s, %s)",
+                       (name, cals, protein, fat, carbs, item_type, price))
+        food_id = cursor.lastrowid  # Get the last inserted food_id
+        cursor.close()
+
+        cursor = mysql.connection.cursor()
+        cursor.execute("INSERT INTO grubhub_available (restaurant_id, food_id) VALUES (%s, %s)", (restaurant_id, food_id))
+        mysql.connection.commit()
+        cursor.close()
+
+    back_button = f'<a href="{url_for("admin_page")}">Back</a>'
+    return f"Record updated successfully<br>{back_button}"
+
 
 @app.route('/search_user', methods=['POST'])
 def search_user():
@@ -196,14 +229,16 @@ def search_user():
     user_info = cursor.fetchone()
     cursor.close()
 
+    back_button = f'<a href="{url_for("admin_page")}">Back</a>'
+
     if user_info:
         # Access the elements of the tuple by index
         username = user_info[0]
         password = user_info[1]
 
-        return f"User: {username} | Password: {password}"
+        return f"User: {username} | Password: {password}<br>{back_button}"
     else:
-        return "User not found."
+        return f"User not found.<br>{back_button}"
 
 
 if __name__ == '__main__':

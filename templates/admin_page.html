@@ -25,8 +25,9 @@
     <br>
 
     <h1>Add/Update a Food Item</h1>
-    <h3>All items must have unique names. Submitting an item with a name already in the database will update that item.</h3>
-     <!-- Form for adding/editing a food item -->
+    <h3>All items must have unique names. Submitting an item with a name already in the database will update that item. <br>
+    Can only do GrubHub currently.</h3>
+    <!-- Form for adding/editing a food item -->
     <form action="/add_item" method="post">
         <label for="food_name">Item Name:</label>
         <input type="text" id="food_name" name="food_name" required>
@@ -40,23 +41,40 @@
         <input type="text" id="protein" name="protein" required>
         <br>
 
-        <label for="fat">Fat:</label>
-        <input type="text" id="fat" name="fat" required>
-        <br>
-
         <label for="carbs">Carbohydrates:</label>
         <input type="text" id="carbs" name="carbs" required>
         <br>
 
+        <label for="fat">Fat:</label>
+        <input type="text" id="fat" name="fat" required>
+        <br>
+
+        <label for="type">Type:</label>
+        <input type="text" id="type" name="type" required>
+        <br>
+
+        <label for="price">Price:</label>
+        <input type="text" id="price" name="price" required>
+        <br>
+
+        <label for="restaurant">Restaurant:</label>
+        <select name="restaurant" id="restaurant" required>
+            {% for restaurant in restaurant_names %}
+                <option value="{{ restaurant }}">{{ restaurant }}</option>
+            {% endfor %}
+        </select>
+        <br>
+
         <input type="radio" id="dining_hall" name="source" value="Dining Hall" required>
         <label for="dining_hall">Dining Hall</label>
-    
+
         <input type="radio" id="grubhub" name="source" value="Grubhub" required>
-        <label for="grubhub">Grubhub</label>
+        <label for="grubhub">GrubHub</label>
         <br>
 
         <input type="submit" value="Submit">
     </form>
+
 
     <br>
 
@@ -72,21 +90,20 @@
     <br>
 
     <h1>Delete a User</h1>
-    <form action="/admin_page" method="post">
+    <form action="/delete_user" method="post">
         <select name="user_to_delete">
             <option value="" disabled selected>Select a user</option>
             {% for user in user_list %}
             <option value="{{ user[0] }}">{{ user[0] }}</option>
             {% endfor %}
         </select>
-        <input type="submit" value="Delete User" onclick="refreshPage();">
+        <input type="submit" value="Delete User">
     </form>
+    
+    
+    <br>
 
-    <script>
-        function refreshPage() {
-            location.reload(); // This will refresh the current page
-        }
-    </script>
+    <a href="{{ url_for('index') }}">Back to Website</a>
 
 </body>
 </html>
