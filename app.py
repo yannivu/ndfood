@@ -181,22 +181,19 @@ def add_item():
     try:
         # Retrieve the form data
         name = request.form['food_name']
-        cals = int(request.form['calories'])  # Convert to integer
-        protein = float(request.form['protein'])  # Convert to float
-        fat = float(request.form['fat'])  # Convert to float
-        carbs = float(request.form['carbs'])  # Convert to float
+        cals = int(request.form['calories']) 
+        protein = float(request.form['protein'])  
+        fat = float(request.form['fat'])  
+        carbs = float(request.form['carbs'])  
         item_type = request.form['type']
         source = request.form['source']
-        price = float(request.form['price'])  # Convert to float
+        price = float(request.form['price']) 
         restaurant_name = request.form['restaurant']
 
         if source == "Dining Hall":
-            # Item is from Dining Hall
-            # Add your logic here for adding Dining Hall items
+            # Add logic here for adding Dining Hall items
             pass
         elif source == "Grubhub":
-            # Item is from Grubhub
-            # Add your logic here for adding Grubhub items
             cursor = mysql.connection.cursor()
             cursor.execute("SELECT restaurant_id FROM grubhub_restaurant WHERE name = %s", (restaurant_name,))
             restaurant_id = cursor.fetchone()[0]
