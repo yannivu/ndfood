@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Similar Options</title>
+</head>
+<body>
+    <h1>Find Similar Food Options</h1>
+    <p>Selected Food:</p>
+    <ul>
+        <li>Name: {{ selected_food['name'] }}</li>
+        <li>Calories: {{ selected_food['calories'] }}</li>
+        <li>Protein: {{ selected_food['protein'] }}</li>
+        <li>Carbs: {{ selected_food['carbs'] }}</li>
+        <li>Fat: {{ selected_food['fat'] }}</li>
+    </ul>
+
+    <form action="/display_similar" method="GET">
+        <label for="restaurants">Choose a restaurant:</label>
+        <select name="restaurant" id="restaurants">
+            {% for restaurant in restaurant_names %}
+                <option value="{{ restaurant }}">{{ restaurant }}</option>
+            {% endfor %}
+        </select>
+        <br><br>
+        <input type="submit" value="Find Similar Options">
+    </form>
+
+    <!-- Additional content or options can be added here -->
+</body>
+</html>

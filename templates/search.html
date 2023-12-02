@@ -121,6 +121,16 @@
             background-size: cover;
             background-position: center;
         }
+        /* Highlight text and change cursor on hover for food items */
+        .food-item {
+            cursor: pointer; /* Change cursor to pointer */
+            transition: color 0.3s ease; /* Smooth transition for color change */
+        }
+
+        .food-item:hover {
+            color: gold; /* Change text color to gold on hover */
+        }
+
     </style>
     <style>
         .tm-container {
@@ -152,7 +162,8 @@
             <div class="sm:pb-60 sm:pt-48 py-20">
                 <div class="bg-black bg-opacity-70 p-12 mb-5 text-center">
                     <h1 class="text-white text-5xl tm-logo-font mb-5">Search</h1>
-                    <p class="tm-text-gold tm-text-2xl">instructions here</p>
+                    <p class="tm-text-gold tm-text-2xl">Search all food items.<br>Click on an item to find similar items.
+                    </p>
                     <br>
                     <form class="custom-form" id="searchForm" action="{{ url_for('search') }}" method="POST">
                         <input type="text" id="search_term" name="search_term" class="tm-input" placeholder="Enter item to search for...">
@@ -163,24 +174,26 @@
         </div>
         
         {% if food_items %}
-            <div class="container mx-auto w-full py-12 sm:py-16 flex justify-center items-center">
-                <div class="max-w-lg w-full p-4">
-                    <div class="text-center mb-16">
-                        <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">Results</h2>
-                    </div>
-                    <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2 text-center">
-                        <ul>
-                            {% for food in food_items %}
-                                <li>
-                                    <p class="tm-text-white">{{ food.name }} - {{ food.calories }} calories, {{ food.protein }}g protein, {{ food.carbs }}g carbs, {{ food.fat }}g fat</p>
-                                    <br>
-                                </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
+        <div class="container mx-auto w-full py-12 sm:py-16 flex justify-center items-center">
+            <div class="max-w-lg w-full p-4">
+                <div class="text-center mb-16">
+                    <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">Results</h2>
                 </div>
+                <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2 text-center">
+                    <ul>
+                        {% for food in food_items %}
+                            <li>
+                                <!-- Use data attributes to store food information -->
+                                <p class="tm-text-white food-item" data-name="{{ food.name }}" data-calories="{{ food.calories }}" data-protein="{{ food.protein }}" data-carbs="{{ food.carbs }}" data-fat="{{ food.fat }}">
+                                    {{ food.name }} - {{ food.calories }} calories, {{ food.protein }}g protein, {{ food.carbs }}g carbs, {{ food.fat }}g fat
+                                </p>
+                                <br>
+                            </li>
+                        {% endfor %}
+                    </ul>
             </div>
-        {% endif %}
+        </div>
+    {% endif %}
            
     </div>
 
@@ -256,6 +269,44 @@
                     priceLabel.style.display = 'none';
                     priceInput.style.display = 'none';
                 }
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            // Add click event listener to food items with class "food-item"
+            $('.food-item').click(function() {
+                // Extract food data attributes from the clicked element
+                var name = $(this).data('name');
+                var calories = $(this).data('calories');
+                var protein = $(this).data('protein');
+                var carbs = $(this).data('carbs');
+                var fat = $(this).data('fat');
+    
+                // Prepare the data object to be sent
+                var dataToSend = {
+                    'name': name,
+                    'calories': calories,
+                    'protein': protein,
+                    'carbs': carbs,
+                    'fat': fat
+                };
+    
+                // Send an asynchronous POST request to select_food endpoint
+                $.ajax({
+                    type: 'POST',
+                    url: '/select_food',
+                    contentType: 'application/json',
+                    data: JSON.stringify(dataToSend),
+                    success: function(response) {
+                        // Redirect to display_similar.html with the retrieved data
+                        window.location.href = '/similar_options';
+                    },
+                    error: function(error) {
+                        // Handle errors if the request fails
+                        console.error('Error:', error);
+                    }
+                });
             });
         });
     </script>

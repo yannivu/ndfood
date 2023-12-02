@@ -320,60 +320,90 @@ def search():
 
 
 @app.route('/select_food', methods=['POST'])
-def select_nutrition():
-    #Can input cals fat and carbs as parameter or add the search into this function and save as variables
-    try:
-        # Retrieve user input from the form
-        #unsure if this interacts correctly with ui
-        selected_source = request.form['selected_source']
-        selected_restaurant = request.form['selected_restaurant']
-        order_by_clause = ""
-        for attribute in selected_attributes:
-            if attribute == "calories":
-                order_by_clause +=f"ABS(gf.{attribute/10} - %s) + "
-            order_by_clause += f"ABS(gf.{attribute} - %s) + "
+def select_food():
+    # Get the data sent from the frontend using request.json
+    data = request.json  # Assuming data is sent in JSON format
 
-        order_by_clause = order_by_clause.rstrip("+ ")
-        # Validate input
-        if not selected_food or not selected_attributes or not selected_source:
-            return jsonify({"error": "Invalid input. Please provide all required fields."})
+    # Retrieve data fields from the JSON payload
+    selected_food = {
+        'name': data['name'],
+        'calories': data['calories'],
+        'protein': data['protein'],
+        'carbs': data['carbs'],
+        'fat': data['fat']
+    }
 
-        # Define the columns to be selected based on user input
-        selected_columns = ", ".join(selected_attributes)
+    session['selected_food'] = selected_food  # Storing food_items in session for example
+    return redirect(url_for('similar_options'))
 
-        # Query the appropriate table based on the selected source
-        cursor = mysql.connection.cursor()
+@app.route('/similar_options')
+def similar_options():
+    # Retrieve selected_food from session
+    selected_food = session.get('selected_food')
 
-        if selected_source == "Grubhub":
-            cursor.execute(f"""SELECT gf.name, calories, total_fat, total_carbs, protein FROM grubhub_food gf
-                               JOIN grubhub_available ga ON gf.food_id = ga.food_id
-                               JOIN grubhub_restaurant gr ON ga.restaurant_id = gr.restaurant_id
-                               WHERE gr.name = %s
-                               ORDER BY {order_by_clause} 
-                               LIMIT 1;""", (selected_restaurant, cals/10, fat, carbs, protein)) #cals, fat, carbs, protein is those stats for the originally selected food
-        elif selected_source == "Dining Hall":
-            cursor.execute(f"""SELECT ndhfood.name, calories, total_fat, total_carbohydrate, protein FROM ndhfood
-                               ORDER BY {order_by_clause}
-                               LIMIT 1;""", (cals/10, fat, carbs, protein))
-        else:
-            return jsonify({"error": "Invalid source selected."})
+    cursor = mysql.connection.cursor()
 
-        selected_item = cursor.fetchone()
-        cursor.close()
+    # Retrieve the list of restaurant names
+    cursor.execute("SELECT DISTINCT name FROM grubhub_restaurant")
+    restaurant_names = [row[0] for row in cursor.fetchall()]
+    restaurant_names.append('Search All Restaurants')
 
-        if not selected_item:
-            return jsonify({"error": "No matching item found."})
+    cursor.close()
 
-        # Format the result as a JSON response
-        result = {}
-        for i, attribute in enumerate(selected_attributes):
-            result[attribute] = selected_item[i]
+    return render_template('similar_options.html', selected_food=selected_food, restaurant_names=restaurant_names)
 
-        return jsonify(result)
 
-    except Exception as e:
-        return jsonify({"error": str(e)})
+@app.route('/display_similar', methods=['GET'])
+def display_similar():
+    chosen_restaurant = request.args.get('restaurant')
 
+    selected_food = session.get('selected_food')
+    name = selected_food['name']
+    calories = selected_food['calories']
+    fat = selected_food['fat']
+    carbs = selected_food['carbs']
+    protein = selected_food['protein']
+    
+    # Use the retrieved data in your query or logic
+    order_by_clause = f"ABS(gf.calories/10 - {calories}/10) + ABS(gf.total_fat - {fat}) + ABS(gf.total_carbs-{carbs}) + ABS(gf.protein-{protein})"
+
+    query_all = f"""SELECT gf.name, calories, protein, total_carbs, total_fat FROM grubhub_food gf
+            JOIN grubhub_available ga ON gf.food_id = ga.food_id
+            JOIN grubhub_restaurant gr ON ga.restaurant_id = gr.restaurant_id
+            ORDER BY {order_by_clause} 
+            LIMIT 1 OFFSET 1;"""
+
+    query_restaurant = f"""SELECT gf.name, calories, protein, total_carbs, total_fat FROM grubhub_food gf
+            JOIN grubhub_available ga ON gf.food_id = ga.food_id
+            JOIN grubhub_restaurant gr ON ga.restaurant_id = gr.restaurant_id
+            WHERE gr.name = %s
+            ORDER BY {order_by_clause}
+            LIMIT 1;"""
+
+    cursor = mysql.connection.cursor()
+    
+    if chosen_restaurant == 'Search All Restaurants':
+        cursor.execute(query_all)
+    else:
+        cursor.execute(query_restaurant, (chosen_restaurant,))
+
+    results = cursor.fetchall()
+
+    # Create a list of dictionaries to hold results
+    food_items = []
+    for row in results:
+        food_items.append({
+            'name': row[0],
+            'calories': row[1],
+            'protein': row[2],
+            'carbs': row[3],
+            'fat': row[4]
+        })
+
+    cursor.close()
+
+    # Process and display the 'food_items' in display_similar.html template
+    return render_template('display_similar.html', food_items=food_items)
 
 if __name__ == '__main__':
     app.debug=True
