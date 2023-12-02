@@ -33,6 +33,19 @@
         .login-container button:hover {
             background-color: #ffcc00; /* Change button background color on hover */
         }
+        /* Style for the Search button */
+        .search-button {
+            /* Your existing styles here... */
+
+            /* Add a hover effect */
+            transition: background-color 0.3s, color 0.3s; /* Add transition for smooth hover effect */
+        }
+
+        .search-button:hover {
+            /* Change background color and text color on hover */
+            background-color: #ffcc00;
+            color: #fff;
+        }
     </style>
     <style>
         .tm-container {
@@ -56,7 +69,8 @@
                 <button class="md:hidden py-2 px-2" id="menu-toggle"><i class="fas fa-2x fa-bars tm-text-gold"></i></button>
                 <ul class="mb-3 md:mb-0 text-2xl font-normal flex justify-end flex-col md:flex-row">
                     <li class="inline-block mb-4 mx-4"><a href="#north_dh_menu" class="tm-text-gold py-1 md:py-3 px-4">Dining Halls</a></li>
-                    <li class="inline-block mb-4 mx-4"><a href="#abp_menu" class="tm-text-gold py-1 md:py-3 px-4">GrubHub</a></li>
+                    <li class="inline-block mb-4 mx-4"><a href="#Chick_fil_a_menu" class="tm-text-gold py-1 md:py-3 px-4">GrubHub</a></li>
+                    <li class="inline-block mb-4 mx-4"><a href="#" class="tm-text-gold py-1 md:py-3 px-4" onclick="navigateToSearch()">Search</a></li>
                 </ul>
             </div>     
 
@@ -70,6 +84,12 @@
                     window.location.href = "http://db8.cse.nd.edu:5070/login";
                 }
             </script>             
+            <script>
+                function navigateToSearch() {
+                    // Redirect to the login page
+                    window.location.href = "http://db8.cse.nd.edu:5070/search";
+                }
+            </script>      
 
         </nav>
         <div class="container mx-auto px-2 tm-intro-width">
@@ -96,38 +116,47 @@
 
     <!-- North Dining Hall Menu -->
     <div id="north_dh_menu" class="parallax-window" data-parallax="scroll" data-image-src="{{ url_for('static', filename='img/north_dining_hall.jpg') }}">
-        <div class="container mx-auto tm-container py-24 sm:py-48">
+        <div class="container mx-auto w-full py-12 sm:py-16">
             <div class="text-center mb-16">
-                <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">North Dining Hall</h2>
+                <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">North Dining Hall<br>{{ day }} Menu</h2>
             </div>
-
-            <!-- Add a table to display the ndh_data -->
-            <table class="table-fixed w-full">
-                <thead>
-                    <tr>
-                        <th class="w-1/6">Day</th>
-                        <th class="w-1/6">Meal Type</th>
-                        <th class="w-1/6">Name</th>
-                        <th class="w-1/6">Serving Size</th>
-                        <th class="w-1/6">Calories</th>
-                        <th class="w-1/6">Total Fat</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for item in ndh_data %}
-                        <tr>
-                            <td>{{ item[0] }}</td>
-                            <td>{{ item[1] }}</td>
-                            <td>{{ item[2] }}</td>
-                            <td>{{ item[3] }}</td>
-                            <td>{{ item[4] }}</td>
-                            <td>{{ item[5] }}</td>
-                        </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
+            <div class="flex flex-wrap">
+                <div class="w-full p-4 ml-4 mr-4">
+                    <div class="flex flex-wrap">
+                        {% set meal_types = {} %}
+                        {% for item in ndh_data %}
+                            {% if item[1] not in meal_types %}
+                                {% set _ = meal_types.update({item[1]: []}) %}
+                            {% endif %}
+                            {% set _ = meal_types[item[1]].append(item) %}
+                        {% endfor %}
+    
+                        {% for meal_type, items in meal_types.items() %}
+                            <div class="w-full ml-4 mr-4">
+                                <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2">
+                                    <h3 class="text-lg sm:text-xl tm-text-white">{{ meal_type }}</h3>
+                                </div>
+                                <div class="flex-1 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                                    <ul>
+                                        {% for item in items %}
+                                            <li>
+                                                <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">{{ item[2] }}</h3>
+                                                <p class="tm-text-white">{{ item[4] }} calories, {{ item[7] }}g protein, {{ item[6] }}g carbs, {{ item[5] }}g fat</p>
+                                                <br>
+                                            </li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    
+    
+    
 
     <!-- South Dining Hall Menu
     <div id="south_dh_menu" class="parallax-window" data-parallax="scroll" data-image-src="{{ url_for('static', filename='img/south_dining_hall.jpg') }}">
@@ -313,12 +342,19 @@
             });
             
             document.querySelectorAll('a[href^="#"]:not(.no-scroll)').forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
+                anchor.addEventListener('click', function(e) {
                     e.preventDefault();
+                    var target = this.getAttribute('href');
 
-                    document.querySelector(this.getAttribute('href')).scrollIntoView({
-                        behavior: 'smooth'
-                    });
+                    // Check if it's an internal link or external link
+                    if (target.startsWith('#')) {
+                        document.querySelector(target).scrollIntoView({
+                            behavior: 'smooth'
+                        });
+                    } else {
+                        // For external links, navigate to the URL directly
+                        window.location.href = target;
+                    }
                 });
             });
         });

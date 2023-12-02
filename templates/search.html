@@ -151,39 +151,39 @@
         <div class="container mx-auto px-2 tm-intro-width">
             <div class="sm:pb-60 sm:pt-48 py-20">
                 <div class="bg-black bg-opacity-70 p-12 mb-5 text-center">
-                    <h1 class="text-white text-5xl tm-logo-font mb-5">Admin Login</h1>
+                    <h1 class="text-white text-5xl tm-logo-font mb-5">Search</h1>
+                    <p class="tm-text-gold tm-text-2xl">instructions here</p>
                     <br>
-                    <form method="POST">
-                        {{ form.hidden_tag() }}
-        
-                        <div class="form-group">
-                            <label style="color: white; font-size: 18px;">{{ form.username.label }}</label>
-                            <input class="form-control" style="padding: 8px; border-radius: 5px;" type="text" id="username" name="username">
-                        </div>
-        
-                        <div class="form-group">
-                            <label style="color: white; font-size: 18px;">{{ form.password.label }}</label>
-                            <input class="form-control" style="padding: 8px; border-radius: 5px;" type="password" id="password" name="password">
-                        </div>
-        
-                        <div class="form-group">
-                            <button class="btn btn-primary" style="padding: 10px 20px; border-radius: 5px; background-color: #ff9900; color: white; border: none;">{{ form.submit() }}</button>
-                        </div>
+                    <form class="custom-form" id="searchForm" action="{{ url_for('search') }}" method="POST">
+                        <input type="text" id="search_term" name="search_term" class="tm-input" placeholder="Enter item to search for...">
+                        <button type="submit" class="custom-button">Search</button>
                     </form>
-        
-                    {% with messages = get_flashed_messages() %}
-                        {% if messages %}
-                            <ul class="flashes">
-                                {% for message in messages %}
-                                    <li>{{ message }}</li>
-                                {% endfor %}
-                            </ul>
-                        {% endif %}
-                    {% endwith %}
                 </div>
             </div>
         </div>
         
+        {% if food_items %}
+            <div class="container mx-auto w-full py-12 sm:py-16 flex justify-center items-center">
+                <div class="max-w-lg w-full p-4">
+                    <div class="text-center mb-16">
+                        <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">Results</h2>
+                    </div>
+                    <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2 text-center">
+                        <ul>
+                            {% for food in food_items %}
+                                <li>
+                                    <p class="tm-text-white">{{ food.name }} - {{ food.calories }} calories, {{ food.protein }}g protein, {{ food.carbs }}g carbs, {{ food.fat }}g fat</p>
+                                    <br>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+           
+    </div>
+
     <!-- Include scripts at the end -->
     <script src="{{ url_for('static', filename='js/jquery-3.6.0.min.js') }}"></script>
     <script src="{{ url_for('static', filename='js/parallax.min.js') }}"></script>

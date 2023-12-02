@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NDFood Admin</title>
+</head>
+<body>
+    <h1>Create a User or Edit Existing User</h1>
+    <h3>To create a new user, enter the desired username and password. To update the password for an existing user, enter the existing username and new password.</h3>
+
+    <!-- Form for adding a user to the database -->
+    <form action="/add_user" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+
+        <label for="password">Password:</label>
+        <input type="text" id="password" name="password" required>
+        <br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <br>
+
+    <h1>Add/Update a Food Item</h1>
+    <h3>All items must have unique names. Submitting an item with a name already in the database will update that item. <br>
+    Can only do GrubHub currently.</h3>
+    <!-- Form for adding/editing a food item -->
+    <form action="/add_item" method="post">
+        <label for="food_name">Item Name:</label>
+        <input type="text" id="food_name" name="food_name" required>
+        <br>
+
+        <label for="calories">Calories:</label>
+        <input type="text" id="calories" name="calories" required>
+        <br>
+
+        <label for="protein">Protein:</label>
+        <input type="text" id="protein" name="protein" required>
+        <br>
+
+        <label for="carbs">Carbohydrates:</label>
+        <input type="text" id="carbs" name="carbs" required>
+        <br>
+
+        <label for="fat">Fat:</label>
+        <input type="text" id="fat" name="fat" required>
+        <br>
+
+        <label for="type">Type:</label>
+        <input type="text" id="type" name="type" required>
+        <br>
+
+        <label for="price">Price:</label>
+        <input type="text" id="price" name="price" required>
+        <br>
+
+        <label for="restaurant">Restaurant:</label>
+        <select name="restaurant" id="restaurant" required>
+            {% for restaurant in restaurant_names %}
+                <option value="{{ restaurant }}">{{ restaurant }}</option>
+            {% endfor %}
+        </select>
+        <br>
+
+        <input type="radio" id="dining_hall" name="source" value="Dining Hall" required>
+        <label for="dining_hall">Dining Hall</label>
+
+        <input type="radio" id="grubhub" name="source" value="Grubhub" required>
+        <label for="grubhub">GrubHub</label>
+        <br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+
+    <br>
+
+    <h1>Admin Search</h1>
+    <h3>Enter username to see an admin's password if they exist.</h3>
+    <form action="/search_user" method="post">
+        <label for="username">Enter Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+    
+        <input type="submit" value="Search">
+    </form>
+    <br>
+
+    <h1>Delete a User</h1>
+    <form action="/delete_user" method="post">
+        <select name="user_to_delete">
+            <option value="" disabled selected>Select a user</option>
+            {% for user in user_list %}
+            <option value="{{ user[0] }}">{{ user[0] }}</option>
+            {% endfor %}
+        </select>
+        <input type="submit" value="Delete User">
+    </form>
+    
+    
+    <br>
+
+    <a href="{{ url_for('index') }}">Back to Website</a>
+
+</body>
+</html>

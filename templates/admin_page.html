@@ -2,108 +2,408 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NDFood Admin</title>
+    <title>ND Food</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/all.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/tailwind.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/tooplate-antique-cafe.css') }}">
+    <style>
+        /* Your CSS styles go here */
+        .login-container {
+            position: fixed;
+            top: 35px; /* Adjust this value to vertically center the button */
+            left: 20px; /* Position the container on the left side of the page */
+            transform: translateY(-50%); /* Vertically center the button container */
+        }
+
+        .login-container button {
+            background-color: #ff9900; /* Background color */
+            color: #fff; /* Text color */
+            padding: 10px 20px; /* Padding around the button content */
+            border: none; /* Remove button border */
+            border-radius: 5px; /* Add rounded corners */
+            font-size: 16px; /* Font size */
+            cursor: pointer; /* Change cursor on hover */
+        }
+
+        .login-container button:hover {
+            background-color: #ffcc00; /* Change button background color on hover */
+        }
+
+        /* Style for the form */
+        .custom-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Style for the select element */
+        .custom-select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            /* Add other styles as needed */
+        }
+
+        /* Style for the submit button */
+        .custom-button {
+            padding: 10px 20px;
+            background-color: #ff9900;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            /* Add other styles as needed */
+        }
+
+        /* Hover effect for the button */
+        .custom-button:hover {
+            background-color: #ffcc00;
+        }
+
+
+        .radio-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px; /* Adjust spacing between radio button groups */
+        }
+
+        .radio-container input[type="radio"] {
+            margin-right: 5px; /* Adjust spacing between radio button and label */
+        }
+
+        .tm-label {
+            /* Label styles */
+            /* Example styles: */
+            display: block;
+            margin-bottom: 5px;
+            color: #fff; /* Text color */
+        }
+
+        .tm-input {
+            /* Input field styles */
+            /* Example styles: */
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%; /* Adjust width as needed */
+            margin-bottom: 10px;
+        }
+
+        .tm-submit-btn {
+            /* Submit button styles */
+            /* Example styles: */
+            background-color: #ff9900;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .tm-submit-btn:hover {
+            /* Button hover styles */
+            background-color: #ffcc00;
+        }
+    </style>
+    <style>
+        .tm-container {
+            width: 100%;
+            max-width: none;
+            padding: 10px;
+        }
+    </style>
+    <style>
+        /* For the entire list of buttons in the navigation */
+        #tm-nav ul {
+            margin-left: auto; /* This will push the list of buttons to the right */
+        }
+    </style>
 </head>
 <body>
-    <h1>Create a User or Edit Existing User</h1>
-    <h3>To create a new user, enter the desired username and password. To update the password for an existing user, enter the existing username and new password.</h3>
+    <div id="intro" class="parallax-window" data-parallax="scroll" data-image-src="{{ url_for('static', filename='img/notre_dame.jpeg') }}">
+        <nav id="tm-nav" class="fixed w-full">
+            <div class="tm-container mx-auto px-2 md:py-6 text-right">
+                <button class="md:hidden py-2 px-2" id="menu-toggle"><i class="fas fa-2x fa-bars tm-text-gold"></i></button>
+                <ul class="mb-3 md:mb-0 text-2xl font-normal flex justify-end flex-col md:flex-row">
+                    <li class="inline-block mb-4 mx-4"><a href="#tools" class="tm-text-gold py-1 md:py-3 px-4">Tools</a></li>
+                </ul>
+            </div>
 
-    <!-- Form for adding a user to the database -->
-    <form action="/add_user" method="post">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
-        <br>
+            <div class="login-container">
+                <button class="tm-text-gold py-1 md:py-3 px-4" onclick="backButton()">Back to Main Page</button>
+            </div>
 
-        <label for="password">Password:</label>
-        <input type="text" id="password" name="password" required>
-        <br>
+            <script>
+                function backButton() {
+                    window.location.href = "http://db8.cse.nd.edu:5070/";
+                }
+            </script>
+        </nav>
+        <div class="container mx-auto px-2 tm-intro-width">
+            <div class="sm:pb-60 sm:pt-48 py-20">
+                <div class="bg-black bg-opacity-70 p-12 mb-5 text-center">
+                    <h1 class="text-white text-5xl tm-logo-font mb-5">NDFood</h1>
+                    <p class="tm-text-gold tm-text-2xl">Admin Interface</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <input type="submit" value="Submit">
-    </form>
+    <div id="tools" class="parallax-window" data-parallax="scroll" data-image-src="{{ url_for('static', filename='img/' ~ restaurant|replace(' ', '_')|replace('-', '_') ~ '.jpg') }}">
+        <div class="container mx-auto w-full py-12 sm:py-16">
+            <div class="text-center mb-16">
+                <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">Tools</h2>
+            </div>
+            <div class="flex flex-wrap">
+                <div class="w-full p-4 ml-4 mr-4">
+                    <div class="flex flex-wrap">
+                        <!-- Top Row -->
+                        <div class="w-1/4 ml-4 mr-4">
+                            <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2">
+                                <h3 class="text-lg sm:text-xl tm-text-white">Add/Update a Food Item</h3>
+                            </div>
+                            <div class="flex-1 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                                <ul>
+                                    <p class="tm-text-white">All items must have unique names. Submitting an item with a name already in the database will update that item. <br> Can only do GrubHub currently.</p>
+                                    
+                                    <form action="/add_item" method="post">
+                                        <br>
+                                    
+                                        <div class="radio-container">
+                                            <input type="radio" id="dining_hall" name="source" value="Dining Hall" required checked>
+                                            <label for="dining_hall" class="tm-label">Dining Hall</label>
+                                        </div>
+                                        <div class="radio-container">
+                                            <input type="radio" id="grubhub" name="source" value="Grubhub" required>
+                                            <label for="grubhub" class="tm-label">GrubHub</label>
+                                        </div>
+                                        
+                                        <label for="restaurant" class="tm-label" id="restaurantLabel" style="display: none;">Restaurant:</label>
+                                        <select name="restaurant" id="restaurant" required class="tm-input" style="display: none;">
+                                            {% for restaurant in restaurant_names %}
+                                                <option value="{{ restaurant }}">{{ restaurant }}</option>
+                                            {% endfor %}
+                                        </select>
+                                        
+                                        <br>
 
-    <br>
+                                        <label for="food_name" class="tm-label">Item Name:</label>
+                                        <input type="text" id="food_name" name="food_name" required class="tm-input">
+                                        <br>
+                                
+                                        <label for="calories" class="tm-label">Calories:</label>
+                                        <input type="text" id="calories" name="calories" required class="tm-input">
+                                        <br>
+                                
+                                        <label for="protein" class="tm-label">Protein:</label>
+                                        <input type="text" id="protein" name="protein" required class="tm-input">
+                                        <br>
+                                
+                                        <label for="carbs" class="tm-label">Carbohydrates:</label>
+                                        <input type="text" id="carbs" name="carbs" required class="tm-input">
+                                        <br>
+                                
+                                        <label for="fat" class="tm-label">Fat:</label>
+                                        <input type="text" id="fat" name="fat" required class="tm-input">
+                                        <br>
+                                
+                                        <label for="type" class="tm-label">Type:</label>
+                                        <input type="text" id="type" name="type" required class="tm-input">
+                                        <br>
+                                
+                                        <label for="price" class="tm-label" id="priceLabel" style="display: none;">Price:</label>
+                                        <input type="text" id="price" name="price" required class="tm-input" style="display: none;">
+                                        <br>
+                                
+                                        <input type="submit" value="Submit" class="tm-submit-btn">
+                                    </form>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-1/4 ml-4 mr-4">
+                            <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2">
+                                <h3 class="text-lg sm:text-xl tm-text-white">Create a User or Edit Existing User</h3>
+                            </div>
+                            <div class="flex-1 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                                <ul>
+                                    <p class="tm-text-white">To create a new user, enter the desired username and password. To update the password for an existing user, enter the existing username and new password.<br></p>
+                                    <br>
+                                    <form action="/add_user" method="post">
+                                        <label for="username" class="tm-label">Username:</label>
+                                        <input type="text" id="username" name="username" required class="tm-input">
+                                        <br>
+                                
+                                        <label for="password" class="tm-label">Password:</label>
+                                        <input type="text" id="password" name="password" required class="tm-input">
+                                        <br>
+                                
+                                        <input type="submit" value="Submit" class="tm-submit-btn">
+                                    </form>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-1/4 ml-4 mr-4">
+                            <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2">
+                                <h3 class="text-lg sm:text-xl tm-text-white">Admin Search</h3>
+                            </div>
+                            <div class="flex-1 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                                <ul>
+                                    <p class="tm-text-white">Enter username to see an admin's password if they exist.<br></p>
+                                    <br>
+                                    <form action="/search_user" method="post">
+                                        <label for="username" class="tm-label">Enter Username:</label>
+                                        <input type="text" id="username" name="username" required class="tm-input">
+                                        <br>
+                                    
+                                        <input type="submit" value="Search" class="tm-submit-btn">
+                                    </form>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-1/4 ml-4 mr-4">
+                            <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2">
+                                <h3 class="text-lg sm:text-xl tm-text-white">Delete a User</h3>
+                            </div>
+                            <div class="flex-1 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                                <ul>
+                                    <form action="/delete_user" method="post" class="custom-form">
+                                        <select name="user_to_delete" class="custom-select">
+                                            <option value="" disabled selected>Select user</option>
+                                            {% for user in user_list %}
+                                                <option value="{{ user[0] }}">{{ user[0] }}</option>
+                                            {% endfor %}
+                                        </select>
+                                        <input type="submit" value="Delete User" class="custom-button">
+                                    </form>                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    <h1>Add/Update a Food Item</h1>
-    <h3>All items must have unique names. Submitting an item with a name already in the database will update that item. <br>
-    Can only do GrubHub currently.</h3>
-    <!-- Form for adding/editing a food item -->
-    <form action="/add_item" method="post">
-        <label for="food_name">Item Name:</label>
-        <input type="text" id="food_name" name="food_name" required>
-        <br>
+            <br>
+            <!-- Next Row -->
 
-        <label for="calories">Calories:</label>
-        <input type="text" id="calories" name="calories" required>
-        <br>
+            <div class="flex flex-wrap">
+                <div class="w-full p-4 ml-4 mr-4">
+                    <div class="flex flex-wrap">
+                        <div class="w-1/4 ml-4 mr-4">
+                            <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2">
+                                <h3 class="text-lg sm:text-xl tm-text-white">Delete a Food Item</h3>
+                            </div>
+                            <div class="flex-1 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                                <ul>
+                                    <form action="/delete_item" method="post" class="custom-form">
+                                        <label for="food_name" class="tm-label">Item Name:</label>
+                                        <input type="text" id="item_to_delete" name="item_to_delete" required class="tm-input">
 
-        <label for="protein">Protein:</label>
-        <input type="text" id="protein" name="protein" required>
-        <br>
-
-        <label for="carbs">Carbohydrates:</label>
-        <input type="text" id="carbs" name="carbs" required>
-        <br>
-
-        <label for="fat">Fat:</label>
-        <input type="text" id="fat" name="fat" required>
-        <br>
-
-        <label for="type">Type:</label>
-        <input type="text" id="type" name="type" required>
-        <br>
-
-        <label for="price">Price:</label>
-        <input type="text" id="price" name="price" required>
-        <br>
-
-        <label for="restaurant">Restaurant:</label>
-        <select name="restaurant" id="restaurant" required>
-            {% for restaurant in restaurant_names %}
-                <option value="{{ restaurant }}">{{ restaurant }}</option>
-            {% endfor %}
-        </select>
-        <br>
-
-        <input type="radio" id="dining_hall" name="source" value="Dining Hall" required>
-        <label for="dining_hall">Dining Hall</label>
-
-        <input type="radio" id="grubhub" name="source" value="Grubhub" required>
-        <label for="grubhub">GrubHub</label>
-        <br>
-
-        <input type="submit" value="Submit">
-    </form>
+                                        <div class="radio-container">
+                                            <input type="radio" id="dining_hall" name="option" value="Dining Hall" required checked>
+                                            <label for="dining_hall" class="tm-label">Dining Hall</label>
+                                        </div>
+                                        <div class="radio-container">
+                                            <input type="radio" id="grubhub" name="option" value="Grubhub" required>
+                                            <label for="grubhub" class="tm-label">GrubHub</label>
+                                        </div>
 
 
-    <br>
-
-    <h1>Admin Search</h1>
-    <h3>Enter username to see an admin's password if they exist.</h3>
-    <form action="/search_user" method="post">
-        <label for="username">Enter Username:</label>
-        <input type="text" id="username" name="username" required>
-        <br>
+                                        <input type="submit" value="Delete Item" class="custom-button">
+                                    </form>                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
-        <input type="submit" value="Search">
-    </form>
-    <br>
 
-    <h1>Delete a User</h1>
-    <form action="/delete_user" method="post">
-        <select name="user_to_delete">
-            <option value="" disabled selected>Select a user</option>
-            {% for user in user_list %}
-            <option value="{{ user[0] }}">{{ user[0] }}</option>
-            {% endfor %}
-        </select>
-        <input type="submit" value="Delete User">
-    </form>
+    <!-- Include scripts at the end -->
+    <script src="{{ url_for('static', filename='js/jquery-3.6.0.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/parallax.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.singlePageNav.min.js') }}"></script>
+    <script>
+
+        function checkAndShowHideMenu() {
+            if(window.innerWidth < 768) {
+                $('#tm-nav ul').addClass('hidden');                
+            } else {
+                $('#tm-nav ul').removeClass('hidden');
+            }
+        }
+
+        $(function(){
+            var tmNav = $('#tm-nav');
+            tmNav.singlePageNav();
+
+            checkAndShowHideMenu();
+            window.addEventListener('resize', checkAndShowHideMenu);
+
+            $('#menu-toggle').click(function(){
+                $('#tm-nav ul').toggleClass('hidden');
+            });
+
+            $('#tm-nav ul li').click(function(){
+                if(window.innerWidth < 768) {
+                    $('#tm-nav ul').addClass('hidden');
+                }                
+            });
+
+            $(document).scroll(function() {
+                var distanceFromTop = $(document).scrollTop();
+
+                if(distanceFromTop > 100) {
+                    tmNav.addClass('scroll');
+                } else {
+                    tmNav.removeClass('scroll');
+                }
+            });
+            
+            document.querySelectorAll('a[href^="#"]:not(.no-scroll)').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+    <script>
+        const sourceRadio = document.querySelectorAll('input[name="source"]');
+        const restaurantLabel = document.getElementById('restaurantLabel');
+        const restaurantSelect = document.getElementById('restaurant');
+        const priceLabel = document.getElementById('priceLabel');
+        const priceInput = document.getElementById('price');
     
-    
-    <br>
-
-    <a href="{{ url_for('index') }}">Back to Website</a>
-
+        sourceRadio.forEach(radio => {
+            radio.addEventListener('change', function() {
+                if (this.value === 'Grubhub') {
+                    restaurantLabel.style.display = 'block';
+                    restaurantSelect.style.display = 'block';
+                    priceLabel.style.display = 'block';
+                    priceInput.style.display = 'block';
+                } else {
+                    restaurantLabel.style.display = 'none';
+                    restaurantSelect.style.display = 'none';
+                    priceLabel.style.display = 'none';
+                    priceInput.style.display = 'none';
+                }
+            });
+        });
+    </script>
 </body>
 </html>
