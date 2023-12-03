@@ -356,6 +356,7 @@ def similar_options():
 @app.route('/display_similar', methods=['GET'])
 def display_similar():
     chosen_restaurant = request.args.get('restaurant')
+    nutritional_values = request.args.getlist('nutritional_value')
 
     selected_food = session.get('selected_food')
     name = selected_food['name']
@@ -364,8 +365,19 @@ def display_similar():
     carbs = selected_food['carbs']
     protein = selected_food['protein']
     
-    # Use the retrieved data in your query or logic
-    order_by_clause = f"ABS(gf.calories/10 - {calories}/10) + ABS(gf.total_fat - {fat}) + ABS(gf.total_carbs-{carbs}) + ABS(gf.protein-{protein})"
+    order_by_clause = ""
+    for value in nutritional_values:
+        if value == 'calories':
+            order_by_clause += f"ABS(gf.calories/10 - {calories}/10) + "
+        elif value == 'protein':
+            order_by_clause += f"ABS(gf.protein - {protein}) + "
+        elif value == 'carbs':
+            order_by_clause += f"ABS(gf.total_carbs - {carbs}) + "
+        elif value == 'fat':
+            order_by_clause += f"ABS(gf.total_fat - {fat}) + "
+
+    # Remove the last '+' and extra spaces
+    order_by_clause = order_by_clause[:-3]
 
     query_all = f"""SELECT gf.name, calories, protein, total_carbs, total_fat FROM grubhub_food gf
             JOIN grubhub_available ga ON gf.food_id = ga.food_id
@@ -377,8 +389,13 @@ def display_similar():
             JOIN grubhub_available ga ON gf.food_id = ga.food_id
             JOIN grubhub_restaurant gr ON ga.restaurant_id = gr.restaurant_id
             WHERE gr.name = %s
-            ORDER BY {order_by_clause}
+            ORDER BY {order_by_clause} 
             LIMIT 1;"""
+
+    
+    
+    print(query_all)
+    print(query_restaurant)
 
     cursor = mysql.connection.cursor()
     
