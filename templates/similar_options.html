@@ -4,30 +4,315 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Similar Options</title>
+    <title>ND Food</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/all.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/tailwind.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/tooplate-antique-cafe.css') }}">
+    <style>
+        /* Your CSS styles go here */
+        .login-container {
+            position: fixed;
+            top: 35px; /* Adjust this value to vertically center the button */
+            left: 20px; /* Position the container on the left side of the page */
+            transform: translateY(-50%); /* Vertically center the button container */
+        }
+
+        .login-container button {
+            background-color: #ff9900; /* Background color */
+            color: #fff; /* Text color */
+            padding: 10px 20px; /* Padding around the button content */
+            border: none; /* Remove button border */
+            border-radius: 5px; /* Add rounded corners */
+            font-size: 16px; /* Font size */
+            cursor: pointer; /* Change cursor on hover */
+        }
+
+        .login-container button:hover {
+            background-color: #ffcc00; /* Change button background color on hover */
+        }
+
+        /* Style for the form */
+        .custom-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Style for the select element */
+        .custom-select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            /* Add other styles as needed */
+        }
+
+        /* Style for the submit button */
+        .custom-button {
+            padding: 10px 20px;
+            background-color: #ff9900;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            /* Add other styles as needed */
+        }
+
+        /* Hover effect for the button */
+        .custom-button:hover {
+            background-color: #ffcc00;
+        }
+
+
+        .radio-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px; /* Adjust spacing between radio button groups */
+        }
+
+        .radio-container input[type="radio"] {
+            margin-right: 5px; /* Adjust spacing between radio button and label */
+        }
+
+        .tm-label {
+            /* Label styles */
+            /* Example styles: */
+            display: block;
+            margin-bottom: 5px;
+            color: #fff; /* Text color */
+        }
+
+        .tm-input {
+            /* Input field styles */
+            /* Example styles: */
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%; /* Adjust width as needed */
+            margin-bottom: 10px;
+        }
+
+        .tm-submit-btn {
+            /* Submit button styles */
+            /* Example styles: */
+            background-color: #ff9900;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .tm-submit-btn:hover {
+            /* Button hover styles */
+            background-color: #ffcc00;
+        }
+        
+        #intro {
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+        /* Highlight text and change cursor on hover for food items */
+        .food-item {
+            cursor: pointer; /* Change cursor to pointer */
+            transition: color 0.3s ease; /* Smooth transition for color change */
+        }
+
+        .food-item:hover {
+            color: gold; /* Change text color to gold on hover */
+        }
+
+        label[for="restaurants"] {
+            color: #fff; /* Set the color to white */
+        }
+
+        .tm-orange-background {
+            background-color: #ff9900; /* Change to the desired orange color */
+            transition: background-color 0.3s ease; /* Add a smooth transition for the hover effect */
+        }
+        
+        .tm-orange-background:hover {
+            background-color: #ffcc00; /* Change to the desired shade when hovered */
+            cursor: pointer;
+        }
+
+    </style>
+    <style>
+        .tm-container {
+            width: 100%;
+            max-width: none;
+            padding: 10px;
+        }
+    </style>
+
 </head>
 <body>
-    <h1>Find Similar Food Options</h1>
-    <p>Selected Food:</p>
-    <ul>
-        <li>Name: {{ selected_food['name'] }}</li>
-        <li>Calories: {{ selected_food['calories'] }}</li>
-        <li>Protein: {{ selected_food['protein'] }}</li>
-        <li>Carbs: {{ selected_food['carbs'] }}</li>
-        <li>Fat: {{ selected_food['fat'] }}</li>
-    </ul>
+    <div id="intro" class="parallax-window" data-parallax="scroll" data-image-src="{{ url_for('static', filename='img/dome.jpg') }}">
+        <nav id="tm-nav" class="fixed w-full">
+            <div class="tm-container mx-auto px-2 md:py-6 text-right">
+                <button class="md:hidden py-2 px-2" id="menu-toggle"><i class="fas fa-2x fa-bars tm-text-gold"></i></button>
+            </div>
 
-    <form action="/display_similar" method="GET">
-        <label for="restaurants">Choose a restaurant:</label>
-        <select name="restaurant" id="restaurants">
-            {% for restaurant in restaurant_names %}
-                <option value="{{ restaurant }}">{{ restaurant }}</option>
-            {% endfor %}
-        </select>
-        <br><br>
-        <input type="submit" value="Find Similar Options">
-    </form>
+            <div class="login-container">
+                <button class="tm-text-gold py-1 md:py-3 px-4" onclick="backButton()">Back to Main Page</button>
+            </div>
 
-    <!-- Additional content or options can be added here -->
+            <script>
+                function backButton() {
+                    window.location.href = "http://db8.cse.nd.edu:5070/";
+                }
+            </script>
+        </nav>
+        <div class="container mx-auto px-2 tm-intro-width">
+            <div class="sm:pb-60 sm:pt-48 py-20">
+                <div class="bg-black bg-opacity-70 p-12 mb-5 text-center">
+                    <h1 class="text-white text-5xl tm-logo-font mb-5">{{ selected_food['name'] }}</h1>
+                    <p class="tm-text-gold tm-text-2xl">
+                        Calories: {{ selected_food['calories'] }}<br>
+                        Protein: {{ selected_food['protein'] }}g<br>
+                        Carbs: {{ selected_food['carbs'] }}g<br>
+                        Fat: {{ selected_food['fat'] }}g<br><br>
+                    </p>
+                    <form action="/display_similar" method="GET">
+                        <label for="restaurants">Restaurant to find similar options from:</label>
+                        <select name="restaurant" id="restaurants">
+                            {% for restaurant in restaurant_names %}
+                                <option value="{{ restaurant }}">{{ restaurant }}</option>
+                            {% endfor %}
+                        </select>
+                        <br><br>
+                        <input type="submit" value="Find Similar Options" class="tm-text-white py-1 md:py-3 px-4 tm-orange-background">
+                    </form> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Include scripts at the end -->
+    <script src="{{ url_for('static', filename='js/jquery-3.6.0.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/parallax.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.singlePageNav.min.js') }}"></script>
+    <script>
+
+        function checkAndShowHideMenu() {
+            if(window.innerWidth < 768) {
+                $('#tm-nav ul').addClass('hidden');                
+            } else {
+                $('#tm-nav ul').removeClass('hidden');
+            }
+        }
+
+        $(function(){
+            var tmNav = $('#tm-nav');
+            tmNav.singlePageNav();
+
+            checkAndShowHideMenu();
+            window.addEventListener('resize', checkAndShowHideMenu);
+
+            $('#menu-toggle').click(function(){
+                $('#tm-nav ul').toggleClass('hidden');
+            });
+
+            $('#tm-nav ul li').click(function(){
+                if(window.innerWidth < 768) {
+                    $('#tm-nav ul').addClass('hidden');
+                }                
+            });
+
+            $(document).scroll(function() {
+                var distanceFromTop = $(document).scrollTop();
+
+                if(distanceFromTop > 100) {
+                    tmNav.addClass('scroll');
+                } else {
+                    tmNav.removeClass('scroll');
+                }
+            });
+            
+            document.querySelectorAll('a[href^="#"]:not(.no-scroll)').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+    <script>
+        const sourceRadio = document.querySelectorAll('input[name="source"]');
+        const restaurantLabel = document.getElementById('restaurantLabel');
+        const restaurantSelect = document.getElementById('restaurant');
+        const priceLabel = document.getElementById('priceLabel');
+        const priceInput = document.getElementById('price');
+    
+        sourceRadio.forEach(radio => {
+            radio.addEventListener('change', function() {
+                if (this.value === 'Grubhub') {
+                    restaurantLabel.style.display = 'block';
+                    restaurantSelect.style.display = 'block';
+                    priceLabel.style.display = 'block';
+                    priceInput.style.display = 'block';
+                } else {
+                    restaurantLabel.style.display = 'none';
+                    restaurantSelect.style.display = 'none';
+                    priceLabel.style.display = 'none';
+                    priceInput.style.display = 'none';
+                }
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            // Add click event listener to food items with class "food-item"
+            $('.food-item').click(function() {
+                // Extract food data attributes from the clicked element
+                var name = $(this).data('name');
+                var calories = $(this).data('calories');
+                var protein = $(this).data('protein');
+                var carbs = $(this).data('carbs');
+                var fat = $(this).data('fat');
+    
+                // Prepare the data object to be sent
+                var dataToSend = {
+                    'name': name,
+                    'calories': calories,
+                    'protein': protein,
+                    'carbs': carbs,
+                    'fat': fat
+                };
+    
+                // Send an asynchronous POST request to select_food endpoint
+                $.ajax({
+                    type: 'POST',
+                    url: '/select_food',
+                    contentType: 'application/json',
+                    data: JSON.stringify(dataToSend),
+                    success: function(response) {
+                        // Redirect to display_similar.html with the retrieved data
+                        window.location.href = '/similar_options';
+                    },
+                    error: function(error) {
+                        // Handle errors if the request fails
+                        console.error('Error:', error);
+                    }
+                });
+            });
+        });
+    </script>
+
 </body>
 </html>
