@@ -185,23 +185,24 @@
                         <input type="radio" id="byName" name="sort" value="name">
                         <label for="byName">By Name (with AI)</label><br><br>
                         <div id="nutritionCheckboxes" style="display: none;">
-                            <p class="tm-text-gold tm-text-2xl">Choose one or all nutritional value to find a similar option:<br><br>
-                                Calories: {{ selected_food['calories'] }}g 
+                            <p class="tm-text-gold tm-text-2xl">Choose one or all nutritional values to find a similar option:<br><br>
                                 <input type="checkbox" name="nutritional_value" value="calories">
+                                 Calories: {{ selected_food['calories'] }}g
                                 <br>
-                                Protein: {{ selected_food['protein'] }}g 
                                 <input type="checkbox" name="nutritional_value" value="protein">
+                                 Protein: {{ selected_food['protein'] }}g
                                 <br>
-                                Carbs: {{ selected_food['carbs'] }}g 
                                 <input type="checkbox" name="nutritional_value" value="carbs">
+                                 Carbs: {{ selected_food['carbs'] }}g
                                 <br>
-                                Fat: {{ selected_food['fat'] }}g 
                                 <input type="checkbox" name="nutritional_value" value="fat">
+                                 Fat: {{ selected_food['fat'] }}g
                                 <br><br>
                             </p>
                         </div>
                         <label for="restaurants">Restaurant to find similar options from:</label>
                         <select name="restaurant" id="restaurants">
+                            <option value="Search All Restaurants" selected>Search All Restaurants</option>
                             {% for restaurant in restaurant_names %}
                                 <option value="{{ restaurant }}">{{ restaurant }}</option>
                             {% endfor %}

@@ -347,7 +347,6 @@ def similar_options():
     # Retrieve the list of restaurant names
     cursor.execute("SELECT DISTINCT name FROM grubhub_restaurant")
     restaurant_names = [row[0] for row in cursor.fetchall()]
-    restaurant_names.append('Search All Restaurants')
 
     cursor.close()
 
@@ -393,7 +392,7 @@ def display_similar():
         query_restaurant = f"""SELECT gf.name, calories, protein, total_carbs, total_fat FROM grubhub_food gf
                 JOIN grubhub_available ga ON gf.food_id = ga.food_id
                 JOIN grubhub_restaurant gr ON ga.restaurant_id = gr.restaurant_id
-                WHERE gr.name = %s
+                WHERE gr.name = %s and gf.name != %s 
                 ORDER BY {order_by_clause} 
                 LIMIT 1;"""
 
@@ -402,7 +401,7 @@ def display_similar():
         if chosen_restaurant == "Search All Restaurants":
             cursor.execute(query_all, (name,))
         else:
-            cursor.execute(query_restaurant, (chosen_restaurant,))
+            cursor.execute(query_restaurant, (chosen_restaurant, name,))
 
         
         results = cursor.fetchall()
