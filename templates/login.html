@@ -121,6 +121,16 @@
             background-size: cover;
             background-position: center;
         }
+        .tm-orange-background {
+            background-color: #ff9900; /* Change to the desired orange color */
+            transition: background-color 0.3s ease; /* Add a smooth transition for the hover effect */
+        }
+        
+        .tm-orange-background:hover {
+            background-color: #ffcc00; /* Change to the desired shade when hovered */
+            cursor: pointer;
+        }
+
     </style>
     <style>
         .tm-container {
@@ -160,15 +170,17 @@
                             <label style="color: white; font-size: 18px;">{{ form.username.label }}</label>
                             <input class="form-control" style="padding: 8px; border-radius: 5px;" type="text" id="username" name="username">
                         </div>
+
+                        <br>
         
                         <div class="form-group">
                             <label style="color: white; font-size: 18px;">{{ form.password.label }}</label>
                             <input class="form-control" style="padding: 8px; border-radius: 5px;" type="password" id="password" name="password">
                         </div>
+
+                        <br>
         
-                        <div class="form-group">
-                            <button class="btn btn-primary" style="padding: 10px 20px; border-radius: 5px; background-color: #ff9900; color: white; border: none;">{{ form.submit() }}</button>
-                        </div>
+                        <input type="submit" value="Login" class="tm-text-white py-1 md:py-3 px-4 tm-orange-background">
                     </form>
         
                     {% with messages = get_flashed_messages() %}

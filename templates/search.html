@@ -117,7 +117,7 @@
         
         #intro {
             height: 100vh;
-            width: 100%;
+            background-color: #f0f0f0; /* Replace with your desired color */
             background-size: cover;
             background-position: center;
         }
@@ -131,6 +131,7 @@
             color: gold; /* Change text color to gold on hover */
         }
 
+
     </style>
     <style>
         .tm-container {
@@ -142,7 +143,7 @@
 
 </head>
 <body>
-    <div id="intro" class="parallax-window" data-parallax="scroll" data-image-src="{{ url_for('static', filename='img/notre_dame.jpeg') }}">
+    <div id="intro" class="parallax-window" data-parallax="scroll">
         <nav id="tm-nav" class="fixed w-full">
             <div class="tm-container mx-auto px-2 md:py-6 text-right">
                 <button class="md:hidden py-2 px-2" id="menu-toggle"><i class="fas fa-2x fa-bars tm-text-gold"></i></button>
@@ -172,30 +173,41 @@
                 </div>
             </div>
         </div>
-        
+        {% if request.method == 'POST' %}
         {% if food_items %}
-        <div class="container mx-auto w-full py-12 sm:py-16 flex justify-center items-center">
-            <div class="max-w-lg w-full p-4">
-                <div class="text-center mb-16">
-                    <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">Results</h2>
+            <div id="searchResults" class="container mx-auto w-full h-screen flex justify-center items-center">
+                <div class="max-w-lg w-full p-4">
+                    <div class="text-center mb-16">
+                        <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">Results</h2>
+                    </div>
+                    <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2 text-center">
+                        <ul>
+                            {% for food in food_items %}
+                                <li>
+                                    <!-- Use data attributes to store food information -->
+                                    <p class="tm-text-white food-item" data-name="{{ food.name }}" data-calories="{{ food.calories }}" data-protein="{{ food.protein }}" data-carbs="{{ food.carbs }}" data-fat="{{ food.fat }}">
+                                        {{ food.name }} - {{ food.calories }} calories, {{ food.protein }}g protein, {{ food.carbs }}g carbs, {{ food.fat }}g fat
+                                    </p>
+                                    <br>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
                 </div>
-                <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2 text-center">
-                    <ul>
-                        {% for food in food_items %}
-                            <li>
-                                <!-- Use data attributes to store food information -->
-                                <p class="tm-text-white food-item" data-name="{{ food.name }}" data-calories="{{ food.calories }}" data-protein="{{ food.protein }}" data-carbs="{{ food.carbs }}" data-fat="{{ food.fat }}">
-                                    {{ food.name }} - {{ food.calories }} calories, {{ food.protein }}g protein, {{ food.carbs }}g carbs, {{ food.fat }}g fat
-                                </p>
-                                <br>
-                            </li>
-                        {% endfor %}
-                    </ul>
             </div>
-        </div>
-    {% endif %}
-           
+        {% else %}
+            <div id="searchResults" class="container mx-auto w-full py-12 sm:py-16 flex justify-center items-center">
+                <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2 text-center">
+                    <p class="tm-text-white">No results found.</p>
+                </div>
+            </div>
+        {% endif %}
+        {% endif %}
     </div>
+
+
+
+
 
     <!-- Include scripts at the end -->
     <script src="{{ url_for('static', filename='js/jquery-3.6.0.min.js') }}"></script>
@@ -310,5 +322,6 @@
             });
         });
     </script>
+
 </body>
 </html>
