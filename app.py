@@ -4,6 +4,7 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SubmitField
 from wtforms.validators import InputRequired
 from datetime import datetime
+import spacy
 
 class LoginForm(FlaskForm):
     username = StringField('Username', validators=[InputRequired()])
@@ -355,8 +356,10 @@ def similar_options():
 
 @app.route('/display_similar', methods=['GET'])
 def display_similar():
+    chosen_sort = request.args.get('sort') 
     chosen_restaurant = request.args.get('restaurant')
     nutritional_values = request.args.getlist('nutritional_value')
+    nlp = spacy.load("en_core_web_md")
 
     selected_food = session.get('selected_food')
     name = selected_food['name']
@@ -365,62 +368,115 @@ def display_similar():
     carbs = selected_food['carbs']
     protein = selected_food['protein']
     
-    order_by_clause = ""
-    for value in nutritional_values:
-        if value == 'calories':
-            order_by_clause += f"ABS(gf.calories/10 - {calories}/10) + "
-        elif value == 'protein':
-            order_by_clause += f"ABS(gf.protein - {protein}) + "
-        elif value == 'carbs':
-            order_by_clause += f"ABS(gf.total_carbs - {carbs}) + "
-        elif value == 'fat':
-            order_by_clause += f"ABS(gf.total_fat - {fat}) + "
+    if chosen_sort == "nutrition":
+        order_by_clause = ""
+        for value in nutritional_values:
+            if value == 'calories':
+                order_by_clause += f"ABS(gf.calories/10 - {calories}/10) + "
+            elif value == 'protein':
+                order_by_clause += f"ABS(gf.protein - {protein}) + "
+            elif value == 'carbs':
+                order_by_clause += f"ABS(gf.total_carbs - {carbs}) + "
+            elif value == 'fat':
+                order_by_clause += f"ABS(gf.total_fat - {fat}) + "
 
-    # Remove the last '+' and extra spaces
-    order_by_clause = order_by_clause[:-3]
+        # Remove the last '+' and extra spaces
+        order_by_clause = order_by_clause[:-3]
 
-    query_all = f"""SELECT gf.name, calories, protein, total_carbs, total_fat FROM grubhub_food gf
-            JOIN grubhub_available ga ON gf.food_id = ga.food_id
-            JOIN grubhub_restaurant gr ON ga.restaurant_id = gr.restaurant_id
-            ORDER BY {order_by_clause} 
-            LIMIT 1 OFFSET 1;"""
+        query_all = f"""SELECT gf.name, calories, protein, total_carbs, total_fat FROM grubhub_food gf
+                JOIN grubhub_available ga ON gf.food_id = ga.food_id
+                JOIN grubhub_restaurant gr ON ga.restaurant_id = gr.restaurant_id
+                WHERE gf.name != %s 
+                ORDER BY {order_by_clause} 
+                LIMIT 1;"""
 
-    query_restaurant = f"""SELECT gf.name, calories, protein, total_carbs, total_fat FROM grubhub_food gf
-            JOIN grubhub_available ga ON gf.food_id = ga.food_id
-            JOIN grubhub_restaurant gr ON ga.restaurant_id = gr.restaurant_id
-            WHERE gr.name = %s
-            ORDER BY {order_by_clause} 
-            LIMIT 1;"""
+        query_restaurant = f"""SELECT gf.name, calories, protein, total_carbs, total_fat FROM grubhub_food gf
+                JOIN grubhub_available ga ON gf.food_id = ga.food_id
+                JOIN grubhub_restaurant gr ON ga.restaurant_id = gr.restaurant_id
+                WHERE gr.name = %s
+                ORDER BY {order_by_clause} 
+                LIMIT 1;"""
 
-    
-    
-    print(query_all)
-    print(query_restaurant)
+        cursor = mysql.connection.cursor()
+        
+        if chosen_restaurant == "Search All Restaurants":
+            cursor.execute(query_all, (name,))
+        else:
+            cursor.execute(query_restaurant, (chosen_restaurant,))
 
-    cursor = mysql.connection.cursor()
-    
-    if chosen_restaurant == 'Search All Restaurants':
-        cursor.execute(query_all)
-    else:
-        cursor.execute(query_restaurant, (chosen_restaurant,))
+        
+        results = cursor.fetchall()
 
-    results = cursor.fetchall()
+        # Create a list of dictionaries to hold results
+        food_items = []
+        for row in results:
+            food_items.append({
+                'name': row[0],
+                'calories': row[1],
+                'protein': row[2],
+                'carbs': row[3],
+                'fat': row[4]
+            })
 
-    # Create a list of dictionaries to hold results
-    food_items = []
-    for row in results:
-        food_items.append({
-            'name': row[0],
-            'calories': row[1],
-            'protein': row[2],
-            'carbs': row[3],
-            'fat': row[4]
-        })
+        cursor.close()
 
-    cursor.close()
+        # Process and display the 'food_items' in display_similar.html template
+        return render_template('display_similar.html', food_items=food_items)
 
-    # Process and display the 'food_items' in display_similar.html template
-    return render_template('display_similar.html', food_items=food_items)
+    elif chosen_sort == "name":
+        selected_food_processed = nlp(name)
+        query_names = f"""SELECT gf.name FROM grubhub_food gf
+                JOIN grubhub_available ga ON gf.food_id = ga.food_id
+                JOIN grubhub_restaurant gr ON ga.restaurant_id = gr.restaurant_id
+                WHERE gr.name = %s;"""
+        query_allnames = f"""SELECT gf.name FROM grubhub_food gf
+                JOIN grubhub_available ga ON gf.food_id = ga.food_id
+                JOIN grubhub_restaurant gr ON ga.restaurant_id = gr.restaurant_id
+                WHERE gf.name != %s;"""
+        cursor = mysql.connection.cursor()
+        if chosen_restaurant == "Search All Restaurants":
+            cursor.execute(query_allnames, (name,))
+        else:
+            cursor.execute(query_names, (chosen_restaurant,))
+        rows = cursor.fetchall()
+        max_similarity = 0
+        result = None   
+        for row in rows:
+            row_doc = nlp(row[0])
+            curr_similarity = selected_food_processed.similarity(row_doc)
+            if curr_similarity > max_similarity:
+                max_similarity = curr_similarity
+                result = row[0]
+        cursor.close()
+        cursor = mysql.connection.cursor()
+        cursor.execute(
+            "SELECT name, calories, protein, total_carbs, total_fat "
+            "FROM grubhub_food "
+            "WHERE name = %s "
+            "UNION "
+            "SELECT name, calories, protein, total_carbohydrate as total_carbs, total_fat "
+            "FROM ndhfood "
+            "WHERE name = %s",
+            (result, result)
+        )
+
+
+        results = cursor.fetchall()
+
+        # Create a list of dictionaries to hold results
+        food_items = []
+        for row in results:
+            food_items.append({
+                'name': row[0],
+                'calories': row[1],
+                'protein': row[2],
+                'carbs': row[3],
+                'fat': row[4]
+            })
+
+        cursor.close()
+
+        return render_template('display_similar.html', food_items=food_items)
 
 if __name__ == '__main__':
     app.debug=True
