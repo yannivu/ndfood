@@ -3,7 +3,7 @@ from flask_mysqldb import MySQL
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SubmitField
 from wtforms.validators import InputRequired
-from datetime import datetime
+from datetime import datetime, time
 import spacy
 
 class LoginForm(FlaskForm):
@@ -103,18 +103,37 @@ def index():
     # Get the corresponding day name using the mapping
     day_of_week_name = days_of_week[day_of_week_int]
 
+    # Get the current time
+    current_time = datetime.now().time()
+
+    # Determine meal type based on time
+    if current_time > time(14, 0):  # Past 2 PM
+        meal_type = 'Dinner'
+    elif current_time > time(10, 30):  # Past 10:30 AM
+        meal_type = 'Lunch'
+    else:  # Past midnight until 10:30 AM
+        meal_type = 'Breakfast'
+
     cursor.execute("""
-        SELECT day, meal_type, name, serving_size, calories, total_fat, total_carbohydrate, protein
+        SELECT day, meal_type, name, serving_size, calories, total_fat, total_carbohydrate, protein, category
         FROM ndhfood
-        WHERE day = %s
+        WHERE day = %s AND meal_type = %s AND (category = 'Entrees' OR category = 'Sides')
         AND NOT (calories = 0 AND total_fat = 0 AND total_carbohydrate = 0 AND protein = 0)
-    """, (day_of_week_name,))
+    """, (day_of_week_name, meal_type))
+
 
     ndh_data = cursor.fetchall()
 
+    categories = {}
+    for item in ndh_data:
+        category = item[8]  # Assuming 'category' is at index 8 in ndh_data
+        if category not in categories:
+            categories[category] = []
+        categories[category].append(item)
+
     cursor.close()
     
-    return render_template('index.html', all_data=all_data, ndh_data=ndh_data, day=day_of_week_name)
+    return render_template('index.html', all_data=all_data, ndh_data=ndh_data, day=day_of_week_name, categories=categories, meal_type=meal_type)
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
@@ -197,22 +216,35 @@ def confirm_update():
 
 @app.route('/add_item', methods=['POST'])
 def add_item():
+    query = None  # Initialize the query variable
+
     try:
         # Retrieve the form data
         name = request.form['food_name']
         cals = int(request.form['calories']) 
-        protein = float(request.form['protein'])  
-        fat = float(request.form['fat'])  
-        carbs = float(request.form['carbs'])  
-        item_type = request.form['type']
+        protein = int(request.form['protein'])  
+        fat = int(request.form['fat'])  
+        carbs = int(request.form['carbs'])  
+        category = request.form['type']
         source = request.form['source']
-        price = float(request.form['price']) 
-        restaurant_name = request.form['restaurant']
 
         if source == "Dining Hall":
-            # Add logic here for adding Dining Hall items
-            pass
+            # Retrieve Dining Hall specific form data
+            if 'meal' in request.form and 'day' in request.form:
+                meal_type = request.form['meal']
+                day = request.form['day']
+                cursor = mysql.connection.cursor()
+                query = "INSERT INTO ndhfood (name, calories, protein, total_fat, total_carbohydrate, category, meal_type, day) VALUES ('{}', {}, {}, {}, {}, '{}', '{}', '{}');".format(name, cals, protein, fat, carbs, category, meal_type, day)
+                cursor.execute(query)
+                mysql.connection.commit()
+                cursor.close()
+                print(f'query executed: {query}')
+                success_message = f"Record updated successfully. Query: {query}"
+            else:
+                raise KeyError(f'Missing Dining Hall specific fields. Query: {query}')
         elif source == "Grubhub":
+            restaurant_name = request.form['restaurant']
+            price = float(request.form['price']) 
             cursor = mysql.connection.cursor()
             cursor.execute("SELECT restaurant_id FROM grubhub_restaurant WHERE name = %s", (restaurant_name,))
             restaurant_id = cursor.fetchone()[0]
@@ -220,7 +252,7 @@ def add_item():
 
             cursor = mysql.connection.cursor()
             cursor.execute("INSERT INTO grubhub_food (name, calories, protein, total_fat, total_carbs, type, price) VALUES (%s, %s, %s, %s, %s, %s, %s)",
-                           (name, cals, protein, fat, carbs, item_type, price))
+                           (name, cals, protein, fat, carbs, category, price))
             food_id = cursor.lastrowid  # Get the last inserted food_id
             cursor.close()
 
@@ -228,16 +260,17 @@ def add_item():
             cursor.execute("INSERT INTO grubhub_available (restaurant_id, food_id) VALUES (%s, %s)", (restaurant_id, food_id))
             mysql.connection.commit()
             cursor.close()
-
-        success_message = "Record updated successfully"
+            success_message = "Record updated successfully"
+        
     except Exception as e:
-        error_message = "An error occurred. Please check the data and try again."
+        error_message = f"An error occurred: {str(e)}"
 
     back_button = f'<a href="{url_for("admin_page")}">Back</a>'
     if "error_message" in locals():
         return f"{error_message}<br>{back_button}"
     else:
         return f"{success_message}<br>{back_button}"
+
 
 
 @app.route('/search_user', methods=['POST'])

@@ -178,52 +178,48 @@
                                     
                                     <form action="/add_item" method="post">
                                         <br>
-                                    
                                         <div class="radio-container">
-                                            <input type="radio" id="dining_hall" name="source" value="Dining Hall" required checked>
-                                            <label for="dining_hall" class="tm-label">Dining Hall</label>
-                                        </div>
-                                        <div class="radio-container">
-                                            <input type="radio" id="grubhub" name="source" value="Grubhub" required>
+                                            <input type="radio" id="grubhub" name="source" value="Grubhub" required checked>
                                             <label for="grubhub" class="tm-label">GrubHub</label>
                                         </div>
+                                        <div class="radio-container">
+                                            <input type="radio" id="dining_hall" name="source" value="Dining Hall" required>
+                                            <label for="dining_hall" class="tm-label">Dining Hall</label>
+                                        </div>
                                         
-                                        <label for="restaurant" class="tm-label" id="restaurantLabel" style="display: none;">Restaurant:</label>
-                                        <select name="restaurant" id="restaurant" required class="tm-input" style="display: none;">
+                                        <label for="restaurant" class="tm-label" id="restaurantLabel">Restaurant:</label>
+                                        <select name="restaurant" id="restaurant" required class="tm-input">
                                             {% for restaurant in restaurant_names %}
                                                 <option value="{{ restaurant }}">{{ restaurant }}</option>
                                             {% endfor %}
                                         </select>
-                                        
-                                        <br>
 
                                         <label for="food_name" class="tm-label">Item Name:</label>
                                         <input type="text" id="food_name" name="food_name" required class="tm-input">
-                                        <br>
                                 
                                         <label for="calories" class="tm-label">Calories:</label>
                                         <input type="text" id="calories" name="calories" required class="tm-input">
-                                        <br>
                                 
                                         <label for="protein" class="tm-label">Protein:</label>
                                         <input type="text" id="protein" name="protein" required class="tm-input">
-                                        <br>
                                 
                                         <label for="carbs" class="tm-label">Carbohydrates:</label>
                                         <input type="text" id="carbs" name="carbs" required class="tm-input">
-                                        <br>
                                 
                                         <label for="fat" class="tm-label">Fat:</label>
                                         <input type="text" id="fat" name="fat" required class="tm-input">
-                                        <br>
                                 
-                                        <label for="type" class="tm-label">Type:</label>
+                                        <label for="type" class="tm-label">Category:</label>
                                         <input type="text" id="type" name="type" required class="tm-input">
-                                        <br>
+
+                                        <label for="price" class="tm-label" id="priceLabel">Price:</label>
+                                        <input type="text" id="price" name="price" class="tm-input">
                                 
-                                        <label for="price" class="tm-label" id="priceLabel" style="display: none;">Price:</label>
-                                        <input type="text" id="price" name="price" required class="tm-input" style="display: none;">
-                                        <br>
+                                        <label for="meal" class="tm-label" id="mealLabel" style="display: none;">Meal:</label>
+                                        <input type="text" id="meal" name="meal" class="tm-input" style="display: none;">
+
+                                        <label for="day" class="tm-label" id="dayLabel" style="display: none;">Day of the Week:</label>
+                                        <input type="text" id="day" name="day" class="tm-input" style="display: none;">
                                 
                                         <input type="submit" value="Submit" class="tm-submit-btn">
                                     </form>
@@ -270,24 +266,6 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="w-1/4 ml-4 mr-4">
-                            <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2">
-                                <h3 class="text-lg sm:text-xl tm-text-white">Delete a User</h3>
-                            </div>
-                            <div class="flex-1 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
-                                <ul>
-                                    <form action="/delete_user" method="post" class="custom-form">
-                                        <select name="user_to_delete" class="custom-select">
-                                            <option value="" disabled selected>Select user</option>
-                                            {% for user in user_list %}
-                                                <option value="{{ user[0] }}">{{ user[0] }}</option>
-                                            {% endfor %}
-                                        </select>
-                                        <input type="submit" value="Delete User" class="custom-button">
-                                    </form>                                    
-                                </ul>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -309,16 +287,34 @@
                                         <input type="text" id="item_to_delete" name="item_to_delete" required class="tm-input">
 
                                         <div class="radio-container">
-                                            <input type="radio" id="dining_hall" name="option" value="Dining Hall" required checked>
-                                            <label for="dining_hall" class="tm-label">Dining Hall</label>
-                                        </div>
-                                        <div class="radio-container">
-                                            <input type="radio" id="grubhub" name="option" value="Grubhub" required>
+                                            <input type="radio" id="grubhub" name="option" value="Grubhub" required checked>
                                             <label for="grubhub" class="tm-label">GrubHub</label>
                                         </div>
 
+                                        <div class="radio-container">
+                                            <input type="radio" id="dining_hall" name="option" value="Dining Hall" required>
+                                            <label for="dining_hall" class="tm-label">Dining Hall</label>
+                                        </div>
 
                                         <input type="submit" value="Delete Item" class="custom-button">
+                                    </form>                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-1/4 ml-4 mr-4">
+                            <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2">
+                                <h3 class="text-lg sm:text-xl tm-text-white">Delete a User</h3>
+                            </div>
+                            <div class="flex-1 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                                <ul>
+                                    <form action="/delete_user" method="post" class="custom-form">
+                                        <select name="user_to_delete" class="custom-select">
+                                            <option value="" disabled selected>Select user</option>
+                                            {% for user in user_list %}
+                                                <option value="{{ user[0] }}">{{ user[0] }}</option>
+                                            {% endfor %}
+                                        </select>
+                                        <input type="submit" value="Delete User" class="custom-button">
                                     </form>                                    
                                 </ul>
                             </div>
@@ -388,6 +384,10 @@
         const restaurantSelect = document.getElementById('restaurant');
         const priceLabel = document.getElementById('priceLabel');
         const priceInput = document.getElementById('price');
+        const mealLabel = document.getElementById('mealLabel');
+        const mealInput = document.getElementById('meal');
+        const dayLabel = document.getElementById('dayLabel');
+        const dayInput = document.getElementById('day');
     
         sourceRadio.forEach(radio => {
             radio.addEventListener('change', function() {
@@ -396,11 +396,22 @@
                     restaurantSelect.style.display = 'block';
                     priceLabel.style.display = 'block';
                     priceInput.style.display = 'block';
-                } else {
+                    priceInput.required = true;
+                    mealLabel.style.display = 'none';
+                    mealInput.style.display = 'none';
+                    dayLabel.style.display = 'none';
+                    dayInput.style.display = 'none';
+                } else if (this.value === 'Dining Hall'){
                     restaurantLabel.style.display = 'none';
                     restaurantSelect.style.display = 'none';
                     priceLabel.style.display = 'none';
                     priceInput.style.display = 'none';
+                    mealLabel.style.display = 'block';
+                    mealInput.style.display = 'block';
+                    mealInput.required = true;
+                    dayLabel.style.display = 'block';
+                    dayInput.style.display = 'block';
+                    dayInput.required = true;
                 }
             });
         });

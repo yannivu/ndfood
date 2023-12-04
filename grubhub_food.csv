@@ -1,5 +1,5 @@
 food_id,name,calories,total_fat,saturated_fat,trans_fat,cholesterol,sodium,total_carbs,fiber,sugar,protein,price,type
-1,Chipoitle Chicken Club Flatbread,670,35,10,0,85,1470,58,3,6,34,7.59,Grilled Flatbread
+1,Chipotle Chicken Club Flatbread,670,35,10,0,85,1470,58,3,6,34,7.59,Grilled Flatbread
 2,BBQ Bacon Chicken Flatbread,660,22,9,0,85,1760,81,3,29,36,7.59,Grilled Flatbread
 3,Pesto Chicken Flatbread,600,29,9,0,55,1220,58,3,6,30,7.59,Grilled Flatbread
 4,Santa Fe Flatbread,720,36,10,0,70,1680,64,2,7,31,7.59,Grilled Flatbread
