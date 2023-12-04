@@ -118,26 +118,26 @@
     <div id="north_dh_menu" class="parallax-window" data-parallax="scroll" data-image-src="{{ url_for('static', filename='img/north_dining_hall.jpg') }}">
         <div class="container mx-auto w-full py-12 sm:py-16">
             <div class="text-center mb-16">
-                <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">North Dining Hall<br>{{ day }} Menu</h2>
+                <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">North Dining Hall<br>{{ day }} {{ meal_type }}</h2>
             </div>
             <div class="flex flex-wrap">
                 <div class="w-full p-4 ml-4 mr-4">
                     <div class="flex flex-wrap">
-                        {% set meal_types = {} %}
+                        {% set categories = {} %}
                         {% for item in ndh_data %}
-                            {% if item[1] not in meal_types %}
-                                {% set _ = meal_types.update({item[1]: []}) %}
+                            {% if item[8] not in categories %}
+                                {% set _ = categories.update({item[8]: []}) %}
                             {% endif %}
-                            {% set _ = meal_types[item[1]].append(item) %}
+                            {% set _ = categories[item[8]].append(item) %}
                         {% endfor %}
-    
-                        {% for meal_type, items in meal_types.items() %}
-                            <div class="w-full ml-4 mr-4">
-                                <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2">
-                                    <h3 class="text-lg sm:text-xl tm-text-white">{{ meal_type }}</h3>
+
+                        {% for category, items in categories.items() %}
+                            <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/5 xl:w-1/6 ml-4 mr-4">
+                                <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2 text-center">
+                                    <h3 class="text-lg sm:text-xl tm-text-white">{{ category }}</h3>
                                 </div>
-                                <div class="flex-1 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
-                                    <ul>
+                                <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2">
+                                    <ul class="text-center">
                                         {% for item in items %}
                                             <li>
                                                 <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">{{ item[2] }}</h3>
@@ -155,7 +155,46 @@
         </div>
     </div>
     
-    
+    <!-- South Dining Hall Menu -->
+    <div id="south_dh_menu" class="parallax-window" data-parallax="scroll" data-image-src="{{ url_for('static', filename='img/south_dining_hall.jpg') }}">
+        <div class="container mx-auto w-full py-12 sm:py-16">
+            <div class="text-center mb-16">
+                <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">South Dining Hall<br>{{ day }} {{ meal_type }}</h2>
+            </div>
+            <div class="flex flex-wrap">
+                <div class="w-full p-4 ml-4 mr-4">
+                    <div class="flex flex-wrap">
+                        {% set categories = {} %}
+                        {% for item in ndh_data %}
+                            {% if item[8] not in categories %}
+                                {% set _ = categories.update({item[8]: []}) %}
+                            {% endif %}
+                            {% set _ = categories[item[8]].append(item) %}
+                        {% endfor %}
+
+                        {% for category, items in categories.items() %}
+                            <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/5 xl:w-1/6 ml-4 mr-4">
+                                <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2 text-center">
+                                    <h3 class="text-lg sm:text-xl tm-text-white">{{ category }}</h3>
+                                </div>
+                                <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2">
+                                    <ul class="text-center">
+                                        {% for item in items %}
+                                            <li>
+                                                <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">{{ item[2] }}</h3>
+                                                <p class="tm-text-white">{{ item[4] }} calories, {{ item[7] }}g protein, {{ item[6] }}g carbs, {{ item[5] }}g fat</p>
+                                                <br>
+                                            </li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
 
     <!-- South Dining Hall Menu
@@ -251,10 +290,10 @@
                             <div class="flex flex-wrap">
                                 {% for type, items in data.top_row %}
                                     <div class="w-1/4 ml-4 mr-4">
-                                        <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2">
+                                        <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2 text-center">
                                             <h3 class="text-lg sm:text-xl tm-text-white">{{ type }}</h3>
                                         </div>
-                                        <div class="flex-1 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                                        <div class="flex-1 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container text-center">
                                             <ul>
                                                 {% for item in items %}
                                                     <li>
@@ -276,10 +315,10 @@
                             <div class="flex flex-wrap">
                                 {% for type, items in data.bottom_row %}
                                     <div class="w-1/3 ml-4 mr-4">
-                                        <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2">
+                                        <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2 text-center">
                                             <h3 class="text-lg sm:text-xl tm-text-white">{{ type }}</h3>
                                         </div>
-                                        <div class="flex-1 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                                        <div class="flex-1 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container text-center">
                                             <ul>
                                                 {% for item in items %}
                                                     <li>
