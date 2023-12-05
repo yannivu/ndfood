@@ -130,15 +130,8 @@
     </style>
 </head>
 <body>
-    <div id="intro" class="parallax-window" data-parallax="scroll" data-image-src="{{ url_for('static', filename='img/notre_dame.jpeg') }}">
-        <nav id="tm-nav" class="fixed w-full">
-            <div class="tm-container mx-auto px-2 md:py-6 text-right">
-                <button class="md:hidden py-2 px-2" id="menu-toggle"><i class="fas fa-2x fa-bars tm-text-gold"></i></button>
-                <ul class="mb-3 md:mb-0 text-2xl font-normal flex justify-end flex-col md:flex-row">
-                    <li class="inline-block mb-4 mx-4"><a href="#tools" class="tm-text-gold py-1 md:py-3 px-4">Tools</a></li>
-                </ul>
-            </div>
-
+    <div id="tools" class="parallax-window" data-parallax="scroll" data-image-src="{{ url_for('static', filename='img/dome.jpg') }}">
+        <div class="container mx-auto w-full py-12 sm:py-16">
             <div class="login-container">
                 <button class="tm-text-gold py-1 md:py-3 px-4" onclick="backButton()">Back to Main Page</button>
             </div>
@@ -148,19 +141,6 @@
                     window.location.href = "http://db8.cse.nd.edu:5070/";
                 }
             </script>
-        </nav>
-        <div class="container mx-auto px-2 tm-intro-width">
-            <div class="sm:pb-60 sm:pt-48 py-20">
-                <div class="bg-black bg-opacity-70 p-12 mb-5 text-center">
-                    <h1 class="text-white text-5xl tm-logo-font mb-5">NDFood</h1>
-                    <p class="tm-text-gold tm-text-2xl">Admin Interface</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="tools" class="parallax-window" data-parallax="scroll" data-image-src="{{ url_for('static', filename='img/' ~ restaurant|replace(' ', '_')|replace('-', '_') ~ '.jpg') }}">
-        <div class="container mx-auto w-full py-12 sm:py-16">
             <div class="text-center mb-16">
                 <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">Tools</h2>
             </div>
@@ -174,7 +154,8 @@
                             </div>
                             <div class="flex-1 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
                                 <ul>
-                                    <p class="tm-text-white">All items must have unique names. Submitting an item with a name already in the database will update that item. <br> Can only do GrubHub currently.</p>
+                                    <p class="tm-text-white">Items in each Grubhub restaurant must have unique names. Items in each dining hall day and meal must have unique names. 
+                                        Submitting an item with a name already in the respective restaurant or day+meal will update that item.</p>
                                     
                                     <form action="/add_item" method="post">
                                         <br>
@@ -214,13 +195,25 @@
 
                                         <label for="price" class="tm-label" id="priceLabel">Price:</label>
                                         <input type="text" id="price" name="price" class="tm-input">
-                                
-                                        <label for="meal" class="tm-label" id="mealLabel" style="display: none;">Meal:</label>
-                                        <input type="text" id="meal" name="meal" class="tm-input" style="display: none;">
 
                                         <label for="day" class="tm-label" id="dayLabel" style="display: none;">Day of the Week:</label>
-                                        <input type="text" id="day" name="day" class="tm-input" style="display: none;">
+                                        <select id="day" name="day" class="tm-input" style="display: none;">
+                                            <option value="Monday">Monday</option>
+                                            <option value="Tuesday">Tuesday</option>
+                                            <option value="Wednesday">Wednesday</option>
+                                            <option value="Thursday">Thursday</option>
+                                            <option value="Friday">Friday</option>
+                                            <option value="Saturday">Saturday</option>
+                                            <option value="Sunday">Sunday</option>
+                                        </select>
                                 
+                                        <label for="meal" class="tm-label" id="mealLabel" style="display: none;">Meal:</label>
+                                        <select id="meal" name="meal" class="tm-input" style="display: none;">
+                                            <option value="Breakfast">Breakfast</option>
+                                            <option value="Lunch">Lunch</option>
+                                            <option value="Dinner">Dinner</option>
+                                        </select>
+
                                         <input type="submit" value="Submit" class="tm-submit-btn">
                                     </form>
                                 </ul>
@@ -247,8 +240,7 @@
                                     </form>
                                 </ul>
                             </div>
-                        </div>
-                        <div class="w-1/4 ml-4 mr-4">
+                            <br>
                             <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2">
                                 <h3 class="text-lg sm:text-xl tm-text-white">Admin Search</h3>
                             </div>
@@ -265,17 +257,8 @@
                                     </form>
                                 </ul>
                             </div>
+                            
                         </div>
-                    </div>
-                </div>
-            </div>
-
-            <br>
-            <!-- Next Row -->
-
-            <div class="flex flex-wrap">
-                <div class="w-full p-4 ml-4 mr-4">
-                    <div class="flex flex-wrap">
                         <div class="w-1/4 ml-4 mr-4">
                             <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2">
                                 <h3 class="text-lg sm:text-xl tm-text-white">Delete a Food Item</h3>
@@ -283,9 +266,6 @@
                             <div class="flex-1 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
                                 <ul>
                                     <form action="/delete_item" method="post" class="custom-form">
-                                        <label for="food_name" class="tm-label">Item Name:</label>
-                                        <input type="text" id="item_to_delete" name="item_to_delete" required class="tm-input">
-
                                         <div class="radio-container">
                                             <input type="radio" id="grubhub" name="option" value="Grubhub" required checked>
                                             <label for="grubhub" class="tm-label">GrubHub</label>
@@ -295,6 +275,34 @@
                                             <input type="radio" id="dining_hall" name="option" value="Dining Hall" required>
                                             <label for="dining_hall" class="tm-label">Dining Hall</label>
                                         </div>
+
+                                        <label for="food_name" class="tm-label">Item Name:</label>
+                                        <input type="text" id="item_to_delete" name="item_to_delete" required class="tm-input">
+
+                                        <label for="restaurant" class="tm-label" id="restaurantLabel_delete">Restaurant:</label>
+                                        <select name="restaurant" id="restaurant_delete" required class="tm-input">
+                                            {% for restaurant in restaurant_names %}
+                                                <option value="{{ restaurant }}">{{ restaurant }}</option>
+                                            {% endfor %}
+                                        </select>
+
+                                        <label for="day_delete" class="tm-label" id="dayLabel_delete" style="display: none;">Day of the Week:</label>
+                                        <select id="day_delete" name="day_delete" class="tm-input" style="display: none;">
+                                            <option value="Monday">Monday</option>
+                                            <option value="Tuesday">Tuesday</option>
+                                            <option value="Wednesday">Wednesday</option>
+                                            <option value="Thursday">Thursday</option>
+                                            <option value="Friday">Friday</option>
+                                            <option value="Saturday">Saturday</option>
+                                            <option value="Sunday">Sunday</option>
+                                        </select>
+                                
+                                        <label for="meal_delete" class="tm-label" id="mealLabel_delete" style="display: none;">Meal:</label>
+                                        <select id="meal_delete" name="meal_delete" class="tm-input" style="display: none;">
+                                            <option value="Breakfast">Breakfast</option>
+                                            <option value="Lunch">Lunch</option>
+                                            <option value="Dinner">Dinner</option>
+                                        </select>
 
                                         <input type="submit" value="Delete Item" class="custom-button">
                                     </form>                                    
@@ -322,8 +330,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
     
 
     <!-- Include scripts at the end -->
@@ -388,6 +394,14 @@
         const mealInput = document.getElementById('meal');
         const dayLabel = document.getElementById('dayLabel');
         const dayInput = document.getElementById('day');
+        const restaurantLabel_delete = document.getElementById('restaurantLabel_delete');
+        const restaurantSelect_delete = document.getElementById('restaurant_delete');
+        const mealLabel_delete = document.getElementById('mealLabel_delete');
+        const mealInput_delete = document.getElementById('meal_delete');
+        const dayLabel_delete = document.getElementById('dayLabel_delete');
+        const dayInput_delete = document.getElementById('day_delete');
+
+        const optionRadio = document.querySelectorAll('input[name="option"]');
     
         sourceRadio.forEach(radio => {
             radio.addEventListener('change', function() {
@@ -412,6 +426,26 @@
                     dayLabel.style.display = 'block';
                     dayInput.style.display = 'block';
                     dayInput.required = true;
+                }
+            });
+        });
+
+        optionRadio.forEach(radio => {
+            radio.addEventListener('change', function() {
+                if (this.value === 'Grubhub') {
+                    restaurantLabel_delete.style.display = 'block';
+                    restaurantSelect_delete.style.display = 'block';
+                    mealLabel_delete.style.display = 'none';
+                    mealInput_delete.style.display = 'none';
+                    dayLabel_delete.style.display = 'none';
+                    dayInput_delete.style.display = 'none';
+                } else if (this.value === 'Dining Hall'){
+                    restaurantLabel_delete.style.display = 'none';
+                    restaurantSelect_delete.style.display = 'none';
+                    mealLabel_delete.style.display = 'block';
+                    mealInput_delete.style.display = 'block';
+                    dayLabel_delete.style.display = 'block';
+                    dayInput_delete.style.display = 'block';
                 }
             });
         });

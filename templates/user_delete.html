@@ -143,10 +143,6 @@
             background-color: #ffcc00; /* Change to the desired shade when hovered */
             cursor: pointer;
         }
-        input[type="radio"] + label {
-            color: #fff;
-            cursor: pointer;
-        }
 
     </style>
     <style>
@@ -166,56 +162,29 @@
             </div>
 
             <div class="login-container">
-                <button class="tm-text-gold py-1 md:py-3 px-4" onclick="backButton()">Back to Main Page</button>
-                <button class="tm-text-gold py-1 md:py-3 px-4" onclick="backSearch()">Back to Search</button>
+                <button class="tm-text-gold py-1 md:py-3 px-4" onclick="backMain()">Back to Main Page</button>
+                <button class="tm-text-gold py-1 md:py-3 px-4" onclick="backButton()">Back to Admin Page</button>
             </div>
 
             <script>
-                function backButton() {
+                function backMain() {
                     window.location.href = "http://db8.cse.nd.edu:5070/";
                 }
             </script>
             <script>
-                function backSearch() {
-                    window.location.href = "http://db8.cse.nd.edu:5070/search";
+                function backButton() {
+                    window.location.href = "http://db8.cse.nd.edu:5070/admin_page";
                 }
             </script>
         </nav>
+    
         <div class="container mx-auto px-2 tm-intro-width">
             <div class="sm:pb-60 sm:pt-48 py-20">
                 <div class="bg-black bg-opacity-70 p-12 mb-5 text-center">
-                    <h1 class="text-white text-5xl tm-logo-font mb-5">{{ selected_food['name'] }}</h1>
-                    <form action="/display_similar" method="GET">
-                        <input type="radio" id="byNutrition" name="sort" value="nutrition">
-                        <label for="byNutrition">By Nutrition</label><br>
-                        <input type="radio" id="byName" name="sort" value="name">
-                        <label for="byName">By Name (with AI)</label><br><br>
-                        <div id="nutritionCheckboxes" style="display: none;">
-                            <p class="tm-text-gold tm-text-2xl">Choose one or all nutritional values to find a similar option:<br><br>
-                                <input type="checkbox" name="nutritional_value" value="calories" checked>
-                                 Calories: {{ selected_food['calories'] }}g
-                                <br>
-                                <input type="checkbox" name="nutritional_value" value="protein" checked>
-                                 Protein: {{ selected_food['protein'] }}g
-                                <br>
-                                <input type="checkbox" name="nutritional_value" value="carbs" checked>
-                                 Carbs: {{ selected_food['carbs'] }}g
-                                <br>
-                                <input type="checkbox" name="nutritional_value" value="fat" checked>
-                                 Fat: {{ selected_food['fat'] }}g
-                                <br><br>
-                            </p>
-                        </div>
-                        <label for="restaurants">Restaurant to find similar options from:</label>
-                        <select name="restaurant" id="restaurants">
-                            <option value="Search All Restaurants" selected>Search All Restaurants</option>
-                            {% for restaurant in restaurant_names %}
-                                <option value="{{ restaurant }}">{{ restaurant }}</option>
-                            {% endfor %}
-                        </select>
-                        <br><br>
-                        <input type="submit" value="Find Similar Options" class="tm-text-white py-1 md:py-3 px-4 tm-orange-background">
-                    </form> 
+                    <h1 class="text-white text-5xl tm-logo-font mb-5">{{ user }}</h1>
+                    <p class="tm-text-gold tm-text-2xl">
+                        successfully deleted
+                    </p>
                 </div>
             </div>
         </div>
@@ -338,26 +307,7 @@
             });
         });
     </script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const byNutritionRadio = document.getElementById('byNutrition');
-            const byNameRadio = document.getElementById('byName');
-            const nutritionCheckboxes = document.getElementById('nutritionCheckboxes');
 
-            byNutritionRadio.addEventListener('change', function() {
-                if (byNutritionRadio.checked) {
-                    nutritionCheckboxes.style.display = 'block';
-                } else {
-                    nutritionCheckboxes.style.display = 'none';
-                }
-            });
-
-            byNameRadio.addEventListener('change', function() {
-                nutritionCheckboxes.style.display = 'none';
-            });
-        });
-    </script>
-
-    
 </body>
 </html>
+
