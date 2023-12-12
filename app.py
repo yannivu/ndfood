@@ -256,7 +256,7 @@ def add_item():
             cursor = mysql.connection.cursor()
             
             # Check if the item already exists in the database for a given restaurant
-            cursor.execute("SELECT * FROM grubhub_food AS f JOIN grubhub_available AS a ON f.id = a.food_id JOIN grubhub_restaurant AS r ON a.restaurant_id = r.restaurant_id WHERE f.name = %s AND r.name = %s", (name, restaurant_name,))
+            cursor.execute("SELECT * FROM grubhub_food AS f JOIN grubhub_available AS a ON f.food_id = a.food_id JOIN grubhub_restaurant AS r ON a.restaurant_id = r.restaurant_id WHERE f.name = %s AND r.name = %s", (name, restaurant_name,))
             existing_grubhub_item = cursor.fetchone()
 
             if existing_grubhub_item:
@@ -321,7 +321,7 @@ def delete_item():
             if option == "Grubhub":
                 restaurant = request.form['restaurant']
                 cursor = mysql.connection.cursor()
-                cursor.execute("DELETE FROM grubhub_food WHERE name = %s and restaurant = %s", (item_to_delete, restaurant))
+                cursor.execute("DELETE f FROM grubhub_food AS f JOIN grubhub_available AS a ON f.food_id = a.food_id JOIN grubhub_restaurant AS r ON a.restaurant_id = r.restaurant_id WHERE f.name = %s AND r.name = %s", (item_to_delete, restaurant))
                 mysql.connection.commit()
                 cursor.close()
             elif option == "Dining Hall":
