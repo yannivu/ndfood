@@ -170,7 +170,7 @@
                 <div class="w-full p-4 ml-4 mr-4">
                     <div class="flex flex-wrap">
                         {% set categories = {} %}
-                        {% for item in ndh_data %}
+                        {% for item in sdh_data %}
                             {% if item[8] not in categories %}
                                 {% set _ = categories.update({item[8]: []}) %}
                             {% endif %}

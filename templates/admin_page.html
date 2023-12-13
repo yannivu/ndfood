@@ -114,6 +114,12 @@
             /* Button hover styles */
             background-color: #ffcc00;
         }
+
+        #tools {
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
     </style>
     <style>
         .tm-container {
@@ -167,6 +173,13 @@
                                             <input type="radio" id="dining_hall" name="source" value="Dining Hall" required>
                                             <label for="dining_hall" class="tm-label">Dining Hall</label>
                                         </div>
+
+                                        <!-- New dropdown for Dining Hall options -->
+                                        <label for="dining_location" class="tm-label" id="diningLabel" style="display: none;">Dining Hall:</label>
+                                        <select name="dining_location" id="dining_location" class="tm-input" style="display: none;">
+                                            <option value="North Dining Hall">North Dining Hall</option>
+                                            <option value="South Dining Hall">South Dining Hall</option>
+                                        </select>
                                         
                                         <label for="restaurant" class="tm-label" id="restaurantLabel">Restaurant:</label>
                                         <select name="restaurant" id="restaurant" required class="tm-input">
@@ -286,6 +299,12 @@
                                             {% endfor %}
                                         </select>
 
+                                        <label for="dining_location" class="tm-label" id="diningLabel_delete" style="display: none;">Dining Hall:</label>
+                                        <select name="dining_location" id="dining_delete" class="tm-input" style="display: none;">
+                                            <option value="North Dining Hall">North Dining Hall</option>
+                                            <option value="South Dining Hall">South Dining Hall</option>
+                                        </select>
+
                                         <label for="day_delete" class="tm-label" id="dayLabel_delete" style="display: none;">Day of the Week:</label>
                                         <select id="day_delete" name="day_delete" class="tm-input" style="display: none;">
                                             <option value="Monday">Monday</option>
@@ -296,7 +315,7 @@
                                             <option value="Saturday">Saturday</option>
                                             <option value="Sunday">Sunday</option>
                                         </select>
-                                
+                                        
                                         <label for="meal_delete" class="tm-label" id="mealLabel_delete" style="display: none;">Meal:</label>
                                         <select id="meal_delete" name="meal_delete" class="tm-input" style="display: none;">
                                             <option value="Breakfast">Breakfast</option>
@@ -308,8 +327,7 @@
                                     </form>                                    
                                 </ul>
                             </div>
-                        </div>
-                        <div class="w-1/4 ml-4 mr-4">
+                            <br>
                             <div class="rounded-xl px-4 py-2 tm-bg-brown mb-2">
                                 <h3 class="text-lg sm:text-xl tm-text-white">Delete a User</h3>
                             </div>
@@ -388,6 +406,8 @@
         const sourceRadio = document.querySelectorAll('input[name="source"]');
         const restaurantLabel = document.getElementById('restaurantLabel');
         const restaurantSelect = document.getElementById('restaurant');
+        const diningLabel = document.getElementById('diningLabel');
+        const diningSelect = document.getElementById('dining_location');
         const priceLabel = document.getElementById('priceLabel');
         const priceInput = document.getElementById('price');
         const mealLabel = document.getElementById('mealLabel');
@@ -400,6 +420,10 @@
         const mealInput_delete = document.getElementById('meal_delete');
         const dayLabel_delete = document.getElementById('dayLabel_delete');
         const dayInput_delete = document.getElementById('day_delete');
+        const diningLabel_delete = document.getElementById('diningLabel_delete');
+        const diningSelect_delete = document.getElementById('dining_delete');
+
+
 
         const optionRadio = document.querySelectorAll('input[name="option"]');
     
@@ -408,18 +432,27 @@
                 if (this.value === 'Grubhub') {
                     restaurantLabel.style.display = 'block';
                     restaurantSelect.style.display = 'block';
+                    diningLabel.style.display = 'none';
+                    diningSelect.style.display = 'none';
+                    diningSelect.required = false;
                     priceLabel.style.display = 'block';
                     priceInput.style.display = 'block';
                     priceInput.required = true;
                     mealLabel.style.display = 'none';
                     mealInput.style.display = 'none';
+                    mealInput.required = false;
                     dayLabel.style.display = 'none';
                     dayInput.style.display = 'none';
+                    dayInput.required = false;
                 } else if (this.value === 'Dining Hall'){
                     restaurantLabel.style.display = 'none';
                     restaurantSelect.style.display = 'none';
+                    diningLabel.style.display = 'block';
+                    diningSelect.style.display = 'block';
+                    diningSelect.required = true;
                     priceLabel.style.display = 'none';
                     priceInput.style.display = 'none';
+                    priceInput.required = false;
                     mealLabel.style.display = 'block';
                     mealInput.style.display = 'block';
                     mealInput.required = true;
@@ -435,6 +468,8 @@
                 if (this.value === 'Grubhub') {
                     restaurantLabel_delete.style.display = 'block';
                     restaurantSelect_delete.style.display = 'block';
+                    diningLabel_delete.style.display = 'none';
+                    diningSelect_delete.style.display = 'none';
                     mealLabel_delete.style.display = 'none';
                     mealInput_delete.style.display = 'none';
                     dayLabel_delete.style.display = 'none';
@@ -442,6 +477,8 @@
                 } else if (this.value === 'Dining Hall'){
                     restaurantLabel_delete.style.display = 'none';
                     restaurantSelect_delete.style.display = 'none';
+                    diningLabel_delete.style.display = 'block';
+                    diningSelect_delete.style.display = 'block';
                     mealLabel_delete.style.display = 'block';
                     mealInput_delete.style.display = 'block';
                     dayLabel_delete.style.display = 'block';

@@ -124,6 +124,15 @@ def index():
 
     ndh_data = cursor.fetchall()
 
+    cursor.execute("""
+        SELECT day, meal_type, name, serving_size, calories, total_fat, total_carbohydrate, protein, category
+        FROM sdhfood
+        WHERE day = %s AND meal_type = %s AND (category = 'Entrees' OR category = 'Sides')
+        AND NOT (calories = 0 AND total_fat = 0 AND total_carbohydrate = 0 AND protein = 0)
+    """, (day_of_week_name, meal_type))
+
+    sdh_data = cursor.fetchall()
+
     categories = {}
     for item in ndh_data:
         category = item[8]  # Assuming 'category' is at index 8 in ndh_data
@@ -133,7 +142,7 @@ def index():
 
     cursor.close()
     
-    return render_template('index.html', all_data=all_data, ndh_data=ndh_data, day=day_of_week_name, categories=categories, meal_type=meal_type)
+    return render_template('index.html', all_data=all_data, ndh_data=ndh_data, sdh_data=sdh_data, day=day_of_week_name, categories=categories, meal_type=meal_type)
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
@@ -233,19 +242,26 @@ def add_item():
             if 'meal' in request.form and 'day' in request.form:
                 meal_type = request.form['meal']
                 day = request.form['day']
+                dining_location = request.form['dining_location']
+                
+                if dining_location == "North Dining Hall":
+                    dining_hall = "ndhfood"
+                else: 
+                    dining_hall = "sdhfood"
+                
                 cursor = mysql.connection.cursor()
                 
                 # Check if the item already exists in the database
-                cursor.execute("SELECT * FROM ndhfood WHERE name = %s", (name,))
+                cursor.execute(f"SELECT * FROM {dining_hall} WHERE name = %s", (name,))
                 existing_item = cursor.fetchone()
 
                 if existing_item:
                     # Update the existing item
-                    update_query = "UPDATE ndhfood SET calories = %s, protein = %s, total_fat = %s, total_carbohydrate = %s, category = %s, meal_type = %s, day = %s WHERE name = %s"
+                    update_query = f"UPDATE {dining_hall} SET calories = %s, protein = %s, total_fat = %s, total_carbohydrate = %s, category = %s, meal_type = %s, day = %s WHERE name = %s"
                     cursor.execute(update_query, (cals, protein, fat, carbs, category, meal_type, day, name))
                 else:
                     # Insert a new item
-                    insert_query = "INSERT INTO ndhfood (name, calories, protein, total_fat, total_carbohydrate, category, meal_type, day) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)"
+                    insert_query = f"INSERT INTO {dining_hall} (name, calories, protein, total_fat, total_carbohydrate, category, meal_type, day) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)"
                     cursor.execute(insert_query, (name, cals, protein, fat, carbs, category, meal_type, day))
 
                 mysql.connection.commit()
@@ -325,10 +341,15 @@ def delete_item():
                 mysql.connection.commit()
                 cursor.close()
             elif option == "Dining Hall":
+                dining_location = request.form['dining_delete']
+                if dining_location == "North Dining Hall":
+                    dining_hall = "ndhfood"
+                else:
+                    dining_hall = "sdhfood"
                 meal = request.form['meal_delete']
                 day = request.form['day_delete']
                 cursor = mysql.connection.cursor()
-                cursor.execute("DELETE FROM ndhfood WHERE name = %s and meal_type = %s and day = %s", (item_to_delete, meal, day))
+                cursor.execute(f"DELETE FROM {dining_hall} WHERE name = %s and meal_type = %s and day = %s", (item_to_delete, meal, day))
                 mysql.connection.commit()
                 cursor.close()
     
@@ -349,8 +370,12 @@ def search():
             "UNION "
             "SELECT name, calories, protein, total_carbohydrate as total_carbs, total_fat "
             "FROM ndhfood "
+            "WHERE name LIKE %s "
+            "UNION "
+            "SELECT name, calories, protein, total_carbohydrate as total_carbs, total_fat "
+            "FROM sdhfood "
             "WHERE name LIKE %s",
-            (search_pattern, search_pattern)
+            (search_pattern, search_pattern, search_pattern)
         )
 
         results = cursor.fetchall()
@@ -511,9 +536,14 @@ def display_similar():
             "UNION "
             "SELECT name, calories, protein, total_carbohydrate as total_carbs, total_fat "
             "FROM ndhfood "
+            "WHERE name = %s "
+            "UNION "
+            "SELECT name, calories, protein, total_carbohydrate as total_carbs, total_fat "
+            "FROM sdhfood "
             "WHERE name = %s",
-            (result, result)
+            (result, result, result)
         )
+
 
 
         results = cursor.fetchall()
