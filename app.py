@@ -341,8 +341,8 @@ def delete_item():
                 mysql.connection.commit()
                 cursor.close()
             elif option == "Dining Hall":
-                dining_location = request.form['dining_delete']
-                if dining_location == "North Dining Hall":
+                dining_delete = request.form['dining_delete']
+                if dining_delete == "North Dining Hall":
                     dining_hall = "ndhfood"
                 else:
                     dining_hall = "sdhfood"
@@ -565,4 +565,4 @@ def display_similar():
 
 if __name__ == '__main__':
     app.debug=True
-    app.run(host='db8.cse.nd.edu', port=5070)
+    app.run(host='db8.cse.nd.edu', port=5066)

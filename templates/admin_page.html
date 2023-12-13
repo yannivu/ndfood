@@ -116,7 +116,6 @@
         }
 
         #tools {
-            height: 100vh;
             background-size: cover;
             background-position: center;
         }
@@ -127,6 +126,11 @@
             max-width: none;
             padding: 10px;
         }
+        .error-message {
+            color: red; /* Add this line to set the color to red */
+            /* Add other styles as needed */
+        }
+
     </style>
     <style>
         /* For the entire list of buttons in the navigation */
@@ -280,13 +284,13 @@
                                 <ul>
                                     <form action="/delete_item" method="post" class="custom-form">
                                         <div class="radio-container">
-                                            <input type="radio" id="grubhub" name="option" value="Grubhub" required checked>
-                                            <label for="grubhub" class="tm-label">GrubHub</label>
+                                            <input type="radio" id="grubhub_delete" name="option" value="Grubhub" required checked>
+                                            <label for="grubhub_delete" class="tm-label">GrubHub</label>
                                         </div>
 
                                         <div class="radio-container">
-                                            <input type="radio" id="dining_hall" name="option" value="Dining Hall" required>
-                                            <label for="dining_hall" class="tm-label">Dining Hall</label>
+                                            <input type="radio" id="dining_hall_delete" name="option" value="Dining Hall" required>
+                                            <label for="dining_hall_delete" class="tm-label">Dining Hall</label>
                                         </div>
 
                                         <label for="food_name" class="tm-label">Item Name:</label>
@@ -299,8 +303,8 @@
                                             {% endfor %}
                                         </select>
 
-                                        <label for="dining_location" class="tm-label" id="diningLabel_delete" style="display: none;">Dining Hall:</label>
-                                        <select name="dining_location" id="dining_delete" class="tm-input" style="display: none;">
+                                        <label for="dining_delete" class="tm-label" id="diningLabel_delete" style="display: none;">Dining Hall:</label>
+                                        <select name="dining_delete" id="dining_delete" class="tm-input" style="display: none;">
                                             <option value="North Dining Hall">North Dining Hall</option>
                                             <option value="South Dining Hall">South Dining Hall</option>
                                         </select>
@@ -487,5 +491,62 @@
             });
         });
     </script>
+
+    <!-- Error message placeholders -->
+    <p id="foodNameError" class="error-message"></p>
+    <p id="error" class="error-message"></p>
+    <p id="priceError" class="error-message"></p>
+
+    <!-- Add other error message placeholders as needed -->
+
+    <script>
+        // Function to validate the form
+        function validateForm() {
+            const foodName = document.getElementById('food_name').value;
+            const calories = document.getElementById('calories').value;
+            const protein = document.getElementById('protein').value;
+            const carbs = document.getElementById('carbs').value;
+            const fat = document.getElementById('fat').value;
+            const category = document.getElementById('type').value;
+            const source = document.querySelector('input[name="source"]:checked').value;
+            const price = document.getElementById('price').value;
+
+            let isValid = true;
+
+            // Validate food name
+            if (!foodName || foodName.trim() === '' || !category || category.trim() === '') {
+                document.getElementById('foodNameError').textContent = 'Please check the inputs.';
+                isValid = false;
+            } else {
+                document.getElementById('foodNameError').textContent = '';
+            }
+
+            // Validate calories (numeric input)
+            if (!calories || isNaN(calories) || !protein || isNaN(protein) || !carbs || isNaN(carbs) || !fat || isNaN(fat)) {
+                document.getElementById('error').textContent = 'Please check the inputs.';
+                isValid = false;
+            } else {
+                document.getElementById('error').textContent = '';
+            }
+
+            // Validate price if source is Grubhub
+            if (source === 'Grubhub' && (!price || isNaN(price))) {
+                document.getElementById('priceError').textContent = 'Please enter a valid price.';
+                isValid = false;
+            } else {
+                document.getElementById('priceError').textContent = '';
+            }
+
+            return isValid;
+        }
+
+        // Form submission handling
+        document.querySelector('form[action="/add_item"]').addEventListener('submit', function(event) {
+            if (!validateForm()) {
+                event.preventDefault(); // Prevent form submission if validation fails
+            }
+        });
+    </script>
+
 </body>
 </html>
