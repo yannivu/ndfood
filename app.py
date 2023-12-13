@@ -565,4 +565,4 @@ def display_similar():
 
 if __name__ == '__main__':
     app.debug=True
-    app.run(host='db8.cse.nd.edu', port=5066)
+    app.run(host='db8.cse.nd.edu', port=5070)
